@@ -17,9 +17,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: login to container registry
-        run: docker login ghcr.io --username hay-kot --password $CR_PAT
+        run: echo $CR_PAT docker login ghcr.io --username hay-kot --password-stdin
         env:
-          CR_PAT: $CR_PAT
+          CR_PAT: ${{ secrets.CR_PAT }}
 
       - name: Set up QEMU
         id: qemu
