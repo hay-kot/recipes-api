@@ -35,5 +35,5 @@ jobs:
         run: |
           docker build --push --no-cache \
             --tag ghcr.io/hay-kot/recipes-api:latest \
-            --tag ghcr.io/hay-kot/recipes-api:${{ jobs.get-release.outputs.tag }} \
+            --tag ghcr.io/hay-kot/recipes-api:${{ github.event.release.tag_name }} \
             --platform linux/amd64,linux/arm64 .
