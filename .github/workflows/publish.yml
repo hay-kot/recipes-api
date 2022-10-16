@@ -29,7 +29,7 @@ jobs:
       - name: login to container registry
         run: docker login ghcr.io --username hay-kot --password $CR_PAT
         env:
-          CR_PAT: ${{ $CR_PAT }}
+          CR_PAT: $CR_PAT
 
       - name: build release tagged the image
         if: ${{ inputs.release == true }}
