@@ -1,6 +1,10 @@
 ## Recipes API
 
-Standalone Python API for working with Recipe data. This is a work in progress, and is not yet ready for use.
+Standalone Python API for working with Recipe data. This is a work in progress.
+
+TODO's
+- [ ] More robust error handling
+- [ ] Stream HTML to prevent DOS attacks
 
 Runtime Dependencies
 - Crfpp + model

@@ -1,0 +1,9 @@
+[project]
+name = "recipes_api"
+version = "1.0.0"
+dependencies = [
+    "uvicorn~=0.18.3",
+    "starlette~=0.16.0",
+    "recipe-scrapers~=14.18.0",
+    "httpx~=0.23.0"
+]

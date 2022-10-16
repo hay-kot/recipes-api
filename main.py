@@ -1,8 +1,8 @@
 from starlette.applications import Starlette
 from starlette.routing import Route
 
-from core.parser import parse_ingredients
-from core.scraper import scrape
+from routes.parser import parse_ingredients
+from routes.scraper import scrape
 
 app = Starlette(
     debug=True,

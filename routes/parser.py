@@ -1,7 +1,7 @@
 from starlette.requests import Request
 from starlette.responses import JSONResponse
 
-from . import crfpp
+from routes import crfpp
 
 
 async def parse_ingredients(request: Request):
