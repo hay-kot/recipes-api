@@ -4,9 +4,6 @@ on:
   release:
     types:
       - published
-  push:
-    branches:
-      - main
 
 jobs:
   publish:
@@ -35,7 +32,6 @@ jobs:
           install: true
 
       - name: build release tagged the image
-        if: ${{ inputs.release == true }}
         run: |
           docker build --push --no-cache \
             --tag ghcr.io/hay-kot/recipes-api:latest \
