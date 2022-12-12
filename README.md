@@ -1,10 +1,9 @@
 ## Recipes API
 
-Standalone Python API for working with Recipe data. This is a work in progress.
+Standalone Python API for working with Recipe data. This is a work in progress. After deploying, you can view the docs at `/docs` or `/redoc`.
 
 TODO's
-- [ ] More robust error handling
-- [ ] Stream HTML to prevent DOS attacks
+- [ ] Remove HTML Scrape Support (remove httpx from deps + improve security profile)
 
 Runtime Dependencies
 - Crfpp + model
@@ -12,7 +11,7 @@ Runtime Dependencies
 
 ### Endpoints
 
-`/scraper`
+`/api/v1/scraper`
 
 Scrapes a recipe from a URL and returns the unmodified data.
 
@@ -34,7 +33,7 @@ Maximum of 10 URLs per request. You can optionally provide a "html" key with a k
 }
 ```
 
-`/parse`
+`/api/v1/parse`
 
 Parses a list of ingredient strings and returns the parsed data. Parsing is done using the CRFPP library and the model published by the New York Times. Code is largely adapted from [TODO]()
 
