@@ -1,9 +1,24 @@
 [project]
 name = "recipes_api"
-version = "1.0.0"
+version = "0.2.0"
 dependencies = [
+    "fastapi~=0.88.0",
     "uvicorn~=0.18.3",
-    "starlette~=0.16.0",
     "recipe-scrapers~=14.18.0",
     "httpx~=0.23.0"
+]
+
+[tool.ruff]
+line-length = 120
+format = "text"
+
+# Enable Pyflakes `E` and `F` codes by default.
+ignore = ["F403", "I252","B008"]
+select = [
+  "E", # pycodestyles
+  "F", # pyflakes
+  "I", # isort
+  "T", # flake8-print
+  "U", # pyupgrade
+  "B", # flake8-bugbear
 ]

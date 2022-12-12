@@ -1,16 +1,23 @@
 import asyncio
+import logging
 from typing import Any
 
 import httpx
+from pydantic import BaseModel
 from recipe_scrapers import scrape_html
 from recipe_scrapers._abstract import AbstractScraper
-from starlette.responses import JSONResponse
+
+
+class ScrapeResponse(BaseModel):
+    url: str
+    data: dict[str, Any]
 
 
 def maybe(fn, default=None):
     try:
         return fn()
     except Exception:
+        logging.debug(f"Failed to get {fn.__name__}")
         return default
 
 
@@ -44,37 +51,32 @@ async def scarpe_recipe(
     client: httpx.AsyncClient,
     url: str,
     headers: dict[str, str],
+    html: str | None,
 ) -> dict:
-    r = await client.get(url, headers=headers)
-    return {
-        "url": url,
-        "data": to_schema_data(scrape_html(r.text, org_url=url)),
-    }
+    if not html:
+        r = await client.get(url, headers=headers)
+        logging.info(f"GET {url} {r.status_code}")
+        html = r.text
+    else:
+        logging.debug(f"Using cached HTML for {url}")
+
+    return ScrapeResponse(
+        url=url,
+        data=to_schema_data(scrape_html(html, org_url=url)),
+    )
 
 
-async def scrape_urls(urls: list[str]) -> list[dict]:
+async def scrape_urls(urls: list[str], html: dict[str, str] | None) -> list[dict]:
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"
     }
 
+    html = html or {}
+
     async with httpx.AsyncClient() as client:
-        tasks = [scarpe_recipe(client, url, headers) for url in urls]
+        tasks = [
+            scarpe_recipe(client, url, headers, html.get(url, None)) for url in urls
+        ]
         result = await asyncio.gather(*tasks)
 
     return result
-
-
-async def scrape(request):
-    body = await request.json()
-
-    url: list[str] = body.get("urls")
-
-    if not url:
-        return JSONResponse({"error": "url is required"}, status_code=400)
-
-    if len(url) > 10:
-        return JSONResponse(
-            {"error": "too many urls, max 10 per request"}, status_code=400
-        )
-
-    return JSONResponse(await scrape_urls(url))

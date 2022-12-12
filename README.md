@@ -20,14 +20,17 @@ Method: `POST`
 
 Body:
 
-Maximum of 10 URLs per request.
+Maximum of 10 URLs per request. You can optionally provide a "html" key with a key-value pair of the URL and the HTML of the page. If the HTML is not provided, the API will scrape the page for you. This is useful if you want to use another language to do the IO work of web scraping, but still use the Python API to parse the data.
 
 ```json
 {
     "urls": [
         "https://www.allrecipes.com/recipe/228180/creamy-chicken-and-broccoli-pasta/",
         "https://www.allrecipes.com/recipe/228180/creamy-chicken-and-broccoli-pasta/"
-    ]
+    ],
+    "html": {
+        "https://www.allrecipes.com/recipe/228180/creamy-chicken-and-broccoli-pasta/": "<html>...</html>"
+    }
 }
 ```
 
