@@ -60,7 +60,7 @@ async def scrape_recipe_clean(req: ScrapeRequest):
     data = await scrape_urls(req.urls, req.html)
 
     for d in data:
-        d.data = clean(d.data)
+        d.data = clean(d.data, d.url)
 
     return data
 

@@ -14,6 +14,7 @@ class Author(BaseModel):
 
 class Recipe(BaseModel):
     name: str
+    url: str = Field(alias="orgUrl")
     description: str
     instructions: list[Instructions] = Field(
         default_factory=list,
@@ -24,12 +25,13 @@ class Recipe(BaseModel):
         alias="recipeIngredient",
     )
 
-    category: str | None
+    category: list[str] = Field(default_factory=list, alias="recipeCategory")
+
     keywords: list[str] = []
 
     images: str | None | list[str]
 
-    recipeYield: str
+    recipeYield: str | None
 
     prepTime: str | None
     performTime: str | None

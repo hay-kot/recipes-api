@@ -43,9 +43,12 @@ def clean(recipe_data: dict, url=None) -> dict:
     recipe_data["prepTime"] = clean_time(recipe_data.get("prepTime"))
     recipe_data["performTime"] = clean_time(recipe_data.get("performTime"))
     recipe_data["totalTime"] = clean_time(recipe_data.get("totalTime"))
-    recipe_data["recipeCategory"] = clean_categories(
+
+    recipe_data["keywords"] = clean_category_like(recipe_data.get("keywords", []))
+    recipe_data["recipeCategory"] = clean_category_like(
         recipe_data.get("recipeCategory", None)
     )
+
     recipe_data["recipeYield"] = clean_yield(recipe_data.get("recipeYield"))
     recipe_data["recipeIngredient"] = clean_ingredients(
         recipe_data.get("recipeIngredient", [])
@@ -54,7 +57,7 @@ def clean(recipe_data: dict, url=None) -> dict:
         recipe_data.get("recipeInstructions", [])
     )
     recipe_data["image"] = clean_image(recipe_data.get("image"))
-    recipe_data["orgURL"] = url
+    recipe_data["orgUrl"] = url
 
     return recipe_data
 
@@ -398,7 +401,20 @@ def pretty_print_timedelta(t: timedelta, max_components=None, max_decimal_places
     return " ".join(out_list)
 
 
-def clean_categories(category: str | list) -> list[str]:
+def clean_category_like(category: str | list) -> list[str]:
+    """
+    Cleans a string or list of strings or objects into a list of strings.
+
+    Supported Type:
+
+    - `None` - returns an empty list
+    - `""` - returns an empty list
+    - `"Dessert"` - returns `["Dessert"]`
+    - `["Dessert", ""]` - returns `["Dessert"]`
+    - `[{"name": "Dessert", "slug": "dessert"}]` - returns `["Dessert"]`
+    - "Dessert, Breakfast" - returns `["Dessert", "Breakfast"]`
+
+    """
     if not category:
         return []
 
@@ -407,7 +423,7 @@ def clean_categories(category: str | list) -> list[str]:
             if not category.strip():
                 return []
 
-            return [category]
+            return clean_category_like([t for t in category.split(",")])
         case [str(), *_]:
             return [cat.strip().title() for cat in category if cat.strip()]
         case [{"name": str(), "slug": str()}, *_]:
@@ -422,25 +438,6 @@ def clean_categories(category: str | list) -> list[str]:
             raise TypeError(
                 f"Unexpected type for category: {type(category)}, {category}"
             )
-
-
-def clean_tags(data: str | list[str]) -> list[str]:
-    """
-    Gets keywords as a list or natural language list and returns
-    them into a list of strings of individual tags
-    """
-    if not data:
-        return []
-
-    match data:
-        case [str(), *_]:
-            return [tag.strip().title() for tag in data if tag.strip()]
-        case str(data):
-            return clean_tags([t for t in data.split(",")])
-        case _:
-            return []
-            # should probably raise exception
-            # raise TypeError(f"Unexpected type for tags: {type(data)}, {data}")
 
 
 def clean_nutrition(nutrition: dict | None) -> dict[str, str]:
