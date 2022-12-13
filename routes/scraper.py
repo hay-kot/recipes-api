@@ -7,6 +7,13 @@ from pydantic import BaseModel
 from recipe_scrapers import scrape_html
 from recipe_scrapers._abstract import AbstractScraper
 
+from routes.recipe import Recipe
+
+
+class CleanedResponse(BaseModel):
+    url: str
+    data: Recipe
+
 
 class ScrapeResponse(BaseModel):
     url: str
@@ -66,7 +73,9 @@ async def scarpe_recipe(
     )
 
 
-async def scrape_urls(urls: list[str], html: dict[str, str] | None) -> list[dict]:
+async def scrape_urls(
+    urls: list[str], html: dict[str, str] | None
+) -> list[ScrapeResponse]:
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"
     }

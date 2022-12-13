@@ -1,11 +1,13 @@
 import logging
 
 from fastapi import FastAPI
+from fastapi.exceptions import HTTPException
 from pydantic import AnyHttpUrl, BaseModel
 
 from routes import crfpp
+from routes.cleaner import clean
 from routes.parser import ParseResponse
-from routes.scraper import ScrapeResponse, scrape_urls
+from routes.scraper import CleanedResponse, ScrapeResponse, scrape_urls
 
 logging.basicConfig(
     # standard logging config
@@ -18,7 +20,7 @@ logging.basicConfig(
 app = FastAPI(
     title="Recipe API",
     description="A simple API for parsing recipes and ingredients.",
-    version="0.2.0",
+    version="0.3.0",
 )
 
 
@@ -34,7 +36,33 @@ class ScrapeRequest(BaseModel):
 
 @app.post("/api/v1/scrape", response_model=list[ScrapeResponse])
 async def scrape_recipe(req: ScrapeRequest):
+    if len(req.urls) == 0 and len(req.html) == 0:
+        raise HTTPException(
+            status_code=400, detail={"error": "No URLs or HTML provided."}
+        )
+
+    if len(req.urls) == 0:
+        req.urls = list(req.html.keys())
+
     return await scrape_urls(req.urls, req.html)
+
+
+@app.post("/api/v1/scrape/clean", response_model=list[CleanedResponse])
+async def scrape_recipe_clean(req: ScrapeRequest):
+    if len(req.urls) == 0 and len(req.html) == 0:
+        raise HTTPException(
+            status_code=400, detail={"error": "No URLs or HTML provided."}
+        )
+
+    if len(req.urls) == 0:
+        req.urls = list(req.html.keys())
+
+    data = await scrape_urls(req.urls, req.html)
+
+    for d in data:
+        d.data = clean(d.data)
+
+    return data
 
 
 class ParseRequest(BaseModel):
