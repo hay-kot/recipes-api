@@ -56,8 +56,9 @@ def clean(recipe_data: dict, url=None) -> dict:
     recipe_data["recipeInstructions"] = clean_instructions(
         recipe_data.get("recipeInstructions", [])
     )
-    recipe_data["image"] = clean_image(recipe_data.get("image"))
+    recipe_data["images"] = clean_image(recipe_data.get("image"))
     recipe_data["orgUrl"] = url
+    recipe_data["url"] = url
 
     return recipe_data
 
@@ -90,7 +91,9 @@ def clean_string(text: str | list | int) -> str:
     return cleaned_text
 
 
-def clean_image(image: str | list | dict | None = None, default="no image") -> str:
+def clean_image(
+    image: str | list | dict | None = None, default="no image"
+) -> list[str]:
     """
     image attempts to parse the image field from a recipe and return a string. Currenty
 
@@ -110,11 +113,13 @@ def clean_image(image: str | list | dict | None = None, default="no image") -> s
 
     match image:  # noqa - match statement not supported
         case str(image):
+            return [image]
+        case [str(), *_]:
             return image
-        case list(image):
-            return image[0]
         case {"url": str(image)}:
-            return image
+            return [image]
+        case [{"url": str(image)}]:
+            return [x["url"] for x in image]
         case _:
             raise TypeError(f"Unexpected type for image: {type(image)}, {image}")
 

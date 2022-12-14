@@ -1,0 +1,59 @@
+{
+  "name": "Homemade Merguez Sausage Recipe",
+  "url": "https://www.seriouseats.com/homemade-merguez-sausage-recipe",
+  "description": "Merguez, a North African lamb sausage, is a powerhouse of spicy and earthy flavor, making it one of the tastiest sausages around.",
+  "recipeInstructions": [
+    {
+      "text": "Place cumin, coriander, and fennel seeds in a cast iron skillet over medium heat and toast until fragrant, about 2 minutes. Transfer to a spice grinder and grind into a fine powder. Transfer spice mixture to a small bowl and mix in paprika, salt, and cayenne."
+    },
+    {
+      "text": "Place lamb and fat in a large bowl. Add in spice mixture, garlic, and harissa. Toss to thoroughly coat meat and fat in spices. Refrigerate until chilled, about 20 minutes."
+    },
+    {
+      "text": "Grind mixture through a meat grinder, fitted with small die, into a medium bowl set into a large bowl filled with ice."
+    },
+    {
+      "text": "In the bowl of a stand mixer fitted with a paddle attachment, mix ground meat on low speed for 1 minute. Add in water and mix until liquid is incorporated and sausage is uniform and sticky, about 1 minute more."
+    },
+    {
+      "text": "Form a small sausage patty; place rest of sausage mixture in refrigerator. Cook patty in a small frying pan over medium-high heat until cooked through. Taste and adjust seasonings if necessary."
+    },
+    {
+      "text": "Stuff sausage into lamb casings and twist into 6-inch links. Refrigerate until ready to cook."
+    },
+    {
+      "text": "Light one chimney full of charcoal. When all the charcoal is lit and covered with gray ash, pour out and spread coals evenly over entire surface of coal grate. Set cooking grate in place, cover grill and allow to preheat for 5 minutes. Clean and oil the grilling grate . Grill over medium-high direct heat until sausage registers 155\u00b0F when an instant read thermometer is inserted in middle of link. Remove from grill, let rest for 5 minutes, and serve."
+    }
+  ],
+  "recipeIngredient": [
+    "2 teaspoons whole cumin seed",
+    "2 teaspoons whole coriander seed",
+    "2 teaspoons whole fennel seed",
+    "2 tablespoons paprika",
+    "2 tablespoons Kosher salt",
+    "1 teaspoon cayenne pepper",
+    "3 pounds lamb shoulder, cut into 3/4-inch cubes and removed of gristle",
+    "1 pound lamb, beef, or pork fat, cut into 3/4-inch cubes",
+    "2 tablespoons freshly minced garlic (about 6 medium cloves)",
+    "1/3 cup harissa",
+    "1/3 cup ice water",
+    "Lamb casings, soaked in warm water for 30 minutes prior to use"
+  ],
+  "recipeCategory": [
+    "Mains",
+    "Sausage"
+  ],
+  "keywords": [
+    "Lamb",
+    "Merguez"
+  ],
+  "images": [
+    "https://www.seriouseats.com/thmb/57VvLLejbrMQ6vX_f-X7Xiayisc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__07__20130729-261058-merguez-grilled-9df906715c0c4ce0864abb3d4331bcd5.jpg"
+  ],
+  "recipeYield": "4 pounds sausage",
+  "prepTime": "1 Hour 35 Minutes",
+  "performTime": null,
+  "totalTime": "2 Hours 25 Minutes",
+  "dateModified": "2020-04-17T14:28:56-04:00",
+  "datePublished": "2013-08-16T09:55:00-04:00"
+}

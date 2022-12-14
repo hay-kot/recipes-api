@@ -14,7 +14,7 @@ class Author(BaseModel):
 
 class Recipe(BaseModel):
     name: str
-    url: str = Field(alias="orgUrl")
+    url: str
     description: str
     instructions: list[Instructions] = Field(
         default_factory=list,
