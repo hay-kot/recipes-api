@@ -44,6 +44,13 @@ def clean(recipe_data: dict, url=None) -> dict:
     recipe_data["performTime"] = clean_time(recipe_data.get("performTime"))
     recipe_data["totalTime"] = clean_time(recipe_data.get("totalTime"))
 
+    cuisines = recipe_data.get("recipeCuisine", [])
+
+    if len(cuisines) == 1:
+        recipe_data["recipeCuisine"] = cuisines[0]
+    else:
+        recipe_data["recipeCuisine"] = None
+
     recipe_data["keywords"] = clean_category_like(recipe_data.get("keywords", []))
     recipe_data["recipeCategory"] = clean_category_like(
         recipe_data.get("recipeCategory", None)

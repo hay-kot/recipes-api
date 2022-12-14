@@ -86,3 +86,5 @@ def test_parse_clean(client: TestClient, url: str, name: str) -> None:
 
     assert recipe.dateModified == expect.dateModified
     assert recipe.datePublished == expect.datePublished
+
+    assert recipe.recipeCuisine == expect.recipeCuisine

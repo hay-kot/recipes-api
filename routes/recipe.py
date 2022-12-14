@@ -25,8 +25,8 @@ class Recipe(BaseModel):
         alias="recipeIngredient",
     )
 
+    recipeCuisine: str | None
     category: list[str] = Field(default_factory=list, alias="recipeCategory")
-
     keywords: list[str] = []
 
     images: str | None | list[str]
