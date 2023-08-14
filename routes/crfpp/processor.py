@@ -30,9 +30,11 @@ class CRFIngredient:
     qty: str = ""
     comment: str = ""
     unit: str = ""
-    confidence: CRFConfidence = CRFConfidence()
+    confidence: CRFConfidence | None = None
 
     def __post_init__(self):  # sourcery skip: merge-nested-ifs
+        self.confidence = CRFConfidence()
+
         if self.qty is None or self.qty == "":
             # Check if other contains a fraction
             try:

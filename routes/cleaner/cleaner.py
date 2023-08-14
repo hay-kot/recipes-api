@@ -7,7 +7,6 @@ import re
 import typing
 from datetime import datetime, timedelta
 
-
 MATCH_DIGITS = re.compile(r"\d+([.,]\d+)?")
 """ Allow for commas as decimals (common in Europe) """
 
@@ -99,34 +98,35 @@ def clean_string(text: str | list | int) -> str:
 
 
 def clean_image(
-    image: str | list | dict | None = None, default="no image"
+    image: str | list | dict | None = None, default: str = "no image"
 ) -> list[str]:
     """
     image attempts to parse the image field from a recipe and return a string. Currenty
 
     Supported Structures:
-        - `["https://exmaple.com"]` - A list of strings
         - `https://exmaple.com` - A string
         - `{ "url": "https://exmaple.com" }` - A dictionary with a `url` key
+        - `["https://exmaple.com"]` - A list of strings
+        - `[{ "url": "https://exmaple.com" }]` - A list of dictionaries with a `url` key
 
     Raises:
         TypeError: If the image field is not a supported type a TypeError is raised.
 
     Returns:
-        str: "no image" if any empty string is provided or the url of the image
+        list[str]: list of urls, or [default] if input is empty
     """
     if not image:
-        return default
+        return [default]
 
-    match image:  # noqa - match statement not supported
+    match image:
         case str(image):
             return [image]
-        case [str(), *_]:
+        case [str(_), *_]:
             return image
+        case [{"url": str(_)}, *_]:
+            return [x["url"] for x in image]
         case {"url": str(image)}:
             return [image]
-        case [{"url": str(image)}]:
-            return [x["url"] for x in image]
         case _:
             raise TypeError(f"Unexpected type for image: {type(image)}, {image}")
 
