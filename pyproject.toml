@@ -6,7 +6,8 @@ dependencies = [
     "pydantic~=2.1.1",
     "uvicorn~=0.18.3",
     "recipe-scrapers~=14.42.0",
-    "httpx~=0.23.0"
+    "httpx~=0.23.0",
+    "lxml~=4.9.3"
 ]
 
 [project.optional-dependencies]
