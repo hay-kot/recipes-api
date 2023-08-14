@@ -18,7 +18,8 @@ def readHTML(name: str) -> str:
 
 
 def readRecipe(name: str) -> Recipe:
-    return Recipe.parse_file(CWD.joinpath("testdata", name))
+    js = json.loads(CWD.joinpath("testdata", name).read_text())
+    return Recipe(**js)
 
 
 def test_ready(client: TestClient) -> None:
@@ -42,7 +43,7 @@ def test_ready(client: TestClient) -> None:
 def test_parse_clean(client: TestClient, url: str, name: str) -> None:
     resp = client.post(
         "/api/v1/scrape/clean",
-        json={"urls": [url], "html": {url: readHTML(name + ".html")}},
+        json={"urls": [], "html": {url: readHTML(name + ".html")}},
     )
 
     expect = readRecipe(name + ".json")

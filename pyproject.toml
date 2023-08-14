@@ -2,9 +2,10 @@
 name = "recipes_api"
 version = "0.2.0"
 dependencies = [
-    "fastapi~=0.88.0",
+    "fastapi~=0.101.0",
+    "pydantic~=2.1.1",
     "uvicorn~=0.18.3",
-    "recipe-scrapers~=14.18.0",
+    "recipe-scrapers~=14.42.0",
     "httpx~=0.23.0"
 ]
 

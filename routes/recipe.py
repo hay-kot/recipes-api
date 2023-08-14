@@ -25,17 +25,17 @@ class Recipe(BaseModel):
         alias="recipeIngredient",
     )
 
-    recipeCuisine: str | None
+    recipeCuisine: str | None = None
     category: list[str] = Field(default_factory=list, alias="recipeCategory")
     keywords: list[str] = []
 
     images: str | None | list[str]
 
-    recipeYield: str | None
+    recipeYield: str | None = None
 
-    prepTime: str | None
-    performTime: str | None
-    totalTime: str | None
+    prepTime: str | None = None
+    performTime: str | None = None
+    totalTime: str | None = None
 
-    dateModified: datetime.datetime | None
-    datePublished: datetime.datetime | None
+    dateModified: datetime.datetime | None = None
+    datePublished: datetime.datetime | None = None

@@ -3,7 +3,7 @@ import logging
 from typing import Any
 
 import httpx
-from pydantic import BaseModel
+from pydantic import AnyHttpUrl, BaseModel
 from recipe_scrapers import scrape_html
 from recipe_scrapers._abstract import AbstractScraper
 
@@ -74,7 +74,7 @@ async def scarpe_recipe(
 
 
 async def scrape_urls(
-    urls: list[str], html: dict[str, str] | None
+    urls: list[AnyHttpUrl], html: dict[str, str] | None
 ) -> list[ScrapeResponse]:
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"
@@ -84,7 +84,13 @@ async def scrape_urls(
 
     async with httpx.AsyncClient() as client:
         tasks = [
-            scarpe_recipe(client, url, headers, html.get(url, None)) for url in urls
+            scarpe_recipe(
+                client,
+                url.unicode_string(),
+                headers,
+                html.get(url, None),
+            )
+            for url in urls
         ]
         result = await asyncio.gather(*tasks)
 
