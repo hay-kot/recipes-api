@@ -16,17 +16,9 @@ ENV PYTHONDONTWRITEBYTECODE=1
 # Turns off buffering for easier container logging
 ENV PYTHONUNBUFFERED=1
 
-# Install deps for lxml
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    gcc \
-    # zlib
-    zlib1g-dev \
-    libxml2-dev \
-    libxslt-dev
-
 # Install pip requirements
 COPY requirements.txt .
-RUN python -m pip install -r requirements.txt
+RUN python -m pip install -r requirements.txt --only-binary=lxml
 
 
 WORKDIR /app

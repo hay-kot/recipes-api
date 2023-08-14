@@ -52,10 +52,11 @@ isodate==0.6.1
     #   recipe-scrapers
 jstyleson==0.0.2
     # via extruct
-lxml==4.9.1
+lxml==4.9.3
     # via
     #   extruct
     #   html-text
+    #   recipes-api (pyproject.toml)
 mf2py==1.1.2
     # via extruct
 pydantic==2.1.1
