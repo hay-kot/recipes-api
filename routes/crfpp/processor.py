@@ -16,10 +16,10 @@ MODEL_PATH = CWD / "model.crfmodel"
 @dataclass()
 class CRFConfidence:
     average: float = 0.0
-    comment: None | float = None
-    name: None | float = None
-    unit: None | float = None
-    qty: None | float = None
+    comment: float = 0.0
+    name: str = ""
+    unit: str = ""
+    qty: float = 0.0
 
 
 @dataclass()
