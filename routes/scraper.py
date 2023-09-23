@@ -5,6 +5,7 @@ from typing import Any
 import httpx
 from pydantic import AnyHttpUrl, BaseModel
 from recipe_scrapers import scrape_html
+from recipe_scrapers._factory import SchemaScraperFactory
 from recipe_scrapers._abstract import AbstractScraper
 
 from routes.recipe import Recipe
@@ -30,6 +31,16 @@ def maybe(fn, default=None):
 
 def to_schema_data(scraper: AbstractScraper) -> dict[str, Any]:
     if scraper.schema.data:
+        scraper.schema.data["@content"] = "schema"
+
+        maybeIngredients = maybe(scraper.ingredients, [])
+        if len(maybeIngredients) > 0:
+            scraper.schema.data["ingredients"] = maybeIngredients
+
+        maybeInstructions = maybe(scraper.instructions_list, [])
+        if len(maybeInstructions) > 0:
+            scraper.schema.data["instructions"] = scraper.instructions()
+
         return scraper.schema.data
 
     return {
@@ -40,9 +51,9 @@ def to_schema_data(scraper: AbstractScraper) -> dict[str, Any]:
         "image": maybe(scraper.image, ""),
         "ingredients": maybe(scraper.ingredients, []),
         "instructions": maybe(scraper.instructions_list, []),
-        "totalTime": maybe(scraper.total_time, ""),
-        "prepTime": maybe(scraper.prep_time, ""),
-        "cooktime": maybe(scraper.cook_time, ""),
+        "totalTime": str(maybe(scraper.total_time, "")),
+        "prepTime": str(maybe(scraper.prep_time, "")),
+        "cooktime": str(maybe(scraper.cook_time, "")),
         "nutrition": maybe(scraper.nutrients, {}),
         "recipeYield": maybe(scraper.yields, ""),
         "review": maybe(scraper.reviews, []),
@@ -54,7 +65,7 @@ def to_schema_data(scraper: AbstractScraper) -> dict[str, Any]:
     }
 
 
-async def scarpe_recipe(
+async def scrape_recipe(
     client: httpx.AsyncClient,
     url: str,
     headers: dict[str, str],
@@ -84,7 +95,7 @@ async def scrape_urls(
 
     async with httpx.AsyncClient() as client:
         tasks = [
-            scarpe_recipe(
+            scrape_recipe(
                 client,
                 url.unicode_string(),
                 headers,

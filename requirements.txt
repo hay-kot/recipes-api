@@ -76,7 +76,7 @@ rdflib==6.2.0
     #   rdflib-jsonld
 rdflib-jsonld==0.6.2
     # via extruct
-recipe-scrapers==14.42.0
+recipe-scrapers==14.47.0
     # via recipes-api (pyproject.toml)
 requests==2.28.1
     # via

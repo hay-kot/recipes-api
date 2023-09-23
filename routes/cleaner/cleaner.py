@@ -159,11 +159,21 @@ def clean_instructions(
             #   {"text": "Instruction B"},
             # ]
             #
-            return [
-                {"text": _sanitize_instruction_text(instruction["text"])}
-                for instruction in steps_object
-                if instruction["text"].strip()
-            ]
+            out = []
+
+            for instruction in steps_object:
+                v = instruction.get("text", None)
+
+                if v:
+                    s = _sanitize_instruction_text(v)
+                    if s:
+                        out.append({"text": s})
+                else:
+                    ss = out.extend(clean_instructions([instruction]))
+                    if ss:
+                        out.extend(ss)
+
+            return out
         case {0: {"text": str()}} | {"0": {"text": str()}} | {1: {"text": str()}} | {
             "1": {"text": str()}
         }:
