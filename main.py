@@ -1,13 +1,22 @@
+import html
 import logging
+from pprint import pprint
+import re
 
+import inflect
+import nltk
 from fastapi import FastAPI
 from fastapi.exceptions import HTTPException
 from pydantic import AnyHttpUrl, BaseModel
+from quantulum3 import parser
 
 from routes import crfpp
 from routes.cleaner import clean
 from routes.parser import ParseResponse
 from routes.scraper import CleanedResponse, ScrapeResponse, scrape_urls
+
+nltk.download("punkt")
+nltk.download("averaged_perceptron_tagger")
 
 logging.basicConfig(
     # standard logging config
@@ -72,3 +81,77 @@ class ParseRequest(BaseModel):
 @app.post("/api/v1/parse", response_model=list[ParseResponse])
 def parse_ingredients(ingredients: ParseRequest):
     return crfpp.convert_list_to_crf_model(ingredients.ingredients)
+
+
+def normalize_string(string):
+    # Convert all named and numeric character references (e.g. &gt;, &#62;)
+    unescaped_string = html.unescape(string)
+    return re.sub(
+        r"\s+",
+        " ",
+        unescaped_string.replace("\xa0", " ")
+        .replace("\n", " ")  # &nbsp;
+        .replace("\t", " ")
+        .strip(),
+    )
+
+
+p = inflect.engine()
+
+
+def drop_adverbs_and_adjectives(ingredient: str) -> str:
+    text = nltk.word_tokenize(ingredient)
+    tagged = nltk.pos_tag(text)
+    print(tagged)
+
+    s = ""
+
+    for word, tag in tagged:
+        print(word, tag)
+        if tag == "NNS":
+            s += p.singular_noun(word)
+            if s:
+                s += " "
+            else:
+                s += word + " "
+        elif tag != "VBD":
+            s += word + " "
+
+        print(s)
+
+    return s.strip()
+
+
+def normalize_ingredients(ingredients):
+    n_ingredients = []
+    for ingredient in ingredients:
+        p_ing = parser.parse(normalize_string(ingredient))
+        p_ing = p_ing[0] if len(p_ing) > 0 else None
+
+        pprint(p_ing)
+
+        parsed = ingredient
+        if p_ing:
+            u_name = p_ing.unit.name if p_ing.unit.name != "dimensionless" else ""
+
+            parsed = parsed.replace(p_ing.surface, f"{p_ing.value} {u_name}", 1)
+            parsed = drop_adverbs_and_adjectives(parsed)
+
+        n_ingredients.append(
+            {
+                "original": ingredient,
+                "inlined": parsed,
+                "crfpp": crfpp.convert_list_to_crf_model([parsed])[0],
+                "name": normalize_string(ingredient.replace(p_ing.surface, "", 1))
+                if p_ing
+                else ingredient,
+                "quantity": p_ing.value if p_ing else None,
+                "unit": p_ing.unit.name if p_ing else None,
+            }
+        )
+    return n_ingredients
+
+
+@app.post("/api/v2/parse", response_model=list)
+def parse_ingredients_v2(ingredients: ParseRequest):
+    return normalize_ingredients(ingredients.ingredients)
