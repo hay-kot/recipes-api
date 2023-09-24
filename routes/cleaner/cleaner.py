@@ -36,37 +36,31 @@ def clean(recipe_data: dict, url=None) -> dict:
     Returns:
         dict: cleaned recipe dictionary
     """
-    recipe_data["description"] = clean_string(recipe_data.get("description", ""))
-
-    # Times
-    recipe_data["prepTime"] = clean_time(recipe_data.get("prepTime"))
-    recipe_data["performTime"] = clean_time(recipe_data.get("performTime"))
-    recipe_data["totalTime"] = clean_time(recipe_data.get("totalTime"))
+    recipe_copy = {
+        "name": clean_string(recipe_data.get("name", "")),
+        "description": clean_string(recipe_data.get("description", "")),
+        "prepTime": clean_time(recipe_data.get("prepTime")),
+        "performTime": clean_time(recipe_data.get("performTime")),
+        "totalTime": clean_time(recipe_data.get("totalTime")),
+        "cookTime": clean_time(recipe_data.get("cookTime")),
+        "recipeCuisine": None,
+        "keywords": clean_category_like(recipe_data.get("keywords", [])),
+        "recipeCategory": clean_category_like(recipe_data.get("recipeCategory", None)),
+        "recipeYield": clean_yield(recipe_data.get("recipeYield")),
+        "recipeIngredient": clean_ingredients(recipe_data.get("recipeIngredient", [])),
+        "recipeInstructions": clean_instructions(
+            recipe_data.get("recipeInstructions", [])
+        ),
+        "images": clean_image(recipe_data.get("image")),
+        "orgUrl": url,
+        "url": url,
+    }
 
     cuisines = recipe_data.get("recipeCuisine", [])
-
     if len(cuisines) == 1:
-        recipe_data["recipeCuisine"] = cuisines[0]
-    else:
-        recipe_data["recipeCuisine"] = None
+        recipe_copy["recipeCuisine"] = cuisines[0]
 
-    recipe_data["keywords"] = clean_category_like(recipe_data.get("keywords", []))
-    recipe_data["recipeCategory"] = clean_category_like(
-        recipe_data.get("recipeCategory", None)
-    )
-
-    recipe_data["recipeYield"] = clean_yield(recipe_data.get("recipeYield"))
-    recipe_data["recipeIngredient"] = clean_ingredients(
-        recipe_data.get("recipeIngredient", [])
-    )
-    recipe_data["recipeInstructions"] = clean_instructions(
-        recipe_data.get("recipeInstructions", [])
-    )
-    recipe_data["images"] = clean_image(recipe_data.get("image"))
-    recipe_data["orgUrl"] = url
-    recipe_data["url"] = url
-
-    return recipe_data
+    return recipe_copy
 
 
 def clean_string(text: str | list | int) -> str:
@@ -108,6 +102,7 @@ def clean_image(
         - `{ "url": "https://exmaple.com" }` - A dictionary with a `url` key
         - `["https://exmaple.com"]` - A list of strings
         - `[{ "url": "https://exmaple.com" }]` - A list of dictionaries with a `url` key
+        - `["", [""]]`
 
     Raises:
         TypeError: If the image field is not a supported type a TypeError is raised.
@@ -122,7 +117,17 @@ def clean_image(
         case str(image):
             return [image]
         case [str(_), *_]:
-            return image
+            # Somtimes the first item is a string but there are _lists_ of images after
+            # so we'll flatten them out
+
+            results = []
+            for i in image:
+                if isinstance(i, list):
+                    results.extend(clean_image(i))
+                if isinstance(i, str):
+                    results.append(i)
+
+            return results
         case [{"url": str(_)}, *_]:
             return [x["url"] for x in image]
         case {"url": str(image)}:
@@ -319,7 +324,7 @@ def clean_yield(yld: str | list[str] | None) -> str:
     return yld
 
 
-def clean_time(time_entry: str | timedelta | None) -> None | str:
+def clean_time(time_entry: str | timedelta | None | dict) -> None | str:
     """_summary_
 
     Supported Structures:
@@ -327,6 +332,7 @@ def clean_time(time_entry: str | timedelta | None) -> None | str:
         - `"PT1H"` - returns "1 hour"
         - `"PT1H30M"` - returns "1 hour 30 minutes"
         - `timedelta(hours=1, minutes=30)` - returns "1 hour 30 minutes"
+        - {'@type': 'Duration', 'minValue': 'PT540M', 'maxValue': 'PT720M'}
 
     Raises:
         TypeError: if the type is not supported a TypeError is raised
@@ -352,6 +358,8 @@ def clean_time(time_entry: str | timedelta | None) -> None | str:
         case datetime():
             # TODO: Not sure what to do here
             return str(time_entry)
+        case {"@type": "Duration", "minValue": str(), "maxValue": str()}:
+            return clean_time(time_entry["maxValue"])
         case _:
             raise TypeError(
                 f"Unexpected type for time: {type(time_entry)}, {time_entry}"

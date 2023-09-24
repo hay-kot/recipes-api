@@ -1,18 +1,23 @@
 import datetime
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ConfigDict
 
 
 class Instructions(BaseModel):
+    model_config = ConfigDict(arbitrary_types_allowed=True)
     text: str
 
 
 class Author(BaseModel):
+    model_config = ConfigDict(arbitrary_types_allowed=True)
+
     name: str
     url: str
 
 
 class Recipe(BaseModel):
+    model_config = ConfigDict(arbitrary_types_allowed=True)
+
     name: str
     url: str
     description: str
@@ -39,3 +44,5 @@ class Recipe(BaseModel):
 
     dateModified: datetime.datetime | None = None
     datePublished: datetime.datetime | None = None
+
+
