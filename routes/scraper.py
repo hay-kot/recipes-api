@@ -5,7 +5,6 @@ from typing import Any
 import httpx
 from pydantic import AnyHttpUrl, BaseModel
 from recipe_scrapers import scrape_html
-from recipe_scrapers._factory import SchemaScraperFactory
 from recipe_scrapers._abstract import AbstractScraper
 
 from routes.recipe import Recipe
