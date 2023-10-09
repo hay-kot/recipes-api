@@ -7,7 +7,7 @@ from pydantic import AnyHttpUrl, BaseModel
 from recipe_scrapers import scrape_html
 from recipe_scrapers._abstract import AbstractScraper
 
-from routes.recipe import Recipe
+from app.scraper.recipe import Recipe
 
 
 class CleanedResponse(BaseModel):

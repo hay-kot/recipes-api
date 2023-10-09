@@ -62,13 +62,18 @@ mf2py==1.1.2
 pydantic==2.1.1
     # via
     #   fastapi
+    #   pydantic-settings
     #   recipes-api (pyproject.toml)
 pydantic-core==2.4.0
     # via pydantic
+pydantic-settings==2.0.3
+    # via recipes-api (pyproject.toml)
 pyparsing==3.0.9
     # via rdflib
 pyrdfa3==3.5.3
     # via extruct
+python-dotenv==1.0.0
+    # via pydantic-settings
 rdflib==6.2.0
     # via
     #   extruct

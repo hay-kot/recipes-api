@@ -17,7 +17,6 @@ replace_abbreviations = {
 
 
 def replace_common_abbreviations(string: str) -> str:
-
     for k, v in replace_abbreviations.items():
         regex = rf"(?<=\d)\s?({k}\bs?)"
         string = re.sub(regex, v, string)
@@ -52,7 +51,8 @@ def wrap_or_clause(string: str):
     Attempts to wrap or clauses in ()
 
     Examples:
-    '1 tsp. Diamond Crystal or ½ tsp. Morton kosher salt, plus more' -> '1 teaspoon diamond crystal (or 1/2 teaspoon morton kosher salt), plus more'
+    '1 tsp. Diamond Crystal or ½ tsp. Morton kosher salt, plus more'
+        -> '1 teaspoon diamond crystal (or 1/2 teaspoon morton kosher salt), plus more'
 
     """
     # TODO: Needs more adequite testing to be sure this doesn't have side effects.
@@ -61,7 +61,9 @@ def wrap_or_clause(string: str):
     split_by_comma = split_by_or[1].split(",")
 
     if len(split_by_comma) > 0:
-        return f"{split_by_or[0]} (or {split_by_comma[0]}),{''.join(split_by_comma[1:])}".strip().removesuffix(",")
+        return f"{split_by_or[0]} (or {split_by_comma[0]}),{''.join(split_by_comma[1:])}".strip().removesuffix(
+            ","
+        )
 
     return string
 
