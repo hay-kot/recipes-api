@@ -1,4 +1,6 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
+from fastapi.middleware.gzip import GZipMiddleware
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 
 from app import config, logger
@@ -12,6 +14,26 @@ app = FastAPI(
     description="A simple API for parsing recipes and ingredients.",
     version="0.4.2",
 )
+
+
+app.add_middleware(GZipMiddleware, minimum_size=1000)
+
+
+def mount_auth_middleware(app: FastAPI) -> None:
+    async def auth_middleware(request: Request, call_next):
+        if request.url.path.startswith("/api"):
+            auth_header = request.headers.get("Authorization")
+
+            if auth_header is None or auth_header != settings.auth_key:
+                return JSONResponse(status_code=401, content={"message": "Unauthorized"})
+        return await call_next(request)
+
+    app.middleware("http")(auth_middleware)
+
+
+if settings.auth_key:
+    mount_auth_middleware(app)
+
 
 app.include_router(ingredient_parser_routes.router, prefix="/api")
 app.include_router(scraper_routes.router, prefix="/api")
