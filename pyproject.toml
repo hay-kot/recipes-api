@@ -19,13 +19,12 @@ line-length = 120
 format = "text"
 
 # Enable Pyflakes `E` and `F` codes by default.
-ignore = ["F403", "I252", "B008"]
+ignore = ["F403", "B008"]
 select = [
   "E", # pycodestyles
   "F", # pyflakes
   "I", # isort
   "T", # flake8-print
-  "U", # pyupgrade
   "B", # flake8-bugbear
 ]
 
