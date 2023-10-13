@@ -54,6 +54,8 @@ def clean(recipe_data: dict, url=None) -> dict:
         "images": clean_image(recipe_data.get("image")),
         "orgUrl": url,
         "url": url,
+        "dateModified": recipe_data.get("dateModified", None),
+        "datePublished": recipe_data.get("datePublished", None),
     }
 
     cuisines = recipe_data.get("recipeCuisine", [])

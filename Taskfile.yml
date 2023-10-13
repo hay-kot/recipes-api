@@ -7,13 +7,13 @@ vars:
 
 tasks:
   setup:
-    desc: setups the project
-    cmds:
+    desc: setups the project for development
+    cmds: 
       - pip install -r requirements-dev.txt
       - python install.py
 
   compile:
-    desc: runs pip-compile
+    desc: runs pip-compile for dev and prod
     cmds:
       - pip-compile --output-file requirements.txt pyproject.toml
       - pip-compile --extra=dev --output-file=requirements-dev.txt pyproject.toml
@@ -34,14 +34,14 @@ tasks:
       - pytest tests -s
 
   lint:
-    desc: runs linters and checks for PR
+    desc: runs linters and applies fixes
     cmds:
-      - ruff . --fix
       - black . 
+      - ruff . --fix
 
   pr:
     desc: runs linters and checks for PR
     cmds:
-      - python -m ruff .
       - python -m black . --check
+      - python -m ruff .
       - pytest tests
