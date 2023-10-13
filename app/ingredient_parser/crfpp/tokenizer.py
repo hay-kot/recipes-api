@@ -29,10 +29,22 @@ def tokenize(s):
     s = re.sub(r"(\d+)ml", r"\1 milliliters", s, flags=re.IGNORECASE)
 
     # TODO: Replace american_units with list of units from database?
-    american_units = ["cup", "tablespoon", "teaspoon", "pound", "ounce", "quart", "pint"]
+    american_units = [
+        "cup",
+        "tablespoon",
+        "teaspoon",
+        "pound",
+        "ounce",
+        "quart",
+        "pint",
+    ]
     # The following removes slashes following American units and replaces it with a space.
     for unit in american_units:
         s = s.replace(unit + "/", unit + " ")
         s = s.replace(unit + "s/", unit + "s ")
 
-    return [token.strip() for token in re.split(r"([,()\s]{1})", clumpFractions(s)) if token and token.strip()]
+    return [
+        token.strip()
+        for token in re.split(r"([,()\s]{1})", clumpFractions(s))
+        if token and token.strip()
+    ]
