@@ -3,8 +3,7 @@ from fastapi.middleware.gzip import GZipMiddleware
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 
-from app import config, logger
-from app import __version__
+from app import __version__, config, logger
 from app.ingredient_parser import routes as ingredient_parser_routes
 from app.scraper import routes as scraper_routes
 
