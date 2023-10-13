@@ -1,0 +1,33 @@
+# https://taskfile.dev
+
+version: "3"
+
+vars:
+  GREETING: Hello, World!
+
+tasks:
+  setup:
+    desc: setups the project
+    cmds:
+      - pip install -r requirements.txt
+      - pip install pytest
+      - python install.py
+
+  compile:
+    cmds:
+      - pip-compile --output-file requirements.txt pyproject.toml
+
+  run:
+    desc: Run the main script
+    cmds:
+      - uvicorn main:app --reload
+
+  sync:
+    desc: Sync dependencies from venv to requirements.txt
+    cmds:
+      - pip-sync
+
+  test:
+    desc: Run tests
+    cmds:
+      - pytest tests -s

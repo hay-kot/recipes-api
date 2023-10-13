@@ -1,21 +1,13 @@
-import logging
+from fastapi import FastAPI, Request
+from fastapi.middleware.gzip import GZipMiddleware
+from fastapi.responses import JSONResponse
+from pydantic import BaseModel
 
-from fastapi import FastAPI
-from fastapi.exceptions import HTTPException
-from pydantic import AnyHttpUrl, BaseModel
+from app import config, logger
+from app.ingredient_parser import routes as ingredient_parser_routes
+from app.scraper import routes as scraper_routes
 
-from routes import crfpp
-from routes.cleaner import clean
-from routes.parser import ParseResponse
-from routes.scraper import CleanedResponse, ScrapeResponse, scrape_urls
-
-logging.basicConfig(
-    # standard logging config
-    format="[%(levelname)s] %(asctime)s %(message)s",
-    level=logging.DEBUG,
-    datefmt="%Y-%m-%d %H:%M:%S",
-)
-
+settings = config.settings()
 
 app = FastAPI(
     title="Recipe API",
@@ -24,51 +16,40 @@ app = FastAPI(
 )
 
 
-@app.get("/ready")
-def ready():
-    return {"status": "ok"}
+app.add_middleware(GZipMiddleware, minimum_size=1000)
 
 
-class ScrapeRequest(BaseModel):
-    urls: list[AnyHttpUrl]
-    html: dict[AnyHttpUrl, str] = {}
+def mount_auth_middleware(app: FastAPI) -> None:
+    async def auth_middleware(request: Request, call_next):
+        if request.url.path.startswith("/api"):
+            auth_header = request.headers.get("Authorization")
+
+            if auth_header is None or auth_header != settings.auth_key:
+                return JSONResponse(status_code=401, content={"message": "Unauthorized"})
+        return await call_next(request)
+
+    app.middleware("http")(auth_middleware)
 
 
-@app.post("/api/v1/scrape", response_model=list[ScrapeResponse])
-async def scrape_recipe(req: ScrapeRequest):
-    if len(req.urls) == 0 and len(req.html) == 0:
-        raise HTTPException(
-            status_code=400, detail={"error": "No URLs or HTML provided."}
-        )
-
-    if len(req.urls) == 0:
-        req.urls = list(req.html.keys())
-
-    return await scrape_urls(req.urls, req.html)
+if settings.auth_key:
+    mount_auth_middleware(app)
 
 
-@app.post("/api/v1/scrape/clean", response_model=list[CleanedResponse])
-async def scrape_recipe_clean(req: ScrapeRequest):
-    if len(req.urls) == 0 and len(req.html) == 0:
-        raise HTTPException(
-            status_code=400, detail={"error": "No URLs or HTML provided."}
-        )
-
-    if len(req.urls) == 0:
-        req.urls = list(req.html.keys())
-
-    data = await scrape_urls(req.urls, req.html)
-
-    for d in data:
-        d.data = clean(d.data, d.url)
-
-    return data
+app.include_router(ingredient_parser_routes.router, prefix="/api")
+app.include_router(scraper_routes.router, prefix="/api")
 
 
-class ParseRequest(BaseModel):
-    ingredients: list[str]
+@app.on_event("startup")
+def startup() -> None:
+    log = logger.logger()
+    log.info("server started")
+    log.info("swagger docs available at http://localhost:%d/docs", settings.port)
 
 
-@app.post("/api/v1/parse", response_model=list[ParseResponse])
-def parse_ingredients(ingredients: ParseRequest):
-    return crfpp.convert_list_to_crf_model(ingredients.ingredients)
+class Health(BaseModel):
+    status: str
+
+
+@app.get("/ready", tags=["Health"])
+def ready() -> Health:
+    return Health(status="ok")

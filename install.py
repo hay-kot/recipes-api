@@ -1,6 +1,6 @@
 import httpx
 
-from routes import crfpp
+from app.ingredient_parser import crfpp
 
 MODEL_URL = "https://github.com/mealie-recipes/nlp-model/releases/download/v1.0.0/model.crfmodel"
 

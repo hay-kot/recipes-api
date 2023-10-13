@@ -5,8 +5,8 @@ import pathlib
 import pytest
 from fastapi.testclient import TestClient
 
-from routes.recipe import Recipe
-from routes.scraper import CleanedResponse
+from app.scraper.recipe import Recipe
+from app.scraper.scraper import CleanedResponse
 
 CWD = pathlib.Path(__file__).parent
 
