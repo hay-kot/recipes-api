@@ -14,6 +14,7 @@ tasks:
       - python install.py
 
   compile:
+    desc: runs pip-compile
     cmds:
       - pip-compile --output-file requirements.txt pyproject.toml
 
@@ -31,3 +32,16 @@ tasks:
     desc: Run tests
     cmds:
       - pytest tests -s
+
+  lint:
+    desc: runs linters and checks for PR
+    cmds:
+      - ruff . --fix
+      - black . 
+
+  pr:
+    desc: runs linters and checks for PR
+    cmds:
+      - ruff .
+      - black . --check
+      - pytest tests
