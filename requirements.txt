@@ -15,7 +15,7 @@ beautifulsoup4==4.11.1
     # via
     #   mf2py
     #   recipe-scrapers
-certifi==2022.9.24
+certifi==2023.7.22
     # via
     #   httpcore
     #   httpx
