@@ -3,7 +3,7 @@ from fastapi.middleware.gzip import GZipMiddleware
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 
-from app import config, logger
+from app import __version__, config, logger
 from app.ingredient_parser import routes as ingredient_parser_routes
 from app.scraper import routes as scraper_routes
 
@@ -12,7 +12,7 @@ settings = config.settings()
 app = FastAPI(
     title="Recipe API",
     description="A simple API for parsing recipes and ingredients.",
-    version="0.4.2",
+    version=__version__,
 )
 
 
@@ -55,3 +55,13 @@ class Health(BaseModel):
 @app.get("/ready", tags=["Health"])
 def ready() -> Health:
     return Health(status="ok")
+
+
+class AppInfo(BaseModel):
+    version: str
+    commit: str
+
+
+@app.get("/info", tags=["Health"])
+def info() -> AppInfo:
+    return AppInfo(version=__version__, commit=settings.commit)

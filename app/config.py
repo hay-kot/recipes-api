@@ -24,6 +24,11 @@ class Settings(BaseSettings):
     `Authorization: <auth_key>`.
     """
 
+    commit: str = "nightly"
+    """
+    The commit hash of the current build. This is set by the build script via docker build args.
+    """
+
 
 @functools.lru_cache
 def settings() -> Settings:

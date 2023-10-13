@@ -3,6 +3,8 @@
 ###############################################
 FROM hkotel/crfpp as crfpp
 
+ARG COMMIT
+
 RUN echo "crfpp-container"
 
 # For more information, please refer to https://aka.ms/vscode-docker-python
@@ -40,9 +42,9 @@ USER appuser
 
 ENV PORT 8000
 ENV HOST "0.0.0.0"
+ENV COMMIT $COMMIT
 
 EXPOSE 8000
-
 
 # During debugging, this entry point will be overridden. For more information, please refer to https://aka.ms/vscode-docker-python-debug
 ENTRYPOINT [ "./run.sh" ]
