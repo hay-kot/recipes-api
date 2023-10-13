@@ -1,6 +1,6 @@
 [project]
 name = "recipes_api"
-version = "0.2.0"
+version = "dev"
 dependencies = [
   "fastapi~=0.103.2",
   "pydantic~=2.1.1",

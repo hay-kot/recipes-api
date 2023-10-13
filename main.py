@@ -12,7 +12,7 @@ settings = config.settings()
 app = FastAPI(
     title="Recipe API",
     description="A simple API for parsing recipes and ingredients.",
-    version="0.4.2",
+    version=__version__
 )
 
 
