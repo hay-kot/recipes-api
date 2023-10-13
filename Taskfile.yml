@@ -9,14 +9,14 @@ tasks:
   setup:
     desc: setups the project
     cmds:
-      - pip install -r requirements.txt
-      - pip install pytest
+      - pip install -r requirements-dev.txt
       - python install.py
 
   compile:
     desc: runs pip-compile
     cmds:
       - pip-compile --output-file requirements.txt pyproject.toml
+      - pip-compile --extra=dev --output-file=requirements-dev.txt pyproject.toml
 
   run:
     desc: Run the main script
@@ -42,6 +42,6 @@ tasks:
   pr:
     desc: runs linters and checks for PR
     cmds:
-      - ruff .
-      - black . --check
+      - python -m ruff .
+      - python -m black . --check
       - pytest tests
