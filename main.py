@@ -4,6 +4,7 @@ from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 
 from app import config, logger
+from app import __version__
 from app.ingredient_parser import routes as ingredient_parser_routes
 from app.scraper import routes as scraper_routes
 
@@ -55,3 +56,13 @@ class Health(BaseModel):
 @app.get("/ready", tags=["Health"])
 def ready() -> Health:
     return Health(status="ok")
+
+
+class AppInfo(BaseModel):
+    version: str
+    commit: str
+
+
+@app.get("/info", tags=["Health"])
+def info() -> AppInfo:
+    return AppInfo(version=__version__, commit=settings.commit)
