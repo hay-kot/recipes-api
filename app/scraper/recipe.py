@@ -1,6 +1,6 @@
 import datetime
 
-from pydantic import BaseModel, Field, ConfigDict
+from pydantic import BaseModel, ConfigDict, Field
 
 
 class Instructions(BaseModel):
@@ -44,5 +44,3 @@ class Recipe(BaseModel):
 
     dateModified: datetime.datetime | None = None
     datePublished: datetime.datetime | None = None
-
-

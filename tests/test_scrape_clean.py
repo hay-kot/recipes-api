@@ -6,7 +6,6 @@ import pytest
 from fastapi.testclient import TestClient
 
 from app.scraper.recipe import Recipe
-from app.scraper.scraper import CleanedResponse
 
 CWD = pathlib.Path(__file__).parent
 
@@ -50,7 +49,7 @@ def test_parse_clean(client: TestClient, url: str, name: str) -> None:
 
     assert resp.status_code == 200
 
-    data: list[CleanedResponse] = resp.json()
+    data: list[dict] = resp.json()
 
     assert len(data) == 1
 
