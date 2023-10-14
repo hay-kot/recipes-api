@@ -58,7 +58,7 @@ lxml==4.9.3
     #   extruct
     #   html-text
     #   recipes-api (pyproject.toml)
-mf2py==1.1.2
+mf2py==1.1.3
     # via extruct
 pydantic==2.1.1
     # via
