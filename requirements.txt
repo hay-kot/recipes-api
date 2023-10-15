@@ -24,7 +24,7 @@ charset-normalizer==2.1.1
     # via requests
 click==8.1.7
     # via uvicorn
-extruct==0.13.0
+extruct==0.16.0
     # via recipe-scrapers
 fastapi==0.103.2
     # via recipes-api (pyproject.toml)
