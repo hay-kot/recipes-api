@@ -11,7 +11,7 @@ anyio==3.7.1
     #   fastapi
     #   httpcore
     #   starlette
-beautifulsoup4==4.11.1
+beautifulsoup4==4.12.2
     # via
     #   mf2py
     #   recipe-scrapers
