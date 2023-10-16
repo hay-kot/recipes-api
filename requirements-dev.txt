@@ -42,7 +42,7 @@ html5lib==1.1
     # via
     #   mf2py
     #   pyrdfa3
-httpcore==0.17.3
+httpcore==0.18.0
     # via httpx
 httpx==0.24.1
     # via recipes-api (pyproject.toml)
