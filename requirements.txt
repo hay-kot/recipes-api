@@ -107,7 +107,7 @@ typing-extensions==4.7.1
     #   fastapi
     #   pydantic
     #   pydantic-core
-urllib3==1.26.12
+urllib3==1.26.18
     # via requests
 uvicorn==0.23.2
     # via recipes-api (pyproject.toml)
