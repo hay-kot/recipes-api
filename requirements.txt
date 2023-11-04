@@ -40,7 +40,7 @@ html5lib==1.1
     #   pyrdfa3
 httpcore==0.17.3
     # via httpx
-httpx==0.24.1
+httpx==0.25.1
     # via recipes-api (pyproject.toml)
 idna==3.4
     # via
