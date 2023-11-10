@@ -7,7 +7,7 @@ from fractions import Fraction
 from pathlib import Path
 
 from . import utils
-from .pre_processor import pre_process_string
+from .pre_processor import normalize_ingredient, pre_process_string
 
 CWD = Path(__file__).parent
 MODEL_PATH = CWD / "model.crfmodel"
@@ -56,7 +56,7 @@ def _exec_crf_test(input_text):
 
 
 def convert_list_to_crf_model(list_of_ingrdeint_text: list[str]):
-    crf_output = _exec_crf_test([pre_process_string(x) for x in list_of_ingrdeint_text])
+    crf_output = _exec_crf_test([normalize_ingredient(x) for x in list_of_ingrdeint_text])
     return [
         CRFIngredient(**ingredient)
         for ingredient in utils.import_data(crf_output.split("\n"))

@@ -1,6 +1,8 @@
 import re
 import unicodedata
 
+from quantulum3 import parser
+
 replace_abbreviations = {
     "cup": " cup ",
     "g": " gram ",
@@ -67,6 +69,25 @@ def wrap_or_clause(string: str):
 
     return string
 
+def normalize_ingredient(string: str) -> str:
+
+    string = pre_process_string(string)
+
+    parsed = None
+    try:
+        parsed = parser.parse(string)
+    except Exception:
+        return string
+
+    # Replace identified units and quantities with their normalized values
+    for entity in parsed:
+        if entity.unit is not None and entity.unit.name != "dimensionless":
+            if entity.surface:
+                string = string.replace(entity.surface, f"{entity.value} {entity.unit.name}")
+
+    return string
+
+
 
 def pre_process_string(string: str) -> str:
     """
@@ -83,5 +104,8 @@ def pre_process_string(string: str) -> str:
 
     if " or " in string:
         string = wrap_or_clause(string)
+
+    # Remove duplicate whitespace
+    string = " ".join(string.split())
 
     return string
