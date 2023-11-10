@@ -1,6 +1,9 @@
+[tool.setuptools]
+py-modules = []
+
 [project]
 name = "recipes_api"
-version = "dev"
+version = "1.0"
 dependencies = [
   "fastapi~=0.103.2",
   "pydantic~=2.1.1",
@@ -8,6 +11,7 @@ dependencies = [
   "recipe-scrapers~=14.50.2",
   "httpx~=0.24.0",
   "lxml~=4.9.3",
+  "quantulum3[classifier]~=0.9.0",
   "pydantic-settings~=2.0.3",
 ]
 
@@ -32,5 +36,3 @@ select = [
   "B", # flake8-bugbear
 ]
 
-[tool.setuptools]
-py-modules = []
