@@ -13,6 +13,7 @@ from app.scraper.recipe import Recipe
 class CleanedResponse(BaseModel):
     url: str
     data: Recipe
+    errors: str | None = None
 
 
 class ScrapeResponse(BaseModel):
@@ -29,7 +30,7 @@ def maybe(fn, default=None):
 
 
 def to_schema_data(scraper: AbstractScraper) -> dict[str, Any]:
-    if scraper.schema.data:
+    if scraper.schema.data and isinstance(scraper.schema.data, dict):
         scraper.schema.data["@content"] = "schema"
 
         maybeIngredients = maybe(scraper.ingredients, [])
@@ -69,7 +70,7 @@ async def scrape_recipe(
     url: str,
     headers: dict[str, str],
     html: str | None,
-) -> dict:
+) -> ScrapeResponse:
     if not html:
         r = await client.get(url, headers=headers)
         logging.info(f"GET {url} {r.status_code}")
