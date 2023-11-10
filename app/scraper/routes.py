@@ -18,9 +18,7 @@ async def scrape_recipe(req: ScrapeRequest):
     Scrape a list of URLs and return the raw recipe data.
     """
     if len(req.urls) == 0 and len(req.html) == 0:
-        raise HTTPException(
-            status_code=400, detail={"error": "No URLs or HTML provided."}
-        )
+        raise HTTPException(status_code=400, detail={"error": "No URLs or HTML provided."})
 
     if len(req.urls) == 0:
         req.urls = list(req.html.keys())
@@ -34,9 +32,7 @@ async def scrape_recipe_clean(req: ScrapeRequest):
     Scrape a list of URLs and return the cleaned recipe data.
     """
     if len(req.urls) == 0 and len(req.html) == 0:
-        raise HTTPException(
-            status_code=400, detail={"error": "No URLs or HTML provided."}
-        )
+        raise HTTPException(status_code=400, detail={"error": "No URLs or HTML provided."})
 
     if len(req.urls) == 0:
         req.urls = list(req.html.keys())

@@ -25,9 +25,7 @@ def mount_auth_middleware(app: FastAPI) -> None:
             auth_header = request.headers.get("Authorization")
 
             if auth_header is None or auth_header != settings.auth_key:
-                return JSONResponse(
-                    status_code=401, content={"message": "Unauthorized"}
-                )
+                return JSONResponse(status_code=401, content={"message": "Unauthorized"})
         return await call_next(request)
 
     app.middleware("http")(auth_middleware)

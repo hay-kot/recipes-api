@@ -36,12 +36,12 @@ tasks:
   lint:
     desc: runs linters and applies fixes
     cmds:
-      - black . 
+      - ruff format . 
       - ruff . --fix
 
   pr:
     desc: runs linters and checks for PR
     cmds:
-      - python -m black . --check
+      - python -m ruff format . --check
       - python -m ruff .
       - pytest tests

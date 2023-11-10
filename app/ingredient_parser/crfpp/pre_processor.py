@@ -63,9 +63,7 @@ def wrap_or_clause(string: str):
     split_by_comma = split_by_or[1].split(",")
 
     if len(split_by_comma) > 0:
-        return f"{split_by_or[0]} (or {split_by_comma[0]}),{''.join(split_by_comma[1:])}".strip().removesuffix(
-            ","
-        )
+        return f"{split_by_or[0]} (or {split_by_comma[0]}),{''.join(split_by_comma[1:])}".strip().removesuffix(",")
 
     return string
 
@@ -83,9 +81,7 @@ def normalize_ingredient(string: str) -> str:
     for entity in parsed:
         if entity.unit is not None and entity.unit.name != "dimensionless":
             if entity.surface:
-                string = string.replace(
-                    entity.surface, f"{entity.value} {entity.unit.name}"
-                )
+                string = string.replace(entity.surface, f"{entity.value} {entity.unit.name}")
 
     return string
 
