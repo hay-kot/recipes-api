@@ -81,7 +81,8 @@ def normalize_ingredient(string: str) -> str:
     for entity in parsed:
         if entity.unit is not None and entity.unit.name != "dimensionless":
             if entity.surface:
-                string = string.replace(entity.surface, f"{entity.value} {entity.unit.name}")
+                rounded = round(entity.value, 2)
+                string = string.replace(entity.surface, f"{rounded} {entity.unit.name}")
 
     return string
 

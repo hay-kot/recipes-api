@@ -27,13 +27,16 @@ class CRFIngredient:
     input: str = ""
     name: str = ""
     other: str = ""
-    qty: str = ""
+    qty: str | float = ""
     comment: str = ""
     unit: str = ""
     confidence: CRFConfidence | None = None
 
     def __post_init__(self):  # sourcery skip: merge-nested-ifs
         self.confidence = CRFConfidence()
+
+        if self.qty:
+            self.qty = convert_to_float(self.qty)
 
         if self.qty is None or self.qty == "":
             # Check if other contains a fraction
@@ -45,6 +48,18 @@ class CRFIngredient:
             except Exception:
                 pass
 
+def convert_to_float(frac_str):
+    try:
+        return float(frac_str)
+    except ValueError:
+        num, denom = frac_str.split('/')
+        try:
+            leading, num = num.split(' ')
+            whole = float(leading)
+        except ValueError:
+            whole = 0
+        frac = float(num) / float(denom)
+        return whole - frac if whole < 0 else whole + frac
 
 def _exec_crf_test(input_text):
     with tempfile.NamedTemporaryFile(mode="w") as input_file:

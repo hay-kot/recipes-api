@@ -102,3 +102,56 @@ async def scrape_urls(urls: list[AnyHttpUrl], html: dict[AnyHttpUrl, str] | None
         result = await asyncio.gather(*tasks)
 
     return result
+
+
+class ScrapeJob:
+    def __init__(self, url: AnyHttpUrl, html: str | None):
+        self.url = url
+        self.html = html
+
+class ScrapeResult:
+    def __init__(self, url: str, data: Recipe, error: Exception | None):
+        self.url = url
+        self.data = data
+        self.error = error
+
+
+async def scrape_recipe_v2(
+    client: httpx.AsyncClient,
+    url: str,
+    headers: dict[str, str],
+    html: str | None,
+) -> ScrapeResult:
+    if not html:
+        r = await client.get(url, headers=headers)
+        logging.info(f"GET {url} {r.status_code}")
+        html = r.text
+    else:
+        logging.debug(f"Using cached HTML for {url}")
+
+    scrape_result = None
+    try:
+        scrape_result = scrape_html(html, org_url=url)
+    except Exception as e:
+        return ScrapeResult(url=url, data={}, error=e)
+
+    schema_data = None
+    try:
+        schema_data = to_schema_data(scrape_result)
+    except Exception as e:
+        return ScrapeResult(url=url, data={}, error=e)
+
+    return ScrapeResult(url=url, data=schema_data, error=None)
+
+
+async def scrape_urls_v2(jobs: list[ScrapeJob]) -> list[ScrapeResult]:
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"}
+
+    async with httpx.AsyncClient() as client:
+        tasks = [
+            scrape_recipe_v2(client, job.url.unicode_string(), headers, job.html)
+            for job in jobs
+        ]
+        result = await asyncio.gather(*tasks)
+
+    return result

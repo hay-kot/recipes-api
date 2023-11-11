@@ -3,9 +3,7 @@ from fastapi.middleware.gzip import GZipMiddleware
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 
-from app import __version__, config, logger
-from app.ingredient_parser import routes as ingredient_parser_routes
-from app.scraper import routes as scraper_routes
+from app import __version__, config, logger, v1, v2
 
 settings = config.settings()
 
@@ -35,9 +33,8 @@ if settings.auth_key:
     mount_auth_middleware(app)
 
 
-app.include_router(ingredient_parser_routes.router, prefix="/api")
-app.include_router(scraper_routes.router, prefix="/api")
-
+app.include_router(v1.router, prefix="/api/v1")
+app.include_router(v2.router, prefix="/api/v2")
 
 @app.on_event("startup")
 def startup() -> None:
