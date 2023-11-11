@@ -14,7 +14,28 @@ async def scrape_recipe(req: list[ScrapeRequest]):
     """
     Scrape a list of URLs and return the raw recipe data.
     """
-    ...
+    if len(req) == 0:
+        raise HTTPException(status_code=400, detail={"error": "no urls or html provided"})
+
+    data = await scrape_urls_v2(req)
+
+    results = []
+    for d in data:
+        if d.error:
+            results.append(ScrapeResponse(
+                url=d.url,
+                data=None,
+                error=ScrapeError.from_exception(d.error),
+            ))
+            continue
+
+        results.append(ScrapeResponse(
+            url=d.url,
+            data=d.data,
+            error=None,
+        ))
+
+    return results
 
 @router.post("/scrape/clean", response_model=list[CleanedScrapeResponse], tags=["Recipe Web Scraper"])
 async def scrape_recipe_clean(req: list[ScrapeRequest]):

@@ -81,7 +81,7 @@ class ScrapeResponse(BaseModel):
     url: AnyHttpUrl
     """url is the url that was scraped."""
 
-    data: dict[str, Any]
+    data: dict[str, Any] | None = None
     """data is the raw data returned from the scraper."""
 
     error: ScrapeError | None = None
