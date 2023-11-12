@@ -49,6 +49,6 @@ tasks:
   pr:
     desc: runs linters and checks for PR
     cmds:
-      - python -m ruff format . --check
-      - python -m ruff .
-      - pytest tests
+      - ./.venv/bin/python -m ruff format . --check
+      - ./.venv/bin/python -m ruff .
+      - ./.venv/bin/python -m pytest tests
