@@ -18,15 +18,17 @@ replace_abbreviations = {
     "tsp": " teaspoon ",
 }
 
+
 def replace_invisible_whitespace(text):
     # Define a list of invisible whitespace characters
-    invisible_whitespace_chars = ['\u200b', '\u200c', '\u200d', '\u200e', '\u200f', '\u2060', '\u3000']
+    invisible_whitespace_chars = ["\u200b", "\u200c", "\u200d", "\u200e", "\u200f", "\u2060", "\u3000"]
 
     # Replace invisible whitespace characters with normal whitespace
     for char in invisible_whitespace_chars:
-        text = text.replace(char, ' ')
+        text = text.replace(char, " ")
 
     return text
+
 
 def replace_common_abbreviations(string: str) -> str:
     for k, v in replace_abbreviations.items():
@@ -109,6 +111,7 @@ def normalize_ingredient(string: str) -> str:
 
     return string
 
+
 def fraction_str(num: float) -> str:
     """
     Converts a float to a fraction string if possible. Otherwise returns the original float as a string.
@@ -130,7 +133,6 @@ def fraction_str(num: float) -> str:
             whole_part = int(num)
             fractional_part = frac - whole_part
             return f"{whole_part} {fractional_part.numerator}/{fractional_part.denominator}"
-
 
 
 def pre_process_string(string: str) -> str:

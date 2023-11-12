@@ -52,6 +52,7 @@ test_ingredients = [
     IngredientCase("1/32 cup all-purpose flour", 0.031, "cup", "all-purpose flour", ""),
 ]
 
+
 def crf_exists() -> bool:
     return shutil.which("crf_test") is not None
 
@@ -62,7 +63,6 @@ def test_nlp_parser():
 
     # Iterate over models and test_ingredients to gather
     for model, test_ingredient in zip(models, test_ingredients):
-
         assert round(model.qty, 3) == pytest.approx(test_ingredient.quantity)
 
         assert model.comment == test_ingredient.comments
