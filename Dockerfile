@@ -10,16 +10,6 @@ RUN echo "crfpp-container"
 # For more information, please refer to https://aka.ms/vscode-docker-python
 FROM python:3.11-slim
 
-# Keeps Python from generating .pyc files in the container
-ENV PYTHONDONTWRITEBYTECODE=1
-
-# Turns off buffering for easier container logging
-ENV PYTHONUNBUFFERED=1
-
-# Install pip requirements
-COPY requirements.txt .
-RUN python -m pip install -r requirements.txt --only-binary=lxml
-
 
 WORKDIR /app
 COPY . /app
@@ -28,6 +18,24 @@ ENV LD_LIBRARY_PATH=/usr/local/lib
 COPY --from=crfpp /usr/local/lib/ /usr/local/lib
 COPY --from=crfpp /usr/local/bin/crf_learn /usr/local/bin/crf_learn
 COPY --from=crfpp /usr/local/bin/crf_test /usr/local/bin/crf_test
+
+ENV PYTHONFAULTHANDLER=1 \
+    PYTHONUNBUFFERED=1 \
+    PYTHONHASHSEED=random \
+    PIP_NO_CACHE_DIR=off \
+    PIP_DISABLE_PIP_VERSION_CHECK=on \
+    PIP_DEFAULT_TIMEOUT=100 \
+    POETRY_VERSION=1.7.0
+
+
+# System deps:
+RUN pip install "poetry==$POETRY_VERSION"
+
+# install dependencies
+COPY poetry.lock pyproject.toml /app/
+
+RUN poetry config virtualenvs.create false \
+    && poetry install --no-interaction --no-ansi --no-root --all-extras
 
 # Grab CRF++ Model Release
 RUN python /app/install.py
