@@ -33,9 +33,9 @@ jobs:
           path: ./.venv
           key: venv-${{ hashFiles('poetry.lock') }}
 
-      - name: Run 'task setup'
+      - name: Run 'task install'
         run: |
-          task setup
+          task install
 
       - name: Run 'task pr'
         run: |

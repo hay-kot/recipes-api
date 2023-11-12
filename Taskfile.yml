@@ -14,11 +14,16 @@ tasks:
     cmds:
       - poetry env use $PROJECT_PYTHON
 
+  install:
+    desc: installs dependencies
+    cmds:
+      - poetry install --with=dev --no-root --all-extras
+
   setup:
     desc: setups the project for development
     cmds:
       - task: stub
-      - poetry install --with=dev --no-root --all-extras
+      - task: install
 
   run:
     desc: Run the main script
