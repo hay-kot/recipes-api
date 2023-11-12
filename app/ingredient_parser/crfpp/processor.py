@@ -48,18 +48,20 @@ class CRFIngredient:
             except Exception:
                 pass
 
+
 def convert_to_float(frac_str):
     try:
         return float(frac_str)
     except ValueError:
-        num, denom = frac_str.split('/')
+        num, denom = frac_str.split("/")
         try:
-            leading, num = num.split(' ')
+            leading, num = num.split(" ")
             whole = float(leading)
         except ValueError:
             whole = 0
         frac = float(num) / float(denom)
         return whole - frac if whole < 0 else whole + frac
+
 
 def _exec_crf_test(input_text):
     with tempfile.NamedTemporaryFile(mode="w") as input_file:
@@ -85,7 +87,7 @@ def convert_list_to_crf_model(list_of_ingrdeint_text: list[str]):
                 other=normalized.get("other", ""),
                 qty=normalized.get("qty", ""),
                 comment=normalized.get("comment", ""),
-                unit=normalized.get("unit", "")
+                unit=normalized.get("unit", ""),
             )
         )
 

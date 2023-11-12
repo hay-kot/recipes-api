@@ -5,6 +5,7 @@ class ScrapeRequest(BaseModel):
     urls: list[AnyHttpUrl]
     html: dict[AnyHttpUrl, str] = {}
 
+
 class ParseRequest(BaseModel):
     ingredients: list[str]
 

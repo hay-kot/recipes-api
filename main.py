@@ -36,6 +36,7 @@ if settings.auth_key:
 app.include_router(v1.router, prefix="/api/v1")
 app.include_router(v2.router, prefix="/api/v2")
 
+
 @app.on_event("startup")
 def startup() -> None:
     log = logger.logger()

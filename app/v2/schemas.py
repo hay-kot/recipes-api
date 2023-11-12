@@ -12,6 +12,7 @@ class ParseRequest(BaseModel):
     ingredients: list[str]
     """ingredients is a list of strings to parse."""
 
+
 class ParsedIngredients(BaseModel):
     model_config = ConfigDict(arbitrary_types_allowed=True, extra="allow")
     input: str
@@ -32,17 +33,18 @@ class ParsedIngredients(BaseModel):
     other: str = ""
     """extra information about the ingredient"""
 
+
 class ScrapeError(str, Enum):
-    unknown = 'unknown'
+    unknown = "unknown"
     """default error type"""
 
-    unreachable = 'unreachable'
+    unreachable = "unreachable"
     """unreachable means the http endpoint is unreachable"""
 
-    no_html_found = 'no_html_found'
+    no_html_found = "no_html_found"
     """no_html_found means the scraper could not find any html within the site"""
 
-    no_schema_found = 'no_schema_found'
+    no_schema_found = "no_schema_found"
     """no_schema_found means the scraper could not find a schema within the side HTML"""
 
     def from_exception(e: Exception):
@@ -64,6 +66,7 @@ class ScrapeRequest(BaseModel):
     html: str | None = None
     """html is an optional field to prevent scraping the site and use the provided html instead."""
 
+
 class CleanedScrapeResponse(BaseModel):
     url: AnyHttpUrl
     """url is the url that was scraped."""
@@ -76,6 +79,7 @@ class CleanedScrapeResponse(BaseModel):
 
     error: ScrapeError | None = None
     """error is the error that occurred while scraping."""
+
 
 class ScrapeResponse(BaseModel):
     url: AnyHttpUrl

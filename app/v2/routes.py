@@ -9,6 +9,7 @@ from .schemas import CleanedScrapeResponse, ParsedIngredients, ParseRequest, Scr
 
 router = APIRouter()
 
+
 @router.post("/scrape", response_model=list[ScrapeResponse], tags=["Recipe Web Scraper"])
 async def scrape_recipe(req: list[ScrapeRequest]):
     """
@@ -22,20 +23,25 @@ async def scrape_recipe(req: list[ScrapeRequest]):
     results = []
     for d in data:
         if d.error:
-            results.append(ScrapeResponse(
-                url=d.url,
-                data=None,
-                error=ScrapeError.from_exception(d.error),
-            ))
+            results.append(
+                ScrapeResponse(
+                    url=d.url,
+                    data=None,
+                    error=ScrapeError.from_exception(d.error),
+                )
+            )
             continue
 
-        results.append(ScrapeResponse(
-            url=d.url,
-            data=d.data,
-            error=None,
-        ))
+        results.append(
+            ScrapeResponse(
+                url=d.url,
+                data=d.data,
+                error=None,
+            )
+        )
 
     return results
+
 
 @router.post("/scrape/clean", response_model=list[CleanedScrapeResponse], tags=["Recipe Web Scraper"])
 async def scrape_recipe_clean(req: list[ScrapeRequest]):
@@ -50,35 +56,38 @@ async def scrape_recipe_clean(req: list[ScrapeRequest]):
     results = []
     for d in data:
         if d.error:
-            results.append(CleanedScrapeResponse(
-                url=d.url,
-                data=None,
-                ingredients=None,
-                error=ScrapeError.from_exception(d.error),
-            ))
+            results.append(
+                CleanedScrapeResponse(
+                    url=d.url,
+                    data=None,
+                    ingredients=None,
+                    error=ScrapeError.from_exception(d.error),
+                )
+            )
             continue
 
         cleaned = Recipe(**clean(d.data, d.url))
 
-        results.append(CleanedScrapeResponse(
-            url=d.url,
-            data=cleaned,
-            ingredients=[
-                ParsedIngredients(
-                    input=i.input,
-                    name=i.name,
-                    qty=i.qty,
-                    unit=i.unit,
-                    comment=i.comment,
-                    other=i.other,
-                )
-                for i in crfpp.convert_list_to_crf_model(cleaned.ingredients)
-            ],
-            error=None,
-        ))
+        results.append(
+            CleanedScrapeResponse(
+                url=d.url,
+                data=cleaned,
+                ingredients=[
+                    ParsedIngredients(
+                        input=i.input,
+                        name=i.name,
+                        qty=i.qty,
+                        unit=i.unit,
+                        comment=i.comment,
+                        other=i.other,
+                    )
+                    for i in crfpp.convert_list_to_crf_model(cleaned.ingredients)
+                ],
+                error=None,
+            )
+        )
 
     return results
-
 
 
 @router.post("/parse", response_model=list[ParsedIngredients], tags=["Ingredient Parser"])

@@ -8,6 +8,7 @@ from .schemas import ParseRequest, ParseResponse, ScrapeRequest
 
 router = APIRouter()
 
+
 @router.post("/scrape", response_model=list[ScrapeResponse], tags=["Recipe Web Scraper"])
 async def scrape_recipe(req: ScrapeRequest):
     """
