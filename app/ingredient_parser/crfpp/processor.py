@@ -80,6 +80,7 @@ def convert_list_to_crf_model(list_of_ingrdeint_text: list[str]):
         if normalized == "":
             continue
 
+
         out.append(
             CRFIngredient(
                 input=raw,

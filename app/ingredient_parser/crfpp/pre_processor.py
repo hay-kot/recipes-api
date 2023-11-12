@@ -1,5 +1,6 @@
 import re
 import unicodedata
+from fractions import Fraction
 
 from quantulum3 import parser
 
@@ -17,6 +18,15 @@ replace_abbreviations = {
     "tsp": " teaspoon ",
 }
 
+def replace_invisible_whitespace(text):
+    # Define a list of invisible whitespace characters
+    invisible_whitespace_chars = ['\u200b', '\u200c', '\u200d', '\u200e', '\u200f', '\u2060', '\u3000']
+
+    # Replace invisible whitespace characters with normal whitespace
+    for char in invisible_whitespace_chars:
+        text = text.replace(char, ' ')
+
+    return text
 
 def replace_common_abbreviations(string: str) -> str:
     for k, v in replace_abbreviations.items():
@@ -81,10 +91,46 @@ def normalize_ingredient(string: str) -> str:
     for entity in parsed:
         if entity.unit is not None and entity.unit.name != "dimensionless":
             if entity.surface:
-                rounded = round(entity.value, 2)
-                string = string.replace(entity.surface, f"{rounded} {entity.unit.name}")
+                unit: str = entity.unit.name
+                if unit.endswith("-mass"):
+                    unit = unit.removesuffix("-mass")
+                elif unit == "cubic centimetre":
+                    # ml is parsed as cubic centimetre
+                    unit = "milliliter"
+
+                # in some cases a fraction is a better representation of the quantity
+                # than the float value. This has to do with how crfpp handles fractions
+                rounded = round(entity.value, 3)
+                quantityStr = str(rounded)
+                if unit == "teaspoon" or unit == "tablespoon" or rounded < 0:
+                    quantityStr = fraction_str(rounded)
+
+                string = string.replace(entity.surface, f"{quantityStr} {unit}")
 
     return string
+
+def fraction_str(num: float) -> str:
+    """
+    Converts a float to a fraction string if possible. Otherwise returns the original float as a string.
+
+    Examples:
+    1.5 -> '1 1/2'
+    1.333 -> '1 1/3'
+    1.25 -> '1 1/4'
+    1.0 -> '1'
+    1.1 -> '1.1'
+    """
+    if num.is_integer():
+        return str(int(num))
+    else:
+        frac = Fraction(num).limit_denominator()
+        if frac.numerator == 1:
+            return f"{frac.numerator}/{frac.denominator}"
+        else:
+            whole_part = int(num)
+            fractional_part = frac - whole_part
+            return f"{whole_part} {fractional_part.numerator}/{fractional_part.denominator}"
+
 
 
 def pre_process_string(string: str) -> str:
@@ -96,6 +142,7 @@ def pre_process_string(string: str) -> str:
 
     """
     string = string.lower()
+    string = replace_invisible_whitespace(string)
     string = replace_fraction_unicode(string)
     string = remove_periods(string)
     string = replace_common_abbreviations(string)
