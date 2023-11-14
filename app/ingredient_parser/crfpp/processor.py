@@ -6,6 +6,8 @@ from dataclasses import dataclass
 from fractions import Fraction
 from pathlib import Path
 
+from app.logger import logger
+
 from . import utils
 from .pre_processor import normalize_ingredient
 
@@ -75,8 +77,8 @@ def _exec_crf_test(input_text):
 def convert_list_to_crf_model(list_of_ingrdeint_text: list[str]):
     try:
         crf_output = _exec_crf_test([normalize_ingredient(x) for x in list_of_ingrdeint_text])
-    except subprocess.CalledProcessError:
-        # Soft failure if crf_test fails
+    except Exception as e:
+        logger().exception("failed to run crf_test with error: %s", e)
         return []
 
     out = []
