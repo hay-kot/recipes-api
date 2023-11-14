@@ -26,6 +26,29 @@ def test_ready(client: TestClient) -> None:
     assert resp.status_code == 200
 
 
+def test_parse_clean_v2_errors(client: TestClient) -> None:
+    resp = client.post(
+        "/api/v2/scrape/clean",
+        json=[
+            {"url": "https://example.com", "html": "<html><body><h1>hello</h1></body></html>"},
+        ],
+    )
+
+    assert resp.status_code == 200
+
+    data: list[dict] = resp.json()
+
+    assert len(data) == 1
+
+    first = data[0]
+
+    assert first["url"] == "https://example.com/"
+
+    error = first["error"]
+
+    assert error == "no_schema_found"
+
+
 @pytest.mark.parametrize(
     "url,name",
     [
@@ -39,10 +62,12 @@ def test_ready(client: TestClient) -> None:
         ),
     ],
 )
-def test_parse_clean(client: TestClient, url: str, name: str) -> None:
+def test_parse_clean_v2(client: TestClient, url: str, name: str) -> None:
     resp = client.post(
-        "/api/v1/scrape/clean",
-        json={"urls": [], "html": {url: readHTML(name + ".html")}},
+        "/api/v2/scrape/clean",
+        json=[
+            {"url": url, "html": readHTML(name + ".html")},
+        ],
     )
 
     expect = readRecipe(name + ".json")

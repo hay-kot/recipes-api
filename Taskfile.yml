@@ -5,18 +5,25 @@ version: "3"
 vars:
   GREETING: Hello, World!
 
+dotenv:
+  - .env
+
 tasks:
+  stub:
+    desc: stubs poetry version for python based on $PROJECT_PYTHON
+    cmds:
+      - poetry env use $PROJECT_PYTHON
+
+  install:
+    desc: installs dependencies
+    cmds:
+      - poetry install --with=dev --no-root --all-extras
+
   setup:
     desc: setups the project for development
-    cmds: 
-      - pip install -r requirements-dev.txt
-      - python install.py
-
-  compile:
-    desc: runs pip-compile for dev and prod
     cmds:
-      - pip-compile --output-file requirements.txt pyproject.toml
-      - pip-compile --extra=dev --output-file=requirements-dev.txt pyproject.toml
+      - task: stub
+      - task: install
 
   run:
     desc: Run the main script
@@ -26,7 +33,7 @@ tasks:
   sync:
     desc: Sync dependencies from venv to requirements.txt
     cmds:
-      - pip-sync
+      - poetry install --with=dev --no-root --all-extras --sync
 
   test:
     desc: Run tests
@@ -36,12 +43,12 @@ tasks:
   lint:
     desc: runs linters and applies fixes
     cmds:
-      - black . 
+      - ruff format .
       - ruff . --fix
 
   pr:
     desc: runs linters and checks for PR
     cmds:
-      - python -m black . --check
-      - python -m ruff .
-      - pytest tests
+      - ./.venv/bin/python -m ruff format . --check
+      - ./.venv/bin/python -m ruff .
+      - ./.venv/bin/python -m pytest tests

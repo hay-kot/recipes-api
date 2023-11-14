@@ -11,8 +11,7 @@ MATCH_DIGITS = re.compile(r"\d+([.,]\d+)?")
 """ Allow for commas as decimals (common in Europe) """
 
 MATCH_ISO_STR = re.compile(
-    r"^P((\d+)Y)?((\d+)M)?((?P<days>\d+)D)?"
-    r"T((?P<hours>\d+)H)?((?P<minutes>\d+)M)?((?P<seconds>\d+(?:\.\d+)?)S)?$",
+    r"^P((\d+)Y)?((\d+)M)?((?P<days>\d+)D)?" r"T((?P<hours>\d+)H)?((?P<minutes>\d+)M)?((?P<seconds>\d+(?:\.\d+)?)S)?$",
 )
 """ Match Duration Strings """
 
@@ -48,9 +47,7 @@ def clean(recipe_data: dict, url=None) -> dict:
         "recipeCategory": clean_category_like(recipe_data.get("recipeCategory", None)),
         "recipeYield": clean_yield(recipe_data.get("recipeYield")),
         "recipeIngredient": clean_ingredients(recipe_data.get("recipeIngredient", [])),
-        "recipeInstructions": clean_instructions(
-            recipe_data.get("recipeInstructions", [])
-        ),
+        "recipeInstructions": clean_instructions(recipe_data.get("recipeInstructions", [])),
         "images": clean_image(recipe_data.get("image")),
         "orgUrl": url,
         "url": url,
@@ -84,18 +81,11 @@ def clean_string(text: str | list | int) -> str:
     cleaned_text = MATCH_MULTI_SPACE.sub(" ", cleaned_text)
     cleaned_text = MATCH_ERRONEOUS_WHITE_SPACE.sub("\n\n", cleaned_text)
 
-    cleaned_text = (
-        cleaned_text.replace("</p>", "\n")
-        .replace("\xa0", " ")
-        .replace("\t", " ")
-        .strip()
-    )
+    cleaned_text = cleaned_text.replace("</p>", "\n").replace("\xa0", " ").replace("\t", " ").strip()
     return cleaned_text
 
 
-def clean_image(
-    image: str | list | dict | None = None, default: str = "no image"
-) -> list[str]:
+def clean_image(image: str | list | dict | None = None, default: str = "no image") -> list[str]:
     """
     image attempts to parse the image field from a recipe and return a string. Currenty
 
@@ -138,9 +128,7 @@ def clean_image(
             raise TypeError(f"Unexpected type for image: {type(image)}, {image}")
 
 
-def clean_instructions(
-    steps_object: list | dict | str, default: list | None = None
-) -> list[dict]:
+def clean_instructions(steps_object: list | dict | str, default: list | None = None) -> list[dict]:
     """
     instructions attempts to parse the instructions field from a recipe and return a list of
     dictionaries. See match statement for supported types and structures
@@ -181,9 +169,7 @@ def clean_instructions(
                         out.extend(ss)
 
             return out
-        case {0: {"text": str()}} | {"0": {"text": str()}} | {1: {"text": str()}} | {
-            "1": {"text": str()}
-        }:
+        case {0: {"text": str()}} | {"0": {"text": str()}} | {1: {"text": str()}} | {"1": {"text": str()}}:
             # Some recipes have a dict with a string key representing the index, unsure if these can
             # be an int or not so we match against both. Additionally, we match against both 0 and 1 indexed
             # list like dicts.
@@ -221,9 +207,7 @@ def clean_instructions(
             # ]
             #
             return [
-                {"text": _sanitize_instruction_text(instruction)}
-                for instruction in steps_object
-                if instruction.strip()
+                {"text": _sanitize_instruction_text(instruction)} for instruction in steps_object if instruction.strip()
             ]
         case [{"@type": "HowToSection"}, *_] | [{"type": "HowToSection"}, *_]:
             # HowToSections should have the following layout,
@@ -245,9 +229,7 @@ def clean_instructions(
                 )
             )
         case _:
-            raise TypeError(
-                f"Unexpected type for instructions: {type(steps_object)}, {steps_object}"
-            )
+            raise TypeError(f"Unexpected type for instructions: {type(steps_object)}, {steps_object}")
 
 
 def _sanitize_instruction_text(line: str | dict) -> str:
@@ -279,9 +261,7 @@ def _sanitize_instruction_text(line: str | dict) -> str:
     return clean_line
 
 
-def clean_ingredients(
-    ingredients: list | str | None, default: list = None
-) -> list[str]:
+def clean_ingredients(ingredients: list | str | None, default: list = None) -> list[str]:
     """
     ingredient attempts to parse the ingredients field from a recipe and return a list of
 
@@ -301,9 +281,7 @@ def clean_ingredients(
         case str(ingredients):
             return [clean_string(ingredient) for ingredient in ingredients.splitlines()]
         case _:
-            raise TypeError(
-                f"Unexpected type for ingredients: {type(ingredients)}, {ingredients}"
-            )
+            raise TypeError(f"Unexpected type for ingredients: {type(ingredients)}, {ingredients}")
 
 
 def clean_yield(yld: str | list[str] | None) -> str:
@@ -363,9 +341,7 @@ def clean_time(time_entry: str | timedelta | None | dict) -> None | str:
         case {"@type": "Duration", "minValue": str(), "maxValue": str()}:
             return clean_time(time_entry["maxValue"])
         case _:
-            raise TypeError(
-                f"Unexpected type for time: {type(time_entry)}, {time_entry}"
-            )
+            raise TypeError(f"Unexpected type for time: {type(time_entry)}, {time_entry}")
 
 
 def parse_duration(iso_duration: str) -> timedelta:
@@ -467,9 +443,7 @@ def clean_category_like(category: str | list) -> list[str]:
             #
             return [cat["name"] for cat in category if "name" in cat]
         case _:
-            raise TypeError(
-                f"Unexpected type for category: {type(category)}, {category}"
-            )
+            raise TypeError(f"Unexpected type for category: {type(category)}, {category}")
 
 
 def clean_nutrition(nutrition: dict | None) -> dict[str, str]:
@@ -496,8 +470,6 @@ def clean_nutrition(nutrition: dict | None) -> dict[str, str]:
     if sodium := nutrition.get("sodiumContent", None):
         if isinstance(sodium, str) and "m" not in sodium and "g" in sodium:
             with contextlib.suppress(AttributeError, TypeError):
-                output_nutrition["sodiumContent"] = str(
-                    float(output_nutrition["sodiumContent"]) * 1000
-                )
+                output_nutrition["sodiumContent"] = str(float(output_nutrition["sodiumContent"]) * 1000)
 
     return output_nutrition

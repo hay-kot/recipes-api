@@ -3,9 +3,7 @@ from fastapi.middleware.gzip import GZipMiddleware
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 
-from app import __version__, config, logger
-from app.ingredient_parser import routes as ingredient_parser_routes
-from app.scraper import routes as scraper_routes
+from app import __version__, config, logger, v2
 
 settings = config.settings()
 
@@ -25,9 +23,7 @@ def mount_auth_middleware(app: FastAPI) -> None:
             auth_header = request.headers.get("Authorization")
 
             if auth_header is None or auth_header != settings.auth_key:
-                return JSONResponse(
-                    status_code=401, content={"message": "Unauthorized"}
-                )
+                return JSONResponse(status_code=401, content={"message": "Unauthorized"})
         return await call_next(request)
 
     app.middleware("http")(auth_middleware)
@@ -37,8 +33,7 @@ if settings.auth_key:
     mount_auth_middleware(app)
 
 
-app.include_router(ingredient_parser_routes.router, prefix="/api")
-app.include_router(scraper_routes.router, prefix="/api")
+app.include_router(v2.router, prefix="/api/v2")
 
 
 @app.on_event("startup")

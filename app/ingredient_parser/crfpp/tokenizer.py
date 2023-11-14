@@ -43,8 +43,4 @@ def tokenize(s):
         s = s.replace(unit + "/", unit + " ")
         s = s.replace(unit + "s/", unit + "s ")
 
-    return [
-        token.strip()
-        for token in re.split(r"([,()\s]{1})", clumpFractions(s))
-        if token and token.strip()
-    ]
+    return [token.strip() for token in re.split(r"([,()\s]{1})", clumpFractions(s)) if token and token.strip()]
