@@ -9,6 +9,9 @@ jobs:
   publish:
     name: "Publish recipes-api"
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -31,9 +34,6 @@ jobs:
           echo "__version__ = \"${{ github.event.release.tag_name }}\"" > ./app/__init__.py
 
       - name: build release tagged the image
-        permissions:
-          contents: read
-          packages: write
         run: |
           docker build --push --no-cache \
             --tag ghcr.io/hay-kot/recipes-api:latest \
