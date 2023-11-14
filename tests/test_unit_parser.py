@@ -47,7 +47,10 @@ class IngredientCase:
 
 
 def crf_exists() -> bool:
-    return shutil.which("crf_test") is not None
+    try:
+        return shutil.which("crf_test") is not None
+    except Exception:
+        return False
 
 
 # TODO - add more robust test cases
