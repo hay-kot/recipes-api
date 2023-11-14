@@ -16,7 +16,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-fastapi = { version = "~0.103.2", extras = [] }
+fastapi = { version = "~0.104.0", extras = [] }
 httpx = "~0.24.0"
 lxml = "~4.9.3"
 pydantic = "~2.1.1"
