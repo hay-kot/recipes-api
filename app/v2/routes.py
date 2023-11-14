@@ -69,7 +69,6 @@ async def scrape_recipe_clean(req: list[ScrapeRequest]):
                 )
             )
 
-
         results.append(
             CleanedScrapeResponse(
                 url=d.url,
