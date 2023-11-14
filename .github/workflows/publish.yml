@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: login to container registry
         run: echo $CR_PAT | docker login ghcr.io --username hay-kot --password-stdin
