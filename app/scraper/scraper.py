@@ -65,9 +65,6 @@ def to_schema_data(scraper: AbstractScraper) -> dict[str, Any]:
     }
 
 
-
-
-
 class ScrapeJob:
     def __init__(self, url: AnyHttpUrl, html: str | None):
         self.url = url
