@@ -23,22 +23,10 @@ async def scrape_recipe(req: list[ScrapeRequest]):
     results = []
     for d in data:
         if d.error:
-            results.append(
-                ScrapeResponse(
-                    url=d.url,
-                    data=None,
-                    error=ScrapeError.from_exception(d.error),
-                )
-            )
+            results.append(ScrapeResponse(url=d.url, data=None, error=ScrapeError.from_exception(d.error)))
             continue
 
-        results.append(
-            ScrapeResponse(
-                url=d.url,
-                data=d.data,
-                error=None,
-            )
-        )
+        results.append(ScrapeResponse(url=d.url, data=d.data, error=None))
 
     return results
 

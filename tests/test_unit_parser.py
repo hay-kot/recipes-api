@@ -27,6 +27,7 @@ from app.ingredient_parser.crfpp.processor import convert_list_to_crf_model
         ("2-3 tablespoons soy sauce", "2 1/2 tablespoon soy sauce"),
         ("1 to 2 teaspoons cayenne pepper", "1 1/2 teaspoon cayenne pepper"),
         ("1 ½ teaspoons ground black pepper", "1 1/2 teaspoon ground black pepper"),
+        ("¾ tsp. Diamond Crystal or ½ tsp. Morton kosher salt, plus more", "3/4 teaspoon Diamond Crystal (or 1/2 teaspoon Morton kosher salt), plus more"),
     ],
 )
 def test_normalize_ingredeint(input: str, expect: str) -> None:
@@ -42,6 +43,9 @@ class IngredientCase:
     comments: str
 
 
+def crf_exists() -> bool:
+    return shutil.which("crf_test") is not None
+
 # TODO - add more robust test cases
 test_ingredients = [
     IngredientCase("½ cup all-purpose flour", 0.5, "cup", "all-purpose flour", ""),
@@ -49,13 +53,9 @@ test_ingredients = [
     IngredientCase("⅔ cup unsweetened flaked coconut", 0.667, "cup", "coconut", "unsweetened flaked"),
     IngredientCase("⅓ cup panko bread crumbs", 0.333, "cup", "panko bread crumbs", ""),
     IngredientCase("1/8 cup all-purpose flour", 0.125, "cup", "all-purpose flour", ""),
+    IngredientCase("3.5 cup all-purpose flour", 3.5, "cup", "all-purpose flour", ""),
     IngredientCase("1/32 cup all-purpose flour", 0.031, "cup", "all-purpose flour", ""),
 ]
-
-
-def crf_exists() -> bool:
-    return shutil.which("crf_test") is not None
-
 
 @mark.skipif(not crf_exists(), reason="CRF++ not installed")
 def test_nlp_parser():

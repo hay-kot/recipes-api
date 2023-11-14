@@ -271,26 +271,10 @@ def test_cleaner_clean_ingredients(ingredients: CleanerCase):
 
 
 yield_test_cases = (
-    CleanerCase(
-        test_id="empty string",
-        input="",
-        expected="",
-    ),
-    CleanerCase(
-        test_id="list of strings",
-        input=["Makes 4 Batches", "4 Batches"],
-        expected="4 Batches",
-    ),
-    CleanerCase(
-        test_id="basic string",
-        input="Makes 4 Batches",
-        expected="Makes 4 Batches",
-    ),
-    CleanerCase(
-        test_id="empty list",
-        input=[],
-        expected="",
-    ),
+    CleanerCase(test_id="empty string", input="", expected=""),
+    CleanerCase(test_id="list of strings", input=["Makes 4 Batches", "4 Batches"], expected="4 Batches"),
+    CleanerCase(test_id="basic string", input="Makes 4 Batches", expected="Makes 4 Batches"),
+    CleanerCase(test_id="empty list", input=[], expected=""),
 )
 
 
@@ -301,66 +285,18 @@ def test_cleaner_clean_yield_amount(case: CleanerCase):
 
 
 time_test_cases = (
-    CleanerCase(
-        test_id="empty string",
-        input="",
-        expected=None,
-    ),
-    CleanerCase(
-        test_id="emtpy whitespace",
-        input=" ",
-        expected=None,
-    ),
-    CleanerCase(
-        test_id="none",
-        input=None,
-        expected=None,
-    ),
-    CleanerCase(
-        test_id="invalid string",
-        input="invalid",
-        expected="invalid",
-    ),
-    CleanerCase(
-        test_id="timedelta",
-        input=timedelta(minutes=30),
-        expected="30 Minutes",
-    ),
-    CleanerCase(
-        test_id="timedelta string (1)",
-        input="PT2H30M",
-        expected="2 Hours 30 Minutes",
-    ),
-    CleanerCase(
-        test_id="timedelta string (2)",
-        input="PT30M",
-        expected="30 Minutes",
-    ),
-    CleanerCase(
-        test_id="timedelta string (3)",
-        input="PT2H",
-        expected="2 Hours",
-    ),
-    CleanerCase(
-        test_id="timedelta string (4)",
-        input="P1DT1H1M1S",
-        expected="1 day 1 Hour 1 Minute 1 Second",
-    ),
-    CleanerCase(
-        test_id="timedelta string (4)",
-        input="P1DT1H1M1.53S",
-        expected="1 day 1 Hour 1 Minute 1 Second",
-    ),
-    CleanerCase(
-        test_id="timedelta string (5) invalid",
-        input="PT",
-        expected="none",
-    ),
-    CleanerCase(
-        test_id="timedelta string (6) PT-3H",
-        input="PT-3H",
-        expected="PT-3H",
-    ),
+    CleanerCase(test_id="empty string", input="", expected=None),
+    CleanerCase(test_id="emtpy whitespace", input=" ", expected=None),
+    CleanerCase(test_id="none", input=None, expected=None),
+    CleanerCase(test_id="invalid string", input="invalid", expected="invalid"),
+    CleanerCase(test_id="timedelta", input=timedelta(minutes=30), expected="30 Minutes"),
+    CleanerCase(test_id="timedelta string (1)", input="PT2H30M", expected="2 Hours 30 Minutes"),
+    CleanerCase(test_id="timedelta string (2)", input="PT30M", expected="30 Minutes"),
+    CleanerCase(test_id="timedelta string (3)", input="PT2H", expected="2 Hours"),
+    CleanerCase(test_id="timedelta string (4)", input="P1DT1H1M1S", expected="1 day 1 Hour 1 Minute 1 Second"),
+    CleanerCase(test_id="timedelta string (4)", input="P1DT1H1M1.53S", expected="1 day 1 Hour 1 Minute 1 Second"),
+    CleanerCase(test_id="timedelta string (5) invalid", input="PT", expected="none"),
+    CleanerCase(test_id="timedelta string (6) PT-3H", input="PT-3H", expected="PT-3H"),
 )
 
 
@@ -371,26 +307,10 @@ def test_cleaner_clean_time(case: CleanerCase):
 
 
 tag_test_cases = (
-    CleanerCase(
-        test_id="empty string",
-        input="",
-        expected=[],
-    ),
-    CleanerCase(
-        test_id="emtpy whitespace",
-        input=" ",
-        expected=[],
-    ),
-    CleanerCase(
-        test_id="emtpy list",
-        input=[],
-        expected=[],
-    ),
-    CleanerCase(
-        test_id="single string",
-        input="Dessert",
-        expected=["Dessert"],
-    ),
+    CleanerCase(test_id="empty string", input="", expected=[]),
+    CleanerCase(test_id="emtpy whitespace", input=" ", expected=[]),
+    CleanerCase(test_id="emtpy list", input=[], expected=[]),
+    CleanerCase(test_id="single string", input="Dessert", expected=["Dessert"]),
     CleanerCase(
         test_id="nested dictionary",
         input=[
@@ -399,26 +319,10 @@ tag_test_cases = (
         ],
         expected=["Dessert", "Lunch"],
     ),
-    CleanerCase(
-        test_id="empty string",
-        input="",
-        expected=[],
-    ),
-    CleanerCase(
-        test_id="single tag",
-        input="tag",
-        expected=["Tag"],
-    ),
-    CleanerCase(
-        test_id="comma separated tags",
-        input="tag1, tag2, tag3",
-        expected=["Tag1", "Tag2", "Tag3"],
-    ),
-    CleanerCase(
-        test_id="list of tags",
-        input=["tag1", "tag2", "tag3"],
-        expected=["Tag1", "Tag2", "Tag3"],
-    ),
+    CleanerCase(test_id="empty string", input="", expected=[]),
+    CleanerCase(test_id="single tag", input="tag", expected=["Tag"]),
+    CleanerCase(test_id="comma separated tags", input="tag1, tag2, tag3", expected=["Tag1", "Tag2", "Tag3"]),
+    CleanerCase(test_id="list of tags", input=["tag1", "tag2", "tag3"], expected=["Tag1", "Tag2", "Tag3"]),
 )
 
 
@@ -429,11 +333,7 @@ def test_cleaner_clean_category_like(case: CleanerCase):
 
 
 nutrition_test_cases = (
-    CleanerCase(
-        test_id="empty dict",
-        input={},
-        expected={},
-    ),
+    CleanerCase(test_id="empty dict", input={}, expected={}),
     CleanerCase(
         test_id="valid kets",
         input={

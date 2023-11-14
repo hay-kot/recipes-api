@@ -3,7 +3,7 @@ from fastapi.middleware.gzip import GZipMiddleware
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 
-from app import __version__, config, logger, v1, v2
+from app import __version__, config, logger, v2
 
 settings = config.settings()
 
@@ -33,7 +33,6 @@ if settings.auth_key:
     mount_auth_middleware(app)
 
 
-app.include_router(v1.router, prefix="/api/v1")
 app.include_router(v2.router, prefix="/api/v2")
 
 

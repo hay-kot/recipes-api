@@ -132,6 +132,10 @@ def fraction_str(num: float) -> str:
         else:
             whole_part = int(num)
             fractional_part = frac - whole_part
+
+            if whole_part == 0:
+                return f"{fractional_part.numerator}/{fractional_part.denominator}"
+
             return f"{whole_part} {fractional_part.numerator}/{fractional_part.denominator}"
 
 
@@ -143,7 +147,7 @@ def pre_process_string(string: str) -> str:
     1 tbs. wine, expensive or other white wine, plus more
 
     """
-    string = string.lower()
+    # string = string.lower()
     string = replace_invisible_whitespace(string)
     string = replace_fraction_unicode(string)
     string = remove_periods(string)

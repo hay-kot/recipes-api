@@ -65,43 +65,7 @@ def to_schema_data(scraper: AbstractScraper) -> dict[str, Any]:
     }
 
 
-async def scrape_recipe(
-    client: httpx.AsyncClient,
-    url: str,
-    headers: dict[str, str],
-    html: str | None,
-) -> ScrapeResponse:
-    if not html:
-        r = await client.get(url, headers=headers)
-        logging.info(f"GET {url} {r.status_code}")
-        html = r.text
-    else:
-        logging.debug(f"Using cached HTML for {url}")
 
-    return ScrapeResponse(
-        url=url,
-        data=to_schema_data(scrape_html(html, org_url=url)),
-    )
-
-
-async def scrape_urls(urls: list[AnyHttpUrl], html: dict[AnyHttpUrl, str] | None) -> list[ScrapeResponse]:
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"}
-
-    html = html or {}
-
-    async with httpx.AsyncClient() as client:
-        tasks = [
-            scrape_recipe(
-                client,
-                url.unicode_string(),
-                headers,
-                html.get(url, None),
-            )
-            for url in urls
-        ]
-        result = await asyncio.gather(*tasks)
-
-    return result
 
 
 class ScrapeJob:
