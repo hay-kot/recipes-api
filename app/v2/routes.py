@@ -56,21 +56,25 @@ async def scrape_recipe_clean(req: list[ScrapeRequest]):
 
         cleaned = Recipe(**clean(d.data, d.url))
 
+        parsed_ingredients = []
+        for i in crfpp.convert_list_to_crf_model(cleaned.ingredients):
+            parsed_ingredients.append(
+                ParsedIngredients(
+                    input=i.input,
+                    name=i.name,
+                    qty=i.qty,
+                    unit=i.unit,
+                    comment=i.comment,
+                    other=i.other,
+                )
+            )
+
+
         results.append(
             CleanedScrapeResponse(
                 url=d.url,
                 data=cleaned,
-                ingredients=[
-                    ParsedIngredients(
-                        input=i.input,
-                        name=i.name,
-                        qty=i.qty,
-                        unit=i.unit,
-                        comment=i.comment,
-                        other=i.other,
-                    )
-                    for i in crfpp.convert_list_to_crf_model(cleaned.ingredients)
-                ],
+                ingredients=parsed_ingredients,
                 error=None,
             )
         )

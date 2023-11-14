@@ -73,7 +73,11 @@ def _exec_crf_test(input_text):
 
 
 def convert_list_to_crf_model(list_of_ingrdeint_text: list[str]):
-    crf_output = _exec_crf_test([normalize_ingredient(x) for x in list_of_ingrdeint_text])
+    try:
+        crf_output = _exec_crf_test([normalize_ingredient(x) for x in list_of_ingrdeint_text])
+    except subprocess.CalledProcessError:
+        # Soft failure if crf_test fails
+        return []
 
     out = []
     for raw, normalized in zip(list_of_ingrdeint_text, utils.import_data(crf_output.split("\n"))):
