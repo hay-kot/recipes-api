@@ -863,13 +863,13 @@ networkx = ["networkx (>=2.0.0,<3.0.0)"]
 
 [[package]]
 name = "recipe-scrapers"
-version = "14.52.0"
+version = "14.53.0"
 description = "Python package, scraping recipes from all over the internet"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "recipe_scrapers-14.52.0-py3-none-any.whl", hash = "sha256:3514048808c7b7de467bfa56bea3921ecff637441cde9085186345e3ce7cabdc"},
-    {file = "recipe_scrapers-14.52.0.tar.gz", hash = "sha256:3d1d2cf7ad8c5fd73b5a0e921b3505daeddb42da705ef5c68523a465ccd8cd8f"},
+    {file = "recipe_scrapers-14.53.0-py3-none-any.whl", hash = "sha256:330353dc824f9d77a089e4830722fef940a04259a1a59a6578a162378ed6bc72"},
+    {file = "recipe_scrapers-14.53.0.tar.gz", hash = "sha256:916e1182fb497b89df8ac29cb816a9566aafc6d2bba73f60462aef42fc1bba22"},
 ]
 
 [package.dependencies]
@@ -1167,4 +1167,4 @@ requests = ">=2.0.0,<3.0.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "cb5586d57e2762e7ad2eba8a80211d1e539c38369fb2638312ba91e8e57caf23"
+content-hash = "15de8404c92e8799c201b186f1451b904cb407ceef830ce3624b8bf1ee491569"
