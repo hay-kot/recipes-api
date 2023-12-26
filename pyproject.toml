@@ -17,7 +17,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 fastapi = { version = "~0.105.0", extras = [] }
-httpx = "~0.25.0"
+httpx = "~0.26.0"
 lxml = "~4.9.3"
 pydantic = "~2.5.0"
 pydantic-settings = "~2.1.0"
