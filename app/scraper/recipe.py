@@ -1,6 +1,7 @@
 import datetime
+from typing import Annotated, Any
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, BeforeValidator, ConfigDict, Field
 
 
 class Instructions(BaseModel):
@@ -13,6 +14,20 @@ class Author(BaseModel):
 
     name: str
     url: str
+
+
+def clean_date(date: Any) -> Any:
+    if isinstance(date, str):
+        # some include EST or EDT at the end
+        date = date.split(" ")[0]
+
+    if isinstance(date, datetime.datetime):
+        return date.date()
+
+    return date
+
+
+DateLike = Annotated[datetime.date | datetime.datetime, BeforeValidator(clean_date)]
 
 
 class Recipe(BaseModel):
@@ -42,5 +57,5 @@ class Recipe(BaseModel):
     performTime: str | None = None
     totalTime: str | None = None
 
-    dateModified: datetime.datetime | None = None
-    datePublished: datetime.datetime | None = None
+    dateModified: DateLike | None = None
+    datePublished: DateLike | None = None

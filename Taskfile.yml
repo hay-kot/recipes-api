@@ -3,7 +3,7 @@
 version: "3"
 
 vars:
-  GREETING: Hello, World!
+  SNAPSHOT: 'true'
 
 dotenv:
   - .env
@@ -38,7 +38,7 @@ tasks:
   test:
     desc: Run tests
     cmds:
-      - pytest tests -s
+      - pytest tests -s {{ .CLI_ARGS }}
 
   lint:
     desc: runs linters and applies fixes

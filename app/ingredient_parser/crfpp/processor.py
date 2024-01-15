@@ -51,18 +51,22 @@ class CRFIngredient:
                 pass
 
 
-def convert_to_float(frac_str):
-    try:
+def convert_to_float(frac_str: str | float):
+    if frac_str is None:
+        return 1.0
+
+    if isinstance(frac_str, float):
+        return frac_str
+    if isinstance(frac_str, int):
         return float(frac_str)
-    except ValueError:
-        num, denom = frac_str.split("/")
+    if isinstance(frac_str, str):
+        # some format as 1-1/2 cups water
+        frac_str = frac_str.replace("-", " ")
+
         try:
-            leading, num = num.split(" ")
-            whole = float(leading)
+            return float(sum(Fraction(s) for s in frac_str.split()))
         except ValueError:
-            whole = 0
-        frac = float(num) / float(denom)
-        return whole - frac if whole < 0 else whole + frac
+            return 1.0
 
 
 def _exec_crf_test(input_text):

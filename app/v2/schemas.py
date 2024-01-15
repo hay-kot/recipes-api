@@ -3,7 +3,7 @@ from typing import Any
 
 import httpx
 from pydantic import AnyHttpUrl, BaseModel, ConfigDict
-from recipe_scrapers import NoSchemaFoundInWildMode
+from recipe_scrapers._exceptions import NoSchemaFoundInWildMode
 
 from app.scraper.recipe import Recipe
 
@@ -47,16 +47,17 @@ class ScrapeError(str, Enum):
     no_schema_found = "no_schema_found"
     """no_schema_found means the scraper could not find a schema within the side HTML"""
 
-    def from_exception(e: Exception):
+    @classmethod
+    def from_exception(cls, e: Exception):
         if e is None:
             return None
 
         if isinstance(e, httpx.HTTPError):
-            return ScrapeError.unreachable
+            return cls.unreachable
         elif isinstance(e, NoSchemaFoundInWildMode):
-            return ScrapeError.no_schema_found
+            return cls.no_schema_found
         else:
-            return ScrapeError.unknown
+            return cls.unknown
 
 
 class ScrapeRequest(BaseModel):
@@ -68,7 +69,7 @@ class ScrapeRequest(BaseModel):
 
 
 class CleanedScrapeResponse(BaseModel):
-    url: AnyHttpUrl
+    url: AnyHttpUrl | str
     """url is the url that was scraped."""
 
     data: Recipe | None = None
