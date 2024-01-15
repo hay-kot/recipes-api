@@ -5,7 +5,14 @@ from app.scraper.cleaner.cleaner import clean
 from app.scraper.recipe import Recipe
 from app.scraper.scraper import scrape_urls_v2
 
-from .schemas import CleanedScrapeResponse, ParsedIngredients, ParseRequest, ScrapeError, ScrapeRequest, ScrapeResponse
+from .schemas import (
+    CleanedScrapeResponse,
+    ParsedIngredients,
+    ParseRequest,
+    ScrapeError,
+    ScrapeRequest,
+    ScrapeResponse,
+)
 
 router = APIRouter()
 
@@ -31,7 +38,11 @@ async def scrape_recipe(req: list[ScrapeRequest]):
     return results
 
 
-@router.post("/scrape/clean", response_model=list[CleanedScrapeResponse], tags=["Recipe Web Scraper"])
+@router.post(
+    "/scrape/clean",
+    response_model=list[CleanedScrapeResponse],
+    tags=["Recipe Web Scraper"],
+)
 async def scrape_recipe_clean(req: list[ScrapeRequest]):
     """
     Scrape a list of URLs and return the cleaned recipe data.
@@ -70,6 +81,6 @@ async def scrape_recipe_clean(req: list[ScrapeRequest]):
     return results
 
 
-@router.post("/parse", response_model=dict[str, list[ParsedIngredients]], tags=["Ingredient Parser"])
+@router.post("/parse", response_model=list[ParsedIngredients], tags=["Ingredient Parser"])
 def parse_ingredients(ingredients: ParseRequest):
     return list_to_parsed_ingredients(ingredients.ingredients)
