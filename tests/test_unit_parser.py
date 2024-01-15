@@ -1,4 +1,3 @@
-import shutil
 from dataclasses import dataclass
 
 import pytest
@@ -47,8 +46,6 @@ class IngredientCase:
 
 
 # TODO - add more robust test cases
-
-
 @mark.parametrize(
     "testcase",
     [

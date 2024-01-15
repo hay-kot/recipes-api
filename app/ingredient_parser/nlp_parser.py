@@ -23,16 +23,17 @@ def list_to_parsed_ingredients(ingredients: list[str]) -> list[ParsedIngredients
         elif parsed_ingredient.comment:
             comment = parsed_ingredient.comment.text
 
-        parsed_ingredients.append(ParsedIngredients(
-            input=ingredient,
-            name=parsed_ingredient.name.text if parsed_ingredient.name else "",
-            qty=convert_to_float(amount.quantity) if amount else 1.0,
-            unit=amount.unit if amount else "",
-            confidence=amount.confidence if amount else 0.0,
-            comment=comment,
-            other=parsed_ingredient.other.text if parsed_ingredient.other else "",
-        ))
-
+        parsed_ingredients.append(
+            ParsedIngredients(
+                input=ingredient,
+                name=parsed_ingredient.name.text if parsed_ingredient.name else "",
+                qty=convert_to_float(amount.quantity) if amount else 1.0,
+                unit=amount.unit if amount else "",
+                confidence=amount.confidence if amount else 0.0,
+                comment=comment,
+                other=parsed_ingredient.other.text if parsed_ingredient.other else "",
+            )
+        )
 
     return parsed_ingredients
 
