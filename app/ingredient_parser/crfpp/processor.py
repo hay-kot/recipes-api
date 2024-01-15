@@ -59,7 +59,7 @@ def convert_to_float(frac_str: str | float):
         return frac_str
     if isinstance(frac_str, int):
         return float(frac_str)
-    if isinstance(frac_str, str): 
+    if isinstance(frac_str, str):
         # some format as 1-1/2 cups water
         frac_str = frac_str.replace("-", " ")
 

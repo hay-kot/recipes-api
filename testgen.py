@@ -128,7 +128,6 @@ async def main():
                 last_of_path_segment = segment
                 break
 
-
         htmlpath = testfiledir / f"{host}__{last_of_path_segment}.html"
 
         with htmlpath.open("w") as f:

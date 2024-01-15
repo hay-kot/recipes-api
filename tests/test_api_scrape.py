@@ -53,8 +53,6 @@ def test_parse_clean_v2_errors(client: TestClient) -> None:
     assert error == "no_schema_found"
 
 
-
-
 def load_test_cases() -> list[tuple[str, str]]:
     test_cases = []
 

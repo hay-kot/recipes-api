@@ -1,7 +1,7 @@
 import datetime
 from typing import Annotated, Any
 
-from pydantic import BeforeValidator, BaseModel, ConfigDict, Field
+from pydantic import BaseModel, BeforeValidator, ConfigDict, Field
 
 
 class Instructions(BaseModel):
