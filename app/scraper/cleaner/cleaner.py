@@ -30,7 +30,7 @@ def clean(recipe_data: dict, url=None) -> dict:
     and format the data into an accectable format for the database
 
     Args:
-        recipe_data (dict): raw recipe dicitonary
+        recipe_data (dict): raw recipe dictionary
 
     Returns:
         dict: cleaned recipe dictionary
@@ -56,7 +56,7 @@ def clean(recipe_data: dict, url=None) -> dict:
     }
 
     cuisines = recipe_data.get("recipeCuisine", [])
-    if len(cuisines) == 1:
+    if cuisines and len(cuisines) == 1:
         recipe_copy["recipeCuisine"] = cuisines[0]
 
     return recipe_copy
@@ -228,6 +228,8 @@ def clean_instructions(steps_object: list | dict | str, default: list | None = N
                     [],
                 )
             )
+        case [list()]:
+            return clean_instructions(steps_object[0])
         case _:
             raise TypeError(f"Unexpected type for instructions: {type(steps_object)}, {steps_object}")
 

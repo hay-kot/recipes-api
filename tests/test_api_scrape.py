@@ -3,21 +3,22 @@ import os
 import pathlib
 
 import pytest
+from bs4 import BeautifulSoup
 from fastapi.testclient import TestClient
 
 from app.scraper.recipe import Recipe
 
-CWD = pathlib.Path(__file__).parent
+__filepath = pathlib.Path(__file__).parent
 
 SNAPSHOT = os.environ.get("SNAPSHOT", False) in {"1", "true", "True"}
 
 
-def readHTML(name: str) -> str:
-    return CWD.joinpath("testdata", name).read_text()
+def read_recipe_html(name: str) -> str:
+    return __filepath.joinpath("testdata", name).read_text()
 
 
-def readRecipe(name: str) -> Recipe:
-    js = json.loads(CWD.joinpath("testdata", name).read_text())
+def read_recipe_json(name: str) -> Recipe:
+    js = json.loads(__filepath.joinpath("testdata", name).read_text())
     return Recipe(**js)
 
 
@@ -30,7 +31,10 @@ def test_parse_clean_v2_errors(client: TestClient) -> None:
     resp = client.post(
         "/api/v2/scrape/clean",
         json=[
-            {"url": "https://example.com", "html": "<html><body><h1>hello</h1></body></html>"},
+            {
+                "url": "https://example.com",
+                "html": "<html><body><h1>hello</h1></body></html>",
+            },
         ],
     )
 
@@ -49,28 +53,37 @@ def test_parse_clean_v2_errors(client: TestClient) -> None:
     assert error == "no_schema_found"
 
 
+
+
+def load_test_cases() -> list[tuple[str, str]]:
+    test_cases = []
+
+    for path in __filepath.joinpath("testdata").glob("*.html"):
+        html = path.read_text()
+
+        soup = BeautifulSoup(html, "html.parser")
+
+        # get canonical url
+        canonical = soup.find("link", {"rel": "canonical"})
+
+        if canonical:
+            href = canonical.get("href")
+            test_cases.append((href, path.stem))
+
+    return test_cases
+
+
 @pytest.mark.parametrize(
     "url,name",
-    [
-        (
-            "https://www.seriouseats.com/homemade-merguez-sausage-recipe",
-            "homemade-merguez-sausage-recipe",
-        ),
-        (
-            "https://www.bonappetit.com/recipe/pimento-cheese-crackers",
-            "pimento-cheese-crackers",
-        ),
-    ],
+    load_test_cases(),
 )
 def test_parse_clean_v2(client: TestClient, url: str, name: str) -> None:
     resp = client.post(
         "/api/v2/scrape/clean",
         json=[
-            {"url": url, "html": readHTML(name + ".html")},
+            {"url": url, "html": read_recipe_html(name + ".html")},
         ],
     )
-
-    expect = readRecipe(name + ".json")
 
     assert resp.status_code == 200
 
@@ -85,11 +98,13 @@ def test_parse_clean_v2(client: TestClient, url: str, name: str) -> None:
     recipe = Recipe(**first["data"])
 
     if SNAPSHOT:
-        snapshot = CWD / "snapshots" / (name + ".json")
+        snapshot = __filepath / "snapshots" / (name + ".json")
         snapshot.parent.mkdir(parents=True, exist_ok=True)
 
         with snapshot.open("w") as f:
             f.write(json.dumps(first["data"], indent=2))
+
+    expect = read_recipe_json(name + ".json")
 
     assert recipe.name == expect.name
     assert recipe.url == expect.url

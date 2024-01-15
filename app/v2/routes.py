@@ -62,7 +62,7 @@ async def scrape_recipe_clean(req: list[ScrapeRequest]):
                 ParsedIngredients(
                     input=i.input,
                     name=i.name,
-                    qty=i.qty,
+                    qty=i.qty if i.qty else 0.0,
                     unit=i.unit,
                     comment=i.comment,
                     other=i.other,
