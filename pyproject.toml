@@ -15,7 +15,7 @@ authors = ["Hayden"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.10, <3.12"
 fastapi = { version = "~0.109.0", extras = [] }
 httpx = "~0.26.0"
 lxml = "~5.1.0"
@@ -24,6 +24,7 @@ pydantic-settings = "~2.1.0"
 quantulum3 = { version = "~0.9.0", extras = ["classifier"] }
 recipe-scrapers = "~14.53.0"
 uvicorn = "~0.25.0"
+ingredient-parser-nlp = "^0.1.0b7"
 
 
 [tool.poetry.group.dev.dependencies]

@@ -153,8 +153,8 @@ def pre_process_string(string: str) -> str:
     string = remove_periods(string)
     string = replace_common_abbreviations(string)
 
-    if " or " in string:
-        string = wrap_or_clause(string)
+    # if " or " in string:
+    #     string = wrap_or_clause(string)
 
     # Remove duplicate whitespace
     string = " ".join(string.split())

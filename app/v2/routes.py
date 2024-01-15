@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 
-from app.ingredient_parser import crfpp
+from app.ingredient_parser.nlp_parser import list_to_parsed_ingredients
 from app.scraper.cleaner.cleaner import clean
 from app.scraper.recipe import Recipe
 from app.scraper.scraper import scrape_urls_v2
@@ -56,18 +56,7 @@ async def scrape_recipe_clean(req: list[ScrapeRequest]):
 
         cleaned = Recipe(**clean(d.data, d.url))
 
-        parsed_ingredients = []
-        for i in crfpp.convert_list_to_crf_model(cleaned.ingredients):
-            parsed_ingredients.append(
-                ParsedIngredients(
-                    input=i.input,
-                    name=i.name,
-                    qty=i.qty if i.qty else 0.0,
-                    unit=i.unit,
-                    comment=i.comment,
-                    other=i.other,
-                )
-            )
+        parsed_ingredients = list_to_parsed_ingredients(cleaned.ingredients)
 
         results.append(
             CleanedScrapeResponse(
@@ -81,6 +70,6 @@ async def scrape_recipe_clean(req: list[ScrapeRequest]):
     return results
 
 
-@router.post("/parse", response_model=list[ParsedIngredients], tags=["Ingredient Parser"])
+@router.post("/parse", response_model=dict[str, list[ParsedIngredients]], tags=["Ingredient Parser"])
 def parse_ingredients(ingredients: ParseRequest):
-    return crfpp.convert_list_to_crf_model(ingredients.ingredients)
+    return list_to_parsed_ingredients(ingredients.ingredients)

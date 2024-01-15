@@ -1,11 +1,10 @@
-import shutil
 from dataclasses import dataclass
 
 import pytest
 from pytest import mark
 
 from app.ingredient_parser.crfpp.pre_processor import normalize_ingredient
-from app.ingredient_parser.crfpp.processor import convert_list_to_crf_model
+from app.ingredient_parser.nlp_parser import list_to_parsed_ingredients
 
 
 @mark.parametrize(
@@ -29,7 +28,7 @@ from app.ingredient_parser.crfpp.processor import convert_list_to_crf_model
         ("1 ½ teaspoons ground black pepper", "1 1/2 teaspoon ground black pepper"),
         (
             "¾ tsp. Diamond Crystal or ½ tsp. Morton kosher salt, plus more",
-            "3/4 teaspoon Diamond Crystal (or 1/2 teaspoon Morton kosher salt), plus more",
+            "3/4 teaspoon Diamond Crystal or 1/2 teaspoon Morton kosher salt, plus more",
         ),
     ],
 )
@@ -46,31 +45,24 @@ class IngredientCase:
     comments: str
 
 
-def crf_exists() -> bool:
-    try:
-        return shutil.which("crf_test") is not None
-    except Exception:
-        return False
-
-
 # TODO - add more robust test cases
-test_ingredients = [
-    IngredientCase("½ cup all-purpose flour", 0.5, "cup", "all-purpose flour", ""),
-    IngredientCase("1 ½ teaspoons ground black pepper", 1.5, "teaspoon", "black pepper", "ground"),
-    IngredientCase("⅔ cup unsweetened flaked coconut", 0.667, "cup", "coconut", "unsweetened flaked"),
-    IngredientCase("⅓ cup panko bread crumbs", 0.333, "cup", "panko bread crumbs", ""),
-    IngredientCase("1/8 cup all-purpose flour", 0.125, "cup", "all-purpose flour", ""),
-    IngredientCase("3.5 cup all-purpose flour", 3.5, "cup", "all-purpose flour", ""),
-    IngredientCase("1/32 cup all-purpose flour", 0.031, "cup", "all-purpose flour", ""),
-]
-
-
-@mark.skipif(not crf_exists(), reason="CRF++ not installed")
-def test_nlp_parser():
-    models = convert_list_to_crf_model([x.input for x in test_ingredients])
+@mark.parametrize(
+    "testcase",
+    [
+        IngredientCase("½ cup all-purpose flour", 0.5, "cups", "all-purpose flour", ""),
+        IngredientCase("1 ½ teaspoons ground black pepper", 1.5, "teaspoons", "ground black pepper", ""),
+        IngredientCase("⅔ cup unsweetened flaked coconut", 0.667, "cups", "unsweetened flaked coconut", ""),
+        IngredientCase("⅓ cup panko bread crumbs", 0.333, "cups", "panko bread crumbs", ""),
+        IngredientCase("1/8 cup all-purpose flour", 0.125, "cups", "all-purpose flour", ""),
+        IngredientCase("3.5 cup all-purpose flour", 3.5, "cups", "all-purpose flour", ""),
+        IngredientCase("1/32 cup all-purpose flour", 0.031, "cups", "all-purpose flour", ""),
+    ],
+)
+def test_nlp_parser(testcase: IngredientCase):
+    models = list_to_parsed_ingredients([testcase.input])
 
     # Iterate over models and test_ingredients to gather
-    for model, test_ingredient in zip(models, test_ingredients):
+    for model, test_ingredient in zip(models, [testcase]):
         assert round(model.qty, 3) == pytest.approx(test_ingredient.quantity)
 
         assert model.comment == test_ingredient.comments

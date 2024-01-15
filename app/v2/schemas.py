@@ -33,6 +33,8 @@ class ParsedIngredients(BaseModel):
     other: str = ""
     """extra information about the ingredient"""
 
+    confidence: float = 0.0
+
 
 class ScrapeError(str, Enum):
     unknown = "unknown"

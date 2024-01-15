@@ -1,23 +1,8 @@
-###############################################
-# CRFPP Image
-###############################################
-FROM hkotel/crfpp as crfpp
-
-ARG COMMIT
-
-RUN echo "crfpp-container"
-
 # For more information, please refer to https://aka.ms/vscode-docker-python
 FROM python:3.11-slim
 
-
 WORKDIR /app
 COPY . /app
-
-ENV LD_LIBRARY_PATH=/usr/local/lib
-COPY --from=crfpp /usr/local/lib/ /usr/local/lib
-COPY --from=crfpp /usr/local/bin/crf_learn /usr/local/bin/crf_learn
-COPY --from=crfpp /usr/local/bin/crf_test /usr/local/bin/crf_test
 
 ENV PYTHONFAULTHANDLER=1 \
     PYTHONUNBUFFERED=1 \
@@ -27,6 +12,11 @@ ENV PYTHONFAULTHANDLER=1 \
     PIP_DEFAULT_TIMEOUT=100 \
     POETRY_VERSION=1.7.0
 
+RUN apt-get update \
+    && apt-get install --no-install-recommends -y \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/* \
+    && pip install -U --no-cache-dir pip
 
 # System deps:
 RUN pip install "poetry==$POETRY_VERSION"
@@ -37,11 +27,11 @@ COPY poetry.lock pyproject.toml /app/
 RUN poetry config virtualenvs.create false \
     && poetry install --no-interaction --no-ansi --no-root --all-extras
 
-# Grab CRF++ Model Release
-RUN python /app/install.py
-
 COPY docker.run.sh run.sh
 RUN chmod +x run.sh
+
+# Pull nlp model
+RUN python /app/install.py
 
 # Creates a non-root user with an explicit UID and adds permission to access the /app folder
 # For more info, please refer to https://aka.ms/vscode-docker-python-configure-containers
