@@ -218,7 +218,7 @@ instruction_test_cases = (
 
 @pytest.mark.parametrize("instructions", instruction_test_cases, ids=(x.test_id for x in instruction_test_cases))
 def test_cleaner_instructions(instructions: CleanerCase):
-    reuslt = cleaner.clean_instructions(instructions.input)
+    result = cleaner.clean_instructions(instructions.input)
 
     expected = [
         {"text": "Instruction A"},
@@ -226,7 +226,7 @@ def test_cleaner_instructions(instructions: CleanerCase):
         {"text": "Instruction C"},
     ]
 
-    assert reuslt == expected
+    assert result == expected
 
 
 ingredients_test_cases = (
@@ -286,7 +286,7 @@ def test_cleaner_clean_yield_amount(case: CleanerCase):
 
 time_test_cases = (
     CleanerCase(test_id="empty string", input="", expected=None),
-    CleanerCase(test_id="emtpy whitespace", input=" ", expected=None),
+    CleanerCase(test_id="empty whitespace", input=" ", expected=None),
     CleanerCase(test_id="none", input=None, expected=None),
     CleanerCase(test_id="invalid string", input="invalid", expected="invalid"),
     CleanerCase(test_id="timedelta", input=timedelta(minutes=30), expected="30 Minutes"),
@@ -308,8 +308,8 @@ def test_cleaner_clean_time(case: CleanerCase):
 
 tag_test_cases = (
     CleanerCase(test_id="empty string", input="", expected=[]),
-    CleanerCase(test_id="emtpy whitespace", input=" ", expected=[]),
-    CleanerCase(test_id="emtpy list", input=[], expected=[]),
+    CleanerCase(test_id="empty whitespace", input=" ", expected=[]),
+    CleanerCase(test_id="empty list", input=[], expected=[]),
     CleanerCase(test_id="single string", input="Dessert", expected=["Dessert"]),
     CleanerCase(
         test_id="nested dictionary",
@@ -358,7 +358,7 @@ nutrition_test_cases = (
         },
     ),
     CleanerCase(
-        test_id="support `,` seperated numbers instead of `.` (common in Europe)",
+        test_id="support `,` separated numbers instead of `.` (common in Europe)",
         input={
             "calories": "100,000mg",
             "fatContent": "10,000",
