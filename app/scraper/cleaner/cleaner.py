@@ -87,13 +87,13 @@ def clean_string(text: str | list | int) -> str:
 
 def clean_image(image: str | list | dict | None = None, default: str = "no image") -> list[str]:
     """
-    image attempts to parse the image field from a recipe and return a string. Currenty
+    image attempts to parse the image field from a recipe and return a string. currently
 
     Supported Structures:
-        - `https://exmaple.com` - A string
-        - `{ "url": "https://exmaple.com" }` - A dictionary with a `url` key
-        - `["https://exmaple.com"]` - A list of strings
-        - `[{ "url": "https://exmaple.com" }]` - A list of dictionaries with a `url` key
+        - `https://example.com` - A string
+        - `{ "url": "https://example.com" }` - A dictionary with a `url` key
+        - `["https://example.com"]` - A list of strings
+        - `[{ "url": "https://example.com" }]` - A list of dictionaries with a `url` key
         - `["", [""]]`
 
     Raises:
@@ -109,7 +109,7 @@ def clean_image(image: str | list | dict | None = None, default: str = "no image
         case str(image):
             return [image]
         case [str(_), *_]:
-            # Somtimes the first item is a string but there are _lists_ of images after
+            # sometimes the first item is a string but there are _lists_ of images after
             # so we'll flatten them out
 
             results = []
@@ -263,7 +263,7 @@ def _sanitize_instruction_text(line: str | dict) -> str:
     return clean_line
 
 
-def clean_ingredients(ingredients: list | str | None, default: list = None) -> list[str]:
+def clean_ingredients(ingredients: list | str | None, default: list | None = None) -> list[str]:
     """
     ingredient attempts to parse the ingredients field from a recipe and return a list of
 
@@ -288,7 +288,7 @@ def clean_ingredients(ingredients: list | str | None, default: list = None) -> l
 
 def clean_yield(yld: str | list[str] | None) -> str:
     """
-    yield_amount attemps to parse out the yield amount from a recipe.
+    yield_amount attempts to parse out the yield amount from a recipe.
 
     Supported Structures:
         - `"4 servings"` - returns the string unmodified
@@ -302,6 +302,12 @@ def clean_yield(yld: str | list[str] | None) -> str:
 
     if isinstance(yld, list):
         return yld[-1]
+
+    if not isinstance(yld, str):
+        try:
+            return str(yld)
+        except Exception:
+            return ""
 
     return yld
 
