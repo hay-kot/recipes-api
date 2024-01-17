@@ -31,7 +31,11 @@ DateLike = Annotated[datetime.date | datetime.datetime, BeforeValidator(clean_da
 
 
 class Recipe(BaseModel):
-    model_config = ConfigDict(arbitrary_types_allowed=True)
+    model_config = ConfigDict(
+        arbitrary_types_allowed=True,
+        coerce_numbers_to_str=True,
+        strict=False,
+    )
 
     name: str
     url: str
