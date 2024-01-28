@@ -22,7 +22,7 @@ lxml = "~5.1.0"
 pydantic = "~2.5.0"
 pydantic-settings = "~2.1.0"
 quantulum3 = { version = "~0.9.0", extras = ["classifier"] }
-recipe-scrapers = "~14.53.0"
+recipe-scrapers = "~14.54.0"
 uvicorn = "~0.27.0"
 ingredient-parser-nlp = "^0.1.0b7"
 
