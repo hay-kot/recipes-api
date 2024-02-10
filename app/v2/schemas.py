@@ -13,6 +13,18 @@ class ParseRequest(BaseModel):
     """ingredients is a list of strings to parse."""
 
 
+class ParsedNutrition(BaseModel):
+    model_config = ConfigDict(arbitrary_types_allowed=True, extra="allow")
+    name: str
+    """name is the name of the nutrition"""
+
+    amount: float
+    """amount is the quantity of the nutrition"""
+
+    unit: str
+    """unit is the unit of the nutrition"""
+
+
 class ParsedIngredients(BaseModel):
     model_config = ConfigDict(arbitrary_types_allowed=True, extra="allow")
     input: str
@@ -82,6 +94,9 @@ class CleanedScrapeResponse(BaseModel):
 
     error: ScrapeError | None = None
     """error is the error that occurred while scraping."""
+
+    nutrition: list[ParsedNutrition] | None = None
+    """parsed results of the nutrition"""
 
 
 class ScrapeResponse(BaseModel):

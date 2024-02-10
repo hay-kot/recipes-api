@@ -1,13 +1,44 @@
 from fractions import Fraction
 
 from ingredient_parser import parse_ingredient
+from quantulum3 import parser
 
 from app.ingredient_parser.crfpp.pre_processor import pre_process_string
-from app.v2.schemas import ParsedIngredients
+from app.v2.schemas import ParsedIngredients, ParsedNutrition
+
+
+def dict_to_parsed_nutrition(nutrition: dict[str, str]) -> list[ParsedNutrition]:
+    parsed_nutrition: list[ParsedNutrition] = []
+
+    for key, value in nutrition.items():
+        name = key
+
+        try:
+            parsed = parser.parse(value)
+        except Exception:
+            continue
+
+        # use the first entry in the parsed list as the most likely
+
+        if len(parsed) == 0:
+            continue
+
+        entity = parsed[0]
+
+        if entity.unit is not None and entity.unit.name != "dimensionless":
+            parsed_nutrition.append(
+                ParsedNutrition(
+                    name=name,
+                    amount=entity.value,
+                    unit=entity.unit.name,
+                )
+            )
+
+    return parsed_nutrition
 
 
 def list_to_parsed_ingredients(ingredients: list[str]) -> list[ParsedIngredients]:
-    parsed_ingredients: ParsedIngredients = []
+    parsed_ingredients: list[ParsedIngredients] = []
 
     for ingredient in ingredients:
         ingredient = pre_process_string(ingredient)
