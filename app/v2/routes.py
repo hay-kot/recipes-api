@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 
-from app.ingredient_parser.nlp_parser import list_to_parsed_ingredients, dict_to_parsed_nutrition
+from app.ingredient_parser.nlp_parser import dict_to_parsed_nutrition, list_to_parsed_ingredients
 from app.scraper.cleaner.cleaner import clean
 from app.scraper.recipe import Recipe
 from app.scraper.scraper import scrape_urls_v2
@@ -68,7 +68,10 @@ async def scrape_recipe_clean(req: list[ScrapeRequest]):
         cleaned = Recipe(**clean(d.data, d.url))
 
         parsed_ingredients = list_to_parsed_ingredients(cleaned.ingredients)
-        parsed_nutrition = dict_to_parsed_nutrition(cleaned.nutrition)
+
+        parsed_nutrition = []
+        if cleaned.nutrition:
+            parsed_nutrition = dict_to_parsed_nutrition(cleaned.nutrition)
 
         results.append(
             CleanedScrapeResponse(

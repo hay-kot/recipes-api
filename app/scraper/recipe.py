@@ -29,6 +29,7 @@ def clean_date(date: Any) -> Any:
 
 DateLike = Annotated[datetime.date | datetime.datetime, BeforeValidator(clean_date)]
 
+
 class Recipe(BaseModel):
     model_config = ConfigDict(
         arbitrary_types_allowed=True,
@@ -63,4 +64,4 @@ class Recipe(BaseModel):
     dateModified: DateLike | None = None
     datePublished: DateLike | None = None
 
-    nutrition: dict[str, str] = Field(default_factory=dict)
+    nutrition: dict[str, str] | None = Field(default_factory=dict)

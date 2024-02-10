@@ -3,7 +3,7 @@ from fractions import Fraction
 from ingredient_parser import parse_ingredient
 from quantulum3 import parser
 
-from app.ingredient_parser.crfpp.pre_processor import pre_process_string
+from app.ingredient_parser.crfpp.pre_processor import normalize_ingredient, pre_process_string
 from app.v2.schemas import ParsedIngredients, ParsedNutrition
 
 
@@ -42,6 +42,7 @@ def list_to_parsed_ingredients(ingredients: list[str]) -> list[ParsedIngredients
 
     for ingredient in ingredients:
         ingredient = pre_process_string(ingredient)
+        ingredient = normalize_ingredient(ingredient)
         parsed_ingredient = parse_ingredient(ingredient)
 
         amount = None
