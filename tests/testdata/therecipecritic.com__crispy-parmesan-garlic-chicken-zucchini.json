@@ -1,46 +1,175 @@
 {
-  "name": "Crispy Parmesan Garlic Chicken with Zucchini",
   "url": "https://therecipecritic.com/crispy-parmesan-garlic-chicken-zucchini/",
-  "description": "Crispy parmesan garlic chicken with zucchini is a fantastic one-pan meal that the family will love. Crispy chicken is breaded with an amazing parmesan garlic crust paired with tender zucchini saut\u00e9ed to perfection!",
-  "recipeInstructions": [
+  "data": {
+    "name": "Crispy Parmesan Garlic Chicken with Zucchini",
+    "url": "https://therecipecritic.com/crispy-parmesan-garlic-chicken-zucchini/",
+    "description": "Crispy parmesan garlic chicken with zucchini is a fantastic one-pan meal that the family will love. Crispy chicken is breaded with an amazing parmesan garlic crust paired with tender zucchini saut\u00e9ed to perfection!",
+    "recipeInstructions": [
+      {
+        "text": "In a large skillet over medium heat melt 2 Tablespoons butter. To make the chicken: Melt the remaining 4 tablespoons of butter in a shallow dish. In another shallow dish combine bread crumbs, parmesan cheese, and flour. Dip the chicken in the butter and then coat in the bread crumb mixture and place in skillet."
+      },
+      {
+        "text": "Cook on each side for about 3-4 minutes until the outside is crispy and the chicken is cooked throughout. Set aside on plate."
+      },
+      {
+        "text": "Add 2 Tablespoons of butter back to the skillet and saute the minced garlic for a minute. Add the zucchini to the skillet and saute until tender. Salt and pepper to taste and add 1 Tablespoon parmesan. Add the chicken back to the skillet and heat for a minute or so. Serve immediately."
+      }
+    ],
+    "recipeIngredient": [
+      "2 Chicken Breasts (sliced in half, or 4 thin chicken breasts)",
+      "8 Tablespoons butter (divided)",
+      "\u00bd cup Italian Bread Crumbs",
+      "\u00bd cup plus 1 Tablespoon grated parmesan (divided)",
+      "\u00bc cup flour",
+      "2 medium zucchini (sliced)",
+      "2 garlic cloves (minced)"
+    ],
+    "recipeCuisine": "American",
+    "recipeCategory": [
+      "Dinner",
+      "Main Course"
+    ],
+    "keywords": [
+      "Chicken And Zucchini",
+      "Crispy Chicken And Zucchini"
+    ],
+    "images": [
+      "https://therecipecritic.com/wp-content/uploads/2021/07/crispychickenandzucchini.jpg",
+      "https://therecipecritic.com/wp-content/uploads/2021/07/crispychickenandzucchini-500x500.jpg",
+      "https://therecipecritic.com/wp-content/uploads/2021/07/crispychickenandzucchini-500x375.jpg",
+      "https://therecipecritic.com/wp-content/uploads/2021/07/crispychickenandzucchini-480x270.jpg"
+    ],
+    "recipeYield": "4 Servings",
+    "prepTime": "5 Minutes",
+    "performTime": null,
+    "totalTime": "25 Minutes",
+    "dateModified": null,
+    "datePublished": "2021-08-04T18:00:00Z",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "418 kcal",
+      "carbohydrateContent": "17 g",
+      "proteinContent": "27 g",
+      "fatContent": "27 g",
+      "saturatedFatContent": "15 g",
+      "cholesterolContent": "133 mg",
+      "sodiumContent": "532 mg",
+      "fiberContent": "1 g",
+      "sugarContent": "1 g",
+      "servingSize": "1 serving"
+    }
+  },
+  "ingredients": [
     {
-      "text": "In a large skillet over medium heat melt 2 Tablespoons butter. To make the chicken: Melt the remaining 4 tablespoons of butter in a shallow dish. In another shallow dish combine bread crumbs, parmesan cheese, and flour. Dip the chicken in the butter and then coat in the bread crumb mixture and place in skillet."
+      "input": "2 Chicken Breasts (sliced in half, or 4 thin chicken breasts)",
+      "name": "Chicken Breasts",
+      "qty": 2.0,
+      "unit": "",
+      "comment": "sliced in half",
+      "other": "",
+      "confidence": 0.998617
     },
     {
-      "text": "Cook on each side for about 3-4 minutes until the outside is crispy and the chicken is cooked throughout. Set aside on plate."
+      "input": "8 tablespoon butter (divided)",
+      "name": "butter",
+      "qty": 8.0,
+      "unit": "tablespoons",
+      "comment": "(divided)",
+      "other": "",
+      "confidence": 0.999347
     },
     {
-      "text": "Add 2 Tablespoons of butter back to the skillet and saute the minced garlic for a minute. Add the zucchini to the skillet and saute until tender. Salt and pepper to taste and add 1 Tablespoon parmesan. Add the chicken back to the skillet and heat for a minute or so. Serve immediately."
+      "input": "0.5 cup Italian Bread Crumbs",
+      "name": "Italian Bread Crumbs",
+      "qty": 0.5,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999536
+    },
+    {
+      "input": "0.5 cup plus 1 tablespoon grated parmesan (divided)",
+      "name": "parmesan",
+      "qty": 0.5,
+      "unit": "cups",
+      "comment": "plus 1 tablespoon grated, (divided)",
+      "other": "",
+      "confidence": 0.995085
+    },
+    {
+      "input": "0.25 cup flour",
+      "name": "flour",
+      "qty": 0.25,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.998711
+    },
+    {
+      "input": "2 medium zucchini (sliced)",
+      "name": "zucchini",
+      "qty": 2.0,
+      "unit": "medium",
+      "comment": "(sliced)",
+      "other": "",
+      "confidence": 0.994219
+    },
+    {
+      "input": "2 garlic cloves (minced)",
+      "name": "garlic",
+      "qty": 2.0,
+      "unit": "cloves",
+      "comment": "(minced)",
+      "other": "",
+      "confidence": 0.981635
     }
   ],
-  "recipeIngredient": [
-    "2 Chicken Breasts (sliced in half, or 4 thin chicken breasts)",
-    "8 Tablespoons butter (divided)",
-    "\u00bd cup Italian Bread Crumbs",
-    "\u00bd cup plus 1 Tablespoon grated parmesan (divided)",
-    "\u00bc cup flour",
-    "2 medium zucchini (sliced)",
-    "2 garlic cloves (minced)"
-  ],
-  "recipeCuisine": "American",
-  "recipeCategory": [
-    "Dinner",
-    "Main Course"
-  ],
-  "keywords": [
-    "Chicken And Zucchini",
-    "Crispy Chicken And Zucchini"
-  ],
-  "images": [
-    "https://therecipecritic.com/wp-content/uploads/2021/07/crispychickenandzucchini.jpg",
-    "https://therecipecritic.com/wp-content/uploads/2021/07/crispychickenandzucchini-500x500.jpg",
-    "https://therecipecritic.com/wp-content/uploads/2021/07/crispychickenandzucchini-500x375.jpg",
-    "https://therecipecritic.com/wp-content/uploads/2021/07/crispychickenandzucchini-480x270.jpg"
-  ],
-  "recipeYield": "4 Servings",
-  "prepTime": "5 Minutes",
-  "performTime": null,
-  "totalTime": "25 Minutes",
-  "dateModified": null,
-  "datePublished": "2021-08-04T18:00:00Z"
+  "error": null,
+  "nutrition": [
+    {
+      "name": "calories",
+      "amount": 418.0,
+      "unit": "kilocalorie"
+    },
+    {
+      "name": "carbohydrateContent",
+      "amount": 17.0,
+      "unit": "gram"
+    },
+    {
+      "name": "proteinContent",
+      "amount": 27.0,
+      "unit": "gram"
+    },
+    {
+      "name": "fatContent",
+      "amount": 27.0,
+      "unit": "gram"
+    },
+    {
+      "name": "saturatedFatContent",
+      "amount": 15.0,
+      "unit": "gram"
+    },
+    {
+      "name": "cholesterolContent",
+      "amount": 133.0,
+      "unit": "milligram"
+    },
+    {
+      "name": "sodiumContent",
+      "amount": 532.0,
+      "unit": "milligram"
+    },
+    {
+      "name": "fiberContent",
+      "amount": 1.0,
+      "unit": "gram"
+    },
+    {
+      "name": "sugarContent",
+      "amount": 1.0,
+      "unit": "gram"
+    }
+  ]
 }

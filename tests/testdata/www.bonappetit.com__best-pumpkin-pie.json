@@ -1,60 +1,203 @@
 {
-  "name": "BA\u2019s Best Pumpkin Pie",
   "url": "https://www.bonappetit.com/recipe/best-pumpkin-pie",
-  "description": "Sweetened condensed milk makes a decadent custard, while the perfect ratio of spices highlights the pumpkin flavor in our best recipe for pumpkin pie.",
-  "recipeInstructions": [
+  "data": {
+    "name": "BA\u2019s Best Pumpkin Pie",
+    "url": "https://www.bonappetit.com/recipe/best-pumpkin-pie",
+    "description": "Sweetened condensed milk makes a decadent custard, while the perfect ratio of spices highlights the pumpkin flavor in our best recipe for pumpkin pie.",
+    "recipeInstructions": [
+      {
+        "text": "Preheat oven to 425\u00b0. Roll out 1 disk Actually Perfect Pie Crust on a lightly floured work surface to a 14\" round. Transfer to a 9\" pie dish. Pick up edges and allow dough to slump down into dish, letting excess dough hang over dish. Trim, leaving about a 1\" overhang. Fold overhang under; pinch and crimp. Chill 30 minutes."
+      },
+      {
+        "text": "Line dough with parchment paper or aluminum foil, leaving some overhang. Fill with pie weights or dried beans. Bake until crust is dry around the edges and just beginning to brown, 25\u201335 minutes. Carefully remove parchment and weights and reduce oven temperature to 350\u00b0. Brush inside of crust (not the crimped edges) with 1 large egg, beaten to blend, and continue to bake until crust is set and beginning to lightly brown in the center, 10\u201315 minutes. Transfer to a wire rack and let cool.\nDo Ahead: Crust can be baked 1 day ahead; tightly wrap and store at room temperature."
+      },
+      {
+        "text": "Preheat oven to 325\u00b0. Whisk \u2153 cup (67 g) sugar, 1 tsp. ground cinnamon, \u00be tsp. Diamond Crystal or \u00bd tsp. Morton kosher salt, \u00bd tsp. ground ginger, \u00bc tsp. ground cloves, and \u00bc tsp. ground nutmeg in a large bowl until no clumps remain. Add 2 large eggs plus 1 large egg yolk, room temperature, beaten to blend, 2 cups unsweetened pumpkin pur\u00e9e, \u2154 cup sweetened condensed milk, \u2153 cup heavy cream, 2 Tbsp. maple syrup, and 2 tsp. vanilla extract and whisk until smooth. Pour into cooled crust. Bake pie until edges are set and slightly puffed but center is recessed and wobbles like Jell-O, 60\u201375 minutes (it will continue to set after baking). Transfer to a wire rack and let cool at least 3 hours before slicing. Serve with whipped cream.\nDo Ahead: Pie can be baked 1 day ahead; tightly wrap and chill. Serve warm or at room temperature. You can also freeze pumpkin pie up to 3 months in advance.\n\nEditor\u2019s note: This recipe was first printed in November 2016 as part of BA\u2019s Best, a collection of our essential recipes. Head this way for more of our favorite Thanksgiving desserts \u2192"
+      }
+    ],
+    "recipeIngredient": [
+      "1 disk Actually Perfect Pie Crust",
+      "All-purpose flour, for surface",
+      "\u2153 cup sugar",
+      "1 tsp. ground cinnamon",
+      "\u00be tsp. Diamond Crystal or \u00bd tsp. Morton kosher salt",
+      "\u00bd tsp. ground ginger",
+      "\u00bc tsp. ground cloves",
+      "\u00bc tsp. ground nutmeg",
+      "2 large eggs plus 1 large egg yolk, room temperature, beaten to blend",
+      "2 cups unsweetened pumpkin pur\u00e9e",
+      "\u2154 cup sweetened condensed milk",
+      "\u2153 cup heavy cream",
+      "2 Tbsp. maple syrup",
+      "2 tsp. vanilla extract",
+      "Whipped cream (for serving)"
+    ],
+    "recipeCuisine": null,
+    "recipeCategory": [],
+    "keywords": [
+      "Dessert",
+      "Thanksgiving",
+      "Fall",
+      "Pie",
+      "American",
+      "Pumpkin",
+      "Cinnamon",
+      "Ginger",
+      "Nutmeg",
+      "Nut-Free",
+      "Baking",
+      "Web"
+    ],
+    "images": [
+      "https://assets.bonappetit.com/photos/6525c6972eedd20d811b4590/16:9/w_5344,h_3006,c_limit/20230823-1123-THANKSGIVING-WELL-583-LEDE.jpg",
+      "https://assets.bonappetit.com/photos/6525c6972eedd20d811b4590/4:3/w_4700,h_3525,c_limit/20230823-1123-THANKSGIVING-WELL-583-LEDE.jpg",
+      "https://assets.bonappetit.com/photos/6525c6972eedd20d811b4590/1:1/w_3527,h_3527,c_limit/20230823-1123-THANKSGIVING-WELL-583-LEDE.jpg"
+    ],
+    "recipeYield": "Makes one 9\" pie",
+    "prepTime": null,
+    "performTime": null,
+    "totalTime": "2 hours (plus 4 hours 30 minutes for chilling)",
+    "dateModified": "2023-09-06T11:34:00-04:00",
+    "datePublished": "2016-11-13T08:00:00-05:00",
+    "nutrition": {}
+  },
+  "ingredients": [
     {
-      "text": "Preheat oven to 425\u00b0. Roll out 1 disk Actually Perfect Pie Crust on a lightly floured work surface to a 14\" round. Transfer to a 9\" pie dish. Pick up edges and allow dough to slump down into dish, letting excess dough hang over dish. Trim, leaving about a 1\" overhang. Fold overhang under; pinch and crimp. Chill 30 minutes."
+      "input": "1 disk Actually Perfect Pie Crust",
+      "name": "disk Actually Perfect Pie Crust",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.994287
     },
     {
-      "text": "Line dough with parchment paper or aluminum foil, leaving some overhang. Fill with pie weights or dried beans. Bake until crust is dry around the edges and just beginning to brown, 25\u201335 minutes. Carefully remove parchment and weights and reduce oven temperature to 350\u00b0. Brush inside of crust (not the crimped edges) with 1 large egg, beaten to blend, and continue to bake until crust is set and beginning to lightly brown in the center, 10\u201315 minutes. Transfer to a wire rack and let cool.\nDo Ahead: Crust can be baked 1 day ahead; tightly wrap and store at room temperature."
+      "input": "All-purpose flour, for surface",
+      "name": "All-purpose flour",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "for surface",
+      "other": "",
+      "confidence": 0.0
     },
     {
-      "text": "Preheat oven to 325\u00b0. Whisk \u2153 cup (67 g) sugar, 1 tsp. ground cinnamon, \u00be tsp. Diamond Crystal or \u00bd tsp. Morton kosher salt, \u00bd tsp. ground ginger, \u00bc tsp. ground cloves, and \u00bc tsp. ground nutmeg in a large bowl until no clumps remain. Add 2 large eggs plus 1 large egg yolk, room temperature, beaten to blend, 2 cups unsweetened pumpkin pur\u00e9e, \u2154 cup sweetened condensed milk, \u2153 cup heavy cream, 2 Tbsp. maple syrup, and 2 tsp. vanilla extract and whisk until smooth. Pour into cooled crust. Bake pie until edges are set and slightly puffed but center is recessed and wobbles like Jell-O, 60\u201375 minutes (it will continue to set after baking). Transfer to a wire rack and let cool at least 3 hours before slicing. Serve with whipped cream.\nDo Ahead: Pie can be baked 1 day ahead; tightly wrap and chill. Serve warm or at room temperature. You can also freeze pumpkin pie up to 3 months in advance.\n\nEditor\u2019s note: This recipe was first printed in November 2016 as part of BA\u2019s Best, a collection of our essential recipes. Head this way for more of our favorite Thanksgiving desserts \u2192"
+      "input": "0.333 cup sugar",
+      "name": "sugar",
+      "qty": 0.333,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.998975
+    },
+    {
+      "input": "1 teaspoon ground cinnamon",
+      "name": "ground cinnamon",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999342
+    },
+    {
+      "input": "3/4 teaspoon Diamond Crystal or 1/2 teaspoon Morton kosher salt",
+      "name": "Diamond Crystal, Morton kosher salt",
+      "qty": 0.75,
+      "unit": "teaspoons",
+      "comment": "or 0.5 teaspoon",
+      "other": "",
+      "confidence": 0.999237
+    },
+    {
+      "input": "1/2 teaspoon ground ginger",
+      "name": "ground ginger",
+      "qty": 0.5,
+      "unit": "teaspoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999104
+    },
+    {
+      "input": "1/4 teaspoon ground cloves",
+      "name": "ground cloves",
+      "qty": 0.25,
+      "unit": "teaspoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.998378
+    },
+    {
+      "input": "1/4 teaspoon ground nutmeg",
+      "name": "ground nutmeg",
+      "qty": 0.25,
+      "unit": "teaspoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.998818
+    },
+    {
+      "input": "2 large eggs plus 1 large egg yolk, room temperature, beaten to blend",
+      "name": "eggs, egg yolk, room temperature",
+      "qty": 2.0,
+      "unit": "large",
+      "comment": "plus 1 large, beaten to blend",
+      "other": "",
+      "confidence": 0.989382
+    },
+    {
+      "input": "2.0 cup unsweetened pumpkin pur\u00e9e",
+      "name": "unsweetened pumpkin pur\u00e9e",
+      "qty": 2.0,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999634
+    },
+    {
+      "input": "0.667 cup sweetened condensed milk",
+      "name": "sweetened condensed milk",
+      "qty": 0.667,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999661
+    },
+    {
+      "input": "0.333 cup heavy cream",
+      "name": "heavy cream",
+      "qty": 0.333,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999749
+    },
+    {
+      "input": "2 tablespoon maple syrup",
+      "name": "maple syrup",
+      "qty": 2.0,
+      "unit": "tablespoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999379
+    },
+    {
+      "input": "2 teaspoon vanilla extract",
+      "name": "vanilla extract",
+      "qty": 2.0,
+      "unit": "teaspoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99947
+    },
+    {
+      "input": "Whipped cream (for serving)",
+      "name": "Whipped cream",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "(for serving)",
+      "other": "",
+      "confidence": 0.0
     }
   ],
-  "recipeIngredient": [
-    "1 disk Actually Perfect Pie Crust",
-    "All-purpose flour, for surface",
-    "\u2153 cup sugar",
-    "1 tsp. ground cinnamon",
-    "\u00be tsp. Diamond Crystal or \u00bd tsp. Morton kosher salt",
-    "\u00bd tsp. ground ginger",
-    "\u00bc tsp. ground cloves",
-    "\u00bc tsp. ground nutmeg",
-    "2 large eggs plus 1 large egg yolk, room temperature, beaten to blend",
-    "2 cups unsweetened pumpkin pur\u00e9e",
-    "\u2154 cup sweetened condensed milk",
-    "\u2153 cup heavy cream",
-    "2 Tbsp. maple syrup",
-    "2 tsp. vanilla extract",
-    "Whipped cream (for serving)"
-  ],
-  "recipeCuisine": null,
-  "recipeCategory": [],
-  "keywords": [
-    "Dessert",
-    "Thanksgiving",
-    "Fall",
-    "Pie",
-    "American",
-    "Pumpkin",
-    "Cinnamon",
-    "Ginger",
-    "Nutmeg",
-    "Nut-Free",
-    "Baking",
-    "Web"
-  ],
-  "images": [
-    "https://assets.bonappetit.com/photos/6525c6972eedd20d811b4590/16:9/w_5344,h_3006,c_limit/20230823-1123-THANKSGIVING-WELL-583-LEDE.jpg",
-    "https://assets.bonappetit.com/photos/6525c6972eedd20d811b4590/4:3/w_4700,h_3525,c_limit/20230823-1123-THANKSGIVING-WELL-583-LEDE.jpg",
-    "https://assets.bonappetit.com/photos/6525c6972eedd20d811b4590/1:1/w_3527,h_3527,c_limit/20230823-1123-THANKSGIVING-WELL-583-LEDE.jpg"
-  ],
-  "recipeYield": "Makes one 9\" pie",
-  "prepTime": null,
-  "performTime": null,
-  "totalTime": "2 hours (plus 4 hours 30 minutes for chilling)",
-  "dateModified": "2023-09-06T11:34:00-04:00",
-  "datePublished": "2016-11-13T08:00:00-05:00"
+  "error": null,
+  "nutrition": []
 }

@@ -1,67 +1,268 @@
 {
-  "name": "One Pot Creamy Cajun Chicken Pasta",
   "url": "https://www.budgetbytes.com/one-pot-creamy-cajun-chicken-pasta/",
-  "description": "Cook a complete dinner in one pot with this Creamy Cajun Chicken Pasta, using mostly pantry-stable items. Perfect for busy weeknights!",
-  "recipeInstructions": [
+  "data": {
+    "name": "One Pot Creamy Cajun Chicken Pasta",
+    "url": "https://www.budgetbytes.com/one-pot-creamy-cajun-chicken-pasta/",
+    "description": "Cook a complete dinner in one pot with this Creamy Cajun Chicken Pasta, using mostly pantry-stable items. Perfect for busy weeknights!",
+    "recipeInstructions": [
+      {
+        "text": "Combine the ingredients for the Cajun seasoning in a small bowl. Cut the chicken into 1/2 to 3/4-inch cubes. Place the cubed chicken in a bowl, pour the Cajun seasoning over top, and stir to coat the chicken in spices."
+      },
+      {
+        "text": "Add the olive oil and butter to a large deep skillet. Heat the oil and butter over medium-high until the skillet is very hot and the butter is melted and foamy. Add the seasoned chicken to the skillet and cook for a couple minutes on each side, or just until the outside gets some color. The chicken does not need to be cooked through at this point."
+      },
+      {
+        "text": "Add the diced yellow onion to the skillet and continue to saut\u00e9 for about 2 minutes more, or just until the onion begins to soften. Allow the moisture from the onion to dissolve any browned bits from the bottom of the skillet."
+      },
+      {
+        "text": "Next, add the pasta, fire roasted diced tomatoes (with the juices), and chicken broth to the skillet. Stir just until everything is evenly combined, then place a lid on top and allow the broth to come up to a boil."
+      },
+      {
+        "text": "Once boiling, turn the heat down to medium-low and let the pasta simmer for about ten minutes, stirring every couple of minutes, until the pasta is tender and the liquid is thick and saucy."
+      },
+      {
+        "text": "Add the cream cheese to the skillet in chunks, then stir until it has melted into the sauce. Top the pasta with sliced green onions and serve."
+      }
+    ],
+    "recipeIngredient": [
+      "2 tsp smoked paprika ($0.20)",
+      "1 tsp oregano ($0.10)",
+      "1 tsp thyme ($0.10)",
+      "1/2 tsp garlic powder ($0.05)",
+      "1/2 tsp onion powder ($0.05)",
+      "1/4 tsp cayenne pepper ($0.03)",
+      "1/4 tsp black pepper ($0.02)",
+      "1/4 tsp salt ($0.02)",
+      "1 Tbsp olive oil ($0.16)",
+      "1 Tbsp butter ($0.13)",
+      "1 lb. boneless, skinless chicken breast ($5.47)",
+      "1 yellow onion, diced ($0.32)",
+      "1/2 lb. penne pasta (uncooked) ($0.75)",
+      "15 oz. fire roasted diced tomatoes ($1.00)",
+      "2 cups chicken broth ($0.26)",
+      "2 oz. cream cheese ($0.50)",
+      "3 green onions, sliced ($0.25)"
+    ],
+    "recipeCuisine": "American",
+    "recipeCategory": [
+      "Dinner",
+      "Main Course"
+    ],
+    "keywords": [
+      "Dinner",
+      "One Pot",
+      "Quick",
+      "Spicy"
+    ],
+    "images": [
+      "https://www.budgetbytes.com/wp-content/uploads/2018/10/One-Pot-Creamy-Cajun-Chicken-Pasta-pan.jpg",
+      "https://www.budgetbytes.com/wp-content/uploads/2018/10/One-Pot-Creamy-Cajun-Chicken-Pasta-pan-500x500.jpg",
+      "https://www.budgetbytes.com/wp-content/uploads/2018/10/One-Pot-Creamy-Cajun-Chicken-Pasta-pan-500x375.jpg",
+      "https://www.budgetbytes.com/wp-content/uploads/2018/10/One-Pot-Creamy-Cajun-Chicken-Pasta-pan-480x270.jpg"
+    ],
+    "recipeYield": "4",
+    "prepTime": "10 Minutes",
+    "performTime": null,
+    "totalTime": "30 Minutes",
+    "dateModified": null,
+    "datePublished": "2018-10-21T17:07:41Z",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "servingSize": "1 Serving",
+      "calories": "482.65 kcal",
+      "carbohydrateContent": "51.53 g",
+      "proteinContent": "34.95 g",
+      "fatContent": "14.58 g",
+      "fiberContent": "3.45 g",
+      "sodiumContent": "847.23 mg"
+    }
+  },
+  "ingredients": [
     {
-      "text": "Combine the ingredients for the Cajun seasoning in a small bowl. Cut the chicken into 1/2 to 3/4-inch cubes. Place the cubed chicken in a bowl, pour the Cajun seasoning over top, and stir to coat the chicken in spices."
+      "input": "2 teaspoon smoked paprika -1/5 dollar",
+      "name": "smoked paprika -0.2 dollar",
+      "qty": 2.0,
+      "unit": "teaspoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999598
     },
     {
-      "text": "Add the olive oil and butter to a large deep skillet. Heat the oil and butter over medium-high until the skillet is very hot and the butter is melted and foamy. Add the seasoned chicken to the skillet and cook for a couple minutes on each side, or just until the outside gets some color. The chicken does not need to be cooked through at this point."
+      "input": "1 teaspoon oregano -1/10 dollar",
+      "name": "oregano -0.1 dollar",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999354
     },
     {
-      "text": "Add the diced yellow onion to the skillet and continue to saut\u00e9 for about 2 minutes more, or just until the onion begins to soften. Allow the moisture from the onion to dissolve any browned bits from the bottom of the skillet."
+      "input": "1 teaspoon thyme -1/10 dollar",
+      "name": "thyme -0.1 dollar",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999024
     },
     {
-      "text": "Next, add the pasta, fire roasted diced tomatoes (with the juices), and chicken broth to the skillet. Stir just until everything is evenly combined, then place a lid on top and allow the broth to come up to a boil."
+      "input": "1/2 teaspoon garlic powder -1/20 dollar",
+      "name": "garlic powder -0.05 dollar",
+      "qty": 0.5,
+      "unit": "teaspoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999803
     },
     {
-      "text": "Once boiling, turn the heat down to medium-low and let the pasta simmer for about ten minutes, stirring every couple of minutes, until the pasta is tender and the liquid is thick and saucy."
+      "input": "1/2 teaspoon onion powder -1/20 dollar",
+      "name": "onion powder -0.05 dollar",
+      "qty": 0.5,
+      "unit": "teaspoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999651
     },
     {
-      "text": "Add the cream cheese to the skillet in chunks, then stir until it has melted into the sauce. Top the pasta with sliced green onions and serve."
+      "input": "1/4 teaspoon cayenne pepper -3/100 dollar",
+      "name": "cayenne pepper -0.03 dollar",
+      "qty": 0.25,
+      "unit": "teaspoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.998824
+    },
+    {
+      "input": "1/4 teaspoon black pepper -1/50 dollar",
+      "name": "black pepper -0.02 dollar",
+      "qty": 0.25,
+      "unit": "teaspoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999079
+    },
+    {
+      "input": "1/4 teaspoon salt -1/50 dollar",
+      "name": "salt -0.02 dollar",
+      "qty": 0.25,
+      "unit": "teaspoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999488
+    },
+    {
+      "input": "1 tablespoon olive oil -4/25 dollar",
+      "name": "olive oil -0.16 dollar",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99927
+    },
+    {
+      "input": "1 tablespoon butter -13/100 dollar",
+      "name": "butter -0.13 dollar",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999664
+    },
+    {
+      "input": "1 pound boneless, skinless chicken breast ($5.47)",
+      "name": "boneless, skinless chicken breast",
+      "qty": 1.0,
+      "unit": "pound",
+      "comment": "($5.47)",
+      "other": "",
+      "confidence": 0.998377
+    },
+    {
+      "input": "1 yellow onion, diced -8/25 dollar",
+      "name": "yellow onion",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "diced -0.32 dollar",
+      "other": "",
+      "confidence": 0.99826
+    },
+    {
+      "input": "1/2 pound penne pasta (uncooked) ($0.75)",
+      "name": "penne pasta",
+      "qty": 0.5,
+      "unit": "pounds",
+      "comment": "(uncooked) ($0.75)",
+      "other": "",
+      "confidence": 0.998915
+    },
+    {
+      "input": "15.0 ounce fire roasted diced tomatoes -1 dollar",
+      "name": "fire roasted diced tomatoes -1 dollar",
+      "qty": 15.0,
+      "unit": "ounces",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99693
+    },
+    {
+      "input": "2.0 cup chicken broth -13/50 dollar",
+      "name": "chicken broth -0.26 dollar",
+      "qty": 2.0,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999426
+    },
+    {
+      "input": "2.0 ounce cream cheese -1/2 dollar",
+      "name": "cream cheese -0.5 dollar",
+      "qty": 2.0,
+      "unit": "ounces",
+      "comment": "",
+      "other": "",
+      "confidence": 0.997374
+    },
+    {
+      "input": "3 green onions, sliced -1/4 dollar",
+      "name": "green onions",
+      "qty": 3.0,
+      "unit": "",
+      "comment": "sliced -0.25 dollar",
+      "other": "",
+      "confidence": 0.998468
     }
   ],
-  "recipeIngredient": [
-    "2 tsp smoked paprika ($0.20)",
-    "1 tsp oregano ($0.10)",
-    "1 tsp thyme ($0.10)",
-    "1/2 tsp garlic powder ($0.05)",
-    "1/2 tsp onion powder ($0.05)",
-    "1/4 tsp cayenne pepper ($0.03)",
-    "1/4 tsp black pepper ($0.02)",
-    "1/4 tsp salt ($0.02)",
-    "1 Tbsp olive oil ($0.16)",
-    "1 Tbsp butter ($0.13)",
-    "1 lb. boneless, skinless chicken breast ($5.47)",
-    "1 yellow onion, diced ($0.32)",
-    "1/2 lb. penne pasta (uncooked) ($0.75)",
-    "15 oz. fire roasted diced tomatoes ($1.00)",
-    "2 cups chicken broth ($0.26)",
-    "2 oz. cream cheese ($0.50)",
-    "3 green onions, sliced ($0.25)"
-  ],
-  "recipeCuisine": "American",
-  "recipeCategory": [
-    "Dinner",
-    "Main Course"
-  ],
-  "keywords": [
-    "Dinner",
-    "One Pot",
-    "Quick",
-    "Spicy"
-  ],
-  "images": [
-    "https://www.budgetbytes.com/wp-content/uploads/2018/10/One-Pot-Creamy-Cajun-Chicken-Pasta-pan.jpg",
-    "https://www.budgetbytes.com/wp-content/uploads/2018/10/One-Pot-Creamy-Cajun-Chicken-Pasta-pan-500x500.jpg",
-    "https://www.budgetbytes.com/wp-content/uploads/2018/10/One-Pot-Creamy-Cajun-Chicken-Pasta-pan-500x375.jpg",
-    "https://www.budgetbytes.com/wp-content/uploads/2018/10/One-Pot-Creamy-Cajun-Chicken-Pasta-pan-480x270.jpg"
-  ],
-  "recipeYield": "4",
-  "prepTime": "10 Minutes",
-  "performTime": null,
-  "totalTime": "30 Minutes",
-  "dateModified": null,
-  "datePublished": "2018-10-21T17:07:41Z"
+  "error": null,
+  "nutrition": [
+    {
+      "name": "calories",
+      "amount": 482.65,
+      "unit": "kilocalorie"
+    },
+    {
+      "name": "carbohydrateContent",
+      "amount": 51.53,
+      "unit": "gram"
+    },
+    {
+      "name": "proteinContent",
+      "amount": 34.95,
+      "unit": "gram"
+    },
+    {
+      "name": "fatContent",
+      "amount": 14.58,
+      "unit": "gram"
+    },
+    {
+      "name": "fiberContent",
+      "amount": 3.45,
+      "unit": "gram"
+    },
+    {
+      "name": "sodiumContent",
+      "amount": 847.23,
+      "unit": "milligram"
+    }
+  ]
 }

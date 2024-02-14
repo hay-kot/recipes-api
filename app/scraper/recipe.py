@@ -63,3 +63,5 @@ class Recipe(BaseModel):
 
     dateModified: DateLike | None = None
     datePublished: DateLike | None = None
+
+    nutrition: dict[str, str] | None = Field(default_factory=dict)

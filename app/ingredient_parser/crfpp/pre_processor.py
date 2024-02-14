@@ -6,6 +6,7 @@ from quantulum3 import parser
 
 replace_abbreviations = {
     "cup": " cup ",
+    " c ": " cup ",
     "g": " gram ",
     "kg": " kilogram ",
     "lb": " pound ",

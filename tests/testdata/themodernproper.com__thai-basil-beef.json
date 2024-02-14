@@ -1,67 +1,240 @@
 {
-  "name": "Thai Basil Beef",
   "url": "https://themodernproper.com/thai-basil-beef",
-  "description": "A speedy, savory Thai beef basil stir fry that\u2019s just a bit spicy and really hits the spot.",
-  "recipeInstructions": [
+  "data": {
+    "name": "Thai Basil Beef",
+    "url": "https://themodernproper.com/thai-basil-beef",
+    "description": "A speedy, savory Thai beef basil stir fry that\u2019s just a bit spicy and really hits the spot.",
+    "recipeInstructions": [
+      {
+        "text": "In a small bowl combine chili paste, soy sauce, fish sauce, brown sugar and lime juice until incorporated, set aside.Heat oil in a large skillet set over medium high heat"
+      },
+      {
+        "text": "Add the ground beef and cook until browned, breaking it up with a spoon and stirring often, about 6 minutes.Add the bell pepper, onion and garlic to the beef and cook until vegetables start to soften, about 5 minutes"
+      },
+      {
+        "text": "Pour the sauce mixture along with the fresh basil (reserving a fresh few leaves for the top) and continue cooking until basil starts to wilt"
+      },
+      {
+        "text": "Serve over rice topped with fresh basil and fresh cilantro"
+      },
+      {
+        "text": "Enjoy!"
+      }
+    ],
+    "recipeIngredient": [
+      "2 tbsp olive oil or vegetable oil",
+      "1 lb ground beef 90/10",
+      "1 bell pepper, thinly sliced",
+      "1 sweet onion, thinly sliced",
+      "6 garlic cloves, minced",
+      "1 cup loosely packed fresh basil leaves, divided",
+      "fresh cilantro (optional)",
+      "1 tbsp chili paste",
+      "2 tbsp soy sauce (or tamari for gluten free alternative)",
+      "1 tbsp fish sauce",
+      "1 tbsp brown sugar",
+      "2 tbsp fresh lime juice"
+    ],
+    "recipeCuisine": null,
+    "recipeCategory": [
+      "Dinner",
+      "Salads",
+      "Diary-Free",
+      "Gluten-Free",
+      "Low-Carb",
+      "30-Minute-Meals",
+      "Kid-Friendly",
+      "One-Pot-Meals"
+    ],
+    "keywords": [
+      "Thai Basil Beef",
+      "Diary-Free Recipe",
+      "Gluten-Free Recipe",
+      "Low-Carb Recipe",
+      "30-Minute-Meals",
+      "Kid-Friendly",
+      "One-Pot-Meals"
+    ],
+    "images": [
+      "https://images.themodernproper.com/billowy-turkey/production/posts/2020/Thai-Basil-Beef-11.jpg?w=960&h=540&q=82&fm=jpg&fit=crop&dm=1606103993&s=86a18fe3ac02bb746a5722f9441d770c",
+      "https://images.themodernproper.com/billowy-turkey/production/posts/2020/Thai-Basil-Beef-11.jpg?w=960&h=720&q=82&fm=jpg&fit=crop&dm=1606103993&s=6ade7fc6e5cb3add0c14b2c536fac7bc",
+      "https://images.themodernproper.com/billowy-turkey/production/posts/2020/Thai-Basil-Beef-11.jpg?w=960&h=960&q=82&fm=jpg&fit=crop&dm=1606103993&s=26629c81cccbb8e1ad312e44392d1028"
+    ],
+    "recipeYield": "4",
+    "prepTime": "10 Minutes",
+    "performTime": null,
+    "totalTime": "25 Minutes",
+    "dateModified": "2023-09-15T15:28:41-07:00",
+    "datePublished": "2020-01-05T21:53:52-08:00",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "296 calories",
+      "carbohydrateContent": "11 grams carbohydrates",
+      "cholesterolContent": "70 milligrams cholesterol",
+      "fatContent": "18 grams fat",
+      "fiberContent": "1 grams fiber",
+      "proteinContent": "25 grams protein",
+      "saturatedFatContent": "5 grams saturated fat",
+      "sodiumContent": "540 milligrams sodium",
+      "sugarContent": "6 grams sugar"
+    }
+  },
+  "ingredients": [
     {
-      "text": "In a small bowl combine chili paste, soy sauce, fish sauce, brown sugar and lime juice until incorporated, set aside.Heat oil in a large skillet set over medium high heat"
+      "input": "2 tablespoon olive oil or vegetable oil",
+      "name": "olive oil or vegetable oil",
+      "qty": 2.0,
+      "unit": "tablespoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999433
     },
     {
-      "text": "Add the ground beef and cook until browned, breaking it up with a spoon and stirring often, about 6 minutes.Add the bell pepper, onion and garlic to the beef and cook until vegetables start to soften, about 5 minutes"
+      "input": "1 pound ground beef 90/10",
+      "name": "ground beef",
+      "qty": 1.0,
+      "unit": "pound",
+      "comment": "",
+      "other": "",
+      "confidence": 0.998283
     },
     {
-      "text": "Pour the sauce mixture along with the fresh basil (reserving a fresh few leaves for the top) and continue cooking until basil starts to wilt"
+      "input": "1 bell pepper, thinly sliced",
+      "name": "bell pepper",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "thinly sliced",
+      "other": "",
+      "confidence": 0.996587
     },
     {
-      "text": "Serve over rice topped with fresh basil and fresh cilantro"
+      "input": "1 sweet onion, thinly sliced",
+      "name": "sweet onion",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "thinly sliced",
+      "other": "",
+      "confidence": 0.997912
     },
     {
-      "text": "Enjoy!"
+      "input": "6 garlic cloves, minced",
+      "name": "garlic",
+      "qty": 6.0,
+      "unit": "cloves",
+      "comment": "minced",
+      "other": "",
+      "confidence": 0.984572
+    },
+    {
+      "input": "1.0 cup loosely packed fresh basil leaves, divided",
+      "name": "fresh basil leaves",
+      "qty": 1.0,
+      "unit": "cups",
+      "comment": "divided",
+      "other": "",
+      "confidence": 0.99936
+    },
+    {
+      "input": "fresh cilantro (optional)",
+      "name": "fresh cilantro",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "(optional)",
+      "other": "",
+      "confidence": 0.0
+    },
+    {
+      "input": "1 tablespoon chili paste",
+      "name": "chili paste",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999332
+    },
+    {
+      "input": "2 tablespoon soy sauce (or tamari for gluten free alternative)",
+      "name": "soy sauce",
+      "qty": 2.0,
+      "unit": "tablespoons",
+      "comment": "(or tamari for gluten free alternative)",
+      "other": "",
+      "confidence": 0.999367
+    },
+    {
+      "input": "1 tablespoon fish sauce",
+      "name": "fish sauce",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999429
+    },
+    {
+      "input": "1 tablespoon brown sugar",
+      "name": "brown sugar",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999649
+    },
+    {
+      "input": "2 tablespoon fresh lime juice",
+      "name": "fresh lime juice",
+      "qty": 2.0,
+      "unit": "tablespoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999823
     }
   ],
-  "recipeIngredient": [
-    "2 tbsp olive oil or vegetable oil",
-    "1 lb ground beef 90/10",
-    "1 bell pepper, thinly sliced",
-    "1 sweet onion, thinly sliced",
-    "6 garlic cloves, minced",
-    "1 cup loosely packed fresh basil leaves, divided",
-    "fresh cilantro (optional)",
-    "1 tbsp chili paste",
-    "2 tbsp soy sauce (or tamari for gluten free alternative)",
-    "1 tbsp fish sauce",
-    "1 tbsp brown sugar",
-    "2 tbsp fresh lime juice"
-  ],
-  "recipeCuisine": null,
-  "recipeCategory": [
-    "Dinner",
-    "Salads",
-    "Diary-Free",
-    "Gluten-Free",
-    "Low-Carb",
-    "30-Minute-Meals",
-    "Kid-Friendly",
-    "One-Pot-Meals"
-  ],
-  "keywords": [
-    "Thai Basil Beef",
-    "Diary-Free Recipe",
-    "Gluten-Free Recipe",
-    "Low-Carb Recipe",
-    "30-Minute-Meals",
-    "Kid-Friendly",
-    "One-Pot-Meals"
-  ],
-  "images": [
-    "https://images.themodernproper.com/billowy-turkey/production/posts/2020/Thai-Basil-Beef-11.jpg?w=960&h=540&q=82&fm=jpg&fit=crop&dm=1606103993&s=86a18fe3ac02bb746a5722f9441d770c",
-    "https://images.themodernproper.com/billowy-turkey/production/posts/2020/Thai-Basil-Beef-11.jpg?w=960&h=720&q=82&fm=jpg&fit=crop&dm=1606103993&s=6ade7fc6e5cb3add0c14b2c536fac7bc",
-    "https://images.themodernproper.com/billowy-turkey/production/posts/2020/Thai-Basil-Beef-11.jpg?w=960&h=960&q=82&fm=jpg&fit=crop&dm=1606103993&s=26629c81cccbb8e1ad312e44392d1028"
-  ],
-  "recipeYield": "4",
-  "prepTime": "10 Minutes",
-  "performTime": null,
-  "totalTime": "25 Minutes",
-  "dateModified": "2023-09-15T15:28:41-07:00",
-  "datePublished": "2020-01-05T21:53:52-08:00"
+  "error": null,
+  "nutrition": [
+    {
+      "name": "calories",
+      "amount": 296.0,
+      "unit": "calorie"
+    },
+    {
+      "name": "carbohydrateContent",
+      "amount": 11.0,
+      "unit": "gram"
+    },
+    {
+      "name": "cholesterolContent",
+      "amount": 70.0,
+      "unit": "milligram"
+    },
+    {
+      "name": "fatContent",
+      "amount": 18.0,
+      "unit": "gram"
+    },
+    {
+      "name": "fiberContent",
+      "amount": 1.0,
+      "unit": "gram"
+    },
+    {
+      "name": "proteinContent",
+      "amount": 25.0,
+      "unit": "gram"
+    },
+    {
+      "name": "saturatedFatContent",
+      "amount": 5.0,
+      "unit": "gram"
+    },
+    {
+      "name": "sodiumContent",
+      "amount": 540.0,
+      "unit": "milligram"
+    },
+    {
+      "name": "sugarContent",
+      "amount": 6.0,
+      "unit": "gram"
+    }
+  ]
 }

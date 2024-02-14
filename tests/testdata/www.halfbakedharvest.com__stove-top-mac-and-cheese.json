@@ -1,41 +1,185 @@
 {
-  "name": "One Pot Stove-Top Mac and Cheese",
   "url": "https://www.halfbakedharvest.com/stove-top-mac-and-cheese/",
-  "description": "Simple, delicious, and made all in one pot in just 30 minutes...the perfect recipe for sneaking in vegetables!",
-  "recipeInstructions": [
+  "data": {
+    "name": "One Pot Stove-Top Mac and Cheese",
+    "url": "https://www.halfbakedharvest.com/stove-top-mac-and-cheese/",
+    "description": "Simple, delicious, and made all in one pot in just 30 minutes...the perfect recipe for sneaking in vegetables!",
+    "recipeInstructions": [
+      {
+        "text": "1. In a large pot, bring 4 cups of water to a boil over high heat. Add 1 1/2 teaspoons salt, the pasta, and broccoli. Cook, stirring occasionally, for 8 minutes. Do not drain the water. Stir in the milk, cream cheese, and mustard, and cook until the cream cheese has melted and the pasta is al dente, about 4-5 minutes more. Stir in the zucchini.2.\u00a0Add the cheeses, garlic powder, onion powder, paprika, cayenne, and butter (if using), and stir until melted and creamy. Remove from the heat. Season with salt and pepper. If the sauce feels thick, add \u00bc cup milk or water to thin.3. Divide the mac and cheese between bowls. Top with black pepper."
+      }
+    ],
+    "recipeIngredient": [
+      "1 pound short-cut pasta",
+      "1 head broccoli, chopped",
+      "3/4 cup canned coconut milk, heavy cream, or whole milk",
+      "3 ounces cream cheese, cubed",
+      "1 medium zucchini, grated ((about 1 cup grated))",
+      "1 tablespoon dijon mustard",
+      "2 cups shredded sharp cheddar cheese",
+      "1 cup shredded monterey jack cheese",
+      "1 teaspoon garlic powder",
+      "1 teaspoon onion powder",
+      "1 teaspoon paprika",
+      "1/4 teaspoon cayenne pepper",
+      "1-2 tablespoons salted butter ((optional))",
+      "Kosher salt and black pepper"
+    ],
+    "recipeCuisine": null,
+    "recipeCategory": [],
+    "keywords": [],
+    "images": [
+      "https://www.halfbakedharvest.com/wp-content/uploads/2022/01/One-Pot-Stove-Top-Mac-and-Cheese-1.jpg",
+      "https://www.halfbakedharvest.com/wp-content/uploads/2022/01/One-Pot-Stove-Top-Mac-and-Cheese-1-500x500.jpg",
+      "https://www.halfbakedharvest.com/wp-content/uploads/2022/01/One-Pot-Stove-Top-Mac-and-Cheese-1-500x375.jpg",
+      "https://www.halfbakedharvest.com/wp-content/uploads/2022/01/One-Pot-Stove-Top-Mac-and-Cheese-1-480x270.jpg"
+    ],
+    "recipeYield": "6",
+    "prepTime": "15 Minutes",
+    "performTime": null,
+    "totalTime": "30 Minutes",
+    "dateModified": null,
+    "datePublished": "2022-01-31T02:00:00Z",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "507 kcal",
+      "servingSize": "1 serving"
+    }
+  },
+  "ingredients": [
     {
-      "text": "1. In a large pot, bring 4 cups of water to a boil over high heat. Add 1 1/2 teaspoons salt, the pasta, and broccoli. Cook, stirring occasionally, for 8 minutes. Do not drain the water. Stir in the milk, cream cheese, and mustard, and cook until the cream cheese has melted and the pasta is al dente, about 4-5 minutes more. Stir in the zucchini.2.\u00a0Add the cheeses, garlic powder, onion powder, paprika, cayenne, and butter (if using), and stir until melted and creamy. Remove from the heat. Season with salt and pepper. If the sauce feels thick, add \u00bc cup milk or water to thin.3. Divide the mac and cheese between bowls. Top with black pepper."
+      "input": "1 pound short-cut pasta",
+      "name": "short-cut pasta",
+      "qty": 1.0,
+      "unit": "pound",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999108
+    },
+    {
+      "input": "1 head broccoli, chopped",
+      "name": "broccoli",
+      "qty": 1.0,
+      "unit": "head",
+      "comment": "chopped",
+      "other": "",
+      "confidence": 0.994233
+    },
+    {
+      "input": "0.75 cup canned coconut milk, heavy cream, or whole milk",
+      "name": "canned coconut milk, heavy cream",
+      "qty": 0.75,
+      "unit": "cups",
+      "comment": "or whole milk",
+      "other": "",
+      "confidence": 0.998568
+    },
+    {
+      "input": "3.0 ounce cream cheese, cubed",
+      "name": "cream cheese",
+      "qty": 3.0,
+      "unit": "ounces",
+      "comment": "cubed",
+      "other": "",
+      "confidence": 0.997345
+    },
+    {
+      "input": "1 medium zucchini, grated ((about 1.0 cup grated))",
+      "name": "zucchini",
+      "qty": 1.0,
+      "unit": "medium",
+      "comment": "grated",
+      "other": "",
+      "confidence": 0.993852
+    },
+    {
+      "input": "1 tablespoon dijon mustard",
+      "name": "dijon mustard",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99957
+    },
+    {
+      "input": "2.0 cup shredded sharp cheddar cheese",
+      "name": "sharp cheddar cheese",
+      "qty": 2.0,
+      "unit": "cups",
+      "comment": "shredded",
+      "other": "",
+      "confidence": 0.999673
+    },
+    {
+      "input": "1.0 cup shredded monterey jack cheese",
+      "name": "monterey jack cheese",
+      "qty": 1.0,
+      "unit": "cups",
+      "comment": "shredded",
+      "other": "",
+      "confidence": 0.999665
+    },
+    {
+      "input": "1 teaspoon garlic powder",
+      "name": "garlic powder",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999861
+    },
+    {
+      "input": "1 teaspoon onion powder",
+      "name": "onion powder",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999741
+    },
+    {
+      "input": "1 teaspoon paprika",
+      "name": "paprika",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999195
+    },
+    {
+      "input": "1/4 teaspoon cayenne pepper",
+      "name": "cayenne pepper",
+      "qty": 0.25,
+      "unit": "teaspoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999285
+    },
+    {
+      "input": "1 1/2 tablespoon salted butter ((optional))",
+      "name": "salted butter ((optional))",
+      "qty": 1.5,
+      "unit": "tablespoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999288
+    },
+    {
+      "input": "Kosher salt and black pepper",
+      "name": "Kosher salt and black pepper",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.0
     }
   ],
-  "recipeIngredient": [
-    "1 pound short-cut pasta",
-    "1 head broccoli, chopped",
-    "3/4 cup canned coconut milk, heavy cream, or whole milk",
-    "3 ounces cream cheese, cubed",
-    "1 medium zucchini, grated ((about 1 cup grated))",
-    "1 tablespoon dijon mustard",
-    "2 cups shredded sharp cheddar cheese",
-    "1 cup shredded monterey jack cheese",
-    "1 teaspoon garlic powder",
-    "1 teaspoon onion powder",
-    "1 teaspoon paprika",
-    "1/4 teaspoon cayenne pepper",
-    "1-2 tablespoons salted butter ((optional))",
-    "Kosher salt and black pepper"
-  ],
-  "recipeCuisine": null,
-  "recipeCategory": [],
-  "keywords": [],
-  "images": [
-    "https://www.halfbakedharvest.com/wp-content/uploads/2022/01/One-Pot-Stove-Top-Mac-and-Cheese-1.jpg",
-    "https://www.halfbakedharvest.com/wp-content/uploads/2022/01/One-Pot-Stove-Top-Mac-and-Cheese-1-500x500.jpg",
-    "https://www.halfbakedharvest.com/wp-content/uploads/2022/01/One-Pot-Stove-Top-Mac-and-Cheese-1-500x375.jpg",
-    "https://www.halfbakedharvest.com/wp-content/uploads/2022/01/One-Pot-Stove-Top-Mac-and-Cheese-1-480x270.jpg"
-  ],
-  "recipeYield": "6",
-  "prepTime": "15 Minutes",
-  "performTime": null,
-  "totalTime": "30 Minutes",
-  "dateModified": null,
-  "datePublished": "2022-01-31T02:00:00Z"
+  "error": null,
+  "nutrition": [
+    {
+      "name": "calories",
+      "amount": 507.0,
+      "unit": "kilocalorie"
+    }
+  ]
 }

@@ -53,6 +53,7 @@ def clean(recipe_data: dict, url=None) -> dict:
         "url": url,
         "dateModified": recipe_data.get("dateModified", None),
         "datePublished": recipe_data.get("datePublished", None),
+        "nutrition": {x: y for (x, y) in recipe_data.get("nutrition", {}).items() if y},
     }
 
     cuisines = recipe_data.get("recipeCuisine", [])

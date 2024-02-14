@@ -1,64 +1,226 @@
 {
-  "name": "Chocolate Chip Banana Bread",
   "url": "https://preppykitchen.com/chocolate-chip-banana-bread/",
-  "description": "If you have overripe bananas, you must make this easy chocolate chip studded banana bread recipe! It comes together in a flash and is so moist and tender!",
-  "recipeInstructions": [
+  "data": {
+    "name": "Chocolate Chip Banana Bread",
+    "url": "https://preppykitchen.com/chocolate-chip-banana-bread/",
+    "description": "If you have overripe bananas, you must make this easy chocolate chip studded banana bread recipe! It comes together in a flash and is so moist and tender!",
+    "recipeInstructions": [
+      {
+        "text": "Preheat the oven to 350F (180C). Grease a 9x5-inch loaf pan with baking spray."
+      },
+      {
+        "text": "In a medium bowl, whisk together the flour, baking powder, baking soda, and salt."
+      },
+      {
+        "text": "In a large mixing bowl or the bowl of a stand mixer fitted with the paddle attachment, beat the sugar and butter together on medium-high speed until fluffy and pale in color, about 3 minutes."
+      },
+      {
+        "text": "Mix in the eggs one at a time, stop and scrape down the bowl, then beat in the vanilla extract. Mix in the mashed bananas. (I like to mash the bananas with a fork so they are still a bit chunky.)"
+      },
+      {
+        "text": "With the mixer on low, add the dry ingredients and mix together until almost combined."
+      },
+      {
+        "text": "Reserve a handful of the chocolate chips and stir the rest into the batter. Pour the batter into the prepared loaf pan, and sprinkle the reserved chocolate chips on top."
+      },
+      {
+        "text": "Bake for 60 minutes or until a skewer inserted into the middle comes out clean. Let cool in the pan for 15 minutes, then remove and finish cooling on a wire rack."
+      }
+    ],
+    "recipeIngredient": [
+      "1\u00be cups all-purpose flour ((210g))",
+      "1 teaspoon baking powder",
+      "\u00bd teaspoon baking soda",
+      "1 teaspoon salt",
+      "\u00be cup sugar ((150g))",
+      "\u00bd cup unsalted butter (room temperature (113g))",
+      "2 large eggs",
+      "1 teaspoon vanilla ((5ml))",
+      "3 very ripe bananas (mashed (1 1/2 cups))",
+      "1 cup semi-sweet chocolate chips ((180g))"
+    ],
+    "recipeCuisine": "American",
+    "recipeCategory": [
+      "Breakfast",
+      "Snack"
+    ],
+    "keywords": [
+      "Banana Bread With Chocolate Chips",
+      "Banana Bread With Chocolate Chips Recipe",
+      "Chocolate Chip Banana Bread",
+      "Chocolate Chip Banana Bread Recipe",
+      "How To Make Chocolate Chip Banana Bread"
+    ],
+    "images": [
+      "https://preppykitchen.com/wp-content/uploads/2019/10/Chocolate-Chip-Banana-Bread-Recipe.jpg",
+      "https://preppykitchen.com/wp-content/uploads/2019/10/Chocolate-Chip-Banana-Bread-Recipe-500x500.jpg",
+      "https://preppykitchen.com/wp-content/uploads/2019/10/Chocolate-Chip-Banana-Bread-Recipe-500x375.jpg",
+      "https://preppykitchen.com/wp-content/uploads/2019/10/Chocolate-Chip-Banana-Bread-Recipe-480x270.jpg"
+    ],
+    "recipeYield": "10 servings",
+    "prepTime": "10 Minutes",
+    "performTime": null,
+    "totalTime": "1 Hour 25 Minutes",
+    "dateModified": null,
+    "datePublished": "2019-10-06T00:00:51Z",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "309 kcal",
+      "carbohydrateContent": "41 g",
+      "proteinContent": "4 g",
+      "fatContent": "14 g",
+      "saturatedFatContent": "8 g",
+      "transFatContent": "1 g",
+      "cholesterolContent": "52 mg",
+      "sodiumContent": "255 mg",
+      "fiberContent": "2 g",
+      "sugarContent": "22 g",
+      "servingSize": "1 serving"
+    }
+  },
+  "ingredients": [
     {
-      "text": "Preheat the oven to 350F (180C). Grease a 9x5-inch loaf pan with baking spray."
+      "input": "1.75 cup all-purpose flour ((210.0 gram ))",
+      "name": "all-purpose flour",
+      "qty": 1.75,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999633
     },
     {
-      "text": "In a medium bowl, whisk together the flour, baking powder, baking soda, and salt."
+      "input": "1 teaspoon baking powder",
+      "name": "baking powder",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999616
     },
     {
-      "text": "In a large mixing bowl or the bowl of a stand mixer fitted with the paddle attachment, beat the sugar and butter together on medium-high speed until fluffy and pale in color, about 3 minutes."
+      "input": "1/2 teaspoon baking soda",
+      "name": "baking soda",
+      "qty": 0.5,
+      "unit": "teaspoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99961
     },
     {
-      "text": "Mix in the eggs one at a time, stop and scrape down the bowl, then beat in the vanilla extract. Mix in the mashed bananas. (I like to mash the bananas with a fork so they are still a bit chunky.)"
+      "input": "1 teaspoon salt",
+      "name": "salt",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999434
     },
     {
-      "text": "With the mixer on low, add the dry ingredients and mix together until almost combined."
+      "input": "0.75 cup sugar ((150.0 gram ))",
+      "name": "sugar",
+      "qty": 0.75,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999141
     },
     {
-      "text": "Reserve a handful of the chocolate chips and stir the rest into the batter. Pour the batter into the prepared loaf pan, and sprinkle the reserved chocolate chips on top."
+      "input": "0.5 cup unsalted butter (room temperature (113.0 gram ))",
+      "name": "unsalted butter",
+      "qty": 0.5,
+      "unit": "cups",
+      "comment": "room temperature",
+      "other": "",
+      "confidence": 0.999812
     },
     {
-      "text": "Bake for 60 minutes or until a skewer inserted into the middle comes out clean. Let cool in the pan for 15 minutes, then remove and finish cooling on a wire rack."
+      "input": "2 large eggs",
+      "name": "eggs",
+      "qty": 2.0,
+      "unit": "large",
+      "comment": "",
+      "other": "",
+      "confidence": 0.995415
+    },
+    {
+      "input": "1 teaspoon vanilla ((5.0 milliliter ))",
+      "name": "vanilla",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999242
+    },
+    {
+      "input": "3 very ripe bananas (mashed (1.5 cup))",
+      "name": "very ripe bananas",
+      "qty": 3.0,
+      "unit": "",
+      "comment": "mashed ",
+      "other": "",
+      "confidence": 0.99672
+    },
+    {
+      "input": "1.0 cup semi-sweet chocolate chips ((180.0 gram ))",
+      "name": "semi-sweet chocolate chips",
+      "qty": 1.0,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999692
     }
   ],
-  "recipeIngredient": [
-    "1\u00be cups all-purpose flour ((210g))",
-    "1 teaspoon baking powder",
-    "\u00bd teaspoon baking soda",
-    "1 teaspoon salt",
-    "\u00be cup sugar ((150g))",
-    "\u00bd cup unsalted butter (room temperature (113g))",
-    "2 large eggs",
-    "1 teaspoon vanilla ((5ml))",
-    "3 very ripe bananas (mashed (1 1/2 cups))",
-    "1 cup semi-sweet chocolate chips ((180g))"
-  ],
-  "recipeCuisine": "American",
-  "recipeCategory": [
-    "Breakfast",
-    "Snack"
-  ],
-  "keywords": [
-    "Banana Bread With Chocolate Chips",
-    "Banana Bread With Chocolate Chips Recipe",
-    "Chocolate Chip Banana Bread",
-    "Chocolate Chip Banana Bread Recipe",
-    "How To Make Chocolate Chip Banana Bread"
-  ],
-  "images": [
-    "https://preppykitchen.com/wp-content/uploads/2019/10/Chocolate-Chip-Banana-Bread-Recipe.jpg",
-    "https://preppykitchen.com/wp-content/uploads/2019/10/Chocolate-Chip-Banana-Bread-Recipe-500x500.jpg",
-    "https://preppykitchen.com/wp-content/uploads/2019/10/Chocolate-Chip-Banana-Bread-Recipe-500x375.jpg",
-    "https://preppykitchen.com/wp-content/uploads/2019/10/Chocolate-Chip-Banana-Bread-Recipe-480x270.jpg"
-  ],
-  "recipeYield": "10 servings",
-  "prepTime": "10 Minutes",
-  "performTime": null,
-  "totalTime": "1 Hour 25 Minutes",
-  "dateModified": null,
-  "datePublished": "2019-10-06T00:00:51Z"
+  "error": null,
+  "nutrition": [
+    {
+      "name": "calories",
+      "amount": 309.0,
+      "unit": "kilocalorie"
+    },
+    {
+      "name": "carbohydrateContent",
+      "amount": 41.0,
+      "unit": "gram"
+    },
+    {
+      "name": "proteinContent",
+      "amount": 4.0,
+      "unit": "gram"
+    },
+    {
+      "name": "fatContent",
+      "amount": 14.0,
+      "unit": "gram"
+    },
+    {
+      "name": "saturatedFatContent",
+      "amount": 8.0,
+      "unit": "gram"
+    },
+    {
+      "name": "transFatContent",
+      "amount": 1.0,
+      "unit": "gram"
+    },
+    {
+      "name": "cholesterolContent",
+      "amount": 52.0,
+      "unit": "milligram"
+    },
+    {
+      "name": "sodiumContent",
+      "amount": 255.0,
+      "unit": "milligram"
+    },
+    {
+      "name": "fiberContent",
+      "amount": 2.0,
+      "unit": "gram"
+    },
+    {
+      "name": "sugarContent",
+      "amount": 22.0,
+      "unit": "gram"
+    }
+  ]
 }

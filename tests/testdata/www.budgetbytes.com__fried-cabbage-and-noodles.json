@@ -1,51 +1,153 @@
 {
-  "name": "Fried Cabbage and Noodles",
   "url": "https://www.budgetbytes.com/fried-cabbage-and-noodles/",
-  "description": "Fried Cabbage and Noodles is a simple and inexpensive comfort food that can be served as a side dish or the base to full meal.",
-  "recipeInstructions": [
+  "data": {
+    "name": "Fried Cabbage and Noodles",
+    "url": "https://www.budgetbytes.com/fried-cabbage-and-noodles/",
+    "description": "Fried Cabbage and Noodles is a simple and inexpensive comfort food that can be served as a side dish or the base to full meal.",
+    "recipeInstructions": [
+      {
+        "text": "Slice the onion into 1/4-inch wide strips. Add the onion and cooking oil to a large pot. Saut\u00e9 over medium to medium-high heat until the onions are soft and browned on the edges."
+      },
+      {
+        "text": "While the onions are saut\u00e9ing, remove the core from the cabbage and slice it into 1/2-inch wide strips."
+      },
+      {
+        "text": "Once the onions have caramelized a bit on the edges, add the sliced cabbage to the pot along with a pinch of salt and about 1/4 cup water. Continue to saut\u00e9 the cabbage until it is tender, about 15 minutes, using the water to help dissolve any browned bits off the bottom of the pot."
+      },
+      {
+        "text": "While the cabbage is saut\u00e9ing, bring a pot of water to a boil for the egg noodles. Once boiling, add the noodles, and continue to boil until the noodles are tender (about 7 minutes). Drain the noodles in a colander."
+      },
+      {
+        "text": "Once the cabbage is tender, turn the heat off. Add the cooked and drained noodles, butter, and a generous amount of salt and pepper to the pot. Stir to combine and allow the residual heat to melt the butter. Taste the cabbage and noodles and add more salt and pepper to taste. Serve warm."
+      }
+    ],
+    "recipeIngredient": [
+      "2 Tbsp cooking oil ($0.08)",
+      "1 yellow onion ($0.32)",
+      "8 oz. wide egg noodles ($0.90)",
+      "1/2 head cabbage (4-5 cups sliced) ($1.28)",
+      "2 Tbsp butter ($0.20)",
+      "salt and pepper to taste ($0.05)"
+    ],
+    "recipeCuisine": "American",
+    "recipeCategory": [
+      "Dinner",
+      "Side Dish"
+    ],
+    "keywords": [
+      "Comfort Food",
+      "Easy Meal"
+    ],
+    "images": [
+      "https://www.budgetbytes.com/wp-content/uploads/2019/11/Fried-Cabbage-and-Noodles-close-pot.jpg",
+      "https://www.budgetbytes.com/wp-content/uploads/2019/11/Fried-Cabbage-and-Noodles-close-pot-500x500.jpg",
+      "https://www.budgetbytes.com/wp-content/uploads/2019/11/Fried-Cabbage-and-Noodles-close-pot-500x375.jpg",
+      "https://www.budgetbytes.com/wp-content/uploads/2019/11/Fried-Cabbage-and-Noodles-close-pot-480x270.jpg"
+    ],
+    "recipeYield": "4 about 2 cups each",
+    "prepTime": "5 Minutes",
+    "performTime": null,
+    "totalTime": "25 Minutes",
+    "dateModified": null,
+    "datePublished": "2016-10-08T16:44:52Z",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "servingSize": "1 Serving",
+      "calories": "370.5 kcal",
+      "carbohydrateContent": "53.08 g",
+      "proteinContent": "9.73 g",
+      "fatContent": "14.23 g",
+      "fiberContent": "5.13 g",
+      "sodiumContent": "296.45 mg"
+    }
+  },
+  "ingredients": [
     {
-      "text": "Slice the onion into 1/4-inch wide strips. Add the onion and cooking oil to a large pot. Saut\u00e9 over medium to medium-high heat until the onions are soft and browned on the edges."
+      "input": "2 tablespoon cooking oil -2/25 dollar",
+      "name": "cooking oil -0.08 dollar",
+      "qty": 2.0,
+      "unit": "tablespoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.998846
     },
     {
-      "text": "While the onions are saut\u00e9ing, remove the core from the cabbage and slice it into 1/2-inch wide strips."
+      "input": "1 yellow onion -8/25 dollar",
+      "name": "yellow onion -0.32 dollar",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99804
     },
     {
-      "text": "Once the onions have caramelized a bit on the edges, add the sliced cabbage to the pot along with a pinch of salt and about 1/4 cup water. Continue to saut\u00e9 the cabbage until it is tender, about 15 minutes, using the water to help dissolve any browned bits off the bottom of the pot."
+      "input": "8.0 ounce wide egg noodles -9/10 dollar",
+      "name": "wide egg noodles -0.9 dollar",
+      "qty": 8.0,
+      "unit": "ounces",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99737
     },
     {
-      "text": "While the cabbage is saut\u00e9ing, bring a pot of water to a boil for the egg noodles. Once boiling, add the noodles, and continue to boil until the noodles are tender (about 7 minutes). Drain the noodles in a colander."
+      "input": "1/2 head cabbage (4-5 cups sliced) ($1.28)",
+      "name": "cabbage",
+      "qty": 0.5,
+      "unit": "heads",
+      "comment": "sliced ($1.28)",
+      "other": "",
+      "confidence": 0.992761
     },
     {
-      "text": "Once the cabbage is tender, turn the heat off. Add the cooked and drained noodles, butter, and a generous amount of salt and pepper to the pot. Stir to combine and allow the residual heat to melt the butter. Taste the cabbage and noodles and add more salt and pepper to taste. Serve warm."
+      "input": "2 tablespoon butter -1/5 dollar",
+      "name": "butter -0.2 dollar",
+      "qty": 2.0,
+      "unit": "tablespoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999683
+    },
+    {
+      "input": "salt and pepper to taste -1/20 dollar",
+      "name": "salt and pepper",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "to taste -0.05 dollar",
+      "other": "",
+      "confidence": 0.0
     }
   ],
-  "recipeIngredient": [
-    "2 Tbsp cooking oil ($0.08)",
-    "1 yellow onion ($0.32)",
-    "8 oz. wide egg noodles ($0.90)",
-    "1/2 head cabbage (4-5 cups sliced) ($1.28)",
-    "2 Tbsp butter ($0.20)",
-    "salt and pepper to taste ($0.05)"
-  ],
-  "recipeCuisine": "American",
-  "recipeCategory": [
-    "Dinner",
-    "Side Dish"
-  ],
-  "keywords": [
-    "Comfort Food",
-    "Easy Meal"
-  ],
-  "images": [
-    "https://www.budgetbytes.com/wp-content/uploads/2019/11/Fried-Cabbage-and-Noodles-close-pot.jpg",
-    "https://www.budgetbytes.com/wp-content/uploads/2019/11/Fried-Cabbage-and-Noodles-close-pot-500x500.jpg",
-    "https://www.budgetbytes.com/wp-content/uploads/2019/11/Fried-Cabbage-and-Noodles-close-pot-500x375.jpg",
-    "https://www.budgetbytes.com/wp-content/uploads/2019/11/Fried-Cabbage-and-Noodles-close-pot-480x270.jpg"
-  ],
-  "recipeYield": "4 about 2 cups each",
-  "prepTime": "5 Minutes",
-  "performTime": null,
-  "totalTime": "25 Minutes",
-  "dateModified": null,
-  "datePublished": "2016-10-08T16:44:52Z"
+  "error": null,
+  "nutrition": [
+    {
+      "name": "calories",
+      "amount": 370.5,
+      "unit": "kilocalorie"
+    },
+    {
+      "name": "carbohydrateContent",
+      "amount": 53.08,
+      "unit": "gram"
+    },
+    {
+      "name": "proteinContent",
+      "amount": 9.73,
+      "unit": "gram"
+    },
+    {
+      "name": "fatContent",
+      "amount": 14.23,
+      "unit": "gram"
+    },
+    {
+      "name": "fiberContent",
+      "amount": 5.13,
+      "unit": "gram"
+    },
+    {
+      "name": "sodiumContent",
+      "amount": 296.45,
+      "unit": "milligram"
+    }
+  ]
 }

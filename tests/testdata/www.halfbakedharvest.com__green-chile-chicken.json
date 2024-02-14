@@ -1,45 +1,171 @@
 {
-  "name": "One Skillet Cheesy Green Chile Chicken",
   "url": "https://www.halfbakedharvest.com/green-chile-chicken/",
-  "description": "Simple One Skillet Cheesy Green Chile Chicken: delicious saucy cheesy chicken that's all made in one pan, is no fuss, and is so quick and easy!",
-  "recipeInstructions": [
+  "data": {
+    "name": "One Skillet Cheesy Green Chile Chicken",
+    "url": "https://www.halfbakedharvest.com/green-chile-chicken/",
+    "description": "Simple One Skillet Cheesy Green Chile Chicken: delicious saucy cheesy chicken that's all made in one pan, is no fuss, and is so quick and easy!",
+    "recipeInstructions": [
+      {
+        "text": "1. Preheat the oven to 425\u00b0 F. 2. Slice the chicken through the middle horizontally to within a 1/2 inch of the other side. Open the 2 sides and spread them out like an open book. Spread the cream cheese on 1 side of the chicken, then add the pepper jack and a few poblano pepper slices. Fold the other side of the chicken over the peppers/cheese, like a book, to enclose the filling. Place the chicken in the skillet or baking dish. Rub with olive oil. 3. In a small bowl combine the chili powder, paprika, garlic powder, salt and pepper. Rub the seasonings all over the chicken. 4. Sprinkle the remaining poblano peppers and onions around the chicken. Drizzle everything with olive oil, then pour over the salsa verde. Bake 20-25 minutes, until the chicken is cooked through. Serve with fresh cilantro and limes."
+      }
+    ],
+    "recipeIngredient": [
+      "4 boneless skinless chicken breasts",
+      "2 ounces cream cheese, at room temperature",
+      "4 slices pepperjack cheese",
+      "2 poblano peppers, sliced",
+      "1 yellow onion, chopped or sliced",
+      "1 teaspoon chili powder",
+      "1 teaspoon smoked paprika",
+      "1 teaspoon garlic powder",
+      "kosher salt and black pepper",
+      "2 tablespoons extra virgin olive oil",
+      "1 jar salsa verde",
+      "fresh cilantro and limes for serving"
+    ],
+    "recipeCuisine": "American",
+    "recipeCategory": [
+      "Main Course"
+    ],
+    "keywords": [
+      "Easy",
+      "One Skillet",
+      "Quick"
+    ],
+    "images": [
+      "https://www.halfbakedharvest.com/wp-content/uploads/2022/04/One-Skillet-Cheesy-Green-Chile-Chicken-1.jpg",
+      "https://www.halfbakedharvest.com/wp-content/uploads/2022/04/One-Skillet-Cheesy-Green-Chile-Chicken-1-500x500.jpg",
+      "https://www.halfbakedharvest.com/wp-content/uploads/2022/04/One-Skillet-Cheesy-Green-Chile-Chicken-1-500x375.jpg",
+      "https://www.halfbakedharvest.com/wp-content/uploads/2022/04/One-Skillet-Cheesy-Green-Chile-Chicken-1-480x270.jpg"
+    ],
+    "recipeYield": "4",
+    "prepTime": "15 Minutes",
+    "performTime": null,
+    "totalTime": "40 Minutes",
+    "dateModified": null,
+    "datePublished": "2022-04-07T02:00:00Z",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "550 kcal",
+      "servingSize": "1 serving"
+    }
+  },
+  "ingredients": [
     {
-      "text": "1. Preheat the oven to 425\u00b0 F. 2. Slice the chicken through the middle horizontally to within a 1/2 inch of the other side. Open the 2 sides and spread them out like an open book. Spread the cream cheese on 1 side of the chicken, then add the pepper jack and a few poblano pepper slices. Fold the other side of the chicken over the peppers/cheese, like a book, to enclose the filling. Place the chicken in the skillet or baking dish. Rub with olive oil. 3. In a small bowl combine the chili powder, paprika, garlic powder, salt and pepper. Rub the seasonings all over the chicken. 4. Sprinkle the remaining poblano peppers and onions around the chicken. Drizzle everything with olive oil, then pour over the salsa verde. Bake 20-25 minutes, until the chicken is cooked through. Serve with fresh cilantro and limes."
+      "input": "4 boneless skinless chicken breasts",
+      "name": "boneless skinless chicken breasts",
+      "qty": 4.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.997903
+    },
+    {
+      "input": "2.0 ounce cream cheese, at room temperature",
+      "name": "cream cheese",
+      "qty": 2.0,
+      "unit": "ounces",
+      "comment": "at room temperature",
+      "other": "",
+      "confidence": 0.99734
+    },
+    {
+      "input": "4 slices pepperjack cheese",
+      "name": "pepperjack cheese",
+      "qty": 4.0,
+      "unit": "slices",
+      "comment": "",
+      "other": "",
+      "confidence": 0.998375
+    },
+    {
+      "input": "2 poblano peppers, sliced",
+      "name": "poblano peppers",
+      "qty": 2.0,
+      "unit": "",
+      "comment": "sliced",
+      "other": "",
+      "confidence": 0.998473
+    },
+    {
+      "input": "1 yellow onion, chopped or sliced",
+      "name": "yellow onion",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "chopped or sliced",
+      "other": "",
+      "confidence": 0.998218
+    },
+    {
+      "input": "1 teaspoon chili powder",
+      "name": "chili powder",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.9993
+    },
+    {
+      "input": "1 teaspoon smoked paprika",
+      "name": "smoked paprika",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999307
+    },
+    {
+      "input": "1 teaspoon garlic powder",
+      "name": "garlic powder",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999861
+    },
+    {
+      "input": "kosher salt and black pepper",
+      "name": "kosher salt and black pepper",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.0
+    },
+    {
+      "input": "2 tablespoon extra virgin olive oil",
+      "name": "extra virgin olive oil",
+      "qty": 2.0,
+      "unit": "tablespoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999375
+    },
+    {
+      "input": "1 jar salsa verde",
+      "name": "salsa verde",
+      "qty": 1.0,
+      "unit": "jar",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99604
+    },
+    {
+      "input": "fresh cilantro and limes for serving",
+      "name": "fresh cilantro and limes",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "for serving",
+      "other": "",
+      "confidence": 0.0
     }
   ],
-  "recipeIngredient": [
-    "4 boneless skinless chicken breasts",
-    "2 ounces cream cheese, at room temperature",
-    "4 slices pepperjack cheese",
-    "2 poblano peppers, sliced",
-    "1 yellow onion, chopped or sliced",
-    "1 teaspoon chili powder",
-    "1 teaspoon smoked paprika",
-    "1 teaspoon garlic powder",
-    "kosher salt and black pepper",
-    "2 tablespoons extra virgin olive oil",
-    "1 jar salsa verde",
-    "fresh cilantro and limes for serving"
-  ],
-  "recipeCuisine": "American",
-  "recipeCategory": [
-    "Main Course"
-  ],
-  "keywords": [
-    "Easy",
-    "One Skillet",
-    "Quick"
-  ],
-  "images": [
-    "https://www.halfbakedharvest.com/wp-content/uploads/2022/04/One-Skillet-Cheesy-Green-Chile-Chicken-1.jpg",
-    "https://www.halfbakedharvest.com/wp-content/uploads/2022/04/One-Skillet-Cheesy-Green-Chile-Chicken-1-500x500.jpg",
-    "https://www.halfbakedharvest.com/wp-content/uploads/2022/04/One-Skillet-Cheesy-Green-Chile-Chicken-1-500x375.jpg",
-    "https://www.halfbakedharvest.com/wp-content/uploads/2022/04/One-Skillet-Cheesy-Green-Chile-Chicken-1-480x270.jpg"
-  ],
-  "recipeYield": "4",
-  "prepTime": "15 Minutes",
-  "performTime": null,
-  "totalTime": "40 Minutes",
-  "dateModified": null,
-  "datePublished": "2022-04-07T02:00:00Z"
+  "error": null,
+  "nutrition": [
+    {
+      "name": "calories",
+      "amount": 550.0,
+      "unit": "kilocalorie"
+    }
+  ]
 }
