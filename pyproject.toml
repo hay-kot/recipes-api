@@ -29,7 +29,7 @@ ingredient-parser-nlp = "^0.1.0b7"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.1.5"
-pytest = "^7.4.3"
+pytest = "^8.0.0"
 
 [build-system]
 requires = ["poetry-core"]
