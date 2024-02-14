@@ -1,58 +1,258 @@
 {
-  "name": "Hearty Steak and Potatoes with Balsamic-Cranberry Pan Sauce",
   "url": "https://www.hellofresh.com/recipes/uk-balsamic-streak-with-red-cabb-5841a8ad9df18165854cdd72",
-  "description": "Cabbage, potatoes, and cranberries may conjure images of New England and boiled dinners, but this recipe brings in some more worldly flair. The sauce that adorns the steak has splashes of balsamic vinegar and soy sauce for a mash up of Italian and Asian-inspired flavors. Plus, the potatoes are roasted with rosemary until fragrant and the cabbage is given a boost from tangy white wine vinegar.",
-  "recipeInstructions": [
+  "data": {
+    "name": "Hearty Steak and Potatoes with Balsamic-Cranberry Pan Sauce",
+    "url": "https://www.hellofresh.com/recipes/uk-balsamic-streak-with-red-cabb-5841a8ad9df18165854cdd72",
+    "description": "Cabbage, potatoes, and cranberries may conjure images of New England and boiled dinners, but this recipe brings in some more worldly flair. The sauce that adorns the steak has splashes of balsamic vinegar and soy sauce for a mash up of Italian and Asian-inspired flavors. Plus, the potatoes are roasted with rosemary until fragrant and the cabbage is given a boost from tangy white wine vinegar.",
+    "recipeInstructions": [
+      {
+        "text": "Wash and dry all produce. Preheat oven to 425 degrees. Halve, peel, and thinly slice onion. Strip rosemary leaves from stems and finely chop until you have 1 TBSP. Discard stems. Halve potatoes lengthwise, then cut into 1-inch-thick wedges (like steak fries)."
+      },
+      {
+        "text": "Toss potatoes on a baking sheet with a large drizzle of olive oil and chopped rosemary. Season with salt and pepper. Roast until lightly browned and crisp, about 30-35 minutes."
+      },
+      {
+        "text": "Heat a large drizzle of oil in a medium pan on medium-high heat. Add onion and cabbage and cook until softened, about 5 minutes, tossing. Add mustard seeds and cook until they start to pop. Stir in white wine vinegar, sugar, and a pinch of salt. Reduce heat to low, cover, and cook until cabbage is tender, about 10 minutes."
+      },
+      {
+        "text": "While cabbage cooks, heat a drizzle of oil in another medium pan over medium-high heat. Pat steak dry with a paper towel, then season all over with salt and pepper. Add to pan and sear until browned and cooked to desired doneness, 4-7 minutes per side. Remove and set aside to rest."
+      },
+      {
+        "text": "Add \u00bd TBSP balsamic vinegar, 1\u00bd TBSP soy sauce, cranberry jam, and 3 TBSP water to same pan over medium heat. Stir to combine. Let simmer until reduced to a syrupy consistency, about 2-3 minutes. Remove from heat."
+      },
+      {
+        "text": "Thinly slice steak against the grain. Divide steak, potatoes, and cabbage between plates. Drizzle glaze over steak and serve."
+      }
+    ],
+    "recipeIngredient": [
+      "12 ounce Sirloin Steak",
+      "2 tablespoon Balsamic Vinegar",
+      "1 ounce Soy Sauce",
+      "16 ounce Yukon Gold Potatoes",
+      "\u00bc ounce Rosemary",
+      "1 unit Yellow Onion",
+      "4 ounce Shredded Red Cabbage",
+      "1 teaspoon Mustard Seeds",
+      "2 tablespoon White Wine Vinegar",
+      "1 ounce Cranberry Jam",
+      "unit Salt",
+      "unit Pepper",
+      "2 teaspoon Olive Oil",
+      "1 tablespoon Vegetable Oil",
+      "1 teaspoon Sugar"
+    ],
+    "recipeCuisine": null,
+    "recipeCategory": [
+      "Main Course"
+    ],
+    "keywords": [
+      "Gluten-Free"
+    ],
+    "images": [
+      "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/uk-balsamic-streak-with-red-cabb-af469cec.jpg"
+    ],
+    "recipeYield": "2",
+    "prepTime": null,
+    "performTime": null,
+    "totalTime": "40 Minutes",
+    "dateModified": null,
+    "datePublished": "2016-12-02T17:00:29Z",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "535 kcal",
+      "fatContent": "15 g",
+      "saturatedFatContent": "3 g",
+      "carbohydrateContent": "59 g",
+      "sugarContent": "15 g",
+      "proteinContent": "45 g",
+      "fiberContent": "8 g",
+      "cholesterolContent": "95 mg",
+      "sodiumContent": "840 mg"
+    }
+  },
+  "ingredients": [
     {
-      "text": "Wash and dry all produce. Preheat oven to 425 degrees. Halve, peel, and thinly slice onion. Strip rosemary leaves from stems and finely chop until you have 1 TBSP. Discard stems. Halve potatoes lengthwise, then cut into 1-inch-thick wedges (like steak fries)."
+      "input": "12.0 ounce Sirloin Steak",
+      "name": "Sirloin Steak",
+      "qty": 12.0,
+      "unit": "ounces",
+      "comment": "",
+      "other": "",
+      "confidence": 0.998262
     },
     {
-      "text": "Toss potatoes on a baking sheet with a large drizzle of olive oil and chopped rosemary. Season with salt and pepper. Roast until lightly browned and crisp, about 30-35 minutes."
+      "input": "2 tablespoon Balsamic Vinegar",
+      "name": "Balsamic Vinegar",
+      "qty": 2.0,
+      "unit": "tablespoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999446
     },
     {
-      "text": "Heat a large drizzle of oil in a medium pan on medium-high heat. Add onion and cabbage and cook until softened, about 5 minutes, tossing. Add mustard seeds and cook until they start to pop. Stir in white wine vinegar, sugar, and a pinch of salt. Reduce heat to low, cover, and cook until cabbage is tender, about 10 minutes."
+      "input": "1.0 ounce Soy Sauce",
+      "name": "Soy Sauce",
+      "qty": 1.0,
+      "unit": "ounces",
+      "comment": "",
+      "other": "",
+      "confidence": 0.998281
     },
     {
-      "text": "While cabbage cooks, heat a drizzle of oil in another medium pan over medium-high heat. Pat steak dry with a paper towel, then season all over with salt and pepper. Add to pan and sear until browned and cooked to desired doneness, 4-7 minutes per side. Remove and set aside to rest."
+      "input": "16.0 ounce Yukon Gold Potatoes",
+      "name": "Yukon Gold Potatoes",
+      "qty": 16.0,
+      "unit": "ounces",
+      "comment": "",
+      "other": "",
+      "confidence": 0.998571
     },
     {
-      "text": "Add \u00bd TBSP balsamic vinegar, 1\u00bd TBSP soy sauce, cranberry jam, and 3 TBSP water to same pan over medium heat. Stir to combine. Let simmer until reduced to a syrupy consistency, about 2-3 minutes. Remove from heat."
+      "input": "0.25 ounce Rosemary",
+      "name": "Rosemary",
+      "qty": 0.25,
+      "unit": "ounces",
+      "comment": "",
+      "other": "",
+      "confidence": 0.998216
     },
     {
-      "text": "Thinly slice steak against the grain. Divide steak, potatoes, and cabbage between plates. Drizzle glaze over steak and serve."
+      "input": "1 unit Yellow Onion",
+      "name": "unit Yellow Onion",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.9947
+    },
+    {
+      "input": "4.0 ounce Shredded Red Cabbage",
+      "name": "Red Cabbage",
+      "qty": 4.0,
+      "unit": "ounces",
+      "comment": "Shredded",
+      "other": "",
+      "confidence": 0.998384
+    },
+    {
+      "input": "1 teaspoon Mustard Seeds",
+      "name": "Mustard Seeds",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999351
+    },
+    {
+      "input": "2 tablespoon White Wine Vinegar",
+      "name": "White Wine Vinegar",
+      "qty": 2.0,
+      "unit": "tablespoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999605
+    },
+    {
+      "input": "1.0 ounce Cranberry Jam",
+      "name": "Cranberry Jam",
+      "qty": 1.0,
+      "unit": "ounces",
+      "comment": "",
+      "other": "",
+      "confidence": 0.998306
+    },
+    {
+      "input": "unit Salt",
+      "name": "unit Salt",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.0
+    },
+    {
+      "input": "unit Pepper",
+      "name": "unit Pepper",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.0
+    },
+    {
+      "input": "2 teaspoon Olive Oil",
+      "name": "Olive Oil",
+      "qty": 2.0,
+      "unit": "teaspoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999475
+    },
+    {
+      "input": "1 tablespoon Vegetable Oil",
+      "name": "Vegetable Oil",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999185
+    },
+    {
+      "input": "1 teaspoon Sugar",
+      "name": "Sugar",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.998777
     }
   ],
-  "recipeIngredient": [
-    "12 ounce Sirloin Steak",
-    "2 tablespoon Balsamic Vinegar",
-    "1 ounce Soy Sauce",
-    "16 ounce Yukon Gold Potatoes",
-    "\u00bc ounce Rosemary",
-    "1 unit Yellow Onion",
-    "4 ounce Shredded Red Cabbage",
-    "1 teaspoon Mustard Seeds",
-    "2 tablespoon White Wine Vinegar",
-    "1 ounce Cranberry Jam",
-    "unit Salt",
-    "unit Pepper",
-    "2 teaspoon Olive Oil",
-    "1 tablespoon Vegetable Oil",
-    "1 teaspoon Sugar"
-  ],
-  "recipeCuisine": null,
-  "recipeCategory": [
-    "Main Course"
-  ],
-  "keywords": [
-    "Gluten-Free"
-  ],
-  "images": [
-    "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/uk-balsamic-streak-with-red-cabb-af469cec.jpg"
-  ],
-  "recipeYield": "2",
-  "prepTime": null,
-  "performTime": null,
-  "totalTime": "40 Minutes",
-  "dateModified": null,
-  "datePublished": "2016-12-02T17:00:29Z"
+  "error": null,
+  "nutrition": [
+    {
+      "name": "calories",
+      "amount": 535.0,
+      "unit": "kilocalorie"
+    },
+    {
+      "name": "fatContent",
+      "amount": 15.0,
+      "unit": "gram"
+    },
+    {
+      "name": "saturatedFatContent",
+      "amount": 3.0,
+      "unit": "gram"
+    },
+    {
+      "name": "carbohydrateContent",
+      "amount": 59.0,
+      "unit": "gram"
+    },
+    {
+      "name": "sugarContent",
+      "amount": 15.0,
+      "unit": "gram"
+    },
+    {
+      "name": "proteinContent",
+      "amount": 45.0,
+      "unit": "gram"
+    },
+    {
+      "name": "fiberContent",
+      "amount": 8.0,
+      "unit": "gram"
+    },
+    {
+      "name": "cholesterolContent",
+      "amount": 95.0,
+      "unit": "milligram"
+    },
+    {
+      "name": "sodiumContent",
+      "amount": 840.0,
+      "unit": "milligram"
+    }
+  ]
 }

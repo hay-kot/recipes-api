@@ -1,55 +1,180 @@
 {
-  "name": "Levain Bakery-Style Peanut Butter Cookies",
   "url": "https://thedomesticrebel.com/2021/04/28/levain-bakery-style-ultimate-peanut-butter-cookies/",
-  "description": "These Levain Bakery-Style Peanut Butter Cookies are the ULTIMATE for serious PB lovers! Supremely thick and chewy with gooey centers and a soft texture, they're packed with peanut butter flavor and Reese's Pieces for the most amazing cookie ever!",
-  "recipeInstructions": [
+  "data": {
+    "name": "Levain Bakery-Style Peanut Butter Cookies",
+    "url": "https://thedomesticrebel.com/2021/04/28/levain-bakery-style-ultimate-peanut-butter-cookies/",
+    "description": "These Levain Bakery-Style Peanut Butter Cookies are the ULTIMATE for serious PB lovers! Supremely thick and chewy with gooey centers and a soft texture, they're packed with peanut butter flavor and Reese's Pieces for the most amazing cookie ever!",
+    "recipeInstructions": [
+      {
+        "text": "Preheat oven to 410\u00b0 degrees F. Line 2 baking sheets with parchment paper or silicone liners; set aside."
+      },
+      {
+        "text": "In the bowl of a stand mixer, cream together the cubed butter, brown sugar and granulated sugar with the paddle attachment for 30 seconds on low speed. Increase speed to medium and beat for another 30 seconds, then increase to medium-high speed and beat for another 30 seconds until mixture is creamy and smooth. Beat in the eggs, one at a time, followed by the vanilla extract and peanut butter, scraping down the sides and bottom of the bowl as needed."
+      },
+      {
+        "text": "Add in the cornstarch, baking soda, salt, cake flour, and all-purpose flour and mix on low speed until just combined. Fold in the peanut butter chips and Reese's Pieces candies by hand until fully incorporated. Chill the dough uncovered in the fridge for 15 minutes."
+      },
+      {
+        "text": "Using a digital kitchen scale for accuracy, weigh out 6 ounces of cookie dough in a loose, rough textured ball. I like to make my cookie dough balls kind of tall as well. You do not want the dough balls to be smooth and compacted. Place on the baking sheet. Repeat with remaining dough balls, staggering on the baking sheet at least 3\" apart from one another, and only placing 4 dough balls per baking sheet."
+      },
+      {
+        "text": "Bake one baking sheet at a time in the center rack of the oven for 10-13 minutes or until the tops are light golden brown and the exterior is dry and dull looking. Centers will be slightly underdone and gooey; this is okay and the cookies will finish cooking some once removed from the oven. Let stand on the baking sheets for at least 30 minutes before serving; the cookies are very delicate and fragile once removed from the oven and need time to set before being moved. Keep remaining dough refrigerated while other cookies bake."
+      }
+    ],
+    "recipeIngredient": [
+      "1 cup unsalted butter, cut into cubes",
+      "1 cup light brown sugar",
+      "1/2 cup granulated white sugar",
+      "2 large eggs",
+      "2 tsp vanilla extract",
+      "1/2 cup creamy peanut butter",
+      "1 tsp cornstarch",
+      "1 tsp baking soda",
+      "1/2 tsp salt",
+      "1 cup cake flour",
+      "2 cups all-purpose flour",
+      "2 cups peanut butter chips",
+      "1\u00bd cups Reese's Pieces candies"
+    ],
+    "recipeCuisine": null,
+    "recipeCategory": [
+      "Cookies",
+      "Dessert"
+    ],
+    "keywords": [],
+    "images": [
+      "https://thedomesticrebel.com/wp-content/uploads/2021/04/LEVAIN-BAKERY-STYLE-PEANUT-BUTTER-COOKIES-scaled.jpg",
+      "https://thedomesticrebel.com/wp-content/uploads/2021/04/LEVAIN-BAKERY-STYLE-PEANUT-BUTTER-COOKIES-500x500.jpg",
+      "https://thedomesticrebel.com/wp-content/uploads/2021/04/LEVAIN-BAKERY-STYLE-PEANUT-BUTTER-COOKIES-500x375.jpg",
+      "https://thedomesticrebel.com/wp-content/uploads/2021/04/LEVAIN-BAKERY-STYLE-PEANUT-BUTTER-COOKIES-480x270.jpg"
+    ],
+    "recipeYield": "9 cookies",
+    "prepTime": "20 Minutes",
+    "performTime": null,
+    "totalTime": "33 Minutes",
+    "dateModified": null,
+    "datePublished": "2021-04-28T01:00:27Z",
+    "nutrition": {}
+  },
+  "ingredients": [
     {
-      "text": "Preheat oven to 410\u00b0 degrees F. Line 2 baking sheets with parchment paper or silicone liners; set aside."
+      "input": "1.0 cup unsalted butter, cut into cubes",
+      "name": "unsalted butter",
+      "qty": 1.0,
+      "unit": "cups",
+      "comment": "cut into cubes",
+      "other": "",
+      "confidence": 0.999813
     },
     {
-      "text": "In the bowl of a stand mixer, cream together the cubed butter, brown sugar and granulated sugar with the paddle attachment for 30 seconds on low speed. Increase speed to medium and beat for another 30 seconds, then increase to medium-high speed and beat for another 30 seconds until mixture is creamy and smooth. Beat in the eggs, one at a time, followed by the vanilla extract and peanut butter, scraping down the sides and bottom of the bowl as needed."
+      "input": "1.0 cup light brown sugar",
+      "name": "light brown sugar",
+      "qty": 1.0,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999673
     },
     {
-      "text": "Add in the cornstarch, baking soda, salt, cake flour, and all-purpose flour and mix on low speed until just combined. Fold in the peanut butter chips and Reese's Pieces candies by hand until fully incorporated. Chill the dough uncovered in the fridge for 15 minutes."
+      "input": "0.5 cup granulated white sugar",
+      "name": "granulated white sugar",
+      "qty": 0.5,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999532
     },
     {
-      "text": "Using a digital kitchen scale for accuracy, weigh out 6 ounces of cookie dough in a loose, rough textured ball. I like to make my cookie dough balls kind of tall as well. You do not want the dough balls to be smooth and compacted. Place on the baking sheet. Repeat with remaining dough balls, staggering on the baking sheet at least 3\" apart from one another, and only placing 4 dough balls per baking sheet."
+      "input": "2 large eggs",
+      "name": "eggs",
+      "qty": 2.0,
+      "unit": "large",
+      "comment": "",
+      "other": "",
+      "confidence": 0.995415
     },
     {
-      "text": "Bake one baking sheet at a time in the center rack of the oven for 10-13 minutes or until the tops are light golden brown and the exterior is dry and dull looking. Centers will be slightly underdone and gooey; this is okay and the cookies will finish cooking some once removed from the oven. Let stand on the baking sheets for at least 30 minutes before serving; the cookies are very delicate and fragile once removed from the oven and need time to set before being moved. Keep remaining dough refrigerated while other cookies bake."
+      "input": "2 teaspoon vanilla extract",
+      "name": "vanilla extract",
+      "qty": 2.0,
+      "unit": "teaspoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99947
+    },
+    {
+      "input": "0.5 cup creamy peanut butter",
+      "name": "creamy peanut butter",
+      "qty": 0.5,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999326
+    },
+    {
+      "input": "1 teaspoon cornstarch",
+      "name": "cornstarch",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999265
+    },
+    {
+      "input": "1 teaspoon baking soda",
+      "name": "baking soda",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999676
+    },
+    {
+      "input": "1/2 teaspoon salt",
+      "name": "salt",
+      "qty": 0.5,
+      "unit": "teaspoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999334
+    },
+    {
+      "input": "1.0 cup cake flour",
+      "name": "cake flour",
+      "qty": 1.0,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.998985
+    },
+    {
+      "input": "2.0 cup all-purpose flour",
+      "name": "all-purpose flour",
+      "qty": 2.0,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999541
+    },
+    {
+      "input": "2.0 cup peanut butter chips",
+      "name": "peanut butter chips",
+      "qty": 2.0,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999702
+    },
+    {
+      "input": "1.5 cup Reese's Pieces candies",
+      "name": "Reese's Pieces candies",
+      "qty": 1.5,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999531
     }
   ],
-  "recipeIngredient": [
-    "1 cup unsalted butter, cut into cubes",
-    "1 cup light brown sugar",
-    "1/2 cup granulated white sugar",
-    "2 large eggs",
-    "2 tsp vanilla extract",
-    "1/2 cup creamy peanut butter",
-    "1 tsp cornstarch",
-    "1 tsp baking soda",
-    "1/2 tsp salt",
-    "1 cup cake flour",
-    "2 cups all-purpose flour",
-    "2 cups peanut butter chips",
-    "1\u00bd cups Reese's Pieces candies"
-  ],
-  "recipeCuisine": null,
-  "recipeCategory": [
-    "Cookies",
-    "Dessert"
-  ],
-  "keywords": [],
-  "images": [
-    "https://thedomesticrebel.com/wp-content/uploads/2021/04/LEVAIN-BAKERY-STYLE-PEANUT-BUTTER-COOKIES-scaled.jpg",
-    "https://thedomesticrebel.com/wp-content/uploads/2021/04/LEVAIN-BAKERY-STYLE-PEANUT-BUTTER-COOKIES-500x500.jpg",
-    "https://thedomesticrebel.com/wp-content/uploads/2021/04/LEVAIN-BAKERY-STYLE-PEANUT-BUTTER-COOKIES-500x375.jpg",
-    "https://thedomesticrebel.com/wp-content/uploads/2021/04/LEVAIN-BAKERY-STYLE-PEANUT-BUTTER-COOKIES-480x270.jpg"
-  ],
-  "recipeYield": "9 cookies",
-  "prepTime": "20 Minutes",
-  "performTime": null,
-  "totalTime": "33 Minutes",
-  "dateModified": null,
-  "datePublished": "2021-04-28T01:00:27Z"
+  "error": null,
+  "nutrition": []
 }

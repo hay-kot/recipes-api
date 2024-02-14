@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 from fastapi.testclient import TestClient
 
 from app.scraper.recipe import Recipe
+from app.v2.schemas import CleanedScrapeResponse
 
 __filepath = pathlib.Path(__file__).parent
 
@@ -17,9 +18,9 @@ def read_recipe_html(name: str) -> str:
     return __filepath.joinpath("testdata", name).read_text()
 
 
-def read_recipe_json(name: str) -> Recipe:
+def read_recipe_json(name: str) -> CleanedScrapeResponse:
     js = json.loads(__filepath.joinpath("testdata", name).read_text())
-    return Recipe(**js)
+    return CleanedScrapeResponse(**js)
 
 
 def test_ready(client: TestClient) -> None:
@@ -100,29 +101,44 @@ def test_parse_clean_v2(client: TestClient, url: str, name: str) -> None:
         snapshot.parent.mkdir(parents=True, exist_ok=True)
 
         with snapshot.open("w") as f:
-            f.write(json.dumps(first["data"], indent=2))
+            f.write(json.dumps(first, indent=2))
 
     expect = read_recipe_json(name + ".json")
+    expect_recipe = expect.data
 
-    assert recipe.name == expect.name
-    assert recipe.url == expect.url
-    assert recipe.description == expect.description
+    assert recipe.name == expect_recipe.name
+    assert recipe.url == expect_recipe.url
+    assert recipe.description == expect_recipe.description
 
-    for i, j in zip(recipe.instructions, expect.instructions):
+    for i, j in zip(recipe.instructions, expect_recipe.instructions):
         assert i.text == j.text
 
-    assert recipe.ingredients == expect.ingredients
-    assert recipe.category == expect.category
+    assert recipe.ingredients == expect_recipe.ingredients
+    assert recipe.category == expect_recipe.category
 
-    assert recipe.keywords == expect.keywords
-    assert recipe.images == expect.images
+    assert recipe.keywords == expect_recipe.keywords
+    assert recipe.images == expect_recipe.images
 
-    assert recipe.recipeYield == expect.recipeYield
-    assert recipe.prepTime == expect.prepTime
-    assert recipe.performTime == expect.performTime
-    assert recipe.totalTime == expect.totalTime
+    assert recipe.recipeYield == expect_recipe.recipeYield
+    assert recipe.prepTime == expect_recipe.prepTime
+    assert recipe.performTime == expect_recipe.performTime
+    assert recipe.totalTime == expect_recipe.totalTime
 
-    assert recipe.dateModified == expect.dateModified
-    assert recipe.datePublished == expect.datePublished
+    assert recipe.dateModified == expect_recipe.dateModified
+    assert recipe.datePublished == expect_recipe.datePublished
 
-    assert recipe.recipeCuisine == expect.recipeCuisine
+    assert recipe.recipeCuisine == expect_recipe.recipeCuisine
+
+    props = {"name", "amount", "unit"}
+    for got, expt in zip(first["nutrition"], expect.nutrition):
+        for prop in props:
+            assert got[prop] == getattr(expt, prop)
+
+    props = {"input", "name", "qty", "unit", "comment", "other", "confidence"}
+    for got, expt in zip(first["ingredients"], expect.ingredients):
+        for prop in props:
+            if props == "qty" or props == "confidence":
+                assert got[prop] == pytest.approx(getattr(expt, prop))
+                continue
+
+            assert got[prop] == getattr(expt, prop)

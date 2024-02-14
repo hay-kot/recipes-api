@@ -1,63 +1,197 @@
 {
-  "name": "Chicken Scarpariello With Sausage and Peppers",
   "url": "https://www.bonappetit.com/recipe/chicken-scarpariello",
-  "description": "Chicken Scarpariello is a classic Italian-American recipe with juicy chicken thighs, sweet Italian sausage, and a vinegary, sweet-sour pan sauce.",
-  "recipeInstructions": [
+  "data": {
+    "name": "Chicken Scarpariello With Sausage and Peppers",
+    "url": "https://www.bonappetit.com/recipe/chicken-scarpariello",
+    "description": "Chicken Scarpariello is a classic Italian-American recipe with juicy chicken thighs, sweet Italian sausage, and a vinegary, sweet-sour pan sauce.",
+    "recipeInstructions": [
+      {
+        "text": "Arrange racks in upper and lower thirds of oven; preheat to 450\u00b0. Toss potatoes with 3 Tbsp. oil on a rimmed baking sheet; season with salt and pepper. Arrange cut side down and roast on lower rack until tender and cut sides are browned, 20\u201330 minutes; set aside."
+      },
+      {
+        "text": "Meanwhile, heat remaining 3 Tbsp. oil in a large skillet over medium-high. Cook sausages, turning occasionally, until browned on all sides, 6\u20138 minutes (they will not be fully cooked). Transfer to a plate."
+      },
+      {
+        "text": "Season chicken on both sides with salt and pepper. Cook in same skillet, turning occasionally, until golden brown on both sides, 8\u201310 minutes (they will also be undercooked). Transfer to plate with sausage."
+      },
+      {
+        "text": "Cook onions, bell pepper, and garlic in same skillet over medium-high heat, stirring occasionally and scraping bottom of pan, until tender and beginning to brown, 10\u201312 minutes. Add wine and cook, stirring occasionally, until reduced and you can no longer smell the alcohol, about 8 minutes. Add broth, peppers, vinegar, and rosemary and bring to a boil; cook until slightly reduced, about 5 minutes. Nestle chicken into onion mixture, then transfer skillet to upper rack of oven and roast chicken 10 minutes. Add sausages to skillet, pushing them into onion mixture, and continue to roast until chicken is cooked through and an instant-read thermometer inserted into thickest part of thigh registers 165\u00b0, 5\u201310 minutes."
+      },
+      {
+        "text": "Top with parsley and serve with roasted potatoes alongside."
+      }
+    ],
+    "recipeIngredient": [
+      "1\u00bd pounds fingerling potatoes, halved lengthwise",
+      "6 tablespoons extra-virgin olive oil, divided",
+      "Kosher salt, freshly ground pepper",
+      "3 links sweet Italian sausage",
+      "6 skin-on, bone-in chicken thighs",
+      "2 large onions, chopped",
+      "\u00bd large red bell pepper, chopped",
+      "6 garlic cloves, finely grated",
+      "1 cup dry white wine",
+      "1 cup low-sodium chicken broth",
+      "\u00bd cup chopped hot, sweet pickled Peppadew peppers in brine",
+      "\u00bc cup white wine vinegar",
+      "3 sprigs rosemary",
+      "Chopped parsley (for serving)"
+    ],
+    "recipeCuisine": null,
+    "recipeCategory": [],
+    "keywords": [
+      "Italian American",
+      "Chicken Thigh",
+      "Sausage",
+      "Weeknight Meals",
+      "Main",
+      "Dairy-Free",
+      "Gluten-Free",
+      "Nut-Free",
+      "Dinner",
+      "Web"
+    ],
+    "images": [
+      "https://assets.bonappetit.com/photos/59c94a8f3b3bf713cb63808f/16:9/w_4991,h_2807,c_limit/chicken-scarpariello.jpg",
+      "https://assets.bonappetit.com/photos/59c94a8f3b3bf713cb63808f/4:3/w_4443,h_3332,c_limit/chicken-scarpariello.jpg",
+      "https://assets.bonappetit.com/photos/59c94a8f3b3bf713cb63808f/1:1/w_3332,h_3332,c_limit/chicken-scarpariello.jpg"
+    ],
+    "recipeYield": "4 servings",
+    "prepTime": null,
+    "performTime": null,
+    "totalTime": null,
+    "dateModified": "2017-09-26T12:31:13.485000-04:00",
+    "datePublished": "2017-09-26T12:31:13.485000-04:00",
+    "nutrition": {}
+  },
+  "ingredients": [
     {
-      "text": "Arrange racks in upper and lower thirds of oven; preheat to 450\u00b0. Toss potatoes with 3 Tbsp. oil on a rimmed baking sheet; season with salt and pepper. Arrange cut side down and roast on lower rack until tender and cut sides are browned, 20\u201330 minutes; set aside."
+      "input": "1 1/2 pounds fingerling potatoes, halved lengthwise",
+      "name": "fingerling potatoes",
+      "qty": 1.5,
+      "unit": "pounds",
+      "comment": "halved lengthwise",
+      "other": "",
+      "confidence": 0.997162
     },
     {
-      "text": "Meanwhile, heat remaining 3 Tbsp. oil in a large skillet over medium-high. Cook sausages, turning occasionally, until browned on all sides, 6\u20138 minutes (they will not be fully cooked). Transfer to a plate."
+      "input": "6 tablespoon extra-virgin olive oil, divided",
+      "name": "extra-virgin olive oil",
+      "qty": 6.0,
+      "unit": "tablespoons",
+      "comment": "divided",
+      "other": "",
+      "confidence": 0.999462
     },
     {
-      "text": "Season chicken on both sides with salt and pepper. Cook in same skillet, turning occasionally, until golden brown on both sides, 8\u201310 minutes (they will also be undercooked). Transfer to plate with sausage."
+      "input": "Kosher salt, freshly ground pepper",
+      "name": "Kosher salt, freshly ground pepper",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.0
     },
     {
-      "text": "Cook onions, bell pepper, and garlic in same skillet over medium-high heat, stirring occasionally and scraping bottom of pan, until tender and beginning to brown, 10\u201312 minutes. Add wine and cook, stirring occasionally, until reduced and you can no longer smell the alcohol, about 8 minutes. Add broth, peppers, vinegar, and rosemary and bring to a boil; cook until slightly reduced, about 5 minutes. Nestle chicken into onion mixture, then transfer skillet to upper rack of oven and roast chicken 10 minutes. Add sausages to skillet, pushing them into onion mixture, and continue to roast until chicken is cooked through and an instant-read thermometer inserted into thickest part of thigh registers 165\u00b0, 5\u201310 minutes."
+      "input": "3 links sweet Italian sausage",
+      "name": "sweet Italian sausage",
+      "qty": 3.0,
+      "unit": "links",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999074
     },
     {
-      "text": "Top with parsley and serve with roasted potatoes alongside."
+      "input": "6 skin-on, bone-in chicken thighs",
+      "name": "skin-on, chicken thighs",
+      "qty": 6.0,
+      "unit": "",
+      "comment": "bone-in",
+      "other": "",
+      "confidence": 0.983707
+    },
+    {
+      "input": "2 large onions, chopped",
+      "name": "onions",
+      "qty": 2.0,
+      "unit": "large",
+      "comment": "chopped",
+      "other": "",
+      "confidence": 0.995214
+    },
+    {
+      "input": "1/2 large red bell pepper, chopped",
+      "name": "red bell pepper",
+      "qty": 0.5,
+      "unit": "large",
+      "comment": "chopped",
+      "other": "",
+      "confidence": 0.997545
+    },
+    {
+      "input": "6 garlic cloves, finely grated",
+      "name": "garlic",
+      "qty": 6.0,
+      "unit": "cloves",
+      "comment": "finely grated",
+      "other": "",
+      "confidence": 0.977162
+    },
+    {
+      "input": "1 cup dry white wine",
+      "name": "dry white wine",
+      "qty": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999695
+    },
+    {
+      "input": "1.0 cup low-sodium chicken broth",
+      "name": "low-sodium chicken broth",
+      "qty": 1.0,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999114
+    },
+    {
+      "input": "0.5 cup chopped hot, sweet pickled Peppadew peppers in brine",
+      "name": "",
+      "qty": 0.5,
+      "unit": "cups",
+      "comment": "chopped hot",
+      "other": "",
+      "confidence": 0.999352
+    },
+    {
+      "input": "0.25 cup white wine vinegar",
+      "name": "white wine vinegar",
+      "qty": 0.25,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999726
+    },
+    {
+      "input": "3 sprigs rosemary",
+      "name": "rosemary",
+      "qty": 3.0,
+      "unit": "sprigs",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999351
+    },
+    {
+      "input": "Chopped parsley (for serving)",
+      "name": "parsley",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "Chopped",
+      "other": "",
+      "confidence": 0.0
     }
   ],
-  "recipeIngredient": [
-    "1\u00bd pounds fingerling potatoes, halved lengthwise",
-    "6 tablespoons extra-virgin olive oil, divided",
-    "Kosher salt, freshly ground pepper",
-    "3 links sweet Italian sausage",
-    "6 skin-on, bone-in chicken thighs",
-    "2 large onions, chopped",
-    "\u00bd large red bell pepper, chopped",
-    "6 garlic cloves, finely grated",
-    "1 cup dry white wine",
-    "1 cup low-sodium chicken broth",
-    "\u00bd cup chopped hot, sweet pickled Peppadew peppers in brine",
-    "\u00bc cup white wine vinegar",
-    "3 sprigs rosemary",
-    "Chopped parsley (for serving)"
-  ],
-  "recipeCuisine": null,
-  "recipeCategory": [],
-  "keywords": [
-    "Italian American",
-    "Chicken Thigh",
-    "Sausage",
-    "Weeknight Meals",
-    "Main",
-    "Dairy-Free",
-    "Gluten-Free",
-    "Nut-Free",
-    "Dinner",
-    "Web"
-  ],
-  "images": [
-    "https://assets.bonappetit.com/photos/59c94a8f3b3bf713cb63808f/16:9/w_4991,h_2807,c_limit/chicken-scarpariello.jpg",
-    "https://assets.bonappetit.com/photos/59c94a8f3b3bf713cb63808f/4:3/w_4443,h_3332,c_limit/chicken-scarpariello.jpg",
-    "https://assets.bonappetit.com/photos/59c94a8f3b3bf713cb63808f/1:1/w_3332,h_3332,c_limit/chicken-scarpariello.jpg"
-  ],
-  "recipeYield": "4 servings",
-  "prepTime": null,
-  "performTime": null,
-  "totalTime": null,
-  "dateModified": "2017-09-26T12:31:13.485000-04:00",
-  "datePublished": "2017-09-26T12:31:13.485000-04:00"
+  "error": null,
+  "nutrition": []
 }

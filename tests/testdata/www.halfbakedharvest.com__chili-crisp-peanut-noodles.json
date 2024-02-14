@@ -1,48 +1,219 @@
 {
-  "name": "Chili Crisp Peanut Noodles with Crispy Halloumi",
   "url": "https://www.halfbakedharvest.com/chili-crisp-peanut-noodles/",
-  "description": "Made in 30 mins, this colorful bowl is full of spicy Thai flavors, is simple to make, and so delicious!",
-  "recipeInstructions": [
+  "data": {
+    "name": "Chili Crisp Peanut Noodles with Crispy Halloumi",
+    "url": "https://www.halfbakedharvest.com/chili-crisp-peanut-noodles/",
+    "description": "Made in 30 mins, this colorful bowl is full of spicy Thai flavors, is simple to make, and so delicious!",
+    "recipeInstructions": [
+      {
+        "text": "1. Bring a large pot of salted water to a boil. Cook the noodles according to package directions. Drain and add to a large bowl with the carrots and peppers.2. Meanwhile, in a food processor, combine the peanut butter, soy sauce, honey, curry paste, ginger, and 1/3 cup water. Pulse until combined and smooth. Pour the sauce over the warm noodles. Tossing well.3. Heat 1 tablespoon sesame oil in a skillet over medium heat. Add the Halloumi and cook until golden, about 5 minutes. Remove from the skillet.4. To the skillet, add 1/4 cup sesame oil, the garlic, and a pinch of chili flakes. Cook until the garlic crisps, about 5 minutes. Toss the Halloumi with 1/2 of the garlic oil, cilantro, basil, peanuts, and sesame seeds. Add the lime juice. 5. Divide the noodles between bowls and top with the halloumi, herbs, and additional chili garlic oil. Enjoy!"
+      }
+    ],
+    "recipeIngredient": [
+      "8 ounces rice noodles or long cut pasta",
+      "1/2 cup creamy peanut butter",
+      "1/3 cup tamari or soy sauce",
+      "2 tablespoons honey",
+      "1/4 cup Thai red curry paste",
+      "1 tablespoon fresh ginger, grated",
+      "2 carrots, shredded",
+      "2 bell peppers, thinly sliced",
+      "1 tablespoon, plus 1/4 cup sesame oil",
+      "8 ounces halloumi cheese, cubed and patted dry",
+      "6 cloves garlic, chopped",
+      "1/2 cup fresh basil, chopped",
+      "1/2 cup fresh cilantro, chopped",
+      "2 green onions, thinly sliced",
+      "3 tablespoons toasted sesame seeds",
+      "3 tablespoons chopped peanuts",
+      "2 tablespoons lime juice"
+    ],
+    "recipeCuisine": null,
+    "recipeCategory": [
+      "Main Course"
+    ],
+    "keywords": [
+      "30 Minutes"
+    ],
+    "images": [
+      "https://www.halfbakedharvest.com/wp-content/uploads/2022/08/Chili-Crisp-Peanut-Noodles-with-Crispy-Halloumi-1.jpg",
+      "https://www.halfbakedharvest.com/wp-content/uploads/2022/08/Chili-Crisp-Peanut-Noodles-with-Crispy-Halloumi-1-500x500.jpg",
+      "https://www.halfbakedharvest.com/wp-content/uploads/2022/08/Chili-Crisp-Peanut-Noodles-with-Crispy-Halloumi-1-500x375.jpg",
+      "https://www.halfbakedharvest.com/wp-content/uploads/2022/08/Chili-Crisp-Peanut-Noodles-with-Crispy-Halloumi-1-480x270.jpg"
+    ],
+    "recipeYield": "6",
+    "prepTime": "20 Minutes",
+    "performTime": null,
+    "totalTime": "30 Minutes",
+    "dateModified": null,
+    "datePublished": "2022-08-08T02:00:00Z",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "496 kcal",
+      "servingSize": "1 serving"
+    }
+  },
+  "ingredients": [
     {
-      "text": "1. Bring a large pot of salted water to a boil. Cook the noodles according to package directions. Drain and add to a large bowl with the carrots and peppers.2. Meanwhile, in a food processor, combine the peanut butter, soy sauce, honey, curry paste, ginger, and 1/3 cup water. Pulse until combined and smooth. Pour the sauce over the warm noodles. Tossing well.3. Heat 1 tablespoon sesame oil in a skillet over medium heat. Add the Halloumi and cook until golden, about 5 minutes. Remove from the skillet.4. To the skillet, add 1/4 cup sesame oil, the garlic, and a pinch of chili flakes. Cook until the garlic crisps, about 5 minutes. Toss the Halloumi with 1/2 of the garlic oil, cilantro, basil, peanuts, and sesame seeds. Add the lime juice. 5. Divide the noodles between bowls and top with the halloumi, herbs, and additional chili garlic oil. Enjoy!"
+      "input": "8.0 ounce rice noodles or long cut pasta",
+      "name": "rice noodles or long cut pasta",
+      "qty": 8.0,
+      "unit": "ounces",
+      "comment": "",
+      "other": "",
+      "confidence": 0.996236
+    },
+    {
+      "input": "0.5 cup creamy peanut butter",
+      "name": "creamy peanut butter",
+      "qty": 0.5,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999326
+    },
+    {
+      "input": "0.333 cup tamari or soy sauce",
+      "name": "tamari or soy sauce",
+      "qty": 0.333,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999479
+    },
+    {
+      "input": "2 tablespoon honey",
+      "name": "honey",
+      "qty": 2.0,
+      "unit": "tablespoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999049
+    },
+    {
+      "input": "0.25 cup Thai red curry paste",
+      "name": "Thai red curry paste",
+      "qty": 0.25,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999585
+    },
+    {
+      "input": "1 tablespoon fresh ginger, grated",
+      "name": "fresh ginger",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "grated",
+      "other": "",
+      "confidence": 0.999799
+    },
+    {
+      "input": "2 carrots, shredded",
+      "name": "carrots",
+      "qty": 2.0,
+      "unit": "",
+      "comment": "shredded",
+      "other": "",
+      "confidence": 0.998836
+    },
+    {
+      "input": "2 bell peppers, thinly sliced",
+      "name": "bell peppers",
+      "qty": 2.0,
+      "unit": "",
+      "comment": "thinly sliced",
+      "other": "",
+      "confidence": 0.998379
+    },
+    {
+      "input": "1 tablespoon, plus 0.25 cup sesame oil",
+      "name": "",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "plus 0.25 cup sesame oil",
+      "other": "",
+      "confidence": 0.996772
+    },
+    {
+      "input": "8.0 ounce halloumi cheese, cubed and patted dry",
+      "name": "halloumi cheese",
+      "qty": 8.0,
+      "unit": "ounces",
+      "comment": "cubed and patted dry",
+      "other": "",
+      "confidence": 0.998733
+    },
+    {
+      "input": "6 cloves garlic, chopped",
+      "name": "garlic",
+      "qty": 6.0,
+      "unit": "cloves",
+      "comment": "chopped",
+      "other": "",
+      "confidence": 0.993501
+    },
+    {
+      "input": "0.5 cup fresh basil, chopped",
+      "name": "fresh basil",
+      "qty": 0.5,
+      "unit": "cups",
+      "comment": "chopped",
+      "other": "",
+      "confidence": 0.999788
+    },
+    {
+      "input": "0.5 cup fresh cilantro, chopped",
+      "name": "fresh cilantro",
+      "qty": 0.5,
+      "unit": "cups",
+      "comment": "chopped",
+      "other": "",
+      "confidence": 0.999858
+    },
+    {
+      "input": "2 green onions, thinly sliced",
+      "name": "green onions",
+      "qty": 2.0,
+      "unit": "",
+      "comment": "thinly sliced",
+      "other": "",
+      "confidence": 0.998993
+    },
+    {
+      "input": "3 tablespoon toasted sesame seeds",
+      "name": "sesame seeds",
+      "qty": 3.0,
+      "unit": "tablespoons",
+      "comment": "toasted",
+      "other": "",
+      "confidence": 0.998888
+    },
+    {
+      "input": "3 tablespoon chopped peanuts",
+      "name": "peanuts",
+      "qty": 3.0,
+      "unit": "tablespoons",
+      "comment": "chopped",
+      "other": "",
+      "confidence": 0.99629
+    },
+    {
+      "input": "2 tablespoon lime juice",
+      "name": "lime juice",
+      "qty": 2.0,
+      "unit": "tablespoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999374
     }
   ],
-  "recipeIngredient": [
-    "8 ounces rice noodles or long cut pasta",
-    "1/2 cup creamy peanut butter",
-    "1/3 cup tamari or soy sauce",
-    "2 tablespoons honey",
-    "1/4 cup Thai red curry paste",
-    "1 tablespoon fresh ginger, grated",
-    "2 carrots, shredded",
-    "2 bell peppers, thinly sliced",
-    "1 tablespoon, plus 1/4 cup sesame oil",
-    "8 ounces halloumi cheese, cubed and patted dry",
-    "6 cloves garlic, chopped",
-    "1/2 cup fresh basil, chopped",
-    "1/2 cup fresh cilantro, chopped",
-    "2 green onions, thinly sliced",
-    "3 tablespoons toasted sesame seeds",
-    "3 tablespoons chopped peanuts",
-    "2 tablespoons lime juice"
-  ],
-  "recipeCuisine": null,
-  "recipeCategory": [
-    "Main Course"
-  ],
-  "keywords": [
-    "30 Minutes"
-  ],
-  "images": [
-    "https://www.halfbakedharvest.com/wp-content/uploads/2022/08/Chili-Crisp-Peanut-Noodles-with-Crispy-Halloumi-1.jpg",
-    "https://www.halfbakedharvest.com/wp-content/uploads/2022/08/Chili-Crisp-Peanut-Noodles-with-Crispy-Halloumi-1-500x500.jpg",
-    "https://www.halfbakedharvest.com/wp-content/uploads/2022/08/Chili-Crisp-Peanut-Noodles-with-Crispy-Halloumi-1-500x375.jpg",
-    "https://www.halfbakedharvest.com/wp-content/uploads/2022/08/Chili-Crisp-Peanut-Noodles-with-Crispy-Halloumi-1-480x270.jpg"
-  ],
-  "recipeYield": "6",
-  "prepTime": "20 Minutes",
-  "performTime": null,
-  "totalTime": "30 Minutes",
-  "dateModified": null,
-  "datePublished": "2022-08-08T02:00:00Z"
+  "error": null,
+  "nutrition": [
+    {
+      "name": "calories",
+      "amount": 496.0,
+      "unit": "kilocalorie"
+    }
+  ]
 }

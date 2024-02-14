@@ -1,69 +1,257 @@
 {
-  "name": "Unstuffed Bell Peppers",
   "url": "https://www.budgetbytes.com/unstuffed-bell-peppers/",
-  "description": "All the ingredients and flavor of stuffed bell peppers cooked in one skillet for an easy, free-form bowl meal. It's UNstuffed Bell Peppers!",
-  "recipeInstructions": [
+  "data": {
+    "name": "Unstuffed Bell Peppers",
+    "url": "https://www.budgetbytes.com/unstuffed-bell-peppers/",
+    "description": "All the ingredients and flavor of stuffed bell peppers cooked in one skillet for an easy, free-form bowl meal. It's UNstuffed Bell Peppers!",
+    "recipeInstructions": [
+      {
+        "text": "Mince the garlic and dice the onion and bell pepper."
+      },
+      {
+        "text": "Add the olive oil and ground beef to a deep skillet. Cook the beef over medium heat until it is fully browned."
+      },
+      {
+        "text": "Add the diced onion, bell pepper, minced garlic, basil, oregano, and pepper to the skillet. Continue to cook and stir until the onions are soft."
+      },
+      {
+        "text": "Next, add the diced tomatoes (with juices), uncooked rice, and beef broth. Give everything a brief stir to combine."
+      },
+      {
+        "text": "Place a lid on the skillet and turn the heat up to medium-high. Allow the broth to come up to a full boil. Once boiling, turn the heat down to low and let it continue to simmer for 15 minutes. After 15 minutes, turn the heat off and let it rest, lid still in place, for another five minutes."
+      },
+      {
+        "text": "While the pot is simmering, combine the tomato sauce and Worcestershire sauce."
+      },
+      {
+        "text": "Once the rice has rested for 5 minutes, remove the lid and fluff it with a fork, gently folding the ingredients back together (peppers and tomatoes may float to the top while it simmers)."
+      },
+      {
+        "text": "Pour the prepared tomato sauce over top, then sprinkled the shredded mozzarella over the sauce. Place the lid back on top and let the heat from the skillet melt the mozzarella. Once melted, sprinkle a little chopped parsley on top and serve."
+      }
+    ],
+    "recipeIngredient": [
+      "1 clove garlic ($0.08)",
+      "1 yellow onion ($0.32)",
+      "2 bell peppers ($1.53)",
+      "1 Tbsp olive oil ($0.16)",
+      "1/2 lb. ground beef ($2.85)",
+      "1 15oz. can diced tomatoes ($1.00)",
+      "1 cup long grain white rice (uncooked) ($0.62)",
+      "1 tsp dried basil ($0.10)",
+      "1 tsp dried oregano ($0.10)",
+      "1/4 tsp freshly cracked black pepper ($0.02)",
+      "1.5 cups beef broth ($0.07)",
+      "1 8oz. can tomato sauce ($0.26)",
+      "1 tsp Worcestershire sauce ($0.01)",
+      "1 cup shredded mozzarella ($0.85)",
+      "1 Tbsp chopped parsley (optional garnish) ($0.05)"
+    ],
+    "recipeCuisine": "American",
+    "recipeCategory": [
+      "Dinner",
+      "Main Course"
+    ],
+    "keywords": [
+      "One Pot Meal",
+      "Skillet Meal"
+    ],
+    "images": [
+      "https://www.budgetbytes.com/wp-content/uploads/2014/08/Unstuffed-Bell-Peppers-close.jpg",
+      "https://www.budgetbytes.com/wp-content/uploads/2014/08/Unstuffed-Bell-Peppers-close-500x500.jpg",
+      "https://www.budgetbytes.com/wp-content/uploads/2014/08/Unstuffed-Bell-Peppers-close-500x375.jpg",
+      "https://www.budgetbytes.com/wp-content/uploads/2014/08/Unstuffed-Bell-Peppers-close-480x270.jpg"
+    ],
+    "recipeYield": "6 1 \u2153 cups each",
+    "prepTime": "15 Minutes",
+    "performTime": null,
+    "totalTime": "1 Hour",
+    "dateModified": null,
+    "datePublished": "2021-02-04T11:02:01Z",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "servingSize": "1.33 cups",
+      "calories": "320.53 kcal",
+      "carbohydrateContent": "35.55 g",
+      "proteinContent": "15.75 g",
+      "fatContent": "12.78 g",
+      "sodiumContent": "646.32 mg",
+      "fiberContent": "3.88 g"
+    }
+  },
+  "ingredients": [
     {
-      "text": "Mince the garlic and dice the onion and bell pepper."
+      "input": "1 clove garlic -2/25 dollar",
+      "name": "garlic -0.08 dollar",
+      "qty": 1.0,
+      "unit": "clove",
+      "comment": "",
+      "other": "",
+      "confidence": 0.996029
     },
     {
-      "text": "Add the olive oil and ground beef to a deep skillet. Cook the beef over medium heat until it is fully browned."
+      "input": "1 yellow onion -8/25 dollar",
+      "name": "yellow onion -0.32 dollar",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99804
     },
     {
-      "text": "Add the diced onion, bell pepper, minced garlic, basil, oregano, and pepper to the skillet. Continue to cook and stir until the onions are soft."
+      "input": "2 bell peppers ($1.53)",
+      "name": "bell peppers",
+      "qty": 2.0,
+      "unit": "",
+      "comment": "($1.53)",
+      "other": "",
+      "confidence": 0.998359
     },
     {
-      "text": "Next, add the diced tomatoes (with juices), uncooked rice, and beef broth. Give everything a brief stir to combine."
+      "input": "1 tablespoon olive oil -4/25 dollar",
+      "name": "olive oil -0.16 dollar",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99927
     },
     {
-      "text": "Place a lid on the skillet and turn the heat up to medium-high. Allow the broth to come up to a full boil. Once boiling, turn the heat down to low and let it continue to simmer for 15 minutes. After 15 minutes, turn the heat off and let it rest, lid still in place, for another five minutes."
+      "input": "1/2 pound ground beef ($2.85)",
+      "name": "ground beef",
+      "qty": 0.5,
+      "unit": "pounds",
+      "comment": "($2.85)",
+      "other": "",
+      "confidence": 0.998171
     },
     {
-      "text": "While the pot is simmering, combine the tomato sauce and Worcestershire sauce."
+      "input": "1 15 ounce can diced tomatoes -1 dollar",
+      "name": "tomatoes -1 dollar",
+      "qty": 1.0,
+      "unit": "can",
+      "comment": "diced",
+      "other": "",
+      "confidence": 0.99427731586614
     },
     {
-      "text": "Once the rice has rested for 5 minutes, remove the lid and fluff it with a fork, gently folding the ingredients back together (peppers and tomatoes may float to the top while it simmers)."
+      "input": "1.0 cup long grain white rice (uncooked) -31/50 dollar",
+      "name": "long grain white rice, -0.62 dollar",
+      "qty": 1.0,
+      "unit": "cups",
+      "comment": "(uncooked)",
+      "other": "",
+      "confidence": 0.999522
     },
     {
-      "text": "Pour the prepared tomato sauce over top, then sprinkled the shredded mozzarella over the sauce. Place the lid back on top and let the heat from the skillet melt the mozzarella. Once melted, sprinkle a little chopped parsley on top and serve."
+      "input": "1 teaspoon dried basil -1/10 dollar",
+      "name": "dried basil -0.1 dollar",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.998366
+    },
+    {
+      "input": "1 teaspoon dried oregano -1/10 dollar",
+      "name": "dried oregano -0.1 dollar",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999149
+    },
+    {
+      "input": "1/4 teaspoon freshly cracked black pepper -1/50 dollar",
+      "name": "freshly cracked black pepper -0.02 dollar",
+      "qty": 0.25,
+      "unit": "teaspoons",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999167
+    },
+    {
+      "input": "1.5 cup beef broth -7/100 dollar",
+      "name": "beef broth -0.07 dollar",
+      "qty": 1.5,
+      "unit": "cups",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999472
+    },
+    {
+      "input": "1 8 ounce can tomato sauce ($0.26)",
+      "name": "tomato sauce",
+      "qty": 1.0,
+      "unit": "can",
+      "comment": "($0.26)",
+      "other": "",
+      "confidence": 0.9969635140747253
+    },
+    {
+      "input": "1 teaspoon Worcestershire sauce -1/100 dollar",
+      "name": "Worcestershire sauce -0.01 dollar",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999209
+    },
+    {
+      "input": "1.0 cup shredded mozzarella -17/20 dollar",
+      "name": "mozzarella -0.85 dollar",
+      "qty": 1.0,
+      "unit": "cups",
+      "comment": "shredded",
+      "other": "",
+      "confidence": 0.999611
+    },
+    {
+      "input": "1 tablespoon chopped parsley (optional garnish) -1/20 dollar",
+      "name": "parsley, -0.05 dollar",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "chopped",
+      "other": "",
+      "confidence": 0.997656
     }
   ],
-  "recipeIngredient": [
-    "1 clove garlic ($0.08)",
-    "1 yellow onion ($0.32)",
-    "2 bell peppers ($1.53)",
-    "1 Tbsp olive oil ($0.16)",
-    "1/2 lb. ground beef ($2.85)",
-    "1 15oz. can diced tomatoes ($1.00)",
-    "1 cup long grain white rice (uncooked) ($0.62)",
-    "1 tsp dried basil ($0.10)",
-    "1 tsp dried oregano ($0.10)",
-    "1/4 tsp freshly cracked black pepper ($0.02)",
-    "1.5 cups beef broth ($0.07)",
-    "1 8oz. can tomato sauce ($0.26)",
-    "1 tsp Worcestershire sauce ($0.01)",
-    "1 cup shredded mozzarella ($0.85)",
-    "1 Tbsp chopped parsley (optional garnish) ($0.05)"
-  ],
-  "recipeCuisine": "American",
-  "recipeCategory": [
-    "Dinner",
-    "Main Course"
-  ],
-  "keywords": [
-    "One Pot Meal",
-    "Skillet Meal"
-  ],
-  "images": [
-    "https://www.budgetbytes.com/wp-content/uploads/2014/08/Unstuffed-Bell-Peppers-close.jpg",
-    "https://www.budgetbytes.com/wp-content/uploads/2014/08/Unstuffed-Bell-Peppers-close-500x500.jpg",
-    "https://www.budgetbytes.com/wp-content/uploads/2014/08/Unstuffed-Bell-Peppers-close-500x375.jpg",
-    "https://www.budgetbytes.com/wp-content/uploads/2014/08/Unstuffed-Bell-Peppers-close-480x270.jpg"
-  ],
-  "recipeYield": "6 1 \u2153 cups each",
-  "prepTime": "15 Minutes",
-  "performTime": null,
-  "totalTime": "1 Hour",
-  "dateModified": null,
-  "datePublished": "2021-02-04T11:02:01Z"
+  "error": null,
+  "nutrition": [
+    {
+      "name": "servingSize",
+      "amount": 1.33,
+      "unit": "cup"
+    },
+    {
+      "name": "calories",
+      "amount": 320.53,
+      "unit": "kilocalorie"
+    },
+    {
+      "name": "carbohydrateContent",
+      "amount": 35.55,
+      "unit": "gram"
+    },
+    {
+      "name": "proteinContent",
+      "amount": 15.75,
+      "unit": "gram"
+    },
+    {
+      "name": "fatContent",
+      "amount": 12.78,
+      "unit": "gram"
+    },
+    {
+      "name": "sodiumContent",
+      "amount": 646.32,
+      "unit": "milligram"
+    },
+    {
+      "name": "fiberContent",
+      "amount": 3.88,
+      "unit": "gram"
+    }
+  ]
 }
