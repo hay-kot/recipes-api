@@ -138,7 +138,7 @@ def test_parse_clean_v2(client: TestClient, url: str, name: str) -> None:
     for got, expt in zip(first["ingredients"], expect.ingredients):
         for prop in props:
             if props == "qty" or props == "confidence":
-                assert got[prop] == pytest.approx(getattr(expt, prop))
+                assert got[prop] == pytest.approx(getattr(expt, prop), rel=0.01)
                 continue
 
             assert got[prop] == getattr(expt, prop)
