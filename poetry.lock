@@ -375,13 +375,13 @@ testing = ["pygments", "pytest (>=6)", "pytest-black (>=0.3.7)", "pytest-checkdo
 
 [[package]]
 name = "ingredient-parser-nlp"
-version = "0.1.0b7"
+version = "0.1.0b8"
 description = "A Python package to parse structured information from recipe ingredient sentences"
 optional = false
-python-versions = "<3.12,>=3.10"
+python-versions = "<=3.12,>=3.10"
 files = [
-    {file = "ingredient_parser_nlp-0.1.0b7-py3-none-any.whl", hash = "sha256:86d10006fe4810d913c15792601c04e12055edfa35123ff929db2f9bc9471cb1"},
-    {file = "ingredient_parser_nlp-0.1.0b7.tar.gz", hash = "sha256:022171ea51741663d368aea59ed770c92e6f8fcde0ac0d830901d63fdf86a960"},
+    {file = "ingredient_parser_nlp-0.1.0b8-py3-none-any.whl", hash = "sha256:cbe6da0d02ae89710866126c7ee8ef55736b03be6c8016c972da9b87ca5861f3"},
+    {file = "ingredient_parser_nlp-0.1.0b8.tar.gz", hash = "sha256:d1fb93136cb93c2911095036798f032b1901fa96e5376835c01ae5642a48f495"},
 ]
 
 [package.dependencies]
@@ -1380,4 +1380,4 @@ requests = ">=2.0.0,<3.0.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10, <3.12"
-content-hash = "c959cb78cc2d3520138ca16705791ae8f2503d7de916b49adee0d1b1104477b7"
+content-hash = "a9ac170254933551e285036c199f1e6a22b1860cc5e44836a5247803185cde84"
