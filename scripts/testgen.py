@@ -38,9 +38,17 @@ async def main():
         log.error("No urls found")
         return
 
-    async with httpx.AsyncClient() as client:
-        tasks = [client.get(url) for url in urls]
-        results = await asyncio.gather(*tasks)
+    limits = httpx.Limits(max_keepalive_connections=5, max_connections=10)
+
+    results = []
+
+    async with httpx.AsyncClient(limits=limits) as client:
+        for url in urls:
+            try:
+                result = await client.get(url)
+                results.append(result)
+            except Exception as e:
+                log.error(f"Failed to get {url} {e}")
 
     for result in results:
         if result.status_code != 200:
