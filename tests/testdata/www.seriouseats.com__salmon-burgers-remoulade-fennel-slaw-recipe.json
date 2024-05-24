@@ -102,8 +102,7 @@
       "name": "",
       "qty": 1.0,
       "unit": "",
-      "comment": "For the Salmon Patties :",
-      "other": "",
+      "comment": "For the Salmon Patties",
       "confidence": 0.0
     },
     {
@@ -112,17 +111,15 @@
       "qty": 1.5,
       "unit": "pounds",
       "comment": "very finely chopped by hand",
-      "other": "",
-      "confidence": 0.9966
+      "confidence": 0.999528
     },
     {
       "input": "3 tablespoons minced mixed fresh parsley, tarragon, and chives (about 4 teaspoons each minced parsley and chives and 1 teaspoon minced tarragon",
-      "name": "mixed fresh parsley, tarragon",
+      "name": "mixed fresh parsley,,, and chives",
       "qty": 3.0,
       "unit": "tablespoons",
       "comment": "minced",
-      "other": "",
-      "confidence": 0.999243
+      "confidence": 0.999365
     },
     {
       "input": "1/4 teaspoon ground coriander seed",
@@ -130,25 +127,22 @@
       "qty": 0.25,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.998474
+      "confidence": 0.998498
     },
     {
       "input": "1 (1.0 inch) knob fresh peeled ginger, grated",
-      "name": "fresh peeled ginger",
+      "name": "fresh, ginger",
       "qty": 1.0,
       "unit": "",
-      "comment": "grated",
-      "other": "",
-      "confidence": 0.993259
+      "comment": "peeled,, grated",
+      "confidence": 0.997666
     },
     {
       "input": "Kosher salt and freshly ground black or white pepper",
-      "name": "Kosher salt and freshly ground black or white pepper",
+      "name": "Kosher salt and, black or white pepper",
       "qty": 1.0,
       "unit": "",
-      "comment": "",
-      "other": "",
+      "comment": "freshly ground",
       "confidence": 0.0
     },
     {
@@ -156,8 +150,7 @@
       "name": "",
       "qty": 1.0,
       "unit": "",
-      "comment": "For the R\u00e9moulade :",
-      "other": "",
+      "comment": "For the R\u00e9moulade",
       "confidence": 0.0
     },
     {
@@ -166,17 +159,15 @@
       "qty": 0.5,
       "unit": "cups",
       "comment": "plus 2 tablespoon",
-      "other": "",
-      "confidence": 0.995663
+      "confidence": 0.999147
     },
     {
       "input": "1 tablespoon drained brined capers, minced",
       "name": "brined capers",
       "qty": 1.0,
       "unit": "tablespoon",
-      "comment": "drained, minced",
-      "other": "",
-      "confidence": 0.998241
+      "comment": "drained,, minced",
+      "confidence": 0.998837
     },
     {
       "input": "4 cornichons, minced (about 1 1/2 tablespoon)",
@@ -184,26 +175,23 @@
       "qty": 4.0,
       "unit": "",
       "comment": "minced",
-      "other": "",
-      "confidence": 0.998696
+      "confidence": 0.99957
     },
     {
       "input": "2 1/2 teaspoons minced fresh flat-leaf parsley, tarragon, and chives (about 1 teaspoon each minced parsley and chives and 1/2 teaspoon minced tarragon",
-      "name": "fresh flat-leaf parsley, tarragon",
+      "name": "fresh flat-leaf parsley,,, and chives",
       "qty": 2.5,
       "unit": "teaspoons",
-      "comment": "minced, minced parsley and chives and 0.5 teaspoon minced",
-      "other": "",
-      "confidence": 0.999439
+      "comment": "minced",
+      "confidence": 0.999902
     },
     {
       "input": "2 teaspoon fresh juice from 1 lemon (10.0 milliliter )",
-      "name": "fresh juice from, lemon",
+      "name": "fresh juice, lemon",
       "qty": 2.0,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.997806
+      "confidence": 0.998658
     },
     {
       "input": "1 teaspoon Dijon mustard (5.0 milliliter )",
@@ -211,8 +199,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999593
+      "confidence": 0.999862
     },
     {
       "input": "1/2 teaspoon drained prepared horseradish",
@@ -220,16 +207,14 @@
       "qty": 0.5,
       "unit": "teaspoons",
       "comment": "drained",
-      "other": "",
-      "confidence": 0.999043
+      "confidence": 0.999483
     },
     {
       "input": "Kosher salt and freshly ground black pepper",
-      "name": "Kosher salt and freshly ground black pepper",
+      "name": "Kosher salt and, black pepper",
       "qty": 1.0,
       "unit": "",
-      "comment": "",
-      "other": "",
+      "comment": "freshly ground",
       "confidence": 0.0
     },
     {
@@ -237,8 +222,7 @@
       "name": "",
       "qty": 1.0,
       "unit": "",
-      "comment": "For the Slaw :",
-      "other": "",
+      "comment": "For the Slaw",
       "confidence": 0.0
     },
     {
@@ -246,9 +230,8 @@
       "name": "celery root",
       "qty": 1.75,
       "unit": "ounces",
-      "comment": "peeled, julienned",
-      "other": "",
-      "confidence": 0.999266
+      "comment": "peeled,, julienned",
+      "confidence": 0.99997
     },
     {
       "input": "1 3/4 ounces shredded radicchio (50 gram ; from 1 small head)",
@@ -256,8 +239,7 @@
       "qty": 1.75,
       "unit": "ounces",
       "comment": "shredded",
-      "other": "",
-      "confidence": 0.99832
+      "confidence": 0.999645
     },
     {
       "input": "1 3/4 ounces fennel (50 gram ; from 1 small head), julienned",
@@ -265,8 +247,7 @@
       "qty": 1.75,
       "unit": "ounces",
       "comment": "julienned",
-      "other": "",
-      "confidence": 0.998341
+      "confidence": 0.999861
     },
     {
       "input": "Extra-virgin olive oil, for drizzling",
@@ -274,25 +255,22 @@
       "qty": 1.0,
       "unit": "",
       "comment": "for drizzling",
-      "other": "",
       "confidence": 0.0
     },
     {
       "input": "Fresh juice from 1 lemon, for drizzling",
-      "name": "Fresh juice from, lemon",
+      "name": "Fresh juice, lemon",
       "qty": 1.0,
       "unit": "",
       "comment": "for drizzling",
-      "other": "",
-      "confidence": 0.909406
+      "confidence": 0.655048
     },
     {
       "input": "Kosher salt and freshly ground black pepper",
-      "name": "Kosher salt and freshly ground black pepper",
+      "name": "Kosher salt and, black pepper",
       "qty": 1.0,
       "unit": "",
-      "comment": "",
-      "other": "",
+      "comment": "freshly ground",
       "confidence": 0.0
     },
     {
@@ -300,18 +278,16 @@
       "name": "",
       "qty": 1.0,
       "unit": "",
-      "comment": "For Cooking and Serving :",
-      "other": "",
+      "comment": "For Cooking and Serving",
       "confidence": 0.0
     },
     {
       "input": "1.0 cup panko bread crumbs",
       "name": "panko bread crumbs",
       "qty": 1.0,
-      "unit": "cups",
+      "unit": "cup",
       "comment": "",
-      "other": "",
-      "confidence": 0.999566
+      "confidence": 0.999891
     },
     {
       "input": "0.25 cup vegetable oil (60.0 milliliter )",
@@ -319,8 +295,7 @@
       "qty": 0.25,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999196
+      "confidence": 0.999845
     },
     {
       "input": "4 brioche hamburger buns, buttered and toasted",
@@ -328,8 +303,7 @@
       "qty": 4.0,
       "unit": "",
       "comment": "buttered and toasted",
-      "other": "",
-      "confidence": 0.997796
+      "confidence": 0.999148
     }
   ],
   "error": null,

@@ -73,35 +73,31 @@
       "qty": 500.0,
       "unit": "grams",
       "comment": "see note",
-      "other": "",
-      "confidence": 0.997042
+      "confidence": 0.998553
     },
     {
       "input": "10.0 gram Diamond Crystal kosher salt (0.4 ounce; 2 1/2 teaspoon); for table salt, use about half as much by volume or the same weight",
       "name": "Diamond Crystal kosher salt",
       "qty": 10.0,
       "unit": "grams",
-      "comment": " ; for table salt, use about half as much by volume or the same weight",
-      "other": "",
-      "confidence": 0.998083
+      "comment": "for table salt, use about half as much by volume or the same weight",
+      "confidence": 0.999275
     },
     {
       "input": "4.0 gram instant dry yeast, such as SAF (0.1 ounce; 1/2 packet or 1 rounded teaspoon)",
       "name": "instant dry yeast",
       "qty": 4.0,
       "unit": "grams",
-      "comment": "such as SAF (0.1 ounce ; 0.5 packet or 1 rounded teaspoon)",
-      "other": "",
-      "confidence": 0.996789
+      "comment": "such as SAF (,; 0.5 packet or 1 rounded teaspoon)",
+      "confidence": 0.998765
     },
     {
       "input": "400.0 gram room temperature water (14.1 ounce; 1.5 cup plus 3 tablespoon)",
       "name": "room temperature water",
       "qty": 400.0,
       "unit": "grams",
-      "comment": "; 1.5 cup plus 3 tablespoon",
-      "other": "",
-      "confidence": 0.990472
+      "comment": "1.5 cup plus 3 tablespoon",
+      "confidence": 0.980547
     },
     {
       "input": "68.0 gram extra-virgin olive oil (2.4 ounce; 5 tablespoon), divided",
@@ -109,8 +105,7 @@
       "qty": 68.0,
       "unit": "grams",
       "comment": "divided",
-      "other": "",
-      "confidence": 0.997958
+      "confidence": 0.99904
     },
     {
       "input": "Coarse sea salt, such as Maldon or fleur de sel",
@@ -118,7 +113,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "such as Maldon or fleur de sel",
-      "other": "",
       "confidence": 0.0
     }
   ],

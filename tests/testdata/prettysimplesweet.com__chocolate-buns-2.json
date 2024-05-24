@@ -59,8 +59,7 @@
       "qty": 3.5,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999558
+      "confidence": 0.999788
     },
     {
       "input": "3 tablespoon (20.0 gram ) cocoa powder (I use Dutch process)",
@@ -68,8 +67,7 @@
       "qty": 3.0,
       "unit": "tablespoons",
       "comment": "(I use Dutch process)",
-      "other": "",
-      "confidence": 0.999024
+      "confidence": 0.999579
     },
     {
       "input": "6 tablespoon (75.0 gram ) granulated sugar",
@@ -77,8 +75,7 @@
       "qty": 6.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.99886
+      "confidence": 0.999157
     },
     {
       "input": "2 1/4 teaspoon (7.0 gram ) instant yeast",
@@ -86,8 +83,7 @@
       "qty": 2.25,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999256
+      "confidence": 0.999635
     },
     {
       "input": "1 1/2 teaspoon salt",
@@ -95,17 +91,15 @@
       "qty": 1.5,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999186
+      "confidence": 0.999873
     },
     {
       "input": "1.0 cup (240.0 milliliter ) water, lukewarm",
       "name": "water",
       "qty": 1.0,
-      "unit": "cups",
+      "unit": "cup",
       "comment": "lukewarm",
-      "other": "",
-      "confidence": 0.999496
+      "confidence": 0.999888
     },
     {
       "input": "0.25 cup (60.0 milliliter ) whole milk, lukewarm",
@@ -113,8 +107,7 @@
       "qty": 0.25,
       "unit": "cups",
       "comment": "lukewarm",
-      "other": "",
-      "confidence": 0.999328
+      "confidence": 0.999859
     },
     {
       "input": "1/2 stick ((55.0 gram ) unsalted butter, cubed and softened to room temperature)",
@@ -122,8 +115,7 @@
       "qty": 0.5,
       "unit": "sticks",
       "comment": "cubed and softened to room temperature",
-      "other": "",
-      "confidence": 0.996936
+      "confidence": 0.997828
     },
     {
       "input": "0.667 cup (110.0 gram ) chocolate chips or chunks",
@@ -131,8 +123,7 @@
       "qty": 0.667,
       "unit": "cups",
       "comment": "or chunks",
-      "other": "",
-      "confidence": 0.999524
+      "confidence": 0.999909
     }
   ],
   "error": null,

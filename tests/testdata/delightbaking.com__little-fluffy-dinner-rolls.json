@@ -46,8 +46,7 @@
       "qty": 640.0,
       "unit": "grams",
       "comment": "",
-      "other": "",
-      "confidence": 0.995575
+      "confidence": 0.996235
     },
     {
       "input": "15.0 gram Salt",
@@ -55,8 +54,7 @@
       "qty": 15.0,
       "unit": "grams",
       "comment": "",
-      "other": "",
-      "confidence": 0.99442
+      "confidence": 0.99952
     },
     {
       "input": "35.0 gram White sugar",
@@ -64,8 +62,7 @@
       "qty": 35.0,
       "unit": "grams",
       "comment": "",
-      "other": "",
-      "confidence": 0.99896
+      "confidence": 0.999116
     },
     {
       "input": "30.0 gram Yeast",
@@ -73,8 +70,7 @@
       "qty": 30.0,
       "unit": "grams",
       "comment": "",
-      "other": "",
-      "confidence": 0.997862
+      "confidence": 0.999692
     },
     {
       "input": "350.0 gram Milk 3.5 percentage fat",
@@ -82,8 +78,7 @@
       "qty": 350.0,
       "unit": "grams",
       "comment": "",
-      "other": "",
-      "confidence": 0.998485
+      "confidence": 0.999351
     },
     {
       "input": "75.0 gram Butter",
@@ -91,17 +86,15 @@
       "qty": 75.0,
       "unit": "grams",
       "comment": "",
-      "other": "",
-      "confidence": 0.996203
+      "confidence": 0.999488
     },
     {
       "input": "2x Eggs (medium)",
       "name": "Eggs",
-      "qty": 1.0,
+      "qty": 2.0,
       "unit": "",
       "comment": "(medium)",
-      "other": "",
-      "confidence": 0.879535
+      "confidence": 0.886618
     }
   ],
   "error": null,

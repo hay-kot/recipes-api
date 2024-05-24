@@ -47,12 +47,11 @@
   "ingredients": [
     {
       "input": "160.0 milliliter warm milk",
-      "name": "milk",
+      "name": "warm milk",
       "qty": 160.0,
       "unit": "milliliters",
-      "comment": "warm",
-      "other": "",
-      "confidence": 0.997573
+      "comment": "",
+      "confidence": 0.999333
     },
     {
       "input": "6.0 gram instant yeast",
@@ -60,8 +59,7 @@
       "qty": 6.0,
       "unit": "grams",
       "comment": "",
-      "other": "",
-      "confidence": 0.993963
+      "confidence": 0.998936
     },
     {
       "input": "300.0 gram flour",
@@ -69,8 +67,7 @@
       "qty": 300.0,
       "unit": "grams",
       "comment": "",
-      "other": "",
-      "confidence": 0.987642
+      "confidence": 0.993334
     },
     {
       "input": "6.0 gram coarse kosher salt",
@@ -78,8 +75,7 @@
       "qty": 6.0,
       "unit": "grams",
       "comment": "",
-      "other": "",
-      "confidence": 0.997083
+      "confidence": 0.998481
     },
     {
       "input": "50.0 gram sugar",
@@ -87,8 +83,7 @@
       "qty": 50.0,
       "unit": "grams",
       "comment": "",
-      "other": "",
-      "confidence": 0.988221
+      "confidence": 0.997446
     },
     {
       "input": "56.0 gram softened butter",
@@ -96,8 +91,7 @@
       "qty": 56.0,
       "unit": "grams",
       "comment": "softened",
-      "other": "",
-      "confidence": 0.994577
+      "confidence": 0.999088
     },
     {
       "input": "1 whole egg, beaten",
@@ -105,8 +99,7 @@
       "qty": 1.0,
       "unit": "",
       "comment": "beaten",
-      "other": "",
-      "confidence": 0.995791
+      "confidence": 0.996753
     }
   ],
   "error": null,

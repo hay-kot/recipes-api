@@ -91,8 +91,7 @@
       "qty": 0.5,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999506
+      "confidence": 0.999904
     },
     {
       "input": "4 Earl Grey tea bags (divided, 2 for steeping; 2 for loose leaves to add to batter )",
@@ -100,17 +99,15 @@
       "qty": 4.0,
       "unit": "",
       "comment": "divided",
-      "other": "",
-      "confidence": 0.997375
+      "confidence": 0.999745
     },
     {
       "input": "0.5 cup unsalted butter (melted and cooled)",
       "name": "unsalted butter",
       "qty": 0.5,
       "unit": "cups",
-      "comment": "melted and cooled",
-      "other": "",
-      "confidence": 0.999815
+      "comment": "(melted and cooled)",
+      "confidence": 0.999944
     },
     {
       "input": "2 tablespoon honey",
@@ -118,8 +115,7 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999049
+      "confidence": 0.999216
     },
     {
       "input": "0.75 cup sugar",
@@ -127,8 +123,7 @@
       "qty": 0.75,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999209
+      "confidence": 0.999826
     },
     {
       "input": "2 eggs",
@@ -136,17 +131,15 @@
       "qty": 2.0,
       "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.99907
+      "confidence": 0.999067
     },
     {
       "input": "1-1/2 cup all-purpose flour",
       "name": "all-purpose flour",
-      "qty": 1.5,
+      "qty": 0.5,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999326
+      "confidence": 0.999832
     },
     {
       "input": "1/4 teaspoon salt",
@@ -154,8 +147,7 @@
       "qty": 0.25,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999174
+      "confidence": 0.999795
     },
     {
       "input": "1 teaspoon baking powder",
@@ -163,17 +155,15 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999616
+      "confidence": 0.999662
     },
     {
       "input": "zest of 1 lemon",
-      "name": "zest of, lemon",
+      "name": "lemon",
       "qty": 1.0,
       "unit": "",
-      "comment": "",
-      "other": "",
-      "confidence": 0.92848
+      "comment": "zest",
+      "confidence": 0.963313
     },
     {
       "input": "3 tablespoon sugar",
@@ -181,8 +171,7 @@
       "qty": 3.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.998585
+      "confidence": 0.99943
     },
     {
       "input": "1 tablespoon honey",
@@ -190,17 +179,15 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.998996
+      "confidence": 0.999421
     },
     {
       "input": "0.25 cup hot water",
-      "name": "water",
+      "name": "hot water",
       "qty": 0.25,
       "unit": "cups",
-      "comment": "hot",
-      "other": "",
-      "confidence": 0.998104
+      "comment": "",
+      "confidence": 0.999801
     },
     {
       "input": "3 tablespoon lemon juice",
@@ -208,8 +195,7 @@
       "qty": 3.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999598
+      "confidence": 0.999846
     }
   ],
   "error": null,

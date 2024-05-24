@@ -97,8 +97,7 @@
       "name": "",
       "qty": 1.0,
       "unit": "",
-      "comment": "For the Dough (see note) :",
-      "other": "",
+      "comment": "For the Dough (see note)",
       "confidence": 0.0
     },
     {
@@ -107,17 +106,15 @@
       "qty": 500.0,
       "unit": "grams",
       "comment": "",
-      "other": "",
-      "confidence": 0.995976
+      "confidence": 0.996029
     },
     {
       "input": "14.0 gram kosher salt (0.5 ounce; about 1 tablespoon); for table salt use same weight or half as much by volume",
       "name": "kosher salt",
       "qty": 14.0,
       "unit": "grams",
-      "comment": " ; for table salt use same weight or half as much by volume",
-      "other": "",
-      "confidence": 0.993901
+      "comment": "for table salt use same weight or half as much by volume",
+      "confidence": 0.998996
     },
     {
       "input": "6.0 gram instant or rapid-rise yeast (0.25 ounce; about 1 1/2 teaspoon)",
@@ -125,44 +122,39 @@
       "qty": 6.0,
       "unit": "grams",
       "comment": "",
-      "other": "",
-      "confidence": 0.993141
+      "confidence": 0.998424
     },
     {
       "input": "20.0 gram extra-virgin olive oil (0.7 ounce; 2 tablespoon), plus 40.0 gram (1.4 ounce; 0.25 cup ) for the baking pan",
       "name": "extra-virgin olive oil",
       "qty": 20.0,
       "unit": "grams",
-      "comment": "plus 40.0 gram (1.4 ounce ; 0.25 cup) for the baking pan",
-      "other": "",
-      "confidence": 0.997958
+      "comment": "plus 40.0 gram (,; 0.25 cup) for the baking pan",
+      "confidence": 0.99904
     },
     {
       "input": "325.0 gram room-temperature water (11.5 ounce; about 1.0 cup plus 7 tablespoon)",
       "name": "room-temperature water",
       "qty": 325.0,
       "unit": "grams",
-      "comment": "; about 1.0 cup plus 7 tablespoon",
-      "other": "",
-      "confidence": 0.99312
+      "comment": "about 1.0 cup plus 7 tablespoon",
+      "confidence": 0.997498
     },
     {
       "input": "For the Sauce:",
       "name": "",
       "qty": 1.0,
       "unit": "",
-      "comment": "For the Sauce :",
-      "other": "",
+      "comment": "For the Sauce",
       "confidence": 0.0
     },
     {
       "input": "20.0 gram extra-virgin olive oil (0.7 ounce; 2 tablespoon) extra-virgin olive oil",
-      "name": "extra-virgin olive oil",
+      "name": "extra-virgin olive oil (,) extra-virgin olive oil",
       "qty": 20.0,
       "unit": "grams",
       "comment": "",
-      "other": "",
-      "confidence": 0.997958
+      "confidence": 0.99904
     },
     {
       "input": "9 medium cloves garlic (45.0 gram ), roughly chopped",
@@ -170,8 +162,7 @@
       "qty": 9.0,
       "unit": "medium cloves",
       "comment": "roughly chopped",
-      "other": "",
-      "confidence": 0.9727
+      "confidence": 0.993398
     },
     {
       "input": "1 tablespoon dried oregano",
@@ -179,8 +170,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.998941
+      "confidence": 0.998803
     },
     {
       "input": "2 teaspoon red pepper flakes, or more to taste",
@@ -188,8 +178,7 @@
       "qty": 2.0,
       "unit": "teaspoons",
       "comment": "or more to taste",
-      "other": "",
-      "confidence": 0.99963
+      "confidence": 0.999518
     },
     {
       "input": "One 28.0 ounce (800.0 gram ) can whole peeled tomatoes",
@@ -197,8 +186,7 @@
       "qty": 1.0,
       "unit": "can",
       "comment": "",
-      "other": "",
-      "confidence": 0.9946570924448015
+      "confidence": 0.998418
     },
     {
       "input": "1 teaspoon sugar",
@@ -206,8 +194,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.998773
+      "confidence": 0.999409
     },
     {
       "input": "Kosher salt",
@@ -215,7 +202,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     },
     {
@@ -223,8 +209,7 @@
       "name": "",
       "qty": 1.0,
       "unit": "",
-      "comment": "To Assemble and Bake :",
-      "other": "",
+      "comment": "To Assemble and Bake",
       "confidence": 0.0
     },
     {
@@ -233,8 +218,7 @@
       "qty": 1.0,
       "unit": "pound",
       "comment": "sliced",
-      "other": "",
-      "confidence": 0.99894
+      "confidence": 0.99957
     },
     {
       "input": "12.0 ounce (325.0 gram ) natural-casing pepperoni, cut into 0.125 inch-thick slices",
@@ -242,8 +226,7 @@
       "qty": 12.0,
       "unit": "ounces",
       "comment": "cut into 0.125 inch-thick slices",
-      "other": "",
-      "confidence": 0.99822
+      "confidence": 0.999817
     },
     {
       "input": "4.0 ounce (115.0 gram ) ground Pecorino Romano cheese",
@@ -251,8 +234,7 @@
       "qty": 4.0,
       "unit": "ounces",
       "comment": "",
-      "other": "",
-      "confidence": 0.99822
+      "confidence": 0.999817
     }
   ],
   "error": null,

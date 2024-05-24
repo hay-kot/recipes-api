@@ -67,8 +67,7 @@
       "qty": 0.333,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999705
+      "confidence": 0.999761
     },
     {
       "input": "0.25 cup extra virgin olive oil",
@@ -76,8 +75,7 @@
       "qty": 0.25,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.99942
+      "confidence": 0.999928
     },
     {
       "input": "1 1/2 pounds boneless skinless chicken breasts or thighs, cubed",
@@ -85,8 +83,7 @@
       "qty": 1.5,
       "unit": "pounds",
       "comment": "cubed",
-      "other": "",
-      "confidence": 0.997018
+      "confidence": 0.99976
     },
     {
       "input": "0.25 cup fresh lemon juice",
@@ -94,8 +91,7 @@
       "qty": 0.25,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999766
+      "confidence": 0.999914
     },
     {
       "input": "6 garlic cloves, chopped",
@@ -103,8 +99,7 @@
       "qty": 6.0,
       "unit": "cloves",
       "comment": "chopped",
-      "other": "",
-      "confidence": 0.965977
+      "confidence": 0.983925
     },
     {
       "input": "2 shallots, chopped",
@@ -112,8 +107,7 @@
       "qty": 2.0,
       "unit": "",
       "comment": "chopped",
-      "other": "",
-      "confidence": 0.998358
+      "confidence": 0.999524
     },
     {
       "input": "1 tablespoon smoked paprika",
@@ -121,8 +115,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999303
+      "confidence": 0.999148
     },
     {
       "input": "1 tablespoon chopped fresh oregano",
@@ -130,8 +123,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "chopped",
-      "other": "",
-      "confidence": 0.999199
+      "confidence": 0.999705
     },
     {
       "input": "red pepper flakes",
@@ -139,7 +131,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     },
     {
@@ -148,25 +139,22 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     },
     {
       "input": "6 fresh pitas or naan warmed,",
-      "name": "fresh pitas or naan",
+      "name": "fresh pitas or naan warmed",
       "qty": 6.0,
       "unit": "",
-      "comment": "warmed",
-      "other": "",
-      "confidence": 0.997661
+      "comment": "",
+      "confidence": 0.99986
     },
     {
       "input": "pickled red onion, lettuce, dill, and parsley for serving",
-      "name": "pickled red onion, lettuce, dill",
+      "name": "pickled red onion, lettuce,,, and parsley",
       "qty": 1.0,
       "unit": "",
-      "comment": "and parsley for serving",
-      "other": "",
+      "comment": "dill,, for serving",
       "confidence": 0.0
     },
     {
@@ -175,17 +163,15 @@
       "qty": 8.0,
       "unit": "ounces",
       "comment": "",
-      "other": "",
-      "confidence": 0.998738
+      "confidence": 0.999913
     },
     {
       "input": "0.25 cup + 0.333 cup plain Greek yogurt",
-      "name": "plain Greek yogurt",
+      "name": "",
       "qty": 0.25,
       "unit": "cups",
-      "comment": "",
-      "other": "",
-      "confidence": 0.996789
+      "comment": "+ 0.333 cup plain Greek yogurt",
+      "confidence": 0.999239
     },
     {
       "input": "2 cloves garlic grated",
@@ -193,8 +179,7 @@
       "qty": 2.0,
       "unit": "cloves",
       "comment": "grated",
-      "other": "",
-      "confidence": 0.997134
+      "confidence": 0.999033
     },
     {
       "input": "juice from 1 lemon",
@@ -202,17 +187,15 @@
       "qty": 1.0,
       "unit": "",
       "comment": "juice from",
-      "other": "",
-      "confidence": 0.911462
+      "confidence": 0.718618
     },
     {
       "input": "1-2 Persian cucumbers, shredded",
       "name": "Persian cucumbers",
-      "qty": 3.0,
+      "qty": 1.0,
       "unit": "",
       "comment": "shredded",
-      "other": "",
-      "confidence": 0.995846
+      "confidence": 0.999373
     },
     {
       "input": "kosher salt",
@@ -220,7 +203,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     }
   ],

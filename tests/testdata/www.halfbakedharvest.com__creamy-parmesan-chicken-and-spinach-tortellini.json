@@ -53,11 +53,10 @@
     {
       "input": "4-6 chicken cutlets or 3 boneless chicken breasts sliced in half horizontally",
       "name": "chicken cutlets or 3 boneless chicken breasts",
-      "qty": 10.0,
+      "qty": 4.0,
       "unit": "",
       "comment": "sliced in half horizontally",
-      "other": "",
-      "confidence": 0.990619
+      "confidence": 0.999158
     },
     {
       "input": "kosher salt and black pepper",
@@ -65,7 +64,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     },
     {
@@ -74,8 +72,7 @@
       "qty": 0.25,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999339
+      "confidence": 0.999408
     },
     {
       "input": "1 teaspoon garlic powder",
@@ -83,8 +80,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999861
+      "confidence": 0.999935
     },
     {
       "input": "2 tablespoon extra virgin olive oil",
@@ -92,8 +88,7 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999375
+      "confidence": 0.999763
     },
     {
       "input": "2 tablespoon salted butter",
@@ -101,8 +96,7 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999478
+      "confidence": 0.99983
     },
     {
       "input": "2 shallots, finely chopped",
@@ -110,8 +104,7 @@
       "qty": 2.0,
       "unit": "",
       "comment": "finely chopped",
-      "other": "",
-      "confidence": 0.998445
+      "confidence": 0.999505
     },
     {
       "input": "3 cloves garlic, finely chopped or grated",
@@ -119,8 +112,7 @@
       "qty": 3.0,
       "unit": "cloves",
       "comment": "finely chopped or grated",
-      "other": "",
-      "confidence": 0.995139
+      "confidence": 0.998404
     },
     {
       "input": "2 tablespoon fresh thyme leaves ((or 2 teaspoon dried thyme))",
@@ -128,8 +120,7 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "((or 2 teaspoon dried thyme))",
-      "other": "",
-      "confidence": 0.99975
+      "confidence": 0.99976
     },
     {
       "input": "red pepper flakes",
@@ -137,7 +128,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     },
     {
@@ -146,8 +136,7 @@
       "qty": 3.0,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999841
+      "confidence": 0.999968
     },
     {
       "input": "3/4 cup dry white wine, such as Pinot Grigio or Sauvignon Blanc",
@@ -155,17 +144,15 @@
       "qty": 0.75,
       "unit": "cups",
       "comment": "such as Pinot Grigio or Sauvignon Blanc",
-      "other": "",
-      "confidence": 0.99965
+      "confidence": 0.999894
     },
     {
       "input": "1.0 cup low sodium chicken broth",
       "name": "low sodium chicken broth",
       "qty": 1.0,
-      "unit": "cups",
+      "unit": "cup",
       "comment": "",
-      "other": "",
-      "confidence": 0.999457
+      "confidence": 0.999908
     },
     {
       "input": "1 pound fresh or frozen cheese tortellini",
@@ -173,8 +160,7 @@
       "qty": 1.0,
       "unit": "pound",
       "comment": "fresh or frozen",
-      "other": "",
-      "confidence": 0.997096
+      "confidence": 0.998851
     },
     {
       "input": "0.75 cup heavy cream or canned coconut milk",
@@ -182,8 +168,7 @@
       "qty": 0.75,
       "unit": "cups",
       "comment": "or canned",
-      "other": "",
-      "confidence": 0.999041
+      "confidence": 0.999242
     },
     {
       "input": "0.5 cup grated parmesan cheese",
@@ -191,8 +176,7 @@
       "qty": 0.5,
       "unit": "cups",
       "comment": "grated",
-      "other": "",
-      "confidence": 0.99955
+      "confidence": 0.999642
     },
     {
       "input": "juice from 1 lemon",
@@ -200,8 +184,7 @@
       "qty": 1.0,
       "unit": "",
       "comment": "juice from",
-      "other": "",
-      "confidence": 0.911462
+      "confidence": 0.718618
     }
   ],
   "error": null,

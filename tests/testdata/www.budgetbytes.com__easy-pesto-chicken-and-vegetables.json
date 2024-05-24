@@ -78,12 +78,11 @@
   "ingredients": [
     {
       "input": "1 red bell pepper -1 -1/2 dollar",
-      "name": "red bell pepper -1 -0.5 dollar",
+      "name": "red bell pepper -1-0.5 dollar",
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.997884
+      "confidence": 0.999624
     },
     {
       "input": "1 zucchini -3/5 dollar",
@@ -91,8 +90,7 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.997107
+      "confidence": 0.999622
     },
     {
       "input": "1 yellow squash -1/2 dollar",
@@ -100,8 +98,7 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.997247
+      "confidence": 0.999098
     },
     {
       "input": "1/2 red onion -19/100 dollar",
@@ -109,17 +106,15 @@
       "qty": 0.5,
       "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.996867
+      "confidence": 0.997972
     },
     {
       "input": "1.3 pound boneless, skinless chicken breast -6 -67/100 dollar",
-      "name": "boneless, skinless chicken breast -6 -0.67 dollar",
+      "name": "boneless, skinless chicken breast",
       "qty": 1.3,
       "unit": "pounds",
-      "comment": "",
-      "other": "",
-      "confidence": 0.997933
+      "comment": "6-0.67 dollar",
+      "confidence": 0.999133
     },
     {
       "input": "2 tablespoon cooking oil -2/25 dollar",
@@ -127,17 +122,15 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.998846
+      "confidence": 0.999039
     },
     {
       "input": "1.0 cup frozen green beans -67/100 dollar",
       "name": "frozen green beans -0.67 dollar",
       "qty": 1.0,
-      "unit": "cups",
+      "unit": "cup",
       "comment": "",
-      "other": "",
-      "confidence": 0.999599
+      "confidence": 0.999875
     },
     {
       "input": "0.333 cup pesto* -73/100 dollar",
@@ -145,8 +138,7 @@
       "qty": 0.333,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999484
+      "confidence": 0.999858
     },
     {
       "input": "1/8 teaspoon salt* -1/100 dollar",
@@ -154,17 +146,15 @@
       "qty": 0.125,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999452
+      "confidence": 0.999652
     },
     {
       "input": "1/8 teaspoon freshly cracked pepper* -1/100 dollar",
-      "name": "freshly cracked pepper* -0.01 dollar",
+      "name": "pepper* -0.01 dollar",
       "qty": 0.125,
       "unit": "teaspoons",
-      "comment": "",
-      "other": "",
-      "confidence": 0.999412
+      "comment": "freshly cracked",
+      "confidence": 0.999657
     },
     {
       "input": "1 tablespoon grated Parmesan* -11/100 dollar",
@@ -172,8 +162,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "grated",
-      "other": "",
-      "confidence": 0.99905
+      "confidence": 0.999728
     }
   ],
   "error": null,

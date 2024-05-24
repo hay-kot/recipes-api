@@ -79,17 +79,15 @@
       "qty": 0.25,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999339
+      "confidence": 0.999408
     },
     {
       "input": "1/4 teaspoon freshly ground pepper",
-      "name": "freshly ground pepper",
+      "name": "pepper",
       "qty": 0.25,
       "unit": "teaspoons",
-      "comment": "",
-      "other": "",
-      "confidence": 0.99911
+      "comment": "freshly ground",
+      "confidence": 0.99948
     },
     {
       "input": "1 pound beef stewing meat, trimmed and cut into inch cubes",
@@ -97,8 +95,7 @@
       "qty": 1.0,
       "unit": "pound",
       "comment": "trimmed and cut into inch cubes",
-      "other": "",
-      "confidence": 0.998938
+      "confidence": 0.999123
     },
     {
       "input": "5 teaspoon vegetable oil",
@@ -106,8 +103,7 @@
       "qty": 5.0,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999012
+      "confidence": 0.999511
     },
     {
       "input": "2 tablespoon red wine vinegar",
@@ -115,17 +111,15 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999641
+      "confidence": 0.999877
     },
     {
       "input": "1.0 cup red wine",
       "name": "red wine",
       "qty": 1.0,
-      "unit": "cups",
+      "unit": "cup",
       "comment": "",
-      "other": "",
-      "confidence": 0.999726
+      "confidence": 0.999966
     },
     {
       "input": "3.5 cup beef broth, homemade or low-sodium canned",
@@ -133,8 +127,7 @@
       "qty": 3.5,
       "unit": "cups",
       "comment": "homemade or low-sodium canned",
-      "other": "",
-      "confidence": 0.999767
+      "confidence": 0.999731
     },
     {
       "input": "2 bay leaves",
@@ -142,35 +135,31 @@
       "qty": 2.0,
       "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.998945
+      "confidence": 0.999593
     },
     {
       "input": "1 medium onion, peeled and chopped",
       "name": "onion",
       "qty": 1.0,
-      "unit": "medium",
+      "unit": "",
       "comment": "peeled and chopped",
-      "other": "",
-      "confidence": 0.994071
+      "confidence": 0.999896
     },
     {
       "input": "5 medium carrots, peeled and cut into 0.25 inch rounds",
       "name": "carrots",
       "qty": 5.0,
-      "unit": "medium",
+      "unit": "",
       "comment": "peeled and cut into 0.25 inch rounds",
-      "other": "",
-      "confidence": 0.985466
+      "confidence": 0.999965
     },
     {
       "input": "2 large baking potatoes, peeled and cut into 0.75 inch cubes",
       "name": "baking potatoes",
       "qty": 2.0,
-      "unit": "large",
+      "unit": "",
       "comment": "peeled and cut into 0.75 inch cubes",
-      "other": "",
-      "confidence": 0.995524
+      "confidence": 0.999912
     },
     {
       "input": "2 teaspoon salt",
@@ -178,8 +167,7 @@
       "qty": 2.0,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999457
+      "confidence": 0.999766
     }
   ],
   "error": null,

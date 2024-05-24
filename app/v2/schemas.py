@@ -42,9 +42,6 @@ class ParsedIngredients(BaseModel):
     comment: str = ""
     """extra information about the quantity"""
 
-    other: str = ""
-    """extra information about the ingredient"""
-
     confidence: float = 0.0
 
 

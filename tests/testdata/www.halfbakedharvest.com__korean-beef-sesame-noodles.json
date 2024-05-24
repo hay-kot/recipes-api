@@ -58,8 +58,7 @@
       "qty": 4.0,
       "unit": "cloves",
       "comment": "chopped",
-      "other": "",
-      "confidence": 0.996134
+      "confidence": 0.998738
     },
     {
       "input": "1 tablespoon chopped fresh ginger",
@@ -67,8 +66,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "chopped",
-      "other": "",
-      "confidence": 0.999151
+      "confidence": 0.999739
     },
     {
       "input": "0.5 cup tamari or soy sauce",
@@ -76,8 +74,7 @@
       "qty": 0.5,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999475
+      "confidence": 0.999842
     },
     {
       "input": "0.25 cup honey",
@@ -85,8 +82,7 @@
       "qty": 0.25,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999022
+      "confidence": 0.999792
     },
     {
       "input": "2 tablespoon rice vinegar",
@@ -94,26 +90,23 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.998685
+      "confidence": 0.998843
     },
     {
       "input": "2 1/2 tablespoon Gochujang ((Korean chili paste))",
-      "name": "Gochujang",
+      "name": "Gochujang ((Korean chili paste))",
       "qty": 2.5,
       "unit": "tablespoons",
-      "comment": "((Korean chili paste))",
-      "other": "",
-      "confidence": 0.998952
+      "comment": "",
+      "confidence": 0.999513
     },
     {
       "input": "1 tablespoon toasted sesame oil",
-      "name": "sesame oil",
+      "name": "toasted sesame oil",
       "qty": 1.0,
       "unit": "tablespoon",
-      "comment": "toasted",
-      "other": "",
-      "confidence": 0.999317
+      "comment": "",
+      "confidence": 0.999701
     },
     {
       "input": "8.0 ounce brown rice noodles",
@@ -121,8 +114,7 @@
       "qty": 8.0,
       "unit": "ounces",
       "comment": "",
-      "other": "",
-      "confidence": 0.998785
+      "confidence": 0.999925
     },
     {
       "input": "2 tablespoon sesame oil",
@@ -130,8 +122,7 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.99949
+      "confidence": 0.999017
     },
     {
       "input": "3.0 cup mixed stir fry vegetables",
@@ -139,8 +130,7 @@
       "qty": 3.0,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.99961
+      "confidence": 0.999947
     },
     {
       "input": "3 shallots, sliced",
@@ -148,8 +138,7 @@
       "qty": 3.0,
       "unit": "",
       "comment": "sliced",
-      "other": "",
-      "confidence": 0.997447
+      "confidence": 0.999393
     },
     {
       "input": "1 pound flank steak or chicken breast, sliced thin",
@@ -157,8 +146,7 @@
       "qty": 1.0,
       "unit": "pound",
       "comment": "sliced thin",
-      "other": "",
-      "confidence": 0.998332
+      "confidence": 0.996577
     },
     {
       "input": "0.25 cup toasted sesame seeds",
@@ -166,8 +154,7 @@
       "qty": 0.25,
       "unit": "cups",
       "comment": "toasted",
-      "other": "",
-      "confidence": 0.999192
+      "confidence": 0.99979
     },
     {
       "input": "0.5 cup fresh basil",
@@ -175,8 +162,7 @@
       "qty": 0.5,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999787
+      "confidence": 0.999907
     }
   ],
   "error": null,

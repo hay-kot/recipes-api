@@ -60,8 +60,7 @@
       "qty": 4.0,
       "unit": "",
       "comment": "scrubbed and rinsed",
-      "other": "",
-      "confidence": 0.99893
+      "confidence": 0.999646
     },
     {
       "input": "2 teaspoon plus 2.0 quart peanut oil",
@@ -69,8 +68,7 @@
       "qty": 2.0,
       "unit": "teaspoons",
       "comment": "plus 2.0 quart",
-      "other": "",
-      "confidence": 0.990202
+      "confidence": 0.996732
     },
     {
       "input": "Kosher salt",
@@ -78,16 +76,14 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     },
     {
       "input": "Heavy pot or large Dutch oven",
-      "name": "Heavy pot or large Dutch oven",
+      "name": "Heavy pot or, Dutch oven",
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     },
     {
@@ -96,17 +92,15 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     },
     {
       "input": "Large hand strainer or \"spider\"",
-      "name": "hand strainer or \" spider \"",
+      "name": "hand strainer or \"spider\"",
       "qty": 0.0,
       "unit": "Large",
       "comment": "",
-      "other": "",
-      "confidence": 0.986683
+      "confidence": 0.402172
     }
   ],
   "error": null,

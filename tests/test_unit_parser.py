@@ -50,7 +50,7 @@ class IngredientCase:
     "testcase",
     [
         IngredientCase("½ cup all-purpose flour", 0.5, "cups", "all-purpose flour", ""),
-        IngredientCase("1 ½ teaspoons ground black pepper", 1.5, "teaspoons", "ground black pepper", ""),
+        IngredientCase("1 ½ teaspoons ground black pepper", 1.5, "teaspoons", "black pepper", "ground"),
         IngredientCase("⅔ cup unsweetened flaked coconut", 0.667, "cups", "unsweetened flaked coconut", ""),
         IngredientCase("⅓ cup panko bread crumbs", 0.333, "cups", "panko bread crumbs", ""),
         IngredientCase("1/8 cup all-purpose flour", 0.125, "cups", "all-purpose flour", ""),

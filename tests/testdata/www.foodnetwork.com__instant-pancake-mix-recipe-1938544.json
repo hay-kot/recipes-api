@@ -88,8 +88,7 @@
       "qty": 6.0,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999541
+      "confidence": 0.999539
     },
     {
       "input": "1 1/2 teaspoon baking soda (check expiration date first)",
@@ -97,8 +96,7 @@
       "qty": 1.5,
       "unit": "teaspoons",
       "comment": "(check expiration date first)",
-      "other": "",
-      "confidence": 0.999386
+      "confidence": 0.999547
     },
     {
       "input": "3 teaspoon baking powder",
@@ -106,8 +104,7 @@
       "qty": 3.0,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999554
+      "confidence": 0.999707
     },
     {
       "input": "1 tablespoon kosher salt",
@@ -115,8 +112,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999295
+      "confidence": 0.999708
     },
     {
       "input": "2 tablespoon sugar",
@@ -124,8 +120,7 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.998687
+      "confidence": 0.999123
     },
     {
       "input": "2 eggs, separated",
@@ -133,8 +128,7 @@
       "qty": 2.0,
       "unit": "",
       "comment": "separated",
-      "other": "",
-      "confidence": 0.999026
+      "confidence": 0.999478
     },
     {
       "input": "2.0 cup buttermilk",
@@ -142,8 +136,7 @@
       "qty": 2.0,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999536
+      "confidence": 0.999901
     },
     {
       "input": "4 tablespoon melted butter",
@@ -151,17 +144,15 @@
       "qty": 4.0,
       "unit": "tablespoons",
       "comment": "melted",
-      "other": "",
-      "confidence": 0.996931
+      "confidence": 0.999226
     },
     {
       "input": "2.0 cup \"Instant\" Pancake Mix, recipe above",
-      "name": "\" Instant \" Pancake Mix",
+      "name": "\"Instant\" Pancake Mix",
       "qty": 2.0,
       "unit": "cups",
       "comment": "recipe above",
-      "other": "",
-      "confidence": 0.999664
+      "confidence": 0.999309
     },
     {
       "input": "1 stick butter, for greasing the pan",
@@ -169,8 +160,7 @@
       "qty": 1.0,
       "unit": "stick",
       "comment": "for greasing the pan",
-      "other": "",
-      "confidence": 0.999191
+      "confidence": 0.9989
     },
     {
       "input": "2.0 cup fresh fruit such as blueberries, if desired",
@@ -178,8 +168,7 @@
       "qty": 2.0,
       "unit": "cups",
       "comment": "such as blueberries, if desired",
-      "other": "",
-      "confidence": 0.999799
+      "confidence": 0.999927
     }
   ],
   "error": null,

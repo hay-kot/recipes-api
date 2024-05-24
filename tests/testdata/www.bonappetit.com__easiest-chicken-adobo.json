@@ -78,9 +78,8 @@
       "name": "garlic",
       "qty": 1.0,
       "unit": "head",
-      "comment": "of",
-      "other": "",
-      "confidence": 0.998413
+      "comment": "",
+      "confidence": 0.999104
     },
     {
       "input": "2 green chiles (such as serrano or jalape\u00f1o), divided",
@@ -88,8 +87,7 @@
       "qty": 2.0,
       "unit": "",
       "comment": "divided",
-      "other": "",
-      "confidence": 0.998332
+      "confidence": 0.999688
     },
     {
       "input": "4 bone-in, skin-on chicken thighs and 4 drumsticks, or 4 whole chicken legs",
@@ -97,8 +95,7 @@
       "qty": 4.0,
       "unit": "",
       "comment": "skin-on chicken thighs and 4 drumsticks, or 4 whole chicken legs",
-      "other": "",
-      "confidence": 0.992016
+      "confidence": 0.998939
     },
     {
       "input": "1 tablespoon vegetable oil",
@@ -106,8 +103,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999183
+      "confidence": 0.999527
     },
     {
       "input": "0.75 cup distilled white vinegar",
@@ -115,8 +111,7 @@
       "qty": 0.75,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.99948
+      "confidence": 0.999906
     },
     {
       "input": "0.75 cup soy sauce (not low sodium)",
@@ -124,8 +119,7 @@
       "qty": 0.75,
       "unit": "cups",
       "comment": "(not low sodium)",
-      "other": "",
-      "confidence": 0.999572
+      "confidence": 0.99992
     },
     {
       "input": "5 dried bay leaves",
@@ -133,8 +127,7 @@
       "qty": 5.0,
       "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.995612
+      "confidence": 0.999664
     },
     {
       "input": "1 tablespoon light or dark brown sugar",
@@ -142,26 +135,23 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999443
+      "confidence": 0.99958
     },
     {
       "input": "Freshly ground black pepper",
-      "name": "Freshly ground black pepper",
+      "name": "black pepper",
       "qty": 1.0,
       "unit": "",
-      "comment": "",
-      "other": "",
+      "comment": "Freshly ground",
       "confidence": 0.0
     },
     {
       "input": "1.0 cup uncooked white rice, preferably short grain",
       "name": "white rice",
       "qty": 1.0,
-      "unit": "cups",
+      "unit": "cup",
       "comment": "uncooked",
-      "other": "",
-      "confidence": 0.999624
+      "confidence": 0.999698
     }
   ],
   "error": null,

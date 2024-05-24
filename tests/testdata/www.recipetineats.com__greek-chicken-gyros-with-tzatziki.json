@@ -108,18 +108,16 @@
       "name": "chicken thigh fillets",
       "qty": 2.0,
       "unit": "pounds",
-      "comment": "boneless skinless",
-      "other": "",
-      "confidence": 0.999535
+      "comment": "(, boneless skinless)",
+      "confidence": 0.999581
     },
     {
       "input": "3 large garlic cloves (, minced (~ 3 teaspoon ))",
       "name": "garlic",
       "qty": 3.0,
       "unit": "large cloves",
-      "comment": "minced",
-      "other": "",
-      "confidence": 0.981118
+      "comment": "minced ~",
+      "confidence": 0.976853
     },
     {
       "input": "1 tablespoon white wine vinegar ((or red wine or apple cider vinegar))",
@@ -127,8 +125,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "((or red wine or apple cider vinegar))",
-      "other": "",
-      "confidence": 0.999585
+      "confidence": 0.999919
     },
     {
       "input": "3 tablespoon lemon juice",
@@ -136,8 +133,7 @@
       "qty": 3.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999598
+      "confidence": 0.999846
     },
     {
       "input": "1 tablespoon extra virgin olive oil",
@@ -145,17 +141,15 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999319
+      "confidence": 0.999792
     },
     {
       "input": "3 tablespoon Greek yogurt (, preferably full fat)",
       "name": "Greek yogurt",
       "qty": 3.0,
       "unit": "tablespoons",
-      "comment": "preferably full fat",
-      "other": "",
-      "confidence": 0.999362
+      "comment": "(, preferably full fat)",
+      "confidence": 0.99981
     },
     {
       "input": "1 1/2 tablespoon dried oregano",
@@ -163,8 +157,7 @@
       "qty": 1.5,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.998702
+      "confidence": 0.999172
     },
     {
       "input": "1 teaspoon salt",
@@ -172,8 +165,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999434
+      "confidence": 0.99982
     },
     {
       "input": "Black pepper",
@@ -181,7 +173,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     },
     {
@@ -189,18 +180,16 @@
       "name": "cucumbers",
       "qty": 2.0,
       "unit": "",
-      "comment": "((to make about 0.5 - 0.75 cup grated cucumber after squeezing out juice))",
-      "other": "",
-      "confidence": 0.998805
+      "comment": "((to make about 0.5-0.75 cup grated cucumber after squeezing out juice))",
+      "confidence": 0.999499
     },
     {
       "input": "1.25 cup Greek yoghurt (, preferably full fat)",
       "name": "Greek yoghurt",
       "qty": 1.25,
       "unit": "cups",
-      "comment": "preferably full fat",
-      "other": "",
-      "confidence": 0.998725
+      "comment": "(, preferably full fat)",
+      "confidence": 0.999958
     },
     {
       "input": "1 tablespoon lemon juice",
@@ -208,8 +197,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999635
+      "confidence": 0.999816
     },
     {
       "input": "1 tablespoon extra virgin olive oil ((or more if you want richer))",
@@ -217,17 +205,15 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "((or more if you want richer))",
-      "other": "",
-      "confidence": 0.999322
+      "confidence": 0.999793
     },
     {
       "input": "1 garlic clove (, minced)",
       "name": "garlic",
       "qty": 1.0,
       "unit": "clove",
-      "comment": "minced",
-      "other": "",
-      "confidence": 0.96548
+      "comment": "(, minced)",
+      "confidence": 0.980429
     },
     {
       "input": "1/4 teaspoon salt",
@@ -235,8 +221,7 @@
       "qty": 0.25,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999174
+      "confidence": 0.999795
     },
     {
       "input": "Black pepper",
@@ -244,7 +229,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     },
     {
@@ -252,27 +236,24 @@
       "name": "tomatoes",
       "qty": 3.0,
       "unit": "",
-      "comment": "desseeded and diced",
-      "other": "",
-      "confidence": 0.996909
+      "comment": "(, desseeded and diced)",
+      "confidence": 0.998608
     },
     {
       "input": "3 cucumbers (, diced)",
       "name": "cucumbers",
       "qty": 3.0,
       "unit": "",
-      "comment": "diced",
-      "other": "",
-      "confidence": 0.997946
+      "comment": "(, diced)",
+      "confidence": 0.999291
     },
     {
       "input": "1/2 red spanish onion (, peeled and finely chopped)",
       "name": "red spanish onion",
       "qty": 0.5,
       "unit": "",
-      "comment": "peeled and finely chopped",
-      "other": "",
-      "confidence": 0.99554
+      "comment": "(, peeled and finely chopped)",
+      "confidence": 0.997178
     },
     {
       "input": "0.25 cup fresh parsley leaves ((optional))",
@@ -280,8 +261,7 @@
       "qty": 0.25,
       "unit": "cups",
       "comment": "((optional))",
-      "other": "",
-      "confidence": 0.999824
+      "confidence": 0.999964
     },
     {
       "input": "Salt and pepper",
@@ -289,17 +269,15 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     },
     {
       "input": "4 to 6 pita breads or flat breads",
-      "name": "pita breads, breads",
-      "qty": 10.0,
+      "name": "pita breads or flat breads",
+      "qty": 4.0,
       "unit": "",
-      "comment": "or flat",
-      "other": "",
-      "confidence": 0.994019
+      "comment": "",
+      "confidence": 0.999154
     }
   ],
   "error": null,

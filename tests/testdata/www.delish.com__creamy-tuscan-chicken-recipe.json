@@ -83,8 +83,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999572
+      "confidence": 0.999647
     },
     {
       "input": "4 boneless skinless chicken breasts",
@@ -92,8 +91,7 @@
       "qty": 4.0,
       "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.997903
+      "confidence": 0.999094
     },
     {
       "input": "Kosher salt",
@@ -101,16 +99,14 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     },
     {
       "input": "Freshly ground black pepper",
-      "name": "Freshly ground black pepper",
+      "name": "black pepper",
       "qty": 1.0,
       "unit": "",
-      "comment": "",
-      "other": "",
+      "comment": "Freshly ground",
       "confidence": 0.0
     },
     {
@@ -119,8 +115,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.998924
+      "confidence": 0.998388
     },
     {
       "input": "3 tablespoon butter",
@@ -128,8 +123,7 @@
       "qty": 3.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999402
+      "confidence": 0.999832
     },
     {
       "input": "3 cloves garlic, minced",
@@ -137,8 +131,7 @@
       "qty": 3.0,
       "unit": "cloves",
       "comment": "minced",
-      "other": "",
-      "confidence": 0.995142
+      "confidence": 0.998407
     },
     {
       "input": "1.5 cup cherry tomatoes, halved",
@@ -146,8 +139,7 @@
       "qty": 1.5,
       "unit": "cups",
       "comment": "halved",
-      "other": "",
-      "confidence": 0.999339
+      "confidence": 0.999893
     },
     {
       "input": "3.0 cup baby spinach",
@@ -155,8 +147,7 @@
       "qty": 3.0,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999525
+      "confidence": 0.99991
     },
     {
       "input": "0.5 cup heavy cream",
@@ -164,8 +155,7 @@
       "qty": 0.5,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999762
+      "confidence": 0.999903
     },
     {
       "input": "0.25 cup freshly grated Parmesan",
@@ -173,8 +163,7 @@
       "qty": 0.25,
       "unit": "cups",
       "comment": "freshly grated",
-      "other": "",
-      "confidence": 0.999653
+      "confidence": 0.999864
     },
     {
       "input": "Lemon wedges, for serving",
@@ -182,7 +171,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "for serving",
-      "other": "",
       "confidence": 0.0
     }
   ],

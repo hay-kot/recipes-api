@@ -104,21 +104,19 @@
   "ingredients": [
     {
       "input": "1 teaspoon instant / rapid rise yeast ((Note 1))",
-      "name": "instant / rapid rise yeast, Note",
+      "name": "instant / rapid rise yeast",
       "qty": 1.0,
       "unit": "teaspoon",
-      "comment": "",
-      "other": "",
-      "confidence": 0.999499
+      "comment": "((Note 1))",
+      "confidence": 0.99794
     },
     {
       "input": "0.5 cup warm tap water ((~40.0 degree Celsius/105.0 degree fahrenheit in temperature))",
-      "name": "tap water",
+      "name": "warm tap water",
       "qty": 0.5,
       "unit": "cups",
-      "comment": "warm",
-      "other": "",
-      "confidence": 0.99941
+      "comment": "((~40.0 degree Celsius / 105.0 degree fahrenheit in temperature))",
+      "confidence": 0.999887
     },
     {
       "input": "1 tablespoon white sugar",
@@ -126,71 +124,63 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999705
+      "confidence": 0.99979
     },
     {
       "input": "2 tablespoon milk (, full fat (low fat ok too))",
       "name": "milk",
       "qty": 2.0,
       "unit": "tablespoons",
-      "comment": "full fat low fat ok too",
-      "other": "",
-      "confidence": 0.99936
+      "comment": "full fat",
+      "confidence": 0.999563
     },
     {
       "input": "1 1/2 tablespoon whisked egg (, at room temp (around 1/2 an egg, Note 2))",
       "name": "egg",
       "qty": 1.5,
       "unit": "tablespoons",
-      "comment": "whisked",
-      "other": "",
-      "confidence": 0.998537
+      "comment": "whisked, , at room temp",
+      "confidence": 0.998871
     },
     {
       "input": "1/2 teaspoon salt (, cooking / kosher)",
       "name": "salt",
       "qty": 0.5,
       "unit": "teaspoons",
-      "comment": "cooking / kosher",
-      "other": "",
-      "confidence": 0.999271
+      "comment": "cooking /",
+      "confidence": 0.999646
     },
     {
       "input": "1.75 cup bread flour (, or all-purpose/plain (Note 3))",
       "name": "bread flour",
       "qty": 1.75,
       "unit": "cups",
-      "comment": "or all-purpose / plain (Note 3)",
-      "other": "",
-      "confidence": 0.999448
+      "comment": "(, or all-purpose / plain (Note 3))",
+      "confidence": 0.999812
     },
     {
-      "input": "30.0 gram 2 tablespoon ghee or unsalted butter (, melted (Note 4))",
+      "input": "30.0 gram / 2 tablespoon ghee or unsalted butter (, melted (Note 4))",
       "name": "ghee or unsalted butter",
       "qty": 30.0,
       "unit": "grams",
       "comment": "melted",
-      "other": "",
-      "confidence": 0.997539
+      "confidence": 0.999907
     },
     {
-      "input": "30.0 gram 2.0 tablespoon tablespoon ghee or butter (, melted (Note 4))",
+      "input": "30.0 gram / 2.0 tablespoon tablespoon ghee or butter (, melted (Note 4))",
       "name": "ghee or butter",
       "qty": 30.0,
       "unit": "grams",
       "comment": "melted",
-      "other": "",
-      "confidence": 0.997755
+      "confidence": 0.99988
     },
     {
       "input": "1 small garlic clove (, for Garlic Butter option (Note 5))",
       "name": "garlic",
       "qty": 1.0,
       "unit": "small clove",
-      "comment": "for Garlic Butter option (Note 5)",
-      "other": "",
-      "confidence": 0.970349
+      "comment": "(, for Garlic Butter option (Note 5))",
+      "confidence": 0.971941
     },
     {
       "input": "Nigella seeds",
@@ -198,7 +188,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     },
     {
@@ -206,18 +195,16 @@
       "name": "Coriander / cilantro",
       "qty": 1.0,
       "unit": "",
-      "comment": "finely chopped",
-      "other": "",
+      "comment": "(, finely chopped)",
       "confidence": 0.0
     },
     {
       "input": "Shredded cheese ((for cheese naan) \u2013 Monterey Jack, cheddar, tasty, colby, anything that melts (shred yourself) (Note 6))",
       "name": "cheese",
-      "qty": 6.0,
+      "qty": 1.0,
       "unit": "",
-      "comment": "Shredded, shred yourself Note",
-      "other": "",
-      "confidence": 0.522517
+      "comment": "Shredded",
+      "confidence": 0.0
     }
   ],
   "error": null,

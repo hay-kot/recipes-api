@@ -77,8 +77,7 @@
       "qty": 12.0,
       "unit": "ounces",
       "comment": "",
-      "other": "",
-      "confidence": 0.998262
+      "confidence": 0.999288
     },
     {
       "input": "2 tablespoon Balsamic Vinegar",
@@ -86,17 +85,15 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999446
+      "confidence": 0.999669
     },
     {
       "input": "1.0 ounce Soy Sauce",
       "name": "Soy Sauce",
       "qty": 1.0,
-      "unit": "ounces",
+      "unit": "ounce",
       "comment": "",
-      "other": "",
-      "confidence": 0.998281
+      "confidence": 0.999886
     },
     {
       "input": "16.0 ounce Yukon Gold Potatoes",
@@ -104,8 +101,7 @@
       "qty": 16.0,
       "unit": "ounces",
       "comment": "",
-      "other": "",
-      "confidence": 0.998571
+      "confidence": 0.999911
     },
     {
       "input": "0.25 ounce Rosemary",
@@ -113,8 +109,7 @@
       "qty": 0.25,
       "unit": "ounces",
       "comment": "",
-      "other": "",
-      "confidence": 0.998216
+      "confidence": 0.999875
     },
     {
       "input": "1 unit Yellow Onion",
@@ -122,8 +117,7 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.9947
+      "confidence": 0.997848
     },
     {
       "input": "4.0 ounce Shredded Red Cabbage",
@@ -131,8 +125,7 @@
       "qty": 4.0,
       "unit": "ounces",
       "comment": "Shredded",
-      "other": "",
-      "confidence": 0.998384
+      "confidence": 0.999804
     },
     {
       "input": "1 teaspoon Mustard Seeds",
@@ -140,8 +133,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999351
+      "confidence": 0.999696
     },
     {
       "input": "2 tablespoon White Wine Vinegar",
@@ -149,17 +141,15 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999605
+      "confidence": 0.999935
     },
     {
       "input": "1.0 ounce Cranberry Jam",
       "name": "Cranberry Jam",
       "qty": 1.0,
-      "unit": "ounces",
+      "unit": "ounce",
       "comment": "",
-      "other": "",
-      "confidence": 0.998306
+      "confidence": 0.999865
     },
     {
       "input": "unit Salt",
@@ -167,7 +157,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     },
     {
@@ -176,7 +165,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     },
     {
@@ -185,8 +173,7 @@
       "qty": 2.0,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999475
+      "confidence": 0.999891
     },
     {
       "input": "1 tablespoon Vegetable Oil",
@@ -194,8 +181,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999185
+      "confidence": 0.999637
     },
     {
       "input": "1 teaspoon Sugar",
@@ -203,8 +189,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.998777
+      "confidence": 0.999598
     }
   ],
   "error": null,

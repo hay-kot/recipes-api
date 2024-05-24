@@ -68,8 +68,7 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.994287
+      "confidence": 0.998977
     },
     {
       "input": "All-purpose flour, for surface",
@@ -77,7 +76,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "for surface",
-      "other": "",
       "confidence": 0.0
     },
     {
@@ -86,8 +84,7 @@
       "qty": 0.333,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.998975
+      "confidence": 0.999772
     },
     {
       "input": "1 teaspoon ground cinnamon",
@@ -95,8 +92,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999342
+      "confidence": 0.999851
     },
     {
       "input": "3/4 teaspoon Diamond Crystal or 1/2 teaspoon Morton kosher salt",
@@ -104,8 +100,7 @@
       "qty": 0.75,
       "unit": "teaspoons",
       "comment": "or 0.5 teaspoon",
-      "other": "",
-      "confidence": 0.999237
+      "confidence": 0.999806
     },
     {
       "input": "1/2 teaspoon ground ginger",
@@ -113,8 +108,7 @@
       "qty": 0.5,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999104
+      "confidence": 0.999797
     },
     {
       "input": "1/4 teaspoon ground cloves",
@@ -122,8 +116,7 @@
       "qty": 0.25,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.998378
+      "confidence": 0.999626
     },
     {
       "input": "1/4 teaspoon ground nutmeg",
@@ -131,17 +124,15 @@
       "qty": 0.25,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.998818
+      "confidence": 0.999464
     },
     {
       "input": "2 large eggs plus 1 large egg yolk, room temperature, beaten to blend",
-      "name": "eggs, egg yolk, room temperature",
+      "name": "eggs",
       "qty": 2.0,
-      "unit": "large",
-      "comment": "plus 1 large, beaten to blend",
-      "other": "",
-      "confidence": 0.989382
+      "unit": "",
+      "comment": "room temperature, beaten to blend",
+      "confidence": 0.999775
     },
     {
       "input": "2.0 cup unsweetened pumpkin pur\u00e9e",
@@ -149,8 +140,7 @@
       "qty": 2.0,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999634
+      "confidence": 0.999937
     },
     {
       "input": "0.667 cup sweetened condensed milk",
@@ -158,8 +148,7 @@
       "qty": 0.667,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999661
+      "confidence": 0.999911
     },
     {
       "input": "0.333 cup heavy cream",
@@ -167,8 +156,7 @@
       "qty": 0.333,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999749
+      "confidence": 0.999924
     },
     {
       "input": "2 tablespoon maple syrup",
@@ -176,8 +164,7 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999379
+      "confidence": 0.999554
     },
     {
       "input": "2 teaspoon vanilla extract",
@@ -185,8 +172,7 @@
       "qty": 2.0,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.99947
+      "confidence": 0.999576
     },
     {
       "input": "Whipped cream (for serving)",
@@ -194,7 +180,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "(for serving)",
-      "other": "",
       "confidence": 0.0
     }
   ],

@@ -84,8 +84,7 @@
       "qty": 2.0,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999598
+      "confidence": 0.999511
     },
     {
       "input": "1 teaspoon oregano -1/10 dollar",
@@ -93,8 +92,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999354
+      "confidence": 0.999629
     },
     {
       "input": "1 teaspoon thyme -1/10 dollar",
@@ -102,8 +100,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999024
+      "confidence": 0.999598
     },
     {
       "input": "1/2 teaspoon garlic powder -1/20 dollar",
@@ -111,8 +108,7 @@
       "qty": 0.5,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999803
+      "confidence": 0.999926
     },
     {
       "input": "1/2 teaspoon onion powder -1/20 dollar",
@@ -120,8 +116,7 @@
       "qty": 0.5,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999651
+      "confidence": 0.999113
     },
     {
       "input": "1/4 teaspoon cayenne pepper -3/100 dollar",
@@ -129,8 +124,7 @@
       "qty": 0.25,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.998824
+      "confidence": 0.99966
     },
     {
       "input": "1/4 teaspoon black pepper -1/50 dollar",
@@ -138,8 +132,7 @@
       "qty": 0.25,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999079
+      "confidence": 0.999328
     },
     {
       "input": "1/4 teaspoon salt -1/50 dollar",
@@ -147,8 +140,7 @@
       "qty": 0.25,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999488
+      "confidence": 0.999813
     },
     {
       "input": "1 tablespoon olive oil -4/25 dollar",
@@ -156,8 +148,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.99927
+      "confidence": 0.999818
     },
     {
       "input": "1 tablespoon butter -13/100 dollar",
@@ -165,8 +156,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999664
+      "confidence": 0.99983
     },
     {
       "input": "1 pound boneless, skinless chicken breast ($5.47)",
@@ -174,8 +164,7 @@
       "qty": 1.0,
       "unit": "pound",
       "comment": "($5.47)",
-      "other": "",
-      "confidence": 0.998377
+      "confidence": 0.999318
     },
     {
       "input": "1 yellow onion, diced -8/25 dollar",
@@ -183,8 +172,7 @@
       "qty": 1.0,
       "unit": "",
       "comment": "diced -0.32 dollar",
-      "other": "",
-      "confidence": 0.99826
+      "confidence": 0.999508
     },
     {
       "input": "1/2 pound penne pasta (uncooked) ($0.75)",
@@ -192,8 +180,7 @@
       "qty": 0.5,
       "unit": "pounds",
       "comment": "(uncooked) ($0.75)",
-      "other": "",
-      "confidence": 0.998915
+      "confidence": 0.999525
     },
     {
       "input": "15.0 ounce fire roasted diced tomatoes -1 dollar",
@@ -201,8 +188,7 @@
       "qty": 15.0,
       "unit": "ounces",
       "comment": "",
-      "other": "",
-      "confidence": 0.99693
+      "confidence": 0.999804
     },
     {
       "input": "2.0 cup chicken broth -13/50 dollar",
@@ -210,8 +196,7 @@
       "qty": 2.0,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999426
+      "confidence": 0.999809
     },
     {
       "input": "2.0 ounce cream cheese -1/2 dollar",
@@ -219,8 +204,7 @@
       "qty": 2.0,
       "unit": "ounces",
       "comment": "",
-      "other": "",
-      "confidence": 0.997374
+      "confidence": 0.999783
     },
     {
       "input": "3 green onions, sliced -1/4 dollar",
@@ -228,8 +212,7 @@
       "qty": 3.0,
       "unit": "",
       "comment": "sliced -0.25 dollar",
-      "other": "",
-      "confidence": 0.998468
+      "confidence": 0.99979
     }
   ],
   "error": null,

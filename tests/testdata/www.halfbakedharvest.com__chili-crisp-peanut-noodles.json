@@ -60,8 +60,7 @@
       "qty": 8.0,
       "unit": "ounces",
       "comment": "",
-      "other": "",
-      "confidence": 0.996236
+      "confidence": 0.999208
     },
     {
       "input": "0.5 cup creamy peanut butter",
@@ -69,8 +68,7 @@
       "qty": 0.5,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999326
+      "confidence": 0.999911
     },
     {
       "input": "0.333 cup tamari or soy sauce",
@@ -78,8 +76,7 @@
       "qty": 0.333,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999479
+      "confidence": 0.999861
     },
     {
       "input": "2 tablespoon honey",
@@ -87,8 +84,7 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999049
+      "confidence": 0.999216
     },
     {
       "input": "0.25 cup Thai red curry paste",
@@ -96,8 +92,7 @@
       "qty": 0.25,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999585
+      "confidence": 0.999918
     },
     {
       "input": "1 tablespoon fresh ginger, grated",
@@ -105,8 +100,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "grated",
-      "other": "",
-      "confidence": 0.999799
+      "confidence": 0.999932
     },
     {
       "input": "2 carrots, shredded",
@@ -114,8 +108,7 @@
       "qty": 2.0,
       "unit": "",
       "comment": "shredded",
-      "other": "",
-      "confidence": 0.998836
+      "confidence": 0.999355
     },
     {
       "input": "2 bell peppers, thinly sliced",
@@ -123,8 +116,7 @@
       "qty": 2.0,
       "unit": "",
       "comment": "thinly sliced",
-      "other": "",
-      "confidence": 0.998379
+      "confidence": 0.99904
     },
     {
       "input": "1 tablespoon, plus 0.25 cup sesame oil",
@@ -132,8 +124,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "plus 0.25 cup sesame oil",
-      "other": "",
-      "confidence": 0.996772
+      "confidence": 0.996696
     },
     {
       "input": "8.0 ounce halloumi cheese, cubed and patted dry",
@@ -141,8 +132,7 @@
       "qty": 8.0,
       "unit": "ounces",
       "comment": "cubed and patted dry",
-      "other": "",
-      "confidence": 0.998733
+      "confidence": 0.99988
     },
     {
       "input": "6 cloves garlic, chopped",
@@ -150,8 +140,7 @@
       "qty": 6.0,
       "unit": "cloves",
       "comment": "chopped",
-      "other": "",
-      "confidence": 0.993501
+      "confidence": 0.99754
     },
     {
       "input": "0.5 cup fresh basil, chopped",
@@ -159,8 +148,7 @@
       "qty": 0.5,
       "unit": "cups",
       "comment": "chopped",
-      "other": "",
-      "confidence": 0.999788
+      "confidence": 0.999905
     },
     {
       "input": "0.5 cup fresh cilantro, chopped",
@@ -168,8 +156,7 @@
       "qty": 0.5,
       "unit": "cups",
       "comment": "chopped",
-      "other": "",
-      "confidence": 0.999858
+      "confidence": 0.999936
     },
     {
       "input": "2 green onions, thinly sliced",
@@ -177,8 +164,7 @@
       "qty": 2.0,
       "unit": "",
       "comment": "thinly sliced",
-      "other": "",
-      "confidence": 0.998993
+      "confidence": 0.999834
     },
     {
       "input": "3 tablespoon toasted sesame seeds",
@@ -186,8 +172,7 @@
       "qty": 3.0,
       "unit": "tablespoons",
       "comment": "toasted",
-      "other": "",
-      "confidence": 0.998888
+      "confidence": 0.999748
     },
     {
       "input": "3 tablespoon chopped peanuts",
@@ -195,8 +180,7 @@
       "qty": 3.0,
       "unit": "tablespoons",
       "comment": "chopped",
-      "other": "",
-      "confidence": 0.99629
+      "confidence": 0.999397
     },
     {
       "input": "2 tablespoon lime juice",
@@ -204,8 +188,7 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999374
+      "confidence": 0.999687
     }
   ],
   "error": null,

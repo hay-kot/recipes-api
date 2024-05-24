@@ -77,17 +77,15 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     },
     {
       "input": "1 pound small shells",
-      "name": "small shells",
+      "name": "shells",
       "qty": 1.0,
       "unit": "pound",
       "comment": "",
-      "other": "",
-      "confidence": 0.998332
+      "confidence": 0.999286
     },
     {
       "input": "0.5 cup (1 stick) chilled unsalted butter",
@@ -95,8 +93,7 @@
       "qty": 0.5,
       "unit": "cups",
       "comment": "chilled",
-      "other": "",
-      "confidence": 0.999393
+      "confidence": 0.999646
     },
     {
       "input": "2 teaspoon coarsely ground black pepper",
@@ -104,17 +101,15 @@
       "qty": 2.0,
       "unit": "teaspoons",
       "comment": "coarsely ground",
-      "other": "",
-      "confidence": 0.999312
+      "confidence": 0.999396
     },
     {
       "input": "1.0 cup whole milk",
       "name": "whole milk",
       "qty": 1.0,
-      "unit": "cups",
+      "unit": "cup",
       "comment": "",
-      "other": "",
-      "confidence": 0.999837
+      "confidence": 0.999947
     },
     {
       "input": "5.0 ounce store-bought grated Parmesan",
@@ -122,8 +117,7 @@
       "qty": 5.0,
       "unit": "ounces",
       "comment": "store-bought grated",
-      "other": "",
-      "confidence": 0.997747
+      "confidence": 0.999289
     }
   ],
   "error": null,

@@ -85,8 +85,7 @@
       "qty": 1.75,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999633
+      "confidence": 0.999684
     },
     {
       "input": "1 teaspoon baking powder",
@@ -94,8 +93,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999616
+      "confidence": 0.999662
     },
     {
       "input": "1/2 teaspoon baking soda",
@@ -103,8 +101,7 @@
       "qty": 0.5,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.99961
+      "confidence": 0.999792
     },
     {
       "input": "1 teaspoon salt",
@@ -112,8 +109,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999434
+      "confidence": 0.99982
     },
     {
       "input": "0.75 cup sugar ((150.0 gram ))",
@@ -121,8 +117,7 @@
       "qty": 0.75,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999141
+      "confidence": 0.999749
     },
     {
       "input": "0.5 cup unsalted butter (room temperature (113.0 gram ))",
@@ -130,17 +125,15 @@
       "qty": 0.5,
       "unit": "cups",
       "comment": "room temperature",
-      "other": "",
-      "confidence": 0.999812
+      "confidence": 0.99992
     },
     {
       "input": "2 large eggs",
       "name": "eggs",
       "qty": 2.0,
-      "unit": "large",
+      "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.995415
+      "confidence": 0.999846
     },
     {
       "input": "1 teaspoon vanilla ((5.0 milliliter ))",
@@ -148,26 +141,23 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999242
+      "confidence": 0.999309
     },
     {
       "input": "3 very ripe bananas (mashed (1.5 cup))",
       "name": "very ripe bananas",
       "qty": 3.0,
       "unit": "",
-      "comment": "mashed ",
-      "other": "",
-      "confidence": 0.99672
+      "comment": "mashed",
+      "confidence": 0.997788
     },
     {
       "input": "1.0 cup semi-sweet chocolate chips ((180.0 gram ))",
       "name": "semi-sweet chocolate chips",
       "qty": 1.0,
-      "unit": "cups",
+      "unit": "cup",
       "comment": "",
-      "other": "",
-      "confidence": 0.999692
+      "confidence": 0.999899
     }
   ],
   "error": null,

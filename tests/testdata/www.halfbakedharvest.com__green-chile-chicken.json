@@ -57,8 +57,7 @@
       "qty": 4.0,
       "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.997903
+      "confidence": 0.999094
     },
     {
       "input": "2.0 ounce cream cheese, at room temperature",
@@ -66,8 +65,7 @@
       "qty": 2.0,
       "unit": "ounces",
       "comment": "at room temperature",
-      "other": "",
-      "confidence": 0.99734
+      "confidence": 0.999662
     },
     {
       "input": "4 slices pepperjack cheese",
@@ -75,8 +73,7 @@
       "qty": 4.0,
       "unit": "slices",
       "comment": "",
-      "other": "",
-      "confidence": 0.998375
+      "confidence": 0.999069
     },
     {
       "input": "2 poblano peppers, sliced",
@@ -84,8 +81,7 @@
       "qty": 2.0,
       "unit": "",
       "comment": "sliced",
-      "other": "",
-      "confidence": 0.998473
+      "confidence": 0.99954
     },
     {
       "input": "1 yellow onion, chopped or sliced",
@@ -93,8 +89,7 @@
       "qty": 1.0,
       "unit": "",
       "comment": "chopped or sliced",
-      "other": "",
-      "confidence": 0.998218
+      "confidence": 0.99947
     },
     {
       "input": "1 teaspoon chili powder",
@@ -102,8 +97,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.9993
+      "confidence": 0.999509
     },
     {
       "input": "1 teaspoon smoked paprika",
@@ -111,8 +105,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999307
+      "confidence": 0.998987
     },
     {
       "input": "1 teaspoon garlic powder",
@@ -120,8 +113,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999861
+      "confidence": 0.999935
     },
     {
       "input": "kosher salt and black pepper",
@@ -129,7 +121,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     },
     {
@@ -138,8 +129,7 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999375
+      "confidence": 0.999763
     },
     {
       "input": "1 jar salsa verde",
@@ -147,8 +137,7 @@
       "qty": 1.0,
       "unit": "jar",
       "comment": "",
-      "other": "",
-      "confidence": 0.99604
+      "confidence": 0.998648
     },
     {
       "input": "fresh cilantro and limes for serving",
@@ -156,7 +145,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "for serving",
-      "other": "",
       "confidence": 0.0
     }
   ],

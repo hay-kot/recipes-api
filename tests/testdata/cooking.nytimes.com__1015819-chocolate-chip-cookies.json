@@ -74,12 +74,11 @@
   "ingredients": [
     {
       "input": "2.0 cup minus 2 tablespoon cake flour (8.5 ounce)",
-      "name": "cake flour",
+      "name": "",
       "qty": 2.0,
       "unit": "cups",
-      "comment": "minus 2 tablespoon",
-      "other": "",
-      "confidence": 0.99628
+      "comment": "minus 2 tablespoon cake flour",
+      "confidence": 0.999496
     },
     {
       "input": "1.667 cup bread flour (8.5 ounce)",
@@ -87,8 +86,7 @@
       "qty": 1.667,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.99933
+      "confidence": 0.999726
     },
     {
       "input": "1 1/4 teaspoon baking soda",
@@ -96,8 +94,7 @@
       "qty": 1.25,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.996845
+      "confidence": 0.999861
     },
     {
       "input": "1 1/2 teaspoon baking powder",
@@ -105,8 +102,7 @@
       "qty": 1.5,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999284
+      "confidence": 0.999766
     },
     {
       "input": "1 1/2 teaspoon coarse salt",
@@ -114,8 +110,7 @@
       "qty": 1.5,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.998928
+      "confidence": 0.999851
     },
     {
       "input": "1.25 cup unsalted butter (2 1/2 sticks)",
@@ -123,8 +118,7 @@
       "qty": 1.25,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.998979
+      "confidence": 0.999962
     },
     {
       "input": "1.25 cup light brown sugar (10.0 ounce)",
@@ -132,26 +126,23 @@
       "qty": 1.25,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.998822
+      "confidence": 0.999946
     },
     {
       "input": "1.0 cup plus 2 tablespoon granulated sugar (8.0 ounce)",
       "name": "granulated sugar",
       "qty": 1.0,
-      "unit": "cups",
+      "unit": "cup",
       "comment": "plus 2 tablespoon",
-      "other": "",
-      "confidence": 0.995771
+      "confidence": 0.999581
     },
     {
       "input": "2 large eggs",
       "name": "eggs",
       "qty": 2.0,
-      "unit": "large",
+      "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.995415
+      "confidence": 0.999846
     },
     {
       "input": "2 teaspoon natural vanilla extract",
@@ -159,8 +150,7 @@
       "qty": 2.0,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999377
+      "confidence": 0.999505
     },
     {
       "input": "1 1/4 pounds bittersweet chocolate disks or f\u00e8ves, at least 60 percent cacao content (see note)",
@@ -168,8 +158,7 @@
       "qty": 1.25,
       "unit": "pounds",
       "comment": "at least 60 percent cacao content (see note)",
-      "other": "",
-      "confidence": 0.985117
+      "confidence": 0.999739
     },
     {
       "input": "Sea salt",
@@ -177,7 +166,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     }
   ],

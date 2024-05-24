@@ -43,7 +43,7 @@ def list_to_parsed_ingredients(ingredients: list[str]) -> list[ParsedIngredients
     for ingredient in ingredients:
         ingredient = pre_process_string(ingredient)
         ingredient = normalize_ingredient(ingredient)
-        parsed_ingredient = parse_ingredient(ingredient)
+        parsed_ingredient = parse_ingredient(ingredient, string_units=True)
 
         amount = None
         if parsed_ingredient.amount:
@@ -63,7 +63,6 @@ def list_to_parsed_ingredients(ingredients: list[str]) -> list[ParsedIngredients
                 unit=amount.unit if amount else "",
                 confidence=amount.confidence if amount else 0.0,
                 comment=comment,
-                other=parsed_ingredient.other.text if parsed_ingredient.other else "",
             )
         )
 

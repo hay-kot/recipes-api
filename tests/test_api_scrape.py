@@ -132,13 +132,13 @@ def test_parse_clean_v2(client: TestClient, url: str, name: str) -> None:
     props = {"name", "amount", "unit"}
     for got, expt in zip(first["nutrition"], expect.nutrition):
         for prop in props:
-            assert got[prop] == getattr(expt, prop)
+            assert f"{prop}={got[prop]}" == f"{prop}={getattr(expt, prop)}"
 
-    props = {"input", "name", "qty", "unit", "comment", "other", "confidence"}
+    props = {"input", "name", "qty", "unit", "comment", "confidence"}
     for got, expt in zip(first["ingredients"], expect.ingredients):
         for prop in props:
             if prop == "qty" or prop == "confidence":
                 assert got[prop] == pytest.approx(getattr(expt, prop), rel=0.01)
                 continue
 
-            assert got[prop] == getattr(expt, prop)
+            assert f"{prop}={got[prop]}" == f"{prop}={getattr(expt, prop)}"

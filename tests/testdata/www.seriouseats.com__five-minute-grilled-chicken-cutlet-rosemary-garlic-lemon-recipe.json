@@ -67,8 +67,7 @@
       "qty": 3.0,
       "unit": "medium cloves",
       "comment": "minced",
-      "other": "",
-      "confidence": 0.979493
+      "confidence": 0.992858
     },
     {
       "input": "3 tablespoon minced fresh rosemary",
@@ -76,17 +75,15 @@
       "qty": 3.0,
       "unit": "tablespoons",
       "comment": "minced",
-      "other": "",
-      "confidence": 0.999586
+      "confidence": 0.999889
     },
     {
       "input": "2 tablespoon fresh juice from 2 lemons",
       "name": "fresh juice, lemons",
       "qty": 2.0,
       "unit": "tablespoons",
-      "comment": "from",
-      "other": "",
-      "confidence": 0.998254
+      "comment": "",
+      "confidence": 0.998768
     },
     {
       "input": "6 tablespoon extra-virgin olive oil",
@@ -94,16 +91,14 @@
       "qty": 6.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999457
+      "confidence": 0.999502
     },
     {
       "input": "Kosher salt and freshly ground black pepper",
-      "name": "Kosher salt and freshly ground black pepper",
+      "name": "Kosher salt and, black pepper",
       "qty": 1.0,
       "unit": "",
-      "comment": "",
-      "other": "",
+      "comment": "freshly ground",
       "confidence": 0.0
     },
     {
@@ -112,8 +107,7 @@
       "qty": 4.0,
       "unit": "",
       "comment": "cut into 8 cutlets",
-      "other": "",
-      "confidence": 0.998141
+      "confidence": 0.999331
     }
   ],
   "error": null,

@@ -67,17 +67,15 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.998935
+      "confidence": 0.999406
     },
     {
       "input": "1 tablespoon toasted sesame oil -33/100 dollar",
-      "name": "sesame oil -0.33 dollar",
+      "name": "toasted sesame oil -0.33 dollar",
       "qty": 1.0,
       "unit": "tablespoon",
-      "comment": "toasted",
-      "other": "",
-      "confidence": 0.999241
+      "comment": "",
+      "confidence": 0.999587
     },
     {
       "input": "1 tablespoon sriracha* ( 0.05 dollar)",
@@ -85,8 +83,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "(0.05 dollar)",
-      "other": "",
-      "confidence": 0.998941
+      "confidence": 0.999017
     },
     {
       "input": "1/2 tablespoon brown sugar ( 0.02 dollar)",
@@ -94,8 +91,7 @@
       "qty": 0.5,
       "unit": "tablespoons",
       "comment": "(0.02 dollar)",
-      "other": "",
-      "confidence": 0.999581
+      "confidence": 0.999578
     },
     {
       "input": "1/2 head green cabbage ($1.78)",
@@ -103,8 +99,7 @@
       "qty": 0.5,
       "unit": "heads",
       "comment": "($1.78)",
-      "other": "",
-      "confidence": 0.997055
+      "confidence": 0.998761
     },
     {
       "input": "2 carrots -11/50 dollar",
@@ -112,8 +107,7 @@
       "qty": 2.0,
       "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.997907
+      "confidence": 0.9992
     },
     {
       "input": "3 green onions -17/100 dollar",
@@ -121,8 +115,7 @@
       "qty": 3.0,
       "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.997418
+      "confidence": 0.99974
     },
     {
       "input": "1/2 tablespoon neutral cooking oil -1/50 dollar",
@@ -130,8 +123,7 @@
       "qty": 0.5,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999039
+      "confidence": 0.999032
     },
     {
       "input": "1/2 pound lean ground beef ($3.90)",
@@ -139,8 +131,7 @@
       "qty": 0.5,
       "unit": "pounds",
       "comment": "($3.90)",
-      "other": "",
-      "confidence": 0.999212
+      "confidence": 0.999478
     },
     {
       "input": "2 cloves garlic -4/25 dollar",
@@ -148,26 +139,23 @@
       "qty": 2.0,
       "unit": "cloves",
       "comment": "",
-      "other": "",
-      "confidence": 0.996381
+      "confidence": 0.997035
     },
     {
       "input": "1 tablespoon fresh grated ginger ( 0.13 dollar)",
-      "name": "ginger",
+      "name": "fresh, ginger",
       "qty": 1.0,
       "unit": "tablespoon",
-      "comment": "fresh grated",
-      "other": "",
-      "confidence": 0.998533
+      "comment": "grated",
+      "confidence": 0.999431
     },
     {
       "input": "Pinch of salt and pepper -1/20 dollar",
       "name": "salt and pepper -0.05 dollar",
       "qty": 0.0,
       "unit": "Pinch",
-      "comment": "of",
-      "other": "",
-      "confidence": 0.98706
+      "comment": "",
+      "confidence": 0.990573
     },
     {
       "input": "1 tablespoon sesame seeds -2/25 dollar",
@@ -175,8 +163,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999238
+      "confidence": 0.999478
     },
     {
       "input": "1 tablespoon sriracha -1/20 dollar",
@@ -184,8 +171,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999572
+      "confidence": 0.999599
     }
   ],
   "error": null,

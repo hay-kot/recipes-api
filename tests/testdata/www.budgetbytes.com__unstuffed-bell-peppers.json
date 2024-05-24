@@ -86,8 +86,7 @@
       "qty": 1.0,
       "unit": "clove",
       "comment": "",
-      "other": "",
-      "confidence": 0.996029
+      "confidence": 0.997845
     },
     {
       "input": "1 yellow onion -8/25 dollar",
@@ -95,8 +94,7 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.99804
+      "confidence": 0.998886
     },
     {
       "input": "2 bell peppers ($1.53)",
@@ -104,8 +102,7 @@
       "qty": 2.0,
       "unit": "",
       "comment": "($1.53)",
-      "other": "",
-      "confidence": 0.998359
+      "confidence": 0.999055
     },
     {
       "input": "1 tablespoon olive oil -4/25 dollar",
@@ -113,8 +110,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.99927
+      "confidence": 0.999818
     },
     {
       "input": "1/2 pound ground beef ($2.85)",
@@ -122,8 +118,7 @@
       "qty": 0.5,
       "unit": "pounds",
       "comment": "($2.85)",
-      "other": "",
-      "confidence": 0.998171
+      "confidence": 0.999672
     },
     {
       "input": "1 15 ounce can diced tomatoes -1 dollar",
@@ -131,17 +126,15 @@
       "qty": 1.0,
       "unit": "can",
       "comment": "diced",
-      "other": "",
-      "confidence": 0.99427731586614
+      "confidence": 0.998648
     },
     {
       "input": "1.0 cup long grain white rice (uncooked) -31/50 dollar",
-      "name": "long grain white rice, -0.62 dollar",
+      "name": "long grain white rice (,) -0.62 dollar",
       "qty": 1.0,
-      "unit": "cups",
+      "unit": "cup",
       "comment": "(uncooked)",
-      "other": "",
-      "confidence": 0.999522
+      "confidence": 0.99975
     },
     {
       "input": "1 teaspoon dried basil -1/10 dollar",
@@ -149,8 +142,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.998366
+      "confidence": 0.999376
     },
     {
       "input": "1 teaspoon dried oregano -1/10 dollar",
@@ -158,17 +150,15 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999149
+      "confidence": 0.999577
     },
     {
       "input": "1/4 teaspoon freshly cracked black pepper -1/50 dollar",
-      "name": "freshly cracked black pepper -0.02 dollar",
+      "name": "black pepper -0.02 dollar",
       "qty": 0.25,
       "unit": "teaspoons",
-      "comment": "",
-      "other": "",
-      "confidence": 0.999167
+      "comment": "freshly cracked",
+      "confidence": 0.99935
     },
     {
       "input": "1.5 cup beef broth -7/100 dollar",
@@ -176,8 +166,7 @@
       "qty": 1.5,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999472
+      "confidence": 0.999764
     },
     {
       "input": "1 8 ounce can tomato sauce ($0.26)",
@@ -185,8 +174,7 @@
       "qty": 1.0,
       "unit": "can",
       "comment": "($0.26)",
-      "other": "",
-      "confidence": 0.9969635140747253
+      "confidence": 0.999032
     },
     {
       "input": "1 teaspoon Worcestershire sauce -1/100 dollar",
@@ -194,26 +182,23 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999209
+      "confidence": 0.99989
     },
     {
       "input": "1.0 cup shredded mozzarella -17/20 dollar",
       "name": "mozzarella -0.85 dollar",
       "qty": 1.0,
-      "unit": "cups",
+      "unit": "cup",
       "comment": "shredded",
-      "other": "",
-      "confidence": 0.999611
+      "confidence": 0.999934
     },
     {
       "input": "1 tablespoon chopped parsley (optional garnish) -1/20 dollar",
-      "name": "parsley, -0.05 dollar",
+      "name": "parsley (,) -0.05 dollar",
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "chopped",
-      "other": "",
-      "confidence": 0.997656
+      "confidence": 0.999526
     }
   ],
   "error": null,

@@ -63,8 +63,7 @@
       "qty": 1.0,
       "unit": "jar",
       "comment": "(drained)",
-      "other": "",
-      "confidence": 0.995526
+      "confidence": 0.998144
     },
     {
       "input": "0.5 cup toasted walnuts",
@@ -72,8 +71,7 @@
       "qty": 0.5,
       "unit": "cups",
       "comment": "toasted",
-      "other": "",
-      "confidence": 0.999354
+      "confidence": 0.999802
     },
     {
       "input": "0.5 cup cherry tomatoes",
@@ -81,8 +79,7 @@
       "qty": 0.5,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999267
+      "confidence": 0.999792
     },
     {
       "input": "2 cloves garlic, smashed",
@@ -90,8 +87,7 @@
       "qty": 2.0,
       "unit": "cloves",
       "comment": "smashed",
-      "other": "",
-      "confidence": 0.995289
+      "confidence": 0.99731
     },
     {
       "input": "2 tablespoon fresh parsley",
@@ -99,8 +95,7 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999831
+      "confidence": 0.999928
     },
     {
       "input": "0.5 cup extra-virgin olive oil",
@@ -108,8 +103,7 @@
       "qty": 0.5,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999723
+      "confidence": 0.999873
     },
     {
       "input": "2 tablespoon fruity champagne or wine vinegar",
@@ -117,8 +111,7 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999509
+      "confidence": 0.999796
     },
     {
       "input": "2 teaspoon honey",
@@ -126,8 +119,7 @@
       "qty": 2.0,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999157
+      "confidence": 0.999283
     },
     {
       "input": "2 teaspoon smoked paprika",
@@ -135,8 +127,7 @@
       "qty": 2.0,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999388
+      "confidence": 0.999151
     },
     {
       "input": "1/2-1 teaspoon cayenne pepper",
@@ -144,8 +135,7 @@
       "qty": 1.5,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.998221
+      "confidence": 0.994216
     },
     {
       "input": "1 pound boneless chicken, cubed",
@@ -153,8 +143,7 @@
       "qty": 1.0,
       "unit": "pound",
       "comment": "cubed",
-      "other": "",
-      "confidence": 0.998957
+      "confidence": 0.999593
     },
     {
       "input": "3 teaspoon Italian seasoning ((see note))",
@@ -162,8 +151,7 @@
       "qty": 3.0,
       "unit": "teaspoons",
       "comment": "((see note))",
-      "other": "",
-      "confidence": 0.999491
+      "confidence": 0.999861
     },
     {
       "input": "red pepper flakes",
@@ -171,17 +159,15 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     },
     {
       "input": "1.0 cup grated manchego cheese ((or parmesan) )",
       "name": "manchego cheese",
       "qty": 1.0,
-      "unit": "cups",
+      "unit": "cup",
       "comment": "grated",
-      "other": "",
-      "confidence": 0.999619
+      "confidence": 0.99995
     },
     {
       "input": "1 pound short cut pasta",
@@ -189,26 +175,23 @@
       "qty": 1.0,
       "unit": "pound",
       "comment": "",
-      "other": "",
-      "confidence": 0.999329
+      "confidence": 0.999781
     },
     {
       "input": "1.0 cup fresh basil, chopped",
       "name": "fresh basil",
       "qty": 1.0,
-      "unit": "cups",
+      "unit": "cup",
       "comment": "chopped",
-      "other": "",
-      "confidence": 0.999789
+      "confidence": 0.99995
     },
     {
       "input": "1.0 cup arugula",
       "name": "arugula",
       "qty": 1.0,
-      "unit": "cups",
+      "unit": "cup",
       "comment": "",
-      "other": "",
-      "confidence": 0.999416
+      "confidence": 0.999866
     }
   ],
   "error": null,

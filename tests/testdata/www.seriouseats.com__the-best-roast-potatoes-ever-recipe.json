@@ -74,7 +74,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     },
     {
@@ -83,8 +82,7 @@
       "qty": 0.5,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999165
+      "confidence": 0.999433
     },
     {
       "input": "4 pounds (about 2 kilogram ) russet or Yukon Gold potatoes, peeled and cut into quarters, sixths, or eighths, depending on size (see note)",
@@ -92,8 +90,7 @@
       "qty": 4.0,
       "unit": "pounds",
       "comment": "peeled and cut into quarters",
-      "other": "",
-      "confidence": 0.998813
+      "confidence": 0.999469
     },
     {
       "input": "5 tablespoon (75.0 milliliter ) extra-virgin olive oil, duck fat, goose fat, or beef fat",
@@ -101,17 +98,15 @@
       "qty": 5.0,
       "unit": "tablespoons",
       "comment": "or beef fat",
-      "other": "",
-      "confidence": 0.998965
+      "confidence": 0.999451
     },
     {
       "input": "Small handful picked rosemary leaves, finely chopped",
       "name": "rosemary leaves",
       "qty": 0.0,
       "unit": "Small handful",
-      "comment": "picked, finely chopped",
-      "other": "",
-      "confidence": 0.988421
+      "comment": "picked,, finely chopped",
+      "confidence": 0.992078
     },
     {
       "input": "3 medium cloves garlic, minced",
@@ -119,16 +114,14 @@
       "qty": 3.0,
       "unit": "medium cloves",
       "comment": "minced",
-      "other": "",
-      "confidence": 0.979492
+      "confidence": 0.992859
     },
     {
       "input": "Freshly ground black pepper",
-      "name": "Freshly ground black pepper",
+      "name": "black pepper",
       "qty": 1.0,
       "unit": "",
-      "comment": "",
-      "other": "",
+      "comment": "Freshly ground",
       "confidence": 0.0
     },
     {
@@ -137,8 +130,7 @@
       "qty": 0.0,
       "unit": "Small handful",
       "comment": "minced",
-      "other": "",
-      "confidence": 0.996242
+      "confidence": 0.995352
     }
   ],
   "error": null,

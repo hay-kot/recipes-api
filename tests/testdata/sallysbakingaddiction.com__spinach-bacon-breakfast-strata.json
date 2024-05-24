@@ -75,12 +75,11 @@
   "ingredients": [
     {
       "input": "8.0 cup (about a 12.0 ounce loaf) cubed bread (I recommend big chunks of a crispy baguette or sourdough loaf)",
-      "name": "cubed bread",
+      "name": "bread",
       "qty": 8.0,
       "unit": "cups",
-      "comment": "about a, (I recommend big chunks of a crispy baguette or sourdough loaf)",
-      "other": "",
-      "confidence": 0.999591
+      "comment": "cubed",
+      "confidence": 0.999903
     },
     {
       "input": "8 slices uncooked bacon",
@@ -88,8 +87,7 @@
       "qty": 8.0,
       "unit": "slices",
       "comment": "uncooked",
-      "other": "",
-      "confidence": 0.976469
+      "confidence": 0.989272
     },
     {
       "input": "0.5 cup chopped onion",
@@ -97,8 +95,7 @@
       "qty": 0.5,
       "unit": "cups",
       "comment": "chopped",
-      "other": "",
-      "confidence": 0.999083
+      "confidence": 0.999581
     },
     {
       "input": "3 garlic cloves, finely minced",
@@ -106,8 +103,7 @@
       "qty": 3.0,
       "unit": "cloves",
       "comment": "finely minced",
-      "other": "",
-      "confidence": 0.973646
+      "confidence": 0.985284
     },
     {
       "input": "3 packed cups fresh chopped spinach*",
@@ -115,8 +111,7 @@
       "qty": 3.0,
       "unit": "cups",
       "comment": "chopped",
-      "other": "",
-      "confidence": 0.957433
+      "confidence": 0.959537
     },
     {
       "input": "1 and 1/2 cups shredded parmesan cheese",
@@ -124,17 +119,15 @@
       "qty": 1.5,
       "unit": "cups",
       "comment": "shredded",
-      "other": "",
-      "confidence": 0.999557
+      "confidence": 0.99986
     },
     {
       "input": "9 large eggs",
       "name": "eggs",
       "qty": 9.0,
-      "unit": "large",
+      "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.996284
+      "confidence": 0.99982
     },
     {
       "input": "2.0 cup whole milk",
@@ -142,8 +135,7 @@
       "qty": 2.0,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999837
+      "confidence": 0.999947
     },
     {
       "input": "1 teaspoon salt",
@@ -151,8 +143,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999434
+      "confidence": 0.99982
     },
     {
       "input": "1 teaspoon ground mustard",
@@ -160,25 +151,22 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999167
+      "confidence": 0.999712
     },
     {
       "input": "1/4 teaspoon fresh ground black pepper",
-      "name": "fresh ground black pepper",
+      "name": "black pepper",
       "qty": 0.25,
       "unit": "teaspoons",
-      "comment": "",
-      "other": "",
-      "confidence": 0.999696
+      "comment": "fresh ground",
+      "confidence": 0.998177
     },
     {
       "input": "optional garnish: fresh ground black pepper, flaky sea salt, and/or extra parmesan cheese",
-      "name": "fresh ground black pepper, flaky sea salt",
+      "name": "black pepper, flaky sea salt, and /",
       "qty": 1.0,
       "unit": "",
-      "comment": "optional garnish :, and / or extra parmesan cheese",
-      "other": "",
+      "comment": "fresh ground",
       "confidence": 0.0
     }
   ],

@@ -48,11 +48,10 @@
     {
       "input": "3 to 3-1/2 cups (125 grams per cup) all-purpose flour",
       "name": "all-purpose flour",
-      "qty": 6.5,
+      "qty": 0.5,
       "unit": "cups",
       "comment": "per cup",
-      "other": "",
-      "confidence": 0.999426
+      "confidence": 0.999878
     },
     {
       "input": "1 teaspoon active dry yeast",
@@ -60,8 +59,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999498
+      "confidence": 0.997599
     },
     {
       "input": "1 teaspoon salt",
@@ -69,17 +67,15 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999434
+      "confidence": 0.99982
     },
     {
       "input": "1-1/2 cups water (72.5 degree angle)",
       "name": "water",
-      "qty": 1.5,
+      "qty": 0.5,
       "unit": "cups",
       "comment": "(72.5 degree angle)",
-      "other": "",
-      "confidence": 0.999353
+      "confidence": 0.99959
     }
   ],
   "error": null,

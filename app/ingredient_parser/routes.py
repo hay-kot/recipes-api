@@ -18,7 +18,6 @@ class ParseResponse(BaseModel):
     model_config = ConfigDict(arbitrary_types_allowed=True, extra="allow")
     input: str
     name: str = ""
-    other: str = ""
     qty: float = 0.0
     comment: str = ""
     unit: str = ""

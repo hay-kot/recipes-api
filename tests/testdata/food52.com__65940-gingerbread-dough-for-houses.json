@@ -75,8 +75,7 @@
       "qty": 1.5,
       "unit": "cups",
       "comment": "at room temperature",
-      "other": "",
-      "confidence": 0.9993
+      "confidence": 0.999814
     },
     {
       "input": "1.25 cup granulated sugar (250.0 gram )",
@@ -84,26 +83,23 @@
       "qty": 1.25,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.998524
+      "confidence": 0.999289
     },
     {
       "input": "0.667 cup molasses (not blackstrap) (226.0 gram )",
       "name": "molasses",
       "qty": 0.667,
       "unit": "cups",
-      "comment": "(not blackstrap) ",
-      "other": "",
-      "confidence": 0.999141
+      "comment": "(not blackstrap)",
+      "confidence": 0.999537
     },
     {
       "input": "3 large eggs, at room temperature (170.0 gram )",
       "name": "eggs",
       "qty": 3.0,
-      "unit": "large",
+      "unit": "",
       "comment": "at room temperature",
-      "other": "",
-      "confidence": 0.994668
+      "confidence": 0.999774
     },
     {
       "input": "7.0 cup all purpose flour (840.0 gram )",
@@ -111,8 +107,7 @@
       "qty": 7.0,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999007
+      "confidence": 0.999377
     },
     {
       "input": "1 tablespoon ground cinnamon (9.0 gram )",
@@ -120,8 +115,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999325
+      "confidence": 0.999811
     },
     {
       "input": "1 1/2 tablespoon (4 1/2 teaspoon) ground ginger (13.0 gram )",
@@ -129,8 +123,7 @@
       "qty": 1.5,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.998662
+      "confidence": 0.999611
     },
     {
       "input": "1 1/2 teaspoon baking soda (6.0 gram )",
@@ -138,8 +131,7 @@
       "qty": 1.5,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999379
+      "confidence": 0.999539
     },
     {
       "input": "3/4 teaspoon fine sea salt (3.0 gram )",
@@ -147,8 +139,7 @@
       "qty": 0.75,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.998838
+      "confidence": 0.999675
     }
   ],
   "error": null,

@@ -56,8 +56,7 @@
       "qty": 2.0,
       "unit": "sticks",
       "comment": "",
-      "other": "",
-      "confidence": 0.998771
+      "confidence": 0.999151
     },
     {
       "input": "1.25 cup brown sugar",
@@ -65,17 +64,15 @@
       "qty": 1.25,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999175
+      "confidence": 0.999841
     },
     {
       "input": "2 large eggs",
       "name": "eggs",
       "qty": 2.0,
-      "unit": "large",
+      "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.995415
+      "confidence": 0.999846
     },
     {
       "input": "1 tablespoon vanilla extract",
@@ -83,8 +80,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999417
+      "confidence": 0.999633
     },
     {
       "input": "2.0 cup all-purpose flour",
@@ -92,8 +88,7 @@
       "qty": 2.0,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999541
+      "confidence": 0.999539
     },
     {
       "input": "2.0 cup old fashioned oats",
@@ -101,8 +96,7 @@
       "qty": 2.0,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999529
+      "confidence": 0.999908
     },
     {
       "input": "1 teaspoon baking soda",
@@ -110,8 +104,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999676
+      "confidence": 0.999835
     },
     {
       "input": "1/2 teaspoon kosher salt",
@@ -119,8 +112,7 @@
       "qty": 0.5,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999251
+      "confidence": 0.999658
     },
     {
       "input": "2.0 cup chocolate chunks or chips",
@@ -128,8 +120,7 @@
       "qty": 2.0,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999281
+      "confidence": 0.999916
     },
     {
       "input": "flaky sea salt, for sprinkling ((optional))",
@@ -137,7 +128,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "for sprinkling ((optional))",
-      "other": "",
       "confidence": 0.0
     }
   ],

@@ -68,8 +68,7 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.998846
+      "confidence": 0.999039
     },
     {
       "input": "1 yellow onion -8/25 dollar",
@@ -77,8 +76,7 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.99804
+      "confidence": 0.998886
     },
     {
       "input": "8.0 ounce wide egg noodles -9/10 dollar",
@@ -86,17 +84,15 @@
       "qty": 8.0,
       "unit": "ounces",
       "comment": "",
-      "other": "",
-      "confidence": 0.99737
+      "confidence": 0.999749
     },
     {
       "input": "1/2 head cabbage (4-5 cups sliced) ($1.28)",
       "name": "cabbage",
       "qty": 0.5,
       "unit": "heads",
-      "comment": "sliced ($1.28)",
-      "other": "",
-      "confidence": 0.992761
+      "comment": "sliced",
+      "confidence": 0.994341
     },
     {
       "input": "2 tablespoon butter -1/5 dollar",
@@ -104,8 +100,7 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999683
+      "confidence": 0.999765
     },
     {
       "input": "salt and pepper to taste -1/20 dollar",
@@ -113,7 +108,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "to taste -0.05 dollar",
-      "other": "",
       "confidence": 0.0
     }
   ],

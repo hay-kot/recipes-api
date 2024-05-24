@@ -51,8 +51,7 @@
       "qty": 2.0,
       "unit": "large heads",
       "comment": "cut into large florets with some stalk attached",
-      "other": "",
-      "confidence": 0.993016
+      "confidence": 0.991079
     },
     {
       "input": "5 tablespoon olive oil",
@@ -60,16 +59,14 @@
       "qty": 5.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999243
+      "confidence": 0.999847
     },
     {
       "input": "Kosher salt, freshly ground black pepper",
-      "name": "Kosher salt, freshly ground black pepper",
+      "name": "Kosher salt",
       "qty": 1.0,
       "unit": "",
-      "comment": "",
-      "other": "",
+      "comment": "freshly ground black pepper",
       "confidence": 0.0
     }
   ],

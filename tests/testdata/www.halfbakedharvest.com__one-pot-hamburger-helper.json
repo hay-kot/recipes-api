@@ -53,8 +53,7 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999375
+      "confidence": 0.999763
     },
     {
       "input": "1 pound lean ground beef",
@@ -62,17 +61,15 @@
       "qty": 1.0,
       "unit": "pound",
       "comment": "",
-      "other": "",
-      "confidence": 0.999366
+      "confidence": 0.999607
     },
     {
       "input": "1 medium yellow onion, chopped",
       "name": "yellow onion",
       "qty": 1.0,
-      "unit": "medium",
+      "unit": "",
       "comment": "chopped",
-      "other": "",
-      "confidence": 0.995958
+      "confidence": 0.9999
     },
     {
       "input": "kosher salt and black pepper",
@@ -80,7 +77,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     },
     {
@@ -89,8 +85,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.9993
+      "confidence": 0.999509
     },
     {
       "input": "1 teaspoon paprika",
@@ -98,8 +93,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999195
+      "confidence": 0.999573
     },
     {
       "input": "1 teaspoon garlic powder",
@@ -107,8 +101,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999861
+      "confidence": 0.999935
     },
     {
       "input": "1 pound short cut pasta",
@@ -116,17 +109,15 @@
       "qty": 1.0,
       "unit": "pound",
       "comment": "",
-      "other": "",
-      "confidence": 0.999329
+      "confidence": 0.999781
     },
     {
       "input": "1 zucchini, grated ((about 1.0 cup grated))",
       "name": "zucchini",
       "qty": 1.0,
       "unit": "",
-      "comment": "grated",
-      "other": "",
-      "confidence": 0.997112
+      "comment": "grated ((, grated))",
+      "confidence": 0.999029
     },
     {
       "input": "2.0 cup low sodium beef broth",
@@ -134,8 +125,7 @@
       "qty": 2.0,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999505
+      "confidence": 0.999911
     },
     {
       "input": "1.5 cup milk ((use what you drink))",
@@ -143,8 +133,7 @@
       "qty": 1.5,
       "unit": "cups",
       "comment": "((use what you drink))",
-      "other": "",
-      "confidence": 0.999402
+      "confidence": 0.999925
     },
     {
       "input": "1 1/2-2 cups shredded cheddar cheese",
@@ -152,8 +141,7 @@
       "qty": 3.5,
       "unit": "cups",
       "comment": "shredded",
-      "other": "",
-      "confidence": 0.999006
+      "confidence": 0.99932
     },
     {
       "input": "1 tablespoon ketchup",
@@ -161,8 +149,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.99921
+      "confidence": 0.999515
     },
     {
       "input": "fresh parsley, for serving",
@@ -170,7 +157,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "for serving",
-      "other": "",
       "confidence": 0.0
     }
   ],

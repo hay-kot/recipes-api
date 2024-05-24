@@ -99,8 +99,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999498
+      "confidence": 0.997599
     },
     {
       "input": "1.25 cup/169.0 gram bread flour",
@@ -108,8 +107,7 @@
       "qty": 1.25,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.998875
+      "confidence": 0.999948
     },
     {
       "input": "0.5 cup /72.0 gram golden raisins (optional)",
@@ -117,8 +115,7 @@
       "qty": 0.5,
       "unit": "cups",
       "comment": "(optional)",
-      "other": "",
-      "confidence": 0.999786
+      "confidence": 0.999915
     },
     {
       "input": "0.333 cup /113.0 gram honey",
@@ -126,8 +123,7 @@
       "qty": 0.333,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999735
+      "confidence": 0.999931
     },
     {
       "input": "0.333 cup /75.0 gram extra-virgin olive oil",
@@ -135,26 +131,23 @@
       "qty": 0.333,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999735
+      "confidence": 0.999931
     },
     {
       "input": "1 large egg yolk, at room temperature",
       "name": "egg yolk",
       "qty": 1.0,
-      "unit": "large",
+      "unit": "",
       "comment": "at room temperature",
-      "other": "",
-      "confidence": 0.997876
+      "confidence": 0.99975
     },
     {
       "input": "2 large eggs, at room temperature, plus 1 beaten egg, for egg wash",
       "name": "eggs",
       "qty": 2.0,
-      "unit": "large",
+      "unit": "",
       "comment": "at room temperature",
-      "other": "",
-      "confidence": 0.995198
+      "confidence": 0.999843
     },
     {
       "input": "3.0 cup/405.0 gram bread flour, plus more for kneading the dough",
@@ -162,8 +155,7 @@
       "qty": 3.0,
       "unit": "cups",
       "comment": "plus more for kneading the dough",
-      "other": "",
-      "confidence": 0.999767
+      "confidence": 0.999948
     },
     {
       "input": "11.0 gram kosher salt (about 1 tablespoon Diamond Crystal or 1 1/2 teaspoon Morton coarse kosher salt)",
@@ -171,8 +163,7 @@
       "qty": 11.0,
       "unit": "grams",
       "comment": "(about 1 tablespoon Diamond Crystal or 1.5 teaspoon Morton coarse kosher salt)",
-      "other": "",
-      "confidence": 0.993901
+      "confidence": 0.998998
     },
     {
       "input": "Poppy or sesame seeds, for sprinkling (optional)",
@@ -180,7 +171,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "for sprinkling (optional)",
-      "other": "",
       "confidence": 0.0
     }
   ],

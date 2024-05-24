@@ -71,8 +71,7 @@
       "qty": 1.5,
       "unit": "pounds",
       "comment": "halved lengthwise",
-      "other": "",
-      "confidence": 0.997162
+      "confidence": 0.999666
     },
     {
       "input": "6 tablespoon extra-virgin olive oil, divided",
@@ -80,16 +79,14 @@
       "qty": 6.0,
       "unit": "tablespoons",
       "comment": "divided",
-      "other": "",
-      "confidence": 0.999462
+      "confidence": 0.999535
     },
     {
       "input": "Kosher salt, freshly ground pepper",
-      "name": "Kosher salt, freshly ground pepper",
+      "name": "Kosher salt,, pepper",
       "qty": 1.0,
       "unit": "",
-      "comment": "",
-      "other": "",
+      "comment": "freshly ground",
       "confidence": 0.0
     },
     {
@@ -98,35 +95,31 @@
       "qty": 3.0,
       "unit": "links",
       "comment": "",
-      "other": "",
-      "confidence": 0.999074
+      "confidence": 0.998717
     },
     {
       "input": "6 skin-on, bone-in chicken thighs",
-      "name": "skin-on, chicken thighs",
+      "name": "skin-on, bone-in chicken thighs",
       "qty": 6.0,
       "unit": "",
-      "comment": "bone-in",
-      "other": "",
-      "confidence": 0.983707
+      "comment": "",
+      "confidence": 0.99554
     },
     {
       "input": "2 large onions, chopped",
       "name": "onions",
       "qty": 2.0,
-      "unit": "large",
+      "unit": "",
       "comment": "chopped",
-      "other": "",
-      "confidence": 0.995214
+      "confidence": 0.999941
     },
     {
       "input": "1/2 large red bell pepper, chopped",
       "name": "red bell pepper",
       "qty": 0.5,
-      "unit": "large",
+      "unit": "",
       "comment": "chopped",
-      "other": "",
-      "confidence": 0.997545
+      "confidence": 0.999906
     },
     {
       "input": "6 garlic cloves, finely grated",
@@ -134,8 +127,7 @@
       "qty": 6.0,
       "unit": "cloves",
       "comment": "finely grated",
-      "other": "",
-      "confidence": 0.977162
+      "confidence": 0.988747
     },
     {
       "input": "1 cup dry white wine",
@@ -143,26 +135,23 @@
       "qty": 1.0,
       "unit": "cup",
       "comment": "",
-      "other": "",
-      "confidence": 0.999695
+      "confidence": 0.999881
     },
     {
       "input": "1.0 cup low-sodium chicken broth",
       "name": "low-sodium chicken broth",
       "qty": 1.0,
-      "unit": "cups",
+      "unit": "cup",
       "comment": "",
-      "other": "",
-      "confidence": 0.999114
+      "confidence": 0.999184
     },
     {
       "input": "0.5 cup chopped hot, sweet pickled Peppadew peppers in brine",
-      "name": "",
+      "name": "hot",
       "qty": 0.5,
       "unit": "cups",
-      "comment": "chopped hot",
-      "other": "",
-      "confidence": 0.999352
+      "comment": "chopped",
+      "confidence": 0.999808
     },
     {
       "input": "0.25 cup white wine vinegar",
@@ -170,8 +159,7 @@
       "qty": 0.25,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999726
+      "confidence": 0.999952
     },
     {
       "input": "3 sprigs rosemary",
@@ -179,8 +167,7 @@
       "qty": 3.0,
       "unit": "sprigs",
       "comment": "",
-      "other": "",
-      "confidence": 0.999351
+      "confidence": 0.999869
     },
     {
       "input": "Chopped parsley (for serving)",
@@ -188,7 +175,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "Chopped",
-      "other": "",
       "confidence": 0.0
     }
   ],

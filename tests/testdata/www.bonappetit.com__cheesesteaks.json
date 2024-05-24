@@ -75,34 +75,30 @@
       "qty": 2.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999422
+      "confidence": 0.999833
     },
     {
       "input": "4 large onions, sliced 0.25 inch thick",
       "name": "onions",
       "qty": 4.0,
-      "unit": "large",
+      "unit": "",
       "comment": "sliced 0.25 inch thick",
-      "other": "",
-      "confidence": 0.993002
+      "confidence": 0.999952
     },
     {
       "input": "3 large red and/or green bell peppers, seeds removed, sliced 0.25 inch thick",
       "name": "red and / or green bell peppers",
       "qty": 3.0,
-      "unit": "large",
+      "unit": "",
       "comment": "seeds removed, sliced 0.25 inch thick",
-      "other": "",
-      "confidence": 0.986996
+      "confidence": 0.999925
     },
     {
       "input": "Kosher salt, freshly ground pepper",
-      "name": "Kosher salt, freshly ground pepper",
+      "name": "Kosher salt,, pepper",
       "qty": 1.0,
       "unit": "",
-      "comment": "",
-      "other": "",
+      "comment": "freshly ground",
       "confidence": 0.0
     },
     {
@@ -111,8 +107,7 @@
       "qty": 3.0,
       "unit": "tablespoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999562
+      "confidence": 0.999531
     },
     {
       "input": "4 pounds boneless beef short ribs",
@@ -120,17 +115,15 @@
       "qty": 4.0,
       "unit": "pounds",
       "comment": "",
-      "other": "",
-      "confidence": 0.998697
+      "confidence": 0.99953
     },
     {
       "input": "8 10-inch-long Italian sub rolls",
-      "name": "Italian sub rolls",
+      "name": "inch-long Italian sub rolls",
       "qty": 8.0,
       "unit": "",
-      "comment": "10 inch-long",
-      "other": "",
-      "confidence": 0.993323
+      "comment": "",
+      "confidence": 0.993862
     },
     {
       "input": "Vegetable oil (for griddle)",
@@ -138,7 +131,6 @@
       "qty": 1.0,
       "unit": "",
       "comment": "(for griddle)",
-      "other": "",
       "confidence": 0.0
     },
     {
@@ -147,16 +139,14 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
       "confidence": 0.0
     },
     {
       "input": "Freshly ground pepper",
-      "name": "Freshly ground pepper",
+      "name": "pepper",
       "qty": 1.0,
       "unit": "",
-      "comment": "",
-      "other": "",
+      "comment": "Freshly ground",
       "confidence": 0.0
     },
     {
@@ -165,8 +155,7 @@
       "qty": 10.0,
       "unit": "ounces slices",
       "comment": "",
-      "other": "",
-      "confidence": 0.91449
+      "confidence": 0.93625
     },
     {
       "input": "10.0 ounce mild or sharp provolone slices (about 16)",
@@ -174,16 +163,14 @@
       "qty": 10.0,
       "unit": "ounces slices",
       "comment": "",
-      "other": "",
-      "confidence": 0.875143
+      "confidence": 0.863283
     },
     {
       "input": "Ketchup and/or hot sauce (for serving; optional)",
       "name": "Ketchup and / or hot sauce",
       "qty": 1.0,
       "unit": "",
-      "comment": "(for serving ; optional)",
-      "other": "",
+      "comment": "(for serving; optional)",
       "confidence": 0.0
     }
   ],

@@ -91,8 +91,7 @@
       "qty": 1.0,
       "unit": "large bunch",
       "comment": "",
-      "other": "",
-      "confidence": 0.9973
+      "confidence": 0.996695
     },
     {
       "input": "3 large garlic cloves",
@@ -100,8 +99,7 @@
       "qty": 3.0,
       "unit": "large cloves",
       "comment": "",
-      "other": "",
-      "confidence": 0.985798
+      "confidence": 0.977793
     },
     {
       "input": "1 1/2 pound ground beef or plant-based meat",
@@ -109,8 +107,7 @@
       "qty": 1.5,
       "unit": "pounds",
       "comment": "",
-      "other": "",
-      "confidence": 0.995998
+      "confidence": 0.999829
     },
     {
       "input": "3 teaspoon Diamond Crystal or 1 1/2 teaspoon Morton kosher salt, divided",
@@ -118,17 +115,15 @@
       "qty": 3.0,
       "unit": "teaspoons",
       "comment": "divided",
-      "other": "",
-      "confidence": 0.999223
+      "confidence": 0.999819
     },
     {
       "input": "1/2 teaspoon freshly ground black pepper",
-      "name": "freshly ground black pepper",
+      "name": "black pepper",
       "qty": 0.5,
       "unit": "teaspoons",
-      "comment": "",
-      "other": "",
-      "confidence": 0.999338
+      "comment": "freshly ground",
+      "confidence": 0.999415
     },
     {
       "input": "3 tablespoon extra-virgin olive oil, divided, plus more for pan",
@@ -136,17 +131,15 @@
       "qty": 3.0,
       "unit": "tablespoons",
       "comment": "divided",
-      "other": "",
-      "confidence": 0.999542
+      "confidence": 0.999727
     },
     {
       "input": "1 large onion",
       "name": "onion",
       "qty": 1.0,
-      "unit": "large",
+      "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.996777
+      "confidence": 0.999906
     },
     {
       "input": "1/2 teaspoon crushed red pepper flakes",
@@ -154,8 +147,7 @@
       "qty": 0.5,
       "unit": "teaspoons",
       "comment": "crushed",
-      "other": "",
-      "confidence": 0.998539
+      "confidence": 0.998888
     },
     {
       "input": "1/4 teaspoon ground cinnamon",
@@ -163,8 +155,7 @@
       "qty": 0.25,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999001
+      "confidence": 0.999725
     },
     {
       "input": "1 28-oz can whole peeled tomatoes",
@@ -172,17 +163,15 @@
       "qty": 1.0,
       "unit": "can",
       "comment": "",
-      "other": "",
-      "confidence": 0.9979045029387295
+      "confidence": 0.998863
     },
     {
       "input": "1 large head of savoy or green cabbage",
       "name": "savoy or green cabbage",
       "qty": 1.0,
       "unit": "large head",
-      "comment": "of",
-      "other": "",
-      "confidence": 0.994194
+      "comment": "",
+      "confidence": 0.993829
     },
     {
       "input": "1.25 cup long-grain rice (such as basmati)",
@@ -190,8 +179,7 @@
       "qty": 1.25,
       "unit": "cups",
       "comment": "(such as basmati)",
-      "other": "",
-      "confidence": 0.998574
+      "confidence": 0.999897
     },
     {
       "input": "1 lemon",
@@ -199,8 +187,7 @@
       "qty": 1.0,
       "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.999133
+      "confidence": 0.999155
     },
     {
       "input": "8.0 ounce cr\u00e8me fra\u00eeche",
@@ -208,8 +195,7 @@
       "qty": 8.0,
       "unit": "ounces",
       "comment": "",
-      "other": "",
-      "confidence": 0.998545
+      "confidence": 0.999798
     },
     {
       "input": "8.0 ounce low-moisture mozzarella",
@@ -217,8 +203,7 @@
       "qty": 8.0,
       "unit": "ounces",
       "comment": "",
-      "other": "",
-      "confidence": 0.998696
+      "confidence": 0.99992
     }
   ],
   "error": null,

@@ -58,10 +58,9 @@
       "input": "1 medium onion, cut into wedges, keeping root intact",
       "name": "onion",
       "qty": 1.0,
-      "unit": "medium",
+      "unit": "",
       "comment": "cut into wedges",
-      "other": "",
-      "confidence": 0.994091
+      "confidence": 0.999896
     },
     {
       "input": "2 garlic cloves, finely chopped",
@@ -69,8 +68,7 @@
       "qty": 2.0,
       "unit": "cloves",
       "comment": "finely chopped",
-      "other": "",
-      "confidence": 0.964733
+      "confidence": 0.979474
     },
     {
       "input": "1 pound skinless, boneless chicken thighs",
@@ -78,8 +76,7 @@
       "qty": 1.0,
       "unit": "pound",
       "comment": "",
-      "other": "",
-      "confidence": 0.99872
+      "confidence": 0.999233
     },
     {
       "input": "1 tablespoon cumin seeds, coarsely crushed",
@@ -87,8 +84,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "coarsely crushed",
-      "other": "",
-      "confidence": 0.999382
+      "confidence": 0.999516
     },
     {
       "input": "1 tablespoon vegetable oil",
@@ -96,8 +92,7 @@
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999183
+      "confidence": 0.999527
     },
     {
       "input": "1 teaspoon kosher salt",
@@ -105,17 +100,15 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999371
+      "confidence": 0.999738
     },
     {
       "input": "1/2 teaspoon freshly ground black pepper",
-      "name": "freshly ground black pepper",
+      "name": "black pepper",
       "qty": 0.5,
       "unit": "teaspoons",
-      "comment": "",
-      "other": "",
-      "confidence": 0.999338
+      "comment": "freshly ground",
+      "confidence": 0.999415
     },
     {
       "input": "8 corn tortillas, warmed (for serving)",
@@ -123,8 +116,7 @@
       "qty": 8.0,
       "unit": "",
       "comment": "warmed",
-      "other": "",
-      "confidence": 0.997822
+      "confidence": 0.999516
     },
     {
       "input": "2 avocados, sliced (for serving)",
@@ -132,26 +124,23 @@
       "qty": 2.0,
       "unit": "",
       "comment": "sliced",
-      "other": "",
-      "confidence": 0.996902
+      "confidence": 0.998089
     },
     {
       "input": "Charred Tomatillo Salsa Verde (click for recipe; for serving)",
       "name": "Charred Tomatillo Salsa Verde",
       "qty": 1.0,
       "unit": "",
-      "comment": "(click for recipe ; for serving)",
-      "other": "",
+      "comment": "(click for recipe; for serving)",
       "confidence": 0.0
     },
     {
       "input": "Cilantro sprigs, sliced radishes, and lime wedges (for serving)",
-      "name": "Cilantro, radishes",
+      "name": "Cilantro, radishes, and lime wedges",
       "qty": 0.0,
       "unit": "sprig",
       "comment": "sliced",
-      "other": "",
-      "confidence": 0.775083
+      "confidence": 0.854188
     }
   ],
   "error": null,

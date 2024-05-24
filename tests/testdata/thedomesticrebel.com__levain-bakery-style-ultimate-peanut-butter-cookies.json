@@ -61,19 +61,17 @@
       "input": "1.0 cup unsalted butter, cut into cubes",
       "name": "unsalted butter",
       "qty": 1.0,
-      "unit": "cups",
+      "unit": "cup",
       "comment": "cut into cubes",
-      "other": "",
-      "confidence": 0.999813
+      "confidence": 0.999964
     },
     {
       "input": "1.0 cup light brown sugar",
       "name": "light brown sugar",
       "qty": 1.0,
-      "unit": "cups",
+      "unit": "cup",
       "comment": "",
-      "other": "",
-      "confidence": 0.999673
+      "confidence": 0.999948
     },
     {
       "input": "0.5 cup granulated white sugar",
@@ -81,17 +79,15 @@
       "qty": 0.5,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999532
+      "confidence": 0.999877
     },
     {
       "input": "2 large eggs",
       "name": "eggs",
       "qty": 2.0,
-      "unit": "large",
+      "unit": "",
       "comment": "",
-      "other": "",
-      "confidence": 0.995415
+      "confidence": 0.999846
     },
     {
       "input": "2 teaspoon vanilla extract",
@@ -99,8 +95,7 @@
       "qty": 2.0,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.99947
+      "confidence": 0.999576
     },
     {
       "input": "0.5 cup creamy peanut butter",
@@ -108,8 +103,7 @@
       "qty": 0.5,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999326
+      "confidence": 0.999911
     },
     {
       "input": "1 teaspoon cornstarch",
@@ -117,8 +111,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999265
+      "confidence": 0.999564
     },
     {
       "input": "1 teaspoon baking soda",
@@ -126,8 +119,7 @@
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
-      "other": "",
-      "confidence": 0.999676
+      "confidence": 0.999835
     },
     {
       "input": "1/2 teaspoon salt",
@@ -135,17 +127,15 @@
       "qty": 0.5,
       "unit": "teaspoons",
       "comment": "",
-      "other": "",
-      "confidence": 0.999334
+      "confidence": 0.999764
     },
     {
       "input": "1.0 cup cake flour",
       "name": "cake flour",
       "qty": 1.0,
-      "unit": "cups",
+      "unit": "cup",
       "comment": "",
-      "other": "",
-      "confidence": 0.998985
+      "confidence": 0.997872
     },
     {
       "input": "2.0 cup all-purpose flour",
@@ -153,8 +143,7 @@
       "qty": 2.0,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999541
+      "confidence": 0.999539
     },
     {
       "input": "2.0 cup peanut butter chips",
@@ -162,8 +151,7 @@
       "qty": 2.0,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999702
+      "confidence": 0.999936
     },
     {
       "input": "1.5 cup Reese's Pieces candies",
@@ -171,8 +159,7 @@
       "qty": 1.5,
       "unit": "cups",
       "comment": "",
-      "other": "",
-      "confidence": 0.999531
+      "confidence": 0.999965
     }
   ],
   "error": null,
