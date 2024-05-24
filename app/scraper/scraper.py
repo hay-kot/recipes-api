@@ -107,7 +107,7 @@ async def scrape_recipe_v2(
 
 
 async def scrape_urls_v2(jobs: list[ScrapeJob]) -> list[ScrapeResult]:
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"}
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0"}
 
     async with httpx.AsyncClient() as client:
         tasks = [scrape_recipe_v2(client, job.url.unicode_string(), headers, job.html) for job in jobs]
