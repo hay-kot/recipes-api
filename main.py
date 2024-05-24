@@ -1,3 +1,5 @@
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI, Request
 from fastapi.middleware.gzip import GZipMiddleware
 from fastapi.responses import JSONResponse
@@ -7,10 +9,21 @@ from app import __version__, config, logger, v2
 
 settings = config.settings()
 
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    log = logger.logger()
+    log.info("server started")
+    log.info("swagger docs available at http://localhost:%d/docs", settings.port)
+    yield
+    log.info("server shutdown")
+
+
 app = FastAPI(
     title="Recipe API",
     description="A simple API for parsing recipes and ingredients.",
     version=__version__,
+    lifespan=lifespan,
 )
 
 
@@ -34,13 +47,6 @@ if settings.auth_key:
 
 
 app.include_router(v2.router, prefix="/api/v2")
-
-
-@app.on_event("startup")
-def startup() -> None:
-    log = logger.logger()
-    log.info("server started")
-    log.info("swagger docs available at http://localhost:%d/docs", settings.port)
 
 
 class Health(BaseModel):
