@@ -24,7 +24,7 @@ pydantic-settings = "~2.2.0"
 quantulum3 = { version = "~0.9.0", extras = ["classifier"] }
 recipe-scrapers = "~14.55.0"
 uvicorn = "~0.27.0"
-ingredient-parser-nlp = "^0.1.0b7"
+ingredient-parser-nlp = "^0.1.0b10"
 
 
 [tool.poetry.group.dev.dependencies]
