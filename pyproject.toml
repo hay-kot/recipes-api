@@ -23,7 +23,7 @@ pydantic = "~2.7.0"
 pydantic-settings = "~2.2.0"
 quantulum3 = { version = "~0.9.0", extras = ["classifier"] }
 recipe-scrapers = "~14.56.0"
-uvicorn = "~0.27.0"
+uvicorn = "~0.29.0"
 ingredient-parser-nlp = "^0.1.0b7"
 
 
