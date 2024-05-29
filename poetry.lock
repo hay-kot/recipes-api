@@ -486,17 +486,18 @@ testing = ["pygments", "pytest (>=6)", "pytest-black (>=0.3.7)", "pytest-checkdo
 
 [[package]]
 name = "ingredient-parser-nlp"
-version = "0.1.0b7"
+version = "0.1.0b11"
 description = "A Python package to parse structured information from recipe ingredient sentences"
 optional = false
-python-versions = "<3.12,>=3.10"
+python-versions = "<3.13,>=3.10"
 files = [
-    {file = "ingredient_parser_nlp-0.1.0b7-py3-none-any.whl", hash = "sha256:86d10006fe4810d913c15792601c04e12055edfa35123ff929db2f9bc9471cb1"},
-    {file = "ingredient_parser_nlp-0.1.0b7.tar.gz", hash = "sha256:022171ea51741663d368aea59ed770c92e6f8fcde0ac0d830901d63fdf86a960"},
+    {file = "ingredient_parser_nlp-0.1.0b11-py3-none-any.whl", hash = "sha256:5bc492109db7d81cbe17e116140a5e7bbf293ef39ae8aaa53175ff688ceffc8a"},
+    {file = "ingredient_parser_nlp-0.1.0b11.tar.gz", hash = "sha256:9fe3777cae139a1e4da826543c519e5aab7a428a28b150b75c8ec2ffd67274f5"},
 ]
 
 [package.dependencies]
 nltk = "*"
+pint = "*"
 python-crfsuite = "*"
 
 [[package]]
@@ -913,6 +914,32 @@ files = [
     {file = "packaging-23.2-py3-none-any.whl", hash = "sha256:8c491190033a9af7e1d931d0b5dacc2ef47509b34dd0de67ed209b5203fc88c7"},
     {file = "packaging-23.2.tar.gz", hash = "sha256:048fb0e9405036518eaaf48a55953c750c11e1a1b68e0dd1a9d62ed0c092cfc5"},
 ]
+
+[[package]]
+name = "pint"
+version = "0.23"
+description = "Physical quantities module"
+optional = false
+python-versions = ">=3.9"
+files = [
+    {file = "Pint-0.23-py3-none-any.whl", hash = "sha256:df79b6b5f1beb7ed0cd55d91a0766fc55f972f757a9364e844958c05e8eb66f9"},
+    {file = "Pint-0.23.tar.gz", hash = "sha256:e1509b91606dbc52527c600a4ef74ffac12fff70688aff20e9072409346ec9b4"},
+]
+
+[package.dependencies]
+typing-extensions = "*"
+
+[package.extras]
+babel = ["babel (<=2.8)"]
+bench = ["pytest", "pytest-codspeed"]
+dask = ["dask"]
+mip = ["mip (>=1.13)"]
+numpy = ["numpy (>=1.19.5)"]
+pandas = ["pint-pandas (>=0.3)"]
+test = ["pytest", "pytest-benchmark", "pytest-cov", "pytest-mpl", "pytest-subtests"]
+testbase = ["pytest", "pytest-benchmark", "pytest-cov", "pytest-subtests"]
+uncertainties = ["uncertainties (>=3.1.6)"]
+xarray = ["xarray"]
 
 [[package]]
 name = "pluggy"
@@ -2107,4 +2134,4 @@ requests = ">=2.0.0,<3.0.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10, <3.12"
-content-hash = "8fdc19ab450e4c929007183e8251c73634515d2092a0182d3aba439cc97c65bf"
+content-hash = "f4cd1a249094cbf5e93e180cb8ed4d32bd64754f40983170dabcd8f32187f92d"
