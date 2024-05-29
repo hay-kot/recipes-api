@@ -28,7 +28,7 @@ ingredient-parser-nlp = "^0.1.0b7"
 
 
 [tool.poetry.group.dev.dependencies]
-ruff = "^0.2.0"
+ruff = "^0.4.0"
 pytest = "^8.0.0"
 
 [build-system]
