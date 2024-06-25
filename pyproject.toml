@@ -16,19 +16,19 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.10, <3.12"
-fastapi = { version = "~0.111.0", extras = [] }
+fastapi = { version = "~0.110.0", extras = [] }
 httpx = "~0.27.0"
 lxml = "~5.1.0"
-pydantic = "~2.7.0"
+pydantic = "~2.6.0"
 pydantic-settings = "~2.2.0"
 quantulum3 = { version = "~0.9.0", extras = ["classifier"] }
-recipe-scrapers = "~14.56.0"
-uvicorn = "~0.30.0"
+recipe-scrapers = "~14.55.0"
+uvicorn = "~0.27.0"
 ingredient-parser-nlp = "^0.1.0b7"
 
 
 [tool.poetry.group.dev.dependencies]
-ruff = "^0.4.0"
+ruff = "^0.2.0"
 pytest = "^8.0.0"
 
 [build-system]
