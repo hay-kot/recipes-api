@@ -1341,20 +1341,22 @@ networkx = ["networkx (>=2.0.0,<3.0.0)"]
 
 [[package]]
 name = "recipe-scrapers"
-version = "14.58.0"
+version = "15.0.0"
 description = "Python package, scraping recipes from all over the internet"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "recipe_scrapers-14.58.0-py3-none-any.whl", hash = "sha256:dfdd059bb8c6dece6ea3f5249326eeb6c92bae75398d67e4784cf1d6b4890af0"},
-    {file = "recipe_scrapers-14.58.0.tar.gz", hash = "sha256:c7df2c8d0764c6a62a76d897fb9b1533c3424f04cc33bff242bb21d3925d1441"},
+    {file = "recipe_scrapers-15.0.0-py3-none-any.whl", hash = "sha256:705d4e80bd0471f4fd73c584a551ca94f96521fdb1e766614aaebd32014d72c9"},
+    {file = "recipe_scrapers-15.0.0.tar.gz", hash = "sha256:d6fc8c5bacb67b571ac1cbaf4ab77e5f338112c107d40062e0a68403d16b8872"},
 ]
 
 [package.dependencies]
 beautifulsoup4 = ">=4.12.3"
 extruct = ">=0.17.0"
 isodate = ">=0.6.1"
-requests = ">=2.31.0"
+
+[package.extras]
+online = ["requests (>=2.31.0)"]
 
 [[package]]
 name = "regex"
@@ -2131,4 +2133,4 @@ requests = ">=2.0.0,<3.0.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10, <3.12"
-content-hash = "edaed803dd91891ebf4df67e801fab4af3dadae5ec703f25aac93e8f0e6de817"
+content-hash = "1f3107c8b2efd3d73125155aa1c469a7deadb293e7d5b3d64a71afa83e062577"
