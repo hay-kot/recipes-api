@@ -15,7 +15,7 @@ authors = ["Hayden"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.10, <3.12"
+python = ">=3.12, <3.13"
 fastapi = { version = "~0.111.0", extras = [] }
 httpx = "~0.27.0"
 lxml = "~5.1.0"
