@@ -4,7 +4,7 @@ import sys
 
 import httpx
 
-from app.logger import logger
+from pkg.core import logger
 
 __filepath = pathlib.Path(__file__).parent
 
