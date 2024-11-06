@@ -1,0 +1,233 @@
+{
+  "url": "https://cooking.nytimes.com/recipes/4735-old-fashioned-beef-stew",
+  "data": {
+    "name": "Old-Fashioned Beef Stew",
+    "url": "https://cooking.nytimes.com/recipes/4735-old-fashioned-beef-stew",
+    "description": "This classic stick-to-your-ribs stew is the ideal project for a chilly weekend. Beef, onion, carrots, potatoes and red wine come together in cozy harmony. If you are feeding a crowd, good news: It doubles (or triples) beautifully. For additional variations on the recipe, you might also enjoy this video.\n\nKeys to This Recipe\n\nHow to Make Beef Stew: Beef stew is made in different ways across cultures, but at its core, it is simply tough cuts of meat slowly cooked with vegetables in liquid. Over hours of simmering, all the flavors meld together and the ingredients soften to tenderness.\n\nHow to Thicken Beef Stew: Starches, like the flour and potato in this recipe, thicken beef stew. Here, beef cubes are coated in flour, then browned, leaving flour in the pan while sealing flour to the meat. When the meat is later simmered, that flour thickens the liquid as do potatoes, which release their starches as they cook.\n\nHow to Make Beef Stew on the Stove: It's important to cook stew slowly over low heat. High heat will cause the meat to tighten and toughen, while low heat allows the meat to become fall-apart tender. Simply cover the pot and keep the heat as low as it goes.\n\nWhat to Serve With Beef Stew: The best accompaniments to beef stew can soak up the sauce. A crusty baguette works well, as does rice. A beef stew is hearty enough to be a one-pot meal, but you can make a salad with some crisp, fresh vegetables.",
+    "recipeInstructions": [
+      {
+        "text": "Combine the flour and pepper in a bowl, add the beef and toss to coat well. Heat 3 teaspoons of the oil in a large pot. Add the beef a few pieces at a time; do not overcrowd. Cook, turning the pieces until beef is browned on all sides, about 5 minutes per batch; add more oil as needed between batches."
+      },
+      {
+        "text": "Remove the beef from the pot and add the vinegar and wine. Cook over medium-high heat, scraping the pan with a wooden spoon to loosen any browned bits. Add the beef, beef broth and bay leaves. Bring to a boil, then reduce to a slow simmer."
+      },
+      {
+        "text": "Cover and cook, skimming broth from time to time, until the beef is tender, about 1 1/2 hours. Add the onions and carrots and simmer, covered, for 10 minutes. Add the potatoes and simmer until vegetables are tender, about 30 minutes more. Add broth or water if the stew is dry. Season with salt and pepper to taste. Ladle among 4 bowls and serve."
+      }
+    ],
+    "recipeIngredient": [
+      "1/4 cup all-purpose flour",
+      "1/4 teaspoon freshly ground pepper",
+      "1 pound beef stewing meat, trimmed and cut into inch cubes",
+      "5 teaspoons vegetable oil",
+      "2 tablespoons red wine vinegar",
+      "1 cup red wine",
+      "3 1/2 cups beef broth, homemade or low-sodium canned",
+      "2 bay leaves",
+      "1 medium onion, peeled and chopped",
+      "5 medium carrots, peeled and cut into 1/4-inch rounds",
+      "2 large baking potatoes, peeled and cut into 3/4-inch cubes",
+      "2 teaspoons salt"
+    ],
+    "recipeCuisine": null,
+    "recipeCategory": [
+      "Dinner",
+      "Easy",
+      "One Pot",
+      "Soups And Stews",
+      "Main Course"
+    ],
+    "keywords": [
+      "Beef",
+      "Beef Stew Meat",
+      "Carrot",
+      "Potato",
+      "Red Wine",
+      "Step By Step",
+      "Fall"
+    ],
+    "images": [
+      "https://static01.nyt.com/images/2022/01/02/dining/15COOKING-OLD-BEEF-STEW2/15COOKING-OLD-BEEF-STEW2-square640.jpg",
+      "https://static01.nyt.com/images/2022/01/02/dining/15COOKING-OLD-BEEF-STEW2/15COOKING-OLD-BEEF-STEW2-videoSixteenByNineJumbo1600-v2.jpg",
+      "https://static01.nyt.com/images/2022/01/02/dining/15COOKING-OLD-BEEF-STEW2/15COOKING-OLD-BEEF-STEW2-superJumbo-v2.jpg"
+    ],
+    "recipeYield": "4 servings",
+    "prepTime": "15 Minutes",
+    "performTime": null,
+    "totalTime": "2 Hours 45 Minutes",
+    "dateModified": "2023-11-29T19:38:07Z",
+    "datePublished": "1994-01-30",
+    "nutrition": {
+      "@context": "http://schema.org",
+      "@type": "NutritionInformation",
+      "calories": "496",
+      "unsaturatedFatContent": "9 grams",
+      "carbohydrateContent": "54 grams",
+      "fatContent": "12 grams",
+      "fiberContent": "5 grams",
+      "proteinContent": "34 grams",
+      "saturatedFatContent": "3 grams",
+      "sodiumContent": "1609 milligrams",
+      "sugarContent": "7 grams",
+      "transFatContent": "0 grams"
+    }
+  },
+  "ingredients": [
+    {
+      "input": "1/4 cup all-purpose flour",
+      "name": "all-purpose flour",
+      "qty": 0.25,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999407
+    },
+    {
+      "input": "1/4 teaspoon freshly ground pepper",
+      "name": "pepper",
+      "qty": 0.25,
+      "unit": "teaspoon",
+      "comment": "freshly ground",
+      "other": "",
+      "confidence": 0.999702
+    },
+    {
+      "input": "1 pound beef stewing meat, trimmed and cut into inch cubes",
+      "name": "beef stewing meat",
+      "qty": 1.0,
+      "unit": "pound",
+      "comment": "trimmed and cut into inch cubes",
+      "other": "",
+      "confidence": 0.999605
+    },
+    {
+      "input": "5 teaspoons vegetable oil",
+      "name": "vegetable oil",
+      "qty": 5.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999857
+    },
+    {
+      "input": "2 tablespoons red wine vinegar",
+      "name": "red wine vinegar",
+      "qty": 2.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99994
+    },
+    {
+      "input": "1 cup red wine",
+      "name": "red wine",
+      "qty": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999946
+    },
+    {
+      "input": "3 1/2 cups beef broth, homemade or low-sodium canned",
+      "name": "beef broth",
+      "qty": 3.5,
+      "unit": "cup",
+      "comment": "homemade or low-sodium canned",
+      "other": "",
+      "confidence": 0.999801
+    },
+    {
+      "input": "2 bay leaves",
+      "name": "bay leaves",
+      "qty": 2.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.998751
+    },
+    {
+      "input": "1 medium onion, peeled and chopped",
+      "name": "onion",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "peeled and chopped",
+      "other": "",
+      "confidence": 0.999934
+    },
+    {
+      "input": "5 medium carrots, peeled and cut into 1/4-inch rounds",
+      "name": "carrots",
+      "qty": 5.0,
+      "unit": "",
+      "comment": "peeled and cut into 0.25 inch rounds",
+      "other": "",
+      "confidence": 0.999967
+    },
+    {
+      "input": "2 large baking potatoes, peeled and cut into 3/4-inch cubes",
+      "name": "baking potatoes",
+      "qty": 2.0,
+      "unit": "",
+      "comment": "peeled and cut into 0.75 inch cubes",
+      "other": "",
+      "confidence": 0.999888
+    },
+    {
+      "input": "2 teaspoons salt",
+      "name": "salt",
+      "qty": 2.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999858
+    }
+  ],
+  "error": null,
+  "nutrition": [
+    {
+      "name": "unsaturatedFatContent",
+      "amount": 9.0,
+      "unit": "gram"
+    },
+    {
+      "name": "carbohydrateContent",
+      "amount": 54.0,
+      "unit": "gram"
+    },
+    {
+      "name": "fatContent",
+      "amount": 12.0,
+      "unit": "gram"
+    },
+    {
+      "name": "fiberContent",
+      "amount": 5.0,
+      "unit": "gram"
+    },
+    {
+      "name": "proteinContent",
+      "amount": 34.0,
+      "unit": "gram"
+    },
+    {
+      "name": "saturatedFatContent",
+      "amount": 3.0,
+      "unit": "gram"
+    },
+    {
+      "name": "sodiumContent",
+      "amount": 1609.0,
+      "unit": "milligram"
+    },
+    {
+      "name": "sugarContent",
+      "amount": 7.0,
+      "unit": "gram"
+    },
+    {
+      "name": "transFatContent",
+      "amount": 0.0,
+      "unit": "gram"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "url": "https://www.halfbakedharvest.com/brown-butter-oatmeal-chocolate-chip-cookies/",
+  "data": {
+    "name": "Brown Butter Oatmeal Chocolate Chip Cookies",
+    "url": "https://www.halfbakedharvest.com/brown-butter-oatmeal-chocolate-chip-cookies/",
+    "description": "A classic cookie made better with the addition of brown butter and plenty of melty chocolate!",
+    "recipeInstructions": [
+      {
+        "text": "1. Preheat the oven to 350\u00b0 F. Line a baking sheet with parchment paper.2. Add the butter to a skillet set over medium heat. Cook until the butter begins to brown, about 3-4 minutes. Remove from the heat and transfer to a heatproof bowl. Let cool 5 minutes or so.3. To the brown butter, mix in the brown sugar, eggs, and vanilla, mixing until smooth. Add the flour, oats, baking soda, and salt. Gently fold in the chocolate. 4. Roll the dough into rounded tablespoon size balls and place 2 inches apart on the prepared baking sheet. Gently flatten the dough down. Bake 8 minutes. Remove from the oven, rotate and tap the baking sheet on the counter 1-2 times to flatten. Bake another 2-3 minutes or until the cookies are just beginning to set on the edges.5. Let the cookies cool on the baking sheet. They will continue to cook slightly as they sit on the baking sheet. Sprinkle with flaky salt (if desired). Eat warm (highly recommended) or let cool and store in an airtight container for up to 4 days.\u00a0"
+      }
+    ],
+    "recipeIngredient": [
+      "2 sticks (1 cup) salted butter",
+      "1 1/4 cup brown sugar",
+      "2 large eggs",
+      "1 tablespoon vanilla extract",
+      "2 cups all-purpose flour",
+      "2 cups old fashioned oats",
+      "1 teaspoon baking soda",
+      "1/2 teaspoon kosher salt",
+      "2 cups chocolate chunks or chips",
+      "flaky sea salt, for sprinkling ((optional))"
+    ],
+    "recipeCuisine": "American",
+    "recipeCategory": [
+      "Cookies",
+      "Dessert"
+    ],
+    "keywords": [
+      "30 Minutes",
+      "Cookies",
+      "Quick And Easy"
+    ],
+    "images": [
+      "https://www.halfbakedharvest.com/wp-content/uploads/2022/08/Brown-Butter-Oatmeal-Chocolate-Chip-Cookies-1.jpg",
+      "https://www.halfbakedharvest.com/wp-content/uploads/2022/08/Brown-Butter-Oatmeal-Chocolate-Chip-Cookies-1-500x500.jpg",
+      "https://www.halfbakedharvest.com/wp-content/uploads/2022/08/Brown-Butter-Oatmeal-Chocolate-Chip-Cookies-1-500x375.jpg",
+      "https://www.halfbakedharvest.com/wp-content/uploads/2022/08/Brown-Butter-Oatmeal-Chocolate-Chip-Cookies-1-480x270.jpg"
+    ],
+    "recipeYield": "24 cookies",
+    "prepTime": "15 Minutes",
+    "performTime": null,
+    "totalTime": "30 Minutes",
+    "dateModified": null,
+    "datePublished": "2022-08-19T02:00:00Z",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "279 kcal",
+      "servingSize": "1 serving"
+    }
+  },
+  "ingredients": [
+    {
+      "input": "2 sticks (1 cup) salted butter",
+      "name": "salted butter",
+      "qty": 2.0,
+      "unit": "sticks",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99615
+    },
+    {
+      "input": "1 1/4 cup brown sugar",
+      "name": "brown sugar",
+      "qty": 1.25,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999929
+    },
+    {
+      "input": "2 large eggs",
+      "name": "eggs",
+      "qty": 2.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999913
+    },
+    {
+      "input": "1 tablespoon vanilla extract",
+      "name": "vanilla extract",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99983
+    },
+    {
+      "input": "2 cups all-purpose flour",
+      "name": "all-purpose flour",
+      "qty": 2.0,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999407
+    },
+    {
+      "input": "2 cups old fashioned oats",
+      "name": "old fashioned oats",
+      "qty": 2.0,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99986
+    },
+    {
+      "input": "1 teaspoon baking soda",
+      "name": "baking soda",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999953
+    },
+    {
+      "input": "1/2 teaspoon kosher salt",
+      "name": "kosher salt",
+      "qty": 0.5,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99993
+    },
+    {
+      "input": "2 cups chocolate chunks or chips",
+      "name": "chocolate chunks or chips",
+      "qty": 2.0,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999962
+    },
+    {
+      "input": "flaky sea salt, for sprinkling ((optional))",
+      "name": "flaky sea salt",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "((optional))",
+      "other": "",
+      "confidence": 0.0
+    }
+  ],
+  "error": null,
+  "nutrition": [
+    {
+      "name": "calories",
+      "amount": 279.0,
+      "unit": "kilocalorie"
+    }
+  ]
+}

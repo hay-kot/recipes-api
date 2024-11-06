@@ -1,0 +1,257 @@
+{
+  "url": "https://www.budgetbytes.com/unstuffed-bell-peppers/",
+  "data": {
+    "name": "Unstuffed Bell Peppers",
+    "url": "https://www.budgetbytes.com/unstuffed-bell-peppers/",
+    "description": "All the ingredients and flavor of stuffed bell peppers cooked in one skillet for an easy, free-form bowl meal. It's UNstuffed Bell Peppers!",
+    "recipeInstructions": [
+      {
+        "text": "Mince the garlic and dice the onion and bell pepper."
+      },
+      {
+        "text": "Add the olive oil and ground beef to a deep skillet. Cook the beef over medium heat until it is fully browned."
+      },
+      {
+        "text": "Add the diced onion, bell pepper, minced garlic, basil, oregano, and pepper to the skillet. Continue to cook and stir until the onions are soft."
+      },
+      {
+        "text": "Next, add the diced tomatoes (with juices), uncooked rice, and beef broth. Give everything a brief stir to combine."
+      },
+      {
+        "text": "Place a lid on the skillet and turn the heat up to medium-high. Allow the broth to come up to a full boil. Once boiling, turn the heat down to low and let it continue to simmer for 15 minutes. After 15 minutes, turn the heat off and let it rest, lid still in place, for another five minutes."
+      },
+      {
+        "text": "While the pot is simmering, combine the tomato sauce and Worcestershire sauce."
+      },
+      {
+        "text": "Once the rice has rested for 5 minutes, remove the lid and fluff it with a fork, gently folding the ingredients back together (peppers and tomatoes may float to the top while it simmers)."
+      },
+      {
+        "text": "Pour the prepared tomato sauce over top, then sprinkled the shredded mozzarella over the sauce. Place the lid back on top and let the heat from the skillet melt the mozzarella. Once melted, sprinkle a little chopped parsley on top and serve."
+      }
+    ],
+    "recipeIngredient": [
+      "1 clove garlic ($0.08)",
+      "1 yellow onion ($0.32)",
+      "2 bell peppers ($1.53)",
+      "1 Tbsp olive oil ($0.16)",
+      "1/2 lb. ground beef ($2.85)",
+      "1 15oz. can diced tomatoes ($1.00)",
+      "1 cup long grain white rice (uncooked) ($0.62)",
+      "1 tsp dried basil ($0.10)",
+      "1 tsp dried oregano ($0.10)",
+      "1/4 tsp freshly cracked black pepper ($0.02)",
+      "1.5 cups beef broth ($0.07)",
+      "1 8oz. can tomato sauce ($0.26)",
+      "1 tsp Worcestershire sauce ($0.01)",
+      "1 cup shredded mozzarella ($0.85)",
+      "1 Tbsp chopped parsley (optional garnish) ($0.05)"
+    ],
+    "recipeCuisine": "American",
+    "recipeCategory": [
+      "Dinner",
+      "Main Course"
+    ],
+    "keywords": [
+      "One Pot Meal",
+      "Skillet Meal"
+    ],
+    "images": [
+      "https://www.budgetbytes.com/wp-content/uploads/2014/08/Unstuffed-Bell-Peppers-close.jpg",
+      "https://www.budgetbytes.com/wp-content/uploads/2014/08/Unstuffed-Bell-Peppers-close-500x500.jpg",
+      "https://www.budgetbytes.com/wp-content/uploads/2014/08/Unstuffed-Bell-Peppers-close-500x375.jpg",
+      "https://www.budgetbytes.com/wp-content/uploads/2014/08/Unstuffed-Bell-Peppers-close-480x270.jpg"
+    ],
+    "recipeYield": "6 1 \u2153 cups each",
+    "prepTime": "15 Minutes",
+    "performTime": null,
+    "totalTime": "1 Hour",
+    "dateModified": null,
+    "datePublished": "2021-02-04T11:02:01Z",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "servingSize": "1.33 cups",
+      "calories": "320.53 kcal",
+      "carbohydrateContent": "35.55 g",
+      "proteinContent": "15.75 g",
+      "fatContent": "12.78 g",
+      "sodiumContent": "646.32 mg",
+      "fiberContent": "3.88 g"
+    }
+  },
+  "ingredients": [
+    {
+      "input": "1 clove garlic ($0.08)",
+      "name": "garlic -0.08 dollar",
+      "qty": 1.0,
+      "unit": "clove",
+      "comment": "",
+      "other": "",
+      "confidence": 0.993523
+    },
+    {
+      "input": "1 yellow onion ($0.32)",
+      "name": "yellow onion -0.32 dollar",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999216
+    },
+    {
+      "input": "2 bell peppers ($1.53)",
+      "name": "bell peppers -1-0.53 dollar",
+      "qty": 2.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999357
+    },
+    {
+      "input": "1 Tbsp olive oil ($0.16)",
+      "name": "olive oil -0.16 dollar",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999858
+    },
+    {
+      "input": "1/2 lb. ground beef ($2.85)",
+      "name": "ground beef -2-0.85 dollar",
+      "qty": 0.5,
+      "unit": "pound",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999905
+    },
+    {
+      "input": "1 15oz. can diced tomatoes ($1.00)",
+      "name": "diced tomatoes -1 dollar",
+      "qty": 1.0,
+      "unit": "can",
+      "comment": "",
+      "other": "",
+      "confidence": 0.996967
+    },
+    {
+      "input": "1 cup long grain white rice (uncooked) ($0.62)",
+      "name": "long grain white rice -0.62 dollar",
+      "qty": 1.0,
+      "unit": "cup",
+      "comment": "(uncooked)",
+      "other": "",
+      "confidence": 0.999747
+    },
+    {
+      "input": "1 tsp dried basil ($0.10)",
+      "name": "dried basil -0.1 dollar",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999902
+    },
+    {
+      "input": "1 tsp dried oregano ($0.10)",
+      "name": "dried oregano -0.1 dollar",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999855
+    },
+    {
+      "input": "1/4 tsp freshly cracked black pepper ($0.02)",
+      "name": "black pepper -0.02 dollar",
+      "qty": 0.25,
+      "unit": "teaspoon",
+      "comment": "freshly cracked",
+      "other": "",
+      "confidence": 0.99964
+    },
+    {
+      "input": "1.5 cups beef broth ($0.07)",
+      "name": "beef broth -0.07 dollar",
+      "qty": 1.5,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999753
+    },
+    {
+      "input": "1 8oz. can tomato sauce ($0.26)",
+      "name": "tomato sauce -0.26 dollar",
+      "qty": 1.0,
+      "unit": "can",
+      "comment": "",
+      "other": "",
+      "confidence": 0.998094
+    },
+    {
+      "input": "1 tsp Worcestershire sauce ($0.01)",
+      "name": "Worcestershire sauce -0.01 dollar",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999929
+    },
+    {
+      "input": "1 cup shredded mozzarella ($0.85)",
+      "name": "mozzarella -0.85 dollar",
+      "qty": 1.0,
+      "unit": "cup",
+      "comment": "shredded",
+      "other": "",
+      "confidence": 0.999797
+    },
+    {
+      "input": "1 Tbsp chopped parsley (optional garnish) ($0.05)",
+      "name": "parsley -0.05 dollar",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "chopped",
+      "other": "",
+      "confidence": 0.999772
+    }
+  ],
+  "error": null,
+  "nutrition": [
+    {
+      "name": "servingSize",
+      "amount": 1.33,
+      "unit": "cup"
+    },
+    {
+      "name": "calories",
+      "amount": 320.53,
+      "unit": "kilocalorie"
+    },
+    {
+      "name": "carbohydrateContent",
+      "amount": 35.55,
+      "unit": "gram"
+    },
+    {
+      "name": "proteinContent",
+      "amount": 15.75,
+      "unit": "gram"
+    },
+    {
+      "name": "fatContent",
+      "amount": 12.78,
+      "unit": "gram"
+    },
+    {
+      "name": "sodiumContent",
+      "amount": 646.32,
+      "unit": "milligram"
+    },
+    {
+      "name": "fiberContent",
+      "amount": 3.88,
+      "unit": "gram"
+    }
+  ]
+}

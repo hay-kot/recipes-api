@@ -1,2 +1,2 @@
 #!/bin/bash
-exec uvicorn main:app --host $HOST --port $PORT
+exec uv run main.py

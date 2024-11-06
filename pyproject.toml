@@ -1,50 +1,39 @@
 [project]
-name = "recipes_api"
-version = "1.0"
-
-
-[project.optional-dependencies]
-dev = ["pytest", "ruff"]
-
-
-[tool.poetry]
-name = "recipes_api"
-version = "1.0"
-description = ""
-authors = ["Hayden"]
+name = "recipes-api"
+version = "0.1.0"
+description = "Add your description here"
 readme = "README.md"
+requires-python = ">=3.12"
 
-[tool.poetry.dependencies]
-python = ">=3.10, <3.12"
-fastapi = { version = "~0.114.0", extras = [] }
-httpx = "~0.27.0"
-lxml = "~5.1.0"
-pydantic = "~2.8.0"
-pydantic-settings = "~2.2.0"
-quantulum3 = { version = "~0.9.0", extras = ["classifier"] }
-recipe-scrapers = "~14.58.0"
-uvicorn = "~0.30.0"
-ingredient-parser-nlp = "^0.1.0b7"
+dependencies = [
+    "fastapi>=0.115.4",
+    "pydantic>=2.9.2",
+    "pydantic-settings>=2.6.1",
+    "uvicorn>=0.32.0",
+    "recipe-scrapers>=15.2.1",
+    "ingredient-parser-nlp>=1.2.0",
+    "lxml>=5.3.0",
+    "httpx>=0.27.2",
+    "quantulum3[classifier]>=0.9.2",
+    "setuptools>=75.3.0",
+    # Pinned version because of pickled data :(
+    "scikit-learn==1.5.0",
+    "pytest>=8.3.3",
+]
 
-
-[tool.poetry.group.dev.dependencies]
-ruff = "^0.4.0"
-pytest = "^8.0.0"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-
+[dependency-groups]
+dev = ["pytest>=8.3.3", "ruff>=0.7.2"]
 
 [tool.ruff]
 line-length = 120
 
+[tool.ruff.lint]
 # Enable Pyflakes `E` and `F` codes by default.
 ignore = ["F403", "B008"]
 select = [
-  "E", # pycodestyles
-  "F", # pyflakes
-  "I", # isort
-  "T", # flake8-print
-  "B", # flake8-bugbear
+    "E", # pycodestyles
+    "F", # pyflakes
+    "I", # isort
+    "T", # flake8-print
+    "B", # flake8-bugbear
 ]

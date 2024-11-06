@@ -1,0 +1,169 @@
+{
+  "url": "https://www.bonappetit.com/recipe/easiest-chicken-adobo",
+  "data": {
+    "name": "Easiest Chicken Adobo",
+    "url": "https://www.bonappetit.com/recipe/easiest-chicken-adobo",
+    "description": "This tangy, sweet, salty chicken adobo recipe cuts down on the time-consuming process of peeling and slicing a ton of garlic cloves.",
+    "recipeInstructions": [
+      {
+        "text": "Without separating or peeling the cloves, cut entire head of garlic in half through the \u201cequator\u201d (it\u2019s fine if some cloves become detached). Thinly slice 1 green chile, removing seeds if desired for less heat."
+      },
+      {
+        "text": "If you got whole chicken legs (if not, go to the next step), cover surface of cutting board with a double layer of plastic wrap and place legs skin side up on top (this is to protect your board from any possible contamination; if you have a cutting board that you use for raw meat, use that). You\u2019re going to split the legs into thighs and drumsticks. Working one leg at at time, wiggle drumstick so you can see the joint connecting the thigh and drumstick. Slice down with your knife crosswise between the two, aiming for the joint, until you hit bone. Grasp leg with thigh in one hand and drumstick in the other and break the joint, then cut the rest of the way through with your knife. Repeat with remaining legs."
+      },
+      {
+        "text": "Heat 1 Tbsp. vegetable oil in a large Dutch oven over medium. Add chicken skin side down and cook, lifting pieces with tongs once or twice toward the end to let hot fat flow underneath, until fat is rendered and skin is crisp and golden brown, 7\u201310 minutes. Transfer skin side up to a plate. Because drumsticks are covered entirely in skin, you can brown both sides, but it\u2019s not necessary."
+      },
+      {
+        "text": "Add \u00be cup vinegar, \u00be cup soy sauce, 1 Tbsp. brown sugar, 5 bay leaves, and reserved garlic and sliced chile to Dutch oven. Bring to a simmer, then reduce heat to low, stirring to dissolve sugar. Season generously with pepper.\n\u2192 Wait a second, what is white vinegar, anyway?"
+      },
+      {
+        "text": "Return chicken to pot skin side up. Cover and cook chicken very gently, adjusting heat to maintain a bare simmer and turning pieces once, until meat is very tender and pulling away from bone (but not so tender that it\u2019s falling apart), 35\u201340 minutes."
+      },
+      {
+        "text": "While chicken is simmering, cook 1 cup rice in medium pot according to package directions."
+      },
+      {
+        "text": "Transfer chicken to a clean plate. Increase heat to medium-high and boil braising liquid, shaking pot often, until liquid has formed a rich sauce thick enough to coat the back of a spoon, about 5 minutes. Remove pot from heat and return chicken to pot, turning to coat in sauce."
+      },
+      {
+        "text": "Serve chicken and sauce over rice. Thinly slice remaining chile and scatter over, then season with more pepper."
+      }
+    ],
+    "recipeIngredient": [
+      "1 head of garlic",
+      "2 green chiles (such as serrano or jalape\u00f1o), divided",
+      "4 bone-in, skin-on chicken thighs and 4 drumsticks, or 4 whole chicken legs",
+      "1 tablespoon vegetable oil",
+      "\u00be cup distilled white vinegar",
+      "\u00be cup soy sauce (not low sodium)",
+      "5 dried bay leaves",
+      "1 tablespoon light or dark brown sugar",
+      "Freshly ground black pepper",
+      "1 cup uncooked white rice, preferably short grain"
+    ],
+    "recipeCuisine": null,
+    "recipeCategory": [],
+    "keywords": [
+      "Chicken Leg",
+      "Chicken Drumstick",
+      "Chicken Thigh",
+      "Easy",
+      "One-Pot Meals",
+      "Main",
+      "Nut-Free",
+      "Gluten-Free",
+      "Braise",
+      "Dinner",
+      "Basically",
+      "Do Not Show On Encore",
+      "Web"
+    ],
+    "images": [
+      "https://assets.bonappetit.com/photos/59dfb869d4ce5d0f9308549b/16:9/w_1152,h_648,c_limit/chicken-adobo.jpg",
+      "https://assets.bonappetit.com/photos/59dfb869d4ce5d0f9308549b/4:3/w_1160,h_870,c_limit/chicken-adobo.jpg",
+      "https://assets.bonappetit.com/photos/59dfb869d4ce5d0f9308549b/1:1/w_1160,h_1160,c_limit/chicken-adobo.jpg"
+    ],
+    "recipeYield": "4 servings",
+    "prepTime": null,
+    "performTime": null,
+    "totalTime": null,
+    "dateModified": "2017-10-16T06:00:00-04:00",
+    "datePublished": "2017-10-16T06:00:00-04:00",
+    "nutrition": {}
+  },
+  "ingredients": [
+    {
+      "input": "1 head of garlic",
+      "name": "garlic",
+      "qty": 1.0,
+      "unit": "head",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999725
+    },
+    {
+      "input": "2 green chiles (such as serrano or jalape\u00f1o), divided",
+      "name": "green chiles",
+      "qty": 2.0,
+      "unit": "",
+      "comment": "divided",
+      "other": "",
+      "confidence": 0.998726
+    },
+    {
+      "input": "4 bone-in, skin-on chicken thighs and 4 drumsticks, or 4 whole chicken legs",
+      "name": "bone-in, skin-on chicken thighs",
+      "qty": 4.0,
+      "unit": "",
+      "comment": "and 4 drumsticks, or 4 whole chicken legs",
+      "other": "",
+      "confidence": 0.998394
+    },
+    {
+      "input": "1 tablespoon vegetable oil",
+      "name": "vegetable oil",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999826
+    },
+    {
+      "input": "\u00be cup distilled white vinegar",
+      "name": "distilled white vinegar",
+      "qty": 0.75,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999935
+    },
+    {
+      "input": "\u00be cup soy sauce (not low sodium)",
+      "name": "soy sauce",
+      "qty": 0.75,
+      "unit": "cup",
+      "comment": "(not low sodium)",
+      "other": "",
+      "confidence": 0.999809
+    },
+    {
+      "input": "5 dried bay leaves",
+      "name": "dried bay leaves",
+      "qty": 5.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999589
+    },
+    {
+      "input": "1 tablespoon light or dark brown sugar",
+      "name": "light or dark brown sugar",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999725
+    },
+    {
+      "input": "Freshly ground black pepper",
+      "name": "black pepper",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "Freshly ground",
+      "other": "",
+      "confidence": 0.0
+    },
+    {
+      "input": "1 cup uncooked white rice, preferably short grain",
+      "name": "white rice",
+      "qty": 1.0,
+      "unit": "cup",
+      "comment": "uncooked",
+      "other": "",
+      "confidence": 0.999554
+    }
+  ],
+  "error": null,
+  "nutrition": []
+}

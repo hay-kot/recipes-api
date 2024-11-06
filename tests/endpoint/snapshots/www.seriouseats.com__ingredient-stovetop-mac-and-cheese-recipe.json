@@ -1,0 +1,155 @@
+{
+  "url": "https://www.seriouseats.com/ingredient-stovetop-mac-and-cheese-recipe",
+  "data": {
+    "name": "3-Ingredient Stovetop Mac and Cheese Recipe",
+    "url": "https://www.seriouseats.com/ingredient-stovetop-mac-and-cheese-recipe",
+    "description": "This creamy, homemade macaroni and cheese has fewer ingredients than the boxed version, and comes together in the same amount of time.",
+    "recipeInstructions": [
+      {
+        "text": "Place macaroni in a medium saucepan or skillet and add just enough cold water to cover. Add a pinch of salt and bring to a boil over high heat, stirring frequently. Continue to cook, stirring, until water has been almost completely absorbed and macaroni is just shy of al dente, about 6 minutes."
+      },
+      {
+        "text": "Immediately add evaporated milk and bring to a boil. Add cheese. Reduce heat to low and cook, stirring continuously, until cheese is melted and liquid has reduced to a creamy sauce, about 2 minutes longer. Season to taste with more salt and serve immediately."
+      }
+    ],
+    "recipeIngredient": [
+      "6 ounces (170g) elbow macaroni",
+      "Salt",
+      "6 ounces (180ml) evaporated milk",
+      "6 ounces (170g) grated mild or medium cheddar cheese, or any good melting cheese, such as Fontina, Gruy\u00e8re, or Jack"
+    ],
+    "recipeCuisine": "American",
+    "recipeCategory": [
+      "Mains",
+      "Quick And Easy",
+      "Quick Dinners",
+      "Sides"
+    ],
+    "keywords": [
+      "American",
+      "Cheese",
+      "Easy",
+      "Mac And Cheese",
+      "Macaroni",
+      "Macaroni And Cheese",
+      "One Pot",
+      "Pasta",
+      "Quick",
+      "Skillet"
+    ],
+    "images": [
+      "https://www.seriouseats.com/thmb/YwaJNJc7_TDAjdo8pzN_JElsgb4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__02__20210214-stovetop-mac-cheese-reshoot-vicky-wasik-9-0760b642ca704cf8b2c5121a363a60a2.jpg"
+    ],
+    "recipeYield": "2",
+    "prepTime": null,
+    "performTime": null,
+    "totalTime": "15 Minutes",
+    "dateModified": "2023-02-17T11:57:42.054000-05:00",
+    "datePublished": "2017-01-09T02:30:00-05:00",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "699 kcal",
+      "carbohydrateContent": "57 g",
+      "cholesterolContent": "112 mg",
+      "fiberContent": "3 g",
+      "proteinContent": "34 g",
+      "saturatedFatContent": "21 g",
+      "sodiumContent": "1238 mg",
+      "sugarContent": "11 g",
+      "fatContent": "37 g",
+      "servingSize": "Serves 2",
+      "unsaturatedFatContent": "0 g"
+    }
+  },
+  "ingredients": [
+    {
+      "input": "6 ounces (170g) elbow macaroni",
+      "name": "elbow macaroni",
+      "qty": 6.0,
+      "unit": "ounce",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999773
+    },
+    {
+      "input": "Salt",
+      "name": "Salt",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.0
+    },
+    {
+      "input": "6 ounces (180ml) evaporated milk",
+      "name": "evaporated milk",
+      "qty": 6.0,
+      "unit": "ounce",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999773
+    },
+    {
+      "input": "6 ounces (170g) grated mild or medium cheddar cheese, or any good melting cheese, such as Fontina, Gruy\u00e8re, or Jack",
+      "name": "mild or medium cheddar cheese Gruy\u00e8re",
+      "qty": 6.0,
+      "unit": "ounce",
+      "comment": "grated",
+      "other": "",
+      "confidence": 0.999773
+    }
+  ],
+  "error": null,
+  "nutrition": [
+    {
+      "name": "calories",
+      "amount": 699.0,
+      "unit": "kilocalorie"
+    },
+    {
+      "name": "carbohydrateContent",
+      "amount": 57.0,
+      "unit": "gram"
+    },
+    {
+      "name": "cholesterolContent",
+      "amount": 112.0,
+      "unit": "milligram"
+    },
+    {
+      "name": "fiberContent",
+      "amount": 3.0,
+      "unit": "gram"
+    },
+    {
+      "name": "proteinContent",
+      "amount": 34.0,
+      "unit": "gram"
+    },
+    {
+      "name": "saturatedFatContent",
+      "amount": 21.0,
+      "unit": "gram"
+    },
+    {
+      "name": "sodiumContent",
+      "amount": 1238.0,
+      "unit": "milligram"
+    },
+    {
+      "name": "sugarContent",
+      "amount": 11.0,
+      "unit": "gram"
+    },
+    {
+      "name": "fatContent",
+      "amount": 37.0,
+      "unit": "gram"
+    },
+    {
+      "name": "unsaturatedFatContent",
+      "amount": 0.0,
+      "unit": "gram"
+    }
+  ]
+}

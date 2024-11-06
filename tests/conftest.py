@@ -1,9 +1,9 @@
 from fastapi.testclient import TestClient
 from pytest import fixture
 
-from main import app
+from pkg import api
 
 
 @fixture(scope="session")
 def client():
-    yield TestClient(app)
+    yield TestClient(api.app)

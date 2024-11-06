@@ -1,0 +1,114 @@
+{
+  "url": "https://www.cookingchanneltv.com/recipes/alton-brown/baked-potato-fries-reloaded-5470330",
+  "data": {
+    "name": "Baked Potato Fries: Reloaded",
+    "url": "https://www.cookingchanneltv.com/recipes/alton-brown/baked-potato-fries-reloaded-5470330",
+    "description": "",
+    "recipeInstructions": [
+      {
+        "text": "At least 12 hours before frying: heat oven to 350 degrees F and position rack in top half of the oven. Set an empty sheet pan on a lower rack."
+      },
+      {
+        "text": "Using a dinner fork or paring knife, poke several holes in the potatoes to allow water vapor to escape during cooking. Coat each potato lightly with 2 teaspoons of the peanut oil and sprinkle generously with salt."
+      },
+      {
+        "text": "Bake directly on the oven rack for 45 minutes to 1 hour, until tender or until an instant read thermometer inserted into the center of a potato reads 185 to 195 degrees F."
+      },
+      {
+        "text": "Cool to room temperature and then refrigerate overnight, unwrapped if possible."
+      },
+      {
+        "text": "The next day, heat the 2 quarts peanut oil to 375 degrees F in a large Dutch oven fitted with a deep-fry thermometer. (As the temperature crosses 350 degrees F, turn down the heat so that you don't shoot through the target temp.)"
+      },
+      {
+        "text": "Slice the cold potatoes into half-inch-thick batons, leaving the skin attached. Boost the heat slightly before adding the first fries and cook 8 to 10 at a time until golden brown and delicious, 2-3 minutes. You'll have to adjust the heat to maintain the oil temperature, so keep an eye on it. Use a spider to fish the fries from the oil to a cooling rack set over paper towels. Sprinkle with additional salt while hot and devour."
+      }
+    ],
+    "recipeIngredient": [
+      "4 russet potatoes (about 8 ounces/227 grams each), scrubbed and rinsed",
+      "2 teaspoons plus 2 quarts peanut oil",
+      "Kosher salt",
+      "Heavy pot or large Dutch oven",
+      "Fry/candy thermometer",
+      "Large hand strainer or \"spider\""
+    ],
+    "recipeCuisine": null,
+    "recipeCategory": [],
+    "keywords": [
+      "Fries",
+      "Potato",
+      "Vegetables",
+      "Deep Frying"
+    ],
+    "images": [
+      "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/10/16/0/CCGER106_French-Fries_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1539714341751.jpeg",
+      "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/10/16/0/CCGER106_French-Fries_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1539714341751.jpeg",
+      "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/10/16/0/CCGER106_French-Fries_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1539714341751.jpeg"
+    ],
+    "recipeYield": "4 servings",
+    "prepTime": null,
+    "performTime": null,
+    "totalTime": "12 Hours 30 Minutes",
+    "dateModified": "2018-10-19T16:02:20.127000-04:00",
+    "datePublished": "2018-10-19T16:02:20.427000-04:00",
+    "nutrition": {}
+  },
+  "ingredients": [
+    {
+      "input": "4 russet potatoes (about 8 ounces/227 grams each), scrubbed and rinsed",
+      "name": "roentgen atomic mass unit second set potatoes",
+      "qty": 4.0,
+      "unit": "",
+      "comment": "scrubbed and rinsed",
+      "other": "",
+      "confidence": 0.997639
+    },
+    {
+      "input": "2 teaspoons plus 2 quarts peanut oil",
+      "name": "peanut oil",
+      "qty": 2.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.993132
+    },
+    {
+      "input": "Kosher salt",
+      "name": "Kosher salt",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.0
+    },
+    {
+      "input": "Heavy pot or large Dutch oven",
+      "name": "Heavy pot or Dutch oven",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.0
+    },
+    {
+      "input": "Fry/candy thermometer",
+      "name": "Fry/candy thermometer",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.0
+    },
+    {
+      "input": "Large hand strainer or \"spider\"",
+      "name": "hand strainer or \"spider\"",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.0
+    }
+  ],
+  "error": null,
+  "nutrition": []
+}

@@ -1,0 +1,217 @@
+{
+  "url": "https://www.budgetbytes.com/easy-pesto-chicken-and-vegetables/",
+  "data": {
+    "name": "Easy Pesto Chicken and Vegetables",
+    "url": "https://www.budgetbytes.com/easy-pesto-chicken-and-vegetables/",
+    "description": "This Easy Pesto Chicken and Vegetables meal prep is super fast and easy, and holds up well in the fridge for tasty lunches all week!",
+    "recipeInstructions": [
+      {
+        "text": "Chop the bell pepper, yellow squash, and zucchini, and slice the red onion. I like to make different shapes for each vegetable, but aim to make the pieces all around the same size."
+      },
+      {
+        "text": "Cube the chicken breasts into \u00bd-inch pieces."
+      },
+      {
+        "text": "Add the cooking oil to a large skillet and heat over medium-high. Once the skillet and oil are very hot, add the chicken and saut\u00e9 until the chicken pieces are opaque (3-5 minutes - the chicken will continue to cook as you add vegetables)."
+      },
+      {
+        "text": "Add the green beans to the skillet and saut\u00e9 for 1-2 minutes more, or just until thawed."
+      },
+      {
+        "text": "Add the bell pepper and red onion to the skillet. Saut\u00e9 for 1-2 minutes more. If water is beginning to pool in the skillet, turn the heat up slightly. It should be hot enough that the water released from the vegetables evaporates quickly."
+      },
+      {
+        "text": "Add the yellow squash and zucchini to the skillet and continue to saut\u00e9 2-3 minutes more, or just until the squash softens slightly."
+      },
+      {
+        "text": "Turn the heat off, add the pesto to the skillet, and stir until everything is coated. Give the vegetables a taste and add salt, pepper, or more pesto if desired. Top with a light sprinkle of Parmesan just before serving."
+      }
+    ],
+    "recipeIngredient": [
+      "1 red bell pepper ($1.50)",
+      "1 zucchini ($0.60)",
+      "1 yellow squash ($0.50)",
+      "1/2 red onion ($0.19)",
+      "1.3 lbs. boneless, skinless chicken breast ($6.67)",
+      "2 Tbsp cooking oil ($0.08)",
+      "1 cup frozen green beans ($0.67)",
+      "1/3 cup pesto* ($0.73)",
+      "1/8 tsp salt* ($0.01)",
+      "1/8 tsp freshly cracked pepper* ($0.01)",
+      "1 Tbsp grated Parmesan* ($0.11)"
+    ],
+    "recipeCuisine": "American",
+    "recipeCategory": [
+      "Dinner",
+      "Lunch",
+      "Main Course"
+    ],
+    "keywords": [
+      "Chicken",
+      "Chicken Meal Prep",
+      "Pesto",
+      "Vegetables"
+    ],
+    "images": [
+      "https://www.budgetbytes.com/wp-content/uploads/2021/05/Pesto-Chicken-and-Vegetables-close.jpg",
+      "https://www.budgetbytes.com/wp-content/uploads/2021/05/Pesto-Chicken-and-Vegetables-close-500x500.jpg",
+      "https://www.budgetbytes.com/wp-content/uploads/2021/05/Pesto-Chicken-and-Vegetables-close-500x375.jpg",
+      "https://www.budgetbytes.com/wp-content/uploads/2021/05/Pesto-Chicken-and-Vegetables-close-480x270.jpg"
+    ],
+    "recipeYield": "4 1.5 cups each",
+    "prepTime": "15 Minutes",
+    "performTime": null,
+    "totalTime": "30 Minutes",
+    "dateModified": null,
+    "datePublished": "2021-05-17T16:34:29Z",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "servingSize": "1.5 cups",
+      "calories": "369.33 kcal",
+      "carbohydrateContent": "11.68 g",
+      "proteinContent": "36.8 g",
+      "fatContent": "19.2 g",
+      "sodiumContent": "423.15 mg",
+      "fiberContent": "3.43 g"
+    }
+  },
+  "ingredients": [
+    {
+      "input": "1 red bell pepper ($1.50)",
+      "name": "red bell pepper -1-0.5 dollar",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.998888
+    },
+    {
+      "input": "1 zucchini ($0.60)",
+      "name": "zucchini -0.6 dollar",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999447
+    },
+    {
+      "input": "1 yellow squash ($0.50)",
+      "name": "yellow squash -0.5 dollar",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999109
+    },
+    {
+      "input": "1/2 red onion ($0.19)",
+      "name": "red onion -0.19 dollar",
+      "qty": 0.5,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.998779
+    },
+    {
+      "input": "1.3 lbs. boneless, skinless chicken breast ($6.67)",
+      "name": "boneless, skinless chicken breast -6-0.67 dollar",
+      "qty": 1.3,
+      "unit": "pound",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999791
+    },
+    {
+      "input": "2 Tbsp cooking oil ($0.08)",
+      "name": "cooking oil -0.08 dollar",
+      "qty": 2.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999034
+    },
+    {
+      "input": "1 cup frozen green beans ($0.67)",
+      "name": "frozen green beans -0.67 dollar",
+      "qty": 1.0,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999862
+    },
+    {
+      "input": "1/3 cup pesto* ($0.73)",
+      "name": "pesto* -0.73 dollar",
+      "qty": 0.333,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999777
+    },
+    {
+      "input": "1/8 tsp salt* ($0.01)",
+      "name": "salt* -0.01 dollar",
+      "qty": 0.125,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999869
+    },
+    {
+      "input": "1/8 tsp freshly cracked pepper* ($0.01)",
+      "name": "pepper* -0.01 dollar",
+      "qty": 0.125,
+      "unit": "teaspoon",
+      "comment": "freshly cracked",
+      "other": "",
+      "confidence": 0.999641
+    },
+    {
+      "input": "1 Tbsp grated Parmesan* ($0.11)",
+      "name": "Parmesan* -0.11 dollar",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "grated",
+      "other": "",
+      "confidence": 0.999854
+    }
+  ],
+  "error": null,
+  "nutrition": [
+    {
+      "name": "servingSize",
+      "amount": 1.5,
+      "unit": "cup"
+    },
+    {
+      "name": "calories",
+      "amount": 369.33,
+      "unit": "kilocalorie"
+    },
+    {
+      "name": "carbohydrateContent",
+      "amount": 11.68,
+      "unit": "gram"
+    },
+    {
+      "name": "proteinContent",
+      "amount": 36.8,
+      "unit": "gram"
+    },
+    {
+      "name": "fatContent",
+      "amount": 19.2,
+      "unit": "gram"
+    },
+    {
+      "name": "sodiumContent",
+      "amount": 423.15,
+      "unit": "milligram"
+    },
+    {
+      "name": "fiberContent",
+      "amount": 3.43,
+      "unit": "gram"
+    }
+  ]
+}

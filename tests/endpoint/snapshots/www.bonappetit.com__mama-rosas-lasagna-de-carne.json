@@ -1,0 +1,310 @@
+{
+  "url": "https://www.bonappetit.com/recipe/mama-rosas-lasagna-de-carne",
+  "data": {
+    "name": "Mam\u00e1 Rosa\u2019s Lasagna de Carne",
+    "url": "https://www.bonappetit.com/recipe/mama-rosas-lasagna-de-carne",
+    "description": "The secret to lasagna de carne that packs a wallop of flavor? An herby sofrito that cooks with the beef until toasty and caramelized.",
+    "recipeInstructions": [
+      {
+        "text": "Pur\u00e9e bell pepper, onion, tomato, cilantro, parsley, olives, garlic, Italian seasoning, capers, cumin, black pepper, and 1 Tbsp. Diamond Crystal or 1\u00be tsp. Morton kosher salt in a blender until sofrito is mostly smooth."
+      },
+      {
+        "text": "Heat oil in a large pot over medium-high. Cook beef, tomato paste, bay leaves, and sofrito, breaking up meat and stirring often, until liquid is evaporated and meat is starting to brown, 20\u201325 minutes. Remove from heat and stir in marinara sauce. Season sauce with salt if needed.\nDo Ahead: Sauce can be made 3 days ahead. Let cool; cover and chill."
+      },
+      {
+        "text": "Place a rack in upper third of oven; preheat to 350\u00b0. Bring a large pot of salted water to a boil; add garlic and Italian seasoning. Cook noodles, stirring often, until very al dente, about 4 minutes (noodles will finish cooking in oven). Drain noodles and stack flat in layers, separated by parchment; discard garlic."
+      },
+      {
+        "text": "Lightly oil a 13x9\" baking dish. Spread a heaping cupful of sauce in dish. Lay a single layer of noodles over sauce. Spread 1 cup sauce over noodles. Season ricotta with salt and pepper; evenly spread half of ricotta over sauce. Scatter one third of mozzarella over top. Repeat layering process. Finish with remaining sauce, followed by remaining mozzarella. Cover with a lightly oiled piece of foil; set on a rimmed baking sheet (to catch drips)."
+      },
+      {
+        "text": "Bake lasagna until bubbling around the edges, 40\u201345 minutes. Increase oven temperature to 425\u00b0. Uncover lasagna and continue to bake until top is golden brown, 15\u201318 minutes more. Let sit 15 minutes before serving.\nDo Ahead: Lasagna can be baked 3 days ahead. Let cool; cover and chill. Reheat in a 250\u00b0 oven."
+      }
+    ],
+    "recipeIngredient": [
+      "\u00bd red bell pepper, coarsely chopped",
+      "1 small onion, coarsely chopped",
+      "1 plum tomato, coarsely chopped",
+      "4 sprigs cilantro",
+      "2 sprigs parsley",
+      "5 large black olives, pitted",
+      "5 garlic cloves",
+      "2 tsp. Italian seasoning",
+      "1 tsp. drained capers, rinsed",
+      "\u00bd tsp. ground cumin",
+      "\u00bc tsp. freshly ground black pepper",
+      "1 Tbsp. Diamond Crystal or 1\u00be tsp. Morton kosher salt, plus more",
+      "1 Tbsp. extra-virgin olive oil",
+      "2 lb. ground beef chuck (10% fat)",
+      "1 Tbsp. tomato paste",
+      "2 bay leaves",
+      "1 24-oz. jar marinara sauce",
+      "Kosher salt",
+      "3 garlic cloves, smashed",
+      "\u00bd tsp. Italian seasoning",
+      "8 oz. dried lasagna noodles",
+      "Extra-virgin olive oil (for greasing)",
+      "1 lb. ricotta",
+      "Freshly ground black pepper",
+      "12 oz. low-moisture mozzarella, coarsely grated (about 3 cups)"
+    ],
+    "recipeCuisine": null,
+    "recipeCategory": [],
+    "keywords": [
+      "Dinner",
+      "Main",
+      "Italian",
+      "Dominican",
+      "Make Ahead",
+      "Nut-Free",
+      "Casserole",
+      "Lasagna",
+      "Ground Beef",
+      "Ricotta",
+      "Mozzarella",
+      "Canned Tomato",
+      "Web"
+    ],
+    "images": [
+      "https://assets.bonappetit.com/photos/61981e867ff7a83000625069/16:9/w_1919,h_1079,c_limit/Mama-Roses-Lasagna.jpg",
+      "https://assets.bonappetit.com/photos/61981e867ff7a83000625069/4:3/w_1761,h_1321,c_limit/Mama-Roses-Lasagna.jpg",
+      "https://assets.bonappetit.com/photos/61981e867ff7a83000625069/1:1/w_1783,h_1783,c_limit/Mama-Roses-Lasagna.jpg"
+    ],
+    "recipeYield": "8 - 10 Servings",
+    "prepTime": null,
+    "performTime": null,
+    "totalTime": null,
+    "dateModified": "2021-11-23T06:00:00-05:00",
+    "datePublished": "2021-11-23T06:00:00-05:00",
+    "nutrition": {}
+  },
+  "ingredients": [
+    {
+      "input": "\u00bd red bell pepper, coarsely chopped",
+      "name": "red bell pepper",
+      "qty": 0.5,
+      "unit": "",
+      "comment": "coarsely chopped",
+      "other": "",
+      "confidence": 0.999119
+    },
+    {
+      "input": "1 small onion, coarsely chopped",
+      "name": "onion",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "coarsely chopped",
+      "other": "",
+      "confidence": 0.999947
+    },
+    {
+      "input": "1 plum tomato, coarsely chopped",
+      "name": "atomic mass unit metre tomato",
+      "qty": 1.0,
+      "unit": "liter * pint",
+      "comment": "coarsely chopped",
+      "other": "",
+      "confidence": 0.985977
+    },
+    {
+      "input": "4 sprigs cilantro",
+      "name": "cilantro",
+      "qty": 4.0,
+      "unit": "sprigs",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999855
+    },
+    {
+      "input": "2 sprigs parsley",
+      "name": "parsley",
+      "qty": 2.0,
+      "unit": "sprigs",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99978
+    },
+    {
+      "input": "5 large black olives, pitted",
+      "name": "black olives",
+      "qty": 5.0,
+      "unit": "",
+      "comment": "pitted",
+      "other": "",
+      "confidence": 0.999893
+    },
+    {
+      "input": "5 garlic cloves",
+      "name": "garlic",
+      "qty": 5.0,
+      "unit": "cloves",
+      "comment": "",
+      "other": "",
+      "confidence": 0.960568
+    },
+    {
+      "input": "2 tsp. Italian seasoning",
+      "name": "Italian seasoning",
+      "qty": 2.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999929
+    },
+    {
+      "input": "1 tsp. drained capers, rinsed",
+      "name": "capers",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "drained, rinsed",
+      "other": "",
+      "confidence": 0.99926
+    },
+    {
+      "input": "\u00bd tsp. ground cumin",
+      "name": "ground cumin",
+      "qty": 0.5,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999908
+    },
+    {
+      "input": "\u00bc tsp. freshly ground black pepper",
+      "name": "black pepper",
+      "qty": 0.25,
+      "unit": "teaspoon",
+      "comment": "freshly ground",
+      "other": "",
+      "confidence": 0.999656
+    },
+    {
+      "input": "1 Tbsp. Diamond Crystal or 1\u00be tsp. Morton kosher salt, plus more",
+      "name": "Diamond Crystal Morton kosher salt",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "plus more",
+      "other": "",
+      "confidence": 0.999801
+    },
+    {
+      "input": "1 Tbsp. extra-virgin olive oil",
+      "name": "extra-virgin olive oil",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999903
+    },
+    {
+      "input": "2 lb. ground beef chuck (10% fat)",
+      "name": "ground beef chuck",
+      "qty": 2.0,
+      "unit": "pound",
+      "comment": "(10.0 percentage fat)",
+      "other": "",
+      "confidence": 0.999868
+    },
+    {
+      "input": "1 Tbsp. tomato paste",
+      "name": "tomato paste",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999827
+    },
+    {
+      "input": "2 bay leaves",
+      "name": "bay leaves",
+      "qty": 2.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.998751
+    },
+    {
+      "input": "1 24-oz. jar marinara sauce",
+      "name": "marinara sauce",
+      "qty": 1.0,
+      "unit": "jar",
+      "comment": "",
+      "other": "",
+      "confidence": 0.992694
+    },
+    {
+      "input": "Kosher salt",
+      "name": "Kosher salt",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.0
+    },
+    {
+      "input": "3 garlic cloves, smashed",
+      "name": "garlic",
+      "qty": 3.0,
+      "unit": "cloves",
+      "comment": "smashed",
+      "other": "",
+      "confidence": 0.978004
+    },
+    {
+      "input": "\u00bd tsp. Italian seasoning",
+      "name": "Italian seasoning",
+      "qty": 0.5,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999929
+    },
+    {
+      "input": "8 oz. dried lasagna noodles",
+      "name": "dried lasagna noodles",
+      "qty": 8.0,
+      "unit": "ounce",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999835
+    },
+    {
+      "input": "Extra-virgin olive oil (for greasing)",
+      "name": "Extra-virgin olive oil",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.0
+    },
+    {
+      "input": "1 lb. ricotta",
+      "name": "ricotta",
+      "qty": 1.0,
+      "unit": "pound",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999785
+    },
+    {
+      "input": "Freshly ground black pepper",
+      "name": "black pepper",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "Freshly ground",
+      "other": "",
+      "confidence": 0.0
+    },
+    {
+      "input": "12 oz. low-moisture mozzarella, coarsely grated (about 3 cups)",
+      "name": "low-moisture mozzarella",
+      "qty": 12.0,
+      "unit": "ounce",
+      "comment": "coarsely grated",
+      "other": "",
+      "confidence": 0.999703
+    }
+  ],
+  "error": null,
+  "nutrition": []
+}

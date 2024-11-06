@@ -1,0 +1,156 @@
+{
+  "url": "https://food52.com/recipes/65940-gingerbread-dough-for-houses",
+  "data": {
+    "name": "Gingerbread Dough for Houses",
+    "url": "https://food52.com/recipes/65940-gingerbread-dough-for-houses",
+    "description": "This gingerbread dough recipe is great for houses. Be sure to roll it on the thicker side to keep it sturdy, and err on the side of overbaking so it stays firm.",
+    "recipeInstructions": [
+      {
+        "text": "In the bowl of an electric mixer fitted with the paddle attachment, cream the shortening and sugar on medium speed until light and fluffy, 4-5 minutes."
+      },
+      {
+        "text": "With the mixer running on low speed, gradually add the molasses and mix well to combine, about 2 minutes more. Scrape the bowl well."
+      },
+      {
+        "text": "Add the eggs one at a time, mixing on medium speed until well incorporated, then scraping the bowl well before continuing with the next addition."
+      },
+      {
+        "text": "In a large bowl, whisk the flour, ginger, cinnamon, baking soda, and salt to combine. Gradually add the flour mixture to the mixer, and mix on low speed to combine."
+      },
+      {
+        "text": "Scrape the bowl well a few times as the dough mixes to help ensure it\u2019s evenly combined. Divide the dough into several disks (I usually do 2-3 pieces, then cut multiple shapes out of the larger pieces of dough that I roll - but you can also divide it into pieces based on the different sections you need to cut, if you prefer). Wrap the disks tightly in plastic wrap and refrigerate for 2 hours (or up to overnight)."
+      },
+      {
+        "text": "When you\u2019re ready to use the dough, roll it out between two sheets of parchment paper to about \u2153 in thick (you don\u2019t want to roll it quite as thin as traditional cookies or pastry, this will make it sturdier for building)! Peel the parchment away occasionally while you work to make sure it\u2019s not sticking to the dough (you can use a little flour, but only if needed)."
+      },
+      {
+        "text": "When the dough has reached the right thickness, peel the top piece of parchment away, and transfer the bottom piece of parchment (wit the rolled out dough on it) to a baking sheet. Use a template to cut the dough into the appropriate shapes for the house design you\u2019re making."
+      },
+      {
+        "text": "Bake the gingerbread at 375\u00b0F/190\u00b0C - exact baking times will vary based on the size and shape of your gingerbread, but look for the edges to be noticeably brown, and the surface to appear dry and set. It\u2019s best to err on the side of overbaking when it comes to houses. Underbaked gingerbread can be softer and flimsier, and may not stand up as well when you build."
+      },
+      {
+        "text": "Let your pieces cool completely before you begin to construct your house."
+      }
+    ],
+    "recipeIngredient": [
+      "1 1/2 cups shortening, at room temperature (see headnote) (340 g)",
+      "1 1/4 cups granulated sugar (250 g)",
+      "2/3 cup molasses (not blackstrap) (226 g)",
+      "3 large eggs, at room temperature (170 g)",
+      "7 cups all purpose flour (840 g)",
+      "1 tablespoon ground cinnamon (9 g)",
+      "1 1/2 tablespoons (4 \u00bd teaspoons) ground ginger (13 g)",
+      "1 1/2 teaspoons baking soda (6 g)",
+      "3/4 teaspoon fine sea salt (3 g)"
+    ],
+    "recipeCuisine": null,
+    "recipeCategory": [
+      "Dessert"
+    ],
+    "keywords": [
+      "Molasses",
+      "Cookie",
+      "Christmas",
+      "Holiday",
+      "Bake"
+    ],
+    "images": [
+      "https://images.food52.com/uQymcbCZzeIFAmQVwgTfpmaM-Ak=/1200x1200/f80746c5-30bb-4bfe-93ef-3faf1711a811--2016-1105_gingerbread-house_james-ransom-1256.jpg",
+      "https://images.food52.com/2ZTaR8NNEOnhE2uArm5MvOEURx0=/1200x900/f80746c5-30bb-4bfe-93ef-3faf1711a811--2016-1105_gingerbread-house_james-ransom-1256.jpg",
+      "https://images.food52.com/V8Ld2z9GZzzXCFEZ5OdxyqGhASw=/1200x675/f80746c5-30bb-4bfe-93ef-3faf1711a811--2016-1105_gingerbread-house_james-ransom-1256.jpg"
+    ],
+    "recipeYield": "makes about 4 pounds (1.80 kg) dough (enough for one medium house - make two batches for larger projects)",
+    "prepTime": "2 Hours 30 Minutes",
+    "performTime": null,
+    "totalTime": null,
+    "dateModified": "2021-01-02",
+    "datePublished": "2016-12-02",
+    "nutrition": {}
+  },
+  "ingredients": [
+    {
+      "input": "1 1/2 cups shortening, at room temperature (see headnote) (340 g)",
+      "name": "shortening",
+      "qty": 1.5,
+      "unit": "cup",
+      "comment": "at room temperature",
+      "other": "",
+      "confidence": 0.999817
+    },
+    {
+      "input": "1 1/4 cups granulated sugar (250 g)",
+      "name": "granulated sugar",
+      "qty": 1.25,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999361
+    },
+    {
+      "input": "2/3 cup molasses (not blackstrap) (226 g)",
+      "name": "molasses",
+      "qty": 0.667,
+      "unit": "cup",
+      "comment": "(not blackstrap)",
+      "other": "",
+      "confidence": 0.999604
+    },
+    {
+      "input": "3 large eggs, at room temperature (170 g)",
+      "name": "eggs",
+      "qty": 3.0,
+      "unit": "",
+      "comment": "at room temperature",
+      "other": "",
+      "confidence": 0.999915
+    },
+    {
+      "input": "7 cups all purpose flour (840 g)",
+      "name": "all purpose flour",
+      "qty": 7.0,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999082
+    },
+    {
+      "input": "1 tablespoon ground cinnamon (9 g)",
+      "name": "ground cinnamon",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999936
+    },
+    {
+      "input": "1 1/2 tablespoons (4 \u00bd teaspoons) ground ginger (13 g)",
+      "name": "ground ginger",
+      "qty": 1.5,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999685
+    },
+    {
+      "input": "1 1/2 teaspoons baking soda (6 g)",
+      "name": "baking soda",
+      "qty": 1.5,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99987
+    },
+    {
+      "input": "3/4 teaspoon fine sea salt (3 g)",
+      "name": "fine sea salt",
+      "qty": 0.75,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999917
+    }
+  ],
+  "error": null,
+  "nutrition": []
+}

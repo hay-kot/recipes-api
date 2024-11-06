@@ -1,0 +1,114 @@
+{
+  "url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/grams-buns-the-greatest-bread-roll",
+  "data": {
+    "name": "Gram's Buns",
+    "url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/grams-buns-the-greatest-bread-roll",
+    "description": "",
+    "recipeInstructions": [
+      {
+        "text": "Warm the milk in the microwave until lukewarm (100 F/38 C). Add the instant yeast and stir together. Set aside and let activate for 5 minutes. Meanwhile, mix the flour, salt, and sugar in a large bowl."
+      },
+      {
+        "text": "Pour the yeast and milk mixture into the dry ingredients along with the beaten egg. Mix the dough with your hands until a shaggy dough forms. It will be very sticky. Add in the softened butter and work the butter into the dough until it\u2019s completely incorporated about 5 minutes. Once incorporated, sprinkle some flour on the work surface and turn the dough out. Flatten the dough a bit and fold it into the center. Flip the dough over and shape it into a ball by tightening and pulling against the work surface. The dough should feel light, soft, and smooth. Place back in the bowl and cover. Let rise until doubled in size, about 60 to 90 minutes."
+      },
+      {
+        "text": "Once the dough has risen and doubled in size take it out and divide it into 8 70 gram pieces. Form them into a ball by tightening and pulling on them on the work surface (see video for additional shaping options). Place on a greased baking sheet and cover. Let rise until doubled in size, another 60 to 90 minutes."
+      },
+      {
+        "text": "Preheat the oven to 400 F (204 C). Place the buns in the oven and bake for about 10 minutes. They should be golden brown on top and lightly browned on the bottom. Optionally, the target internal temp is 203 F (95 C)."
+      },
+      {
+        "text": "Once your buns are golden brown and fluffy, take them out and lightly brush them in butter. Devour."
+      }
+    ],
+    "recipeIngredient": [
+      "160 ml warm milk",
+      "6 g instant yeast",
+      "300 g flour",
+      "6 g coarse kosher salt",
+      "50 g sugar",
+      "56 g softened butter",
+      "1 whole egg, beaten"
+    ],
+    "recipeCuisine": null,
+    "recipeCategory": [],
+    "keywords": [],
+    "images": [
+      "https://i.imgur.com/ctiKRhm.jpg"
+    ],
+    "recipeYield": "8-10 Buns",
+    "prepTime": "25 Minutes",
+    "performTime": null,
+    "totalTime": "3 Hours 35 Minutes",
+    "dateModified": null,
+    "datePublished": null,
+    "nutrition": {}
+  },
+  "ingredients": [
+    {
+      "input": "160 ml warm milk",
+      "name": "warm milk",
+      "qty": 160.0,
+      "unit": "milliliter",
+      "comment": "",
+      "other": "",
+      "confidence": 0.996693
+    },
+    {
+      "input": "6 g instant yeast",
+      "name": "instant yeast",
+      "qty": 6.0,
+      "unit": "gram",
+      "comment": "",
+      "other": "",
+      "confidence": 0.995894
+    },
+    {
+      "input": "300 g flour",
+      "name": "flour",
+      "qty": 300.0,
+      "unit": "gram",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99099
+    },
+    {
+      "input": "6 g coarse kosher salt",
+      "name": "coarse kosher salt",
+      "qty": 6.0,
+      "unit": "gram",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99791
+    },
+    {
+      "input": "50 g sugar",
+      "name": "sugar",
+      "qty": 50.0,
+      "unit": "gram",
+      "comment": "",
+      "other": "",
+      "confidence": 0.993589
+    },
+    {
+      "input": "56 g softened butter",
+      "name": "butter",
+      "qty": 56.0,
+      "unit": "gram",
+      "comment": "softened",
+      "other": "",
+      "confidence": 0.998999
+    },
+    {
+      "input": "1 whole egg, beaten",
+      "name": "whole egg",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "beaten",
+      "other": "",
+      "confidence": 0.999553
+    }
+  ],
+  "error": null,
+  "nutrition": []
+}
