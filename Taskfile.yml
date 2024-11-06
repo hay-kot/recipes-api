@@ -1,0 +1,32 @@
+# https://taskfile.dev
+
+version: "3"
+
+dotenv:
+  - .env
+
+tasks:
+  lint:
+    desc: runs uv linters
+    cmds:
+      - uv run ruff format .
+      - uv run ruff check . --fix
+
+  test:
+    desc: runs pytest
+    env:
+      SNAPSHOT: false
+    cmds:
+      - uv run pytest tests -s {{ .CLI_ARGS }}
+
+  run:
+    desc: runs that app
+    env:
+      RCP_DEV: true
+    cmds:
+      - uv run main.py
+
+  sync:
+    desc: syncs dependencies
+    cmds:
+      - uv sync

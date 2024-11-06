@@ -1,0 +1,172 @@
+{
+  "url": "https://www.seriouseats.com/five-minute-grilled-chicken-cutlet-rosemary-garlic-lemon-recipe",
+  "data": {
+    "name": "Five-Minute Grilled Chicken Cutlets With Rosemary, Garlic, and Lemon Recipe",
+    "url": "https://www.seriouseats.com/five-minute-grilled-chicken-cutlet-rosemary-garlic-lemon-recipe",
+    "description": "Hot and juicy grilled chicken that takes just five minutes to cook.",
+    "recipeInstructions": [
+      {
+        "text": "Light one chimney full of charcoal . When all the charcoal is lit and covered with gray ash, pour out and arrange the coals on one side of the charcoal grate. Set cooking grate in place, cover grill and allow to preheat for 5 minutes. Alternatively, set half the burners on a gas grill to the highest heat setting, cover, and preheat for 10 minutes. Clean and oil the grilling grate."
+      },
+      {
+        "text": "Whisk together garlic, rosemary, lemon juice, and olive oil in a large bowl. Season to taste with salt and pepper. Transfer half of mixture to a separate container and set aside. Add chicken to the large bowl and turn pieces to thoroughly coat."
+      },
+      {
+        "text": "Place chicken directly over the hot side of the grill, cover, and cook, rotating the pieces occasionally (but not flipping them), until the chicken is almost completely cooked through and only a few pink spots remain on the top side, about 4 minutes. Flip chicken and cook on second side until just done, about 30 seconds. Transfer to a serving platter. Re-whisk reserved marinade and pour it over the chicken. Serve immediately."
+      }
+    ],
+    "recipeIngredient": [
+      "3 medium cloves garlic, minced (about 1 tablespoon)",
+      "3 tablespoons minced fresh rosemary",
+      "2 tablespoons fresh juice from 2 lemons",
+      "6 tablespoons extra-virgin olive oil",
+      "Kosher salt and freshly ground black pepper",
+      "4 boneless, skinless chicken breasts (5 to 7 ounces each), cut into 8 cutlets"
+    ],
+    "recipeCuisine": "American",
+    "recipeCategory": [
+      "Entree",
+      "Mains",
+      "Quick Dinners"
+    ],
+    "keywords": [
+      "Chicken",
+      "Easy",
+      "Garlic",
+      "Quick",
+      "Rosemary"
+    ],
+    "images": [
+      "https://www.seriouseats.com/thmb/QX06XTqXfGjtMQARAAyxnm-ghFY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2015__08__20150823-grilled-chicken-cutlet-recipe-kenji-01-a61ea65843a04dd79699802a8814e44a.jpg"
+    ],
+    "recipeYield": "4",
+    "prepTime": "5 Minutes",
+    "performTime": null,
+    "totalTime": "35 Minutes",
+    "dateModified": "2023-12-21T09:19:36.743000-05:00",
+    "datePublished": "2015-09-08T08:45:00-04:00",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "419 kcal",
+      "carbohydrateContent": "1 g",
+      "cholesterolContent": "120 mg",
+      "fiberContent": "0 g",
+      "proteinContent": "44 g",
+      "saturatedFatContent": "4 g",
+      "sodiumContent": "342 mg",
+      "sugarContent": "0 g",
+      "fatContent": "25 g",
+      "servingSize": "Serves 4",
+      "unsaturatedFatContent": "0 g"
+    }
+  },
+  "ingredients": [
+    {
+      "input": "3 medium cloves garlic, minced (about 1 tablespoon)",
+      "name": "garlic",
+      "qty": 3.0,
+      "unit": "medium cloves",
+      "comment": "minced",
+      "other": "",
+      "confidence": 0.992016
+    },
+    {
+      "input": "3 tablespoons minced fresh rosemary",
+      "name": "fresh rosemary",
+      "qty": 3.0,
+      "unit": "tablespoon",
+      "comment": "minced",
+      "other": "",
+      "confidence": 0.999928
+    },
+    {
+      "input": "2 tablespoons fresh juice from 2 lemons",
+      "name": "fresh juice lemons",
+      "qty": 2.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999708
+    },
+    {
+      "input": "6 tablespoons extra-virgin olive oil",
+      "name": "extra-virgin olive oil",
+      "qty": 6.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999903
+    },
+    {
+      "input": "Kosher salt and freshly ground black pepper",
+      "name": "Kosher salt and freshly ground black pepper",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.0
+    },
+    {
+      "input": "4 boneless, skinless chicken breasts (5 to 7 ounces each), cut into 8 cutlets",
+      "name": "boneless, skinless chicken breasts",
+      "qty": 4.0,
+      "unit": "",
+      "comment": "cut into 8 cutlets",
+      "other": "",
+      "confidence": 0.999089
+    }
+  ],
+  "error": null,
+  "nutrition": [
+    {
+      "name": "calories",
+      "amount": 419.0,
+      "unit": "kilocalorie"
+    },
+    {
+      "name": "carbohydrateContent",
+      "amount": 1.0,
+      "unit": "gram"
+    },
+    {
+      "name": "cholesterolContent",
+      "amount": 120.0,
+      "unit": "milligram"
+    },
+    {
+      "name": "fiberContent",
+      "amount": 0.0,
+      "unit": "gram"
+    },
+    {
+      "name": "proteinContent",
+      "amount": 44.0,
+      "unit": "gram"
+    },
+    {
+      "name": "saturatedFatContent",
+      "amount": 4.0,
+      "unit": "gram"
+    },
+    {
+      "name": "sodiumContent",
+      "amount": 342.0,
+      "unit": "milligram"
+    },
+    {
+      "name": "sugarContent",
+      "amount": 0.0,
+      "unit": "gram"
+    },
+    {
+      "name": "fatContent",
+      "amount": 25.0,
+      "unit": "gram"
+    },
+    {
+      "name": "unsaturatedFatContent",
+      "amount": 0.0,
+      "unit": "gram"
+    }
+  ]
+}

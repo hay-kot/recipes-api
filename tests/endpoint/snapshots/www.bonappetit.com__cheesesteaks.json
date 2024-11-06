@@ -1,0 +1,192 @@
+{
+  "url": "https://www.bonappetit.com/recipe/cheesesteaks",
+  "data": {
+    "name": "Cheesesteaks",
+    "url": "https://www.bonappetit.com/recipe/cheesesteaks",
+    "description": "Look for short ribs with the most marbling possible for these cheesesteaks; if you really want to splash out, use boneless rib eye.",
+    "recipeInstructions": [
+      {
+        "text": "Heat oil in a large pot over medium-high. Add onions and bell peppers and season generously with salt and black pepper. Cook, stirring often at first then only occasionally as vegetables soften, adjusting heat as needed and adding a splash or so of water if vegetables are browning too quickly, until golden brown and very tender, 25\u201330 minutes."
+      },
+      {
+        "text": "Remove pot from heat, add vinegar, and give everything a good stir. Taste and season with more salt if needed."
+      },
+      {
+        "text": "Do Ahead: Vegetables can be cooked 3 days ahead. Let cool, then cover and chill. Reheat before assembling sandwiches."
+      },
+      {
+        "text": "Place short ribs on a parchment-lined rimmed baking sheet and freeze, uncovered, until firm around the edges but still yielding in the center, 45\u201360 minutes."
+      },
+      {
+        "text": "Cut short ribs in half crosswise, then lengthwise into very thin slices. (It\u2019s better to have thinner, less-regular slices than thick, even slices. Either way, don\u2019t stress; whatever you do will be more than fine.) Divide meat into 8 portions (about 8 oz. each), using sheets of parchment paper or plastic wrap as dividers."
+      },
+      {
+        "text": "Slice bread in half lengthwise, keeping a long side intact. Heat a large griddle across 2 burners over medium\u2014a flick of water should sizzle on contact. (Or use a large cast-iron skillet and cook 1 portion at a time.) Lightly coat griddle with oil. Place 2 portions of meat (about 1 lb.) on griddle; season generously with salt and pepper. Cook, pressing down and pulling slices apart using 2 metal spatulas, until halfway cooked through (you should still see some raw spots). Scoot meat into 2 oblong portions no more than 1\" high and top with some onion\u2013bell pepper mixture. Top with 2 slices American cheese and 2 slices provolone cheese per pile. Cook, undisturbed, until meat is browned and crisp underneath and cheese is melted, about 4 minutes. Transfer each portion to a roll; slice in half crosswise. Repeat with remaining ingredients. Serve topped as desired."
+      },
+      {
+        "text": "Do Ahead: Meat can be sliced 1 day ahead (it will start to oxidize after that); cover tightly and chill, or freeze up to 1 week and thaw before cooking. Sandwiches can be made 20 minutes ahead; immediately wrap in parchment paper, then foil."
+      }
+    ],
+    "recipeIngredient": [
+      "2 tablespoons olive oil",
+      "4 large onions, sliced \u00bc inch thick",
+      "3 large red and/or green bell peppers, seeds removed, sliced \u00bc inch thick",
+      "Kosher salt, freshly ground pepper",
+      "3 tablespoons white or red wine vinegar",
+      "4 pounds boneless beef short ribs",
+      "8 10-inch-long Italian sub rolls",
+      "Vegetable oil (for griddle)",
+      "Kosher salt",
+      "Freshly ground pepper",
+      "10 ounces white or yellow American cheese slices (about 16)",
+      "10 ounces mild or sharp provolone slices (about 16)",
+      "Ketchup and/or hot sauce (for serving; optional)"
+    ],
+    "recipeCuisine": null,
+    "recipeCategory": [],
+    "keywords": [
+      "Sandwich",
+      "American",
+      "Short Rib",
+      "Cheese",
+      "Nut-Free",
+      "Super Bowl",
+      "Lunch",
+      "Dinner",
+      "Web"
+    ],
+    "images": [
+      "https://assets.bonappetit.com/photos/58701d990482c533683f100e/16:9/w_4991,h_2807,c_limit/cheesesteaks.jpg",
+      "https://assets.bonappetit.com/photos/58701d990482c533683f100e/4:3/w_4443,h_3332,c_limit/cheesesteaks.jpg",
+      "https://assets.bonappetit.com/photos/58701d990482c533683f100e/1:1/w_3332,h_3332,c_limit/cheesesteaks.jpg"
+    ],
+    "recipeYield": "8  Servings",
+    "prepTime": null,
+    "performTime": null,
+    "totalTime": null,
+    "dateModified": "2017-01-10T08:00:00-05:00",
+    "datePublished": "2017-01-10T08:00:00-05:00",
+    "nutrition": {}
+  },
+  "ingredients": [
+    {
+      "input": "2 tablespoons olive oil",
+      "name": "olive oil",
+      "qty": 2.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999893
+    },
+    {
+      "input": "4 large onions, sliced \u00bc inch thick",
+      "name": "onions",
+      "qty": 4.0,
+      "unit": "",
+      "comment": "sliced 0.25 inch thick",
+      "other": "",
+      "confidence": 0.999871
+    },
+    {
+      "input": "3 large red and/or green bell peppers, seeds removed, sliced \u00bc inch thick",
+      "name": "red and/or green bell peppers",
+      "qty": 3.0,
+      "unit": "",
+      "comment": "seeds removed, sliced 0.25 inch thick",
+      "other": "",
+      "confidence": 0.999909
+    },
+    {
+      "input": "Kosher salt, freshly ground pepper",
+      "name": "Kosher salt pepper",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "freshly ground",
+      "other": "",
+      "confidence": 0.0
+    },
+    {
+      "input": "3 tablespoons white or red wine vinegar",
+      "name": "white or red wine vinegar",
+      "qty": 3.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99982
+    },
+    {
+      "input": "4 pounds boneless beef short ribs",
+      "name": "boneless beef short ribs",
+      "qty": 4.0,
+      "unit": "pound",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999841
+    },
+    {
+      "input": "8 10-inch-long Italian sub rolls",
+      "name": "Italian sub rolls",
+      "qty": 8.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999463
+    },
+    {
+      "input": "Vegetable oil (for griddle)",
+      "name": "Vegetable oil",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "(for griddle)",
+      "other": "",
+      "confidence": 0.0
+    },
+    {
+      "input": "Kosher salt",
+      "name": "Kosher salt",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.0
+    },
+    {
+      "input": "Freshly ground pepper",
+      "name": "pepper",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "Freshly ground",
+      "other": "",
+      "confidence": 0.0
+    },
+    {
+      "input": "10 ounces white or yellow American cheese slices (about 16)",
+      "name": "white or yellow American cheese",
+      "qty": 10.0,
+      "unit": "ounces slices",
+      "comment": "",
+      "other": "",
+      "confidence": 0.969555
+    },
+    {
+      "input": "10 ounces mild or sharp provolone slices (about 16)",
+      "name": "mild or sharp provolone",
+      "qty": 10.0,
+      "unit": "ounces slices",
+      "comment": "",
+      "other": "",
+      "confidence": 0.95052
+    },
+    {
+      "input": "Ketchup and/or hot sauce (for serving; optional)",
+      "name": "Ketchup and/or hot sauce",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "optional",
+      "other": "",
+      "confidence": 0.0
+    }
+  ],
+  "error": null,
+  "nutrition": []
+}

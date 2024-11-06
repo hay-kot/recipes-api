@@ -1,0 +1,187 @@
+{
+  "url": "https://www.bonappetit.com/recipe/seafood-chowder",
+  "data": {
+    "name": "Seafood Chowder",
+    "url": "https://www.bonappetit.com/recipe/seafood-chowder",
+    "description": "This highly adaptable recipe for seafood chowder comes together quickly and delivers a soup that\u2019s deeply flavorful, yet light and decidedly not gloppy.",
+    "recipeInstructions": [
+      {
+        "text": "Melt 1 Tbsp. unsalted butter in a Dutch oven or other large heavy pot over medium heat. Cook 1 large onion, finely chopped, and 1 celery stalk, finely chopped, stirring often, until translucent, about 5 minutes. Mix in 1 Tbsp. Old Bay seasoning and 1 tsp. freshly ground black pepper; cook, stirring, 30 seconds. Add 1 Tbsp. dry sherry or mirin; cook, stirring occasionally, until alcohol has cooked off, about 1 minute. Add \u00bd cup clam juice; bring to a simmer. Cook, stirring occasionally, until vegetables are very soft, about 5 minutes."
+      },
+      {
+        "text": "Add 2 cups fish or seafood stock or broth and remaining 2 cups clam juice; bring to a boil over high heat. Add 1 lb. potatoes (any kind), peeled, cut into \u00bd\" pieces, and simmer, uncovered, adjusting heat as needed, until just tender, about 5 minutes. Add 1\u00bc lb. mixed white fish (such as swordfish, sea bass, and/or halibut) and shellfish (such as lump crab meat, scallops and/or peeled, deveined shrimp), cut into \u00bd\" pieces, and cook, stirring gently, just until mixture returns to a simmer, about 2 minutes. Remove from heat and stir in 8 oz. cooked lobster meat, cut into cubes (if using)."
+      },
+      {
+        "text": "While the potatoes are simmering, melt remaining 1 Tbsp. butter in a small saucepan over medium heat. Whisk in 1 Tbsp. all-purpose flour and cook, whisking constantly, until light blond in color, about 1 minute. Whisk in \u00bd cup half-and-half and 1 cup chowder broth (skimmed off the top) and bring to a simmer, whisking constantly. Cook, still whisking, until thickened and creamy."
+      },
+      {
+        "text": "Stir half-and-half mixture into chowder; return to medium heat. Bring to a simmer, stirring gently. Remove from heat; season with salt and more pepper. Ladle into bowls and serve with oyster crackers.\n\nEditor\u2019s note: This seafood chowder recipe was first printed in our May 2020 issue. Head this way for more of our best soup recipes \u2192"
+      }
+    ],
+    "recipeIngredient": [
+      "2 Tbsp. unsalted butter, divided",
+      "1 large onion, finely chopped",
+      "1 celery stalk, finely chopped",
+      "1 Tbsp. Old Bay seasoning",
+      "1 tsp. freshly ground black pepper, plus more",
+      "1 Tbsp. dry sherry or mirin",
+      "2\u00bd cups clam juice, divided",
+      "2 cups fish or seafood stock or broth",
+      "1 lb. potatoes (any kind), peeled, cut into \u00bd\" pieces",
+      "1\u00bc lb. mixed white fish (such as swordfish, sea bass, and/or halibut) and shellfish (such as lump crab meat, scallops and/or peeled, deveined shrimp), cut into \u00bd\" pieces",
+      "8 oz. cooked lobster meat, cut into cubes (optional)",
+      "1 Tbsp. all-purpose flour",
+      "\u00bd cup half-and-half"
+    ],
+    "recipeCuisine": null,
+    "recipeCategory": [],
+    "keywords": [
+      "Dinner",
+      "Chowder",
+      "New England",
+      "Potato",
+      "Fish",
+      "Lobster",
+      "Main",
+      "Nut-Free",
+      "Simmer",
+      "American",
+      "Seafood",
+      "Shellfish",
+      "Web"
+    ],
+    "images": [
+      "https://assets.bonappetit.com/photos/5e90aff6a44eee0009a6b436/16:9/w_2000,h_1125,c_limit/LARSENS-chowder.jpg",
+      "https://assets.bonappetit.com/photos/5e90aff6a44eee0009a6b436/4:3/w_1500,h_1125,c_limit/LARSENS-chowder.jpg",
+      "https://assets.bonappetit.com/photos/5e90aff6a44eee0009a6b436/1:1/w_837,h_837,c_limit/LARSENS-chowder.jpg"
+    ],
+    "recipeYield": "Makes about 8 quarts",
+    "prepTime": null,
+    "performTime": null,
+    "totalTime": "25 minutes",
+    "dateModified": "2023-09-18T17:51:00-04:00",
+    "datePublished": "2020-04-14T04:00:00-04:00",
+    "nutrition": {}
+  },
+  "ingredients": [
+    {
+      "input": "2 Tbsp. unsalted butter, divided",
+      "name": "unsalted butter",
+      "qty": 2.0,
+      "unit": "tablespoon",
+      "comment": "divided",
+      "other": "",
+      "confidence": 0.999943
+    },
+    {
+      "input": "1 large onion, finely chopped",
+      "name": "onion",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "finely chopped",
+      "other": "",
+      "confidence": 0.999918
+    },
+    {
+      "input": "1 celery stalk, finely chopped",
+      "name": "celery",
+      "qty": 1.0,
+      "unit": "stalk",
+      "comment": "finely chopped",
+      "other": "",
+      "confidence": 0.9908
+    },
+    {
+      "input": "1 Tbsp. Old Bay seasoning",
+      "name": "Old Bay seasoning",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99994
+    },
+    {
+      "input": "1 tsp. freshly ground black pepper, plus more",
+      "name": "black pepper",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "freshly ground",
+      "other": "",
+      "confidence": 0.999655
+    },
+    {
+      "input": "1 Tbsp. dry sherry or mirin",
+      "name": "dry sherry or mirin",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999901
+    },
+    {
+      "input": "2\u00bd cups clam juice, divided",
+      "name": "clam juice",
+      "qty": 2.5,
+      "unit": "cup",
+      "comment": "divided",
+      "other": "",
+      "confidence": 0.999839
+    },
+    {
+      "input": "2 cups fish or seafood stock or broth",
+      "name": "fish or seafood stock or broth",
+      "qty": 2.0,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999736
+    },
+    {
+      "input": "1 lb. potatoes (any kind), peeled, cut into \u00bd\" pieces",
+      "name": "sterling potatoes",
+      "qty": 1.0,
+      "unit": "pound",
+      "comment": "peeled, cut into 0.5 inch pieces",
+      "other": "",
+      "confidence": 0.999779
+    },
+    {
+      "input": "1\u00bc lb. mixed white fish (such as swordfish, sea bass, and/or halibut) and shellfish (such as lump crab meat, scallops and/or peeled, deveined shrimp), cut into \u00bd\" pieces",
+      "name": "mixed white fish shrimp",
+      "qty": 1.25,
+      "unit": "pound",
+      "comment": "/ or peeled, deveined, cut into 0.5 inch pieces",
+      "other": "",
+      "confidence": 0.999873
+    },
+    {
+      "input": "8 oz. cooked lobster meat, cut into cubes (optional)",
+      "name": "lobster meat",
+      "qty": 8.0,
+      "unit": "ounce",
+      "comment": "cooked, cut into cubes",
+      "other": "",
+      "confidence": 0.999551
+    },
+    {
+      "input": "1 Tbsp. all-purpose flour",
+      "name": "all-purpose flour",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99926
+    },
+    {
+      "input": "\u00bd cup half-and-half",
+      "name": "half-and-half",
+      "qty": 0.5,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999657
+    }
+  ],
+  "error": null,
+  "nutrition": []
+}

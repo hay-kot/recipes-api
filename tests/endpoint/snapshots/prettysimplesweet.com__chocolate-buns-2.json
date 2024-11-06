@@ -1,0 +1,140 @@
+{
+  "url": "https://prettysimplesweet.com/chocolate-buns-2/",
+  "data": {
+    "name": "Chocolate Buns",
+    "url": "https://prettysimplesweet.com/chocolate-buns-2/",
+    "description": "These soft and fluffy chocolate rolls are slightly sweet with rich chocolate flavor. They're perfect for breakfast or brunch! Slather on some chocolate spread or Nutella for a delicious treat.",
+    "recipeInstructions": [
+      {
+        "text": "Place flour, cocoa powder, sugar, and yeast in the bowl of a standing mixer and mix until combined, then stir in salt. Attach the dough hook and add water, milk, and butter. Mix on low-medium speed until dough comes together, 2-3 minutes, then continue mixing for another 7 minutes, until dough is soft and elastic and pulls away from the sides of the bowl. Add chocolate chips and keep kneading for a few more seconds until combined."
+      },
+      {
+        "text": "Place dough in a large bowl brushed with oil, and toss to coat (the fat will keep the dough from drying out). Cover with plastic wrap and let sit in a warm place or on the counter for 1.5-2 hours, or until doubled in size."
+      },
+      {
+        "text": "When the dough has risen, gently punch it to remove air. Divide the dough into 20 equal portions (each weighing about 50 grams) and shape each one into a smooth ball. Arrange on two baking sheets lined with parchment paper, keeping as much space between them as possible. Cover and let rest for 60 minutes or until again doubled in size."
+      },
+      {
+        "text": "About 20 minutes before baking, preheat oven to 350F/175C."
+      },
+      {
+        "text": "Bake buns for 15-20 minutes. Allow pan to cool on a wire rack for 5 minutes, then transfer buns to a wire rack to cool completely."
+      },
+      {
+        "text": "Serve warm or at room temperature."
+      },
+      {
+        "text": "Buns are best the same day they are made, but can be frozen for up to 2 months."
+      }
+    ],
+    "recipeIngredient": [
+      "3\u00bd cups (500g) all-purpose flour",
+      "3 tablespoons (20g) cocoa powder (I use Dutch process)",
+      "6 tablespoons (75g) granulated sugar",
+      "2\u00bc teaspoons (7g) instant yeast",
+      "1\u00bd teaspoons salt",
+      "1 cup (240 ml) water, lukewarm",
+      "\u00bc cup (60 ml) whole milk, lukewarm",
+      "1/2 stick ((55g) unsalted butter, cubed and softened to room temperature)",
+      "2/3 cup (100-120g) chocolate chips or chunks"
+    ],
+    "recipeCuisine": null,
+    "recipeCategory": [],
+    "keywords": [],
+    "images": [
+      "https://prettysimplesweet.com/wp-content/uploads/2017/02/ChocolateBuns-2.jpg"
+    ],
+    "recipeYield": "20 small buns",
+    "prepTime": "20 Minutes",
+    "performTime": null,
+    "totalTime": "3 Hours 40 Minutes",
+    "dateModified": null,
+    "datePublished": "2022-07-14T07:02:00Z",
+    "nutrition": {}
+  },
+  "ingredients": [
+    {
+      "input": "3\u00bd cups (500g) all-purpose flour",
+      "name": "all-purpose flour",
+      "qty": 3.5,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99983
+    },
+    {
+      "input": "3 tablespoons (20g) cocoa powder (I use Dutch process)",
+      "name": "cocoa powder",
+      "qty": 3.0,
+      "unit": "tablespoon",
+      "comment": "(I use Dutch process)",
+      "other": "",
+      "confidence": 0.999685
+    },
+    {
+      "input": "6 tablespoons (75g) granulated sugar",
+      "name": "granulated sugar",
+      "qty": 6.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999685
+    },
+    {
+      "input": "2\u00bc teaspoons (7g) instant yeast",
+      "name": "instant yeast",
+      "qty": 2.25,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999666
+    },
+    {
+      "input": "1\u00bd teaspoons salt",
+      "name": "salt",
+      "qty": 1.5,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999858
+    },
+    {
+      "input": "1 cup (240 ml) water, lukewarm",
+      "name": "water",
+      "qty": 1.0,
+      "unit": "cup",
+      "comment": "lukewarm",
+      "other": "",
+      "confidence": 0.99983
+    },
+    {
+      "input": "\u00bc cup (60 ml) whole milk, lukewarm",
+      "name": "whole milk",
+      "qty": 0.25,
+      "unit": "cup",
+      "comment": "lukewarm",
+      "other": "",
+      "confidence": 0.99983
+    },
+    {
+      "input": "1/2 stick ((55g) unsalted butter, cubed and softened to room temperature)",
+      "name": "",
+      "qty": 0.5,
+      "unit": "sticks",
+      "comment": "cubed and softened to room temperature",
+      "other": "",
+      "confidence": 0.983854
+    },
+    {
+      "input": "2/3 cup (100-120g) chocolate chips or chunks",
+      "name": "chocolate chips or chunks",
+      "qty": 0.667,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.99983
+    }
+  ],
+  "error": null,
+  "nutrition": []
+}

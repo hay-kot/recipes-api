@@ -1,0 +1,285 @@
+{
+  "url": "https://www.halfbakedharvest.com/chicken-gyros-with-feta-tzatziki/",
+  "data": {
+    "name": "Sheet Pan Chicken Gyros with Feta Tzatziki.",
+    "url": "https://www.halfbakedharvest.com/chicken-gyros-with-feta-tzatziki/",
+    "description": "Oven roasted chicken stuffed inside fresh pitas with all the \u201cextras\u201d...a fun weeknight dinner!",
+    "recipeInstructions": [
+      {
+        "text": "1. In a bowl, combine the yogurt, olive oil, cubed chicken, lemon juice, garlic, shallots, paprika, oregano, chili flakes, and a large pinch each of salt and pepper. Let marinate for 15 minutes at room temperature or up to overnight in the refrigerator.2. Preheat the oven to 425\u00b0 F. Arrange the chicken on a baking sheet. Bake 15 minutes, toss and bake another 5-10 minutes, or until cooked through. Switch the oven to broil. Broil 1-2 minutes, until the chicken chars on the edges (watch carefully) 3. Meanwhile, make the Tzatziki. Combine the feta, 1/4 cup yogurt, garlic, and lemon juice in a blender and blend until creamy. Stir in 1/3 cup more yogurt, the cucumbers, and a pinch of salt and red pepper flakes.4. To assemble, stuff/spread each pita with tzatziki, then lettuce, and chicken. Add red onions and herbs. Drizzle over more tzatziki and if desired, harissa (recipe in notes)."
+      }
+    ],
+    "recipeIngredient": [
+      "1/3 cup full-fat plain Greek yogurt",
+      "1/4 cup extra virgin olive oil",
+      "1 1/2 pounds boneless skinless chicken breasts or thighs, cubed",
+      "1/4 cup fresh lemon juice",
+      "6 garlic cloves, chopped",
+      "2 shallots, chopped",
+      "1 tablespoon smoked paprika",
+      "1 tablespoon chopped fresh oregano",
+      "red pepper flakes",
+      "Kosher salt and black pepper",
+      "6 fresh pitas or naan warmed,",
+      "pickled red onion, lettuce, dill, and parsley for serving",
+      "8 ounces feta cheese",
+      "1/4 cup + 1/3 cup plain Greek yogurt",
+      "2 cloves garlic grated",
+      "juice from 1 lemon",
+      "1-2 Persian cucumbers, shredded",
+      "kosher salt"
+    ],
+    "recipeCuisine": null,
+    "recipeCategory": [],
+    "keywords": [],
+    "images": [
+      "https://www.halfbakedharvest.com/wp-content/uploads/2022/02/Quick-Sheet-Pan-Chicken-Gyros-with-Feta-Tzatziki-1.jpg",
+      "https://www.halfbakedharvest.com/wp-content/uploads/2022/02/Quick-Sheet-Pan-Chicken-Gyros-with-Feta-Tzatziki-1-500x500.jpg",
+      "https://www.halfbakedharvest.com/wp-content/uploads/2022/02/Quick-Sheet-Pan-Chicken-Gyros-with-Feta-Tzatziki-1-500x375.jpg",
+      "https://www.halfbakedharvest.com/wp-content/uploads/2022/02/Quick-Sheet-Pan-Chicken-Gyros-with-Feta-Tzatziki-1-480x270.jpg"
+    ],
+    "recipeYield": "3",
+    "prepTime": "30 Minutes",
+    "performTime": null,
+    "totalTime": "55 Minutes",
+    "dateModified": null,
+    "datePublished": "2022-02-17T02:00:00Z",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "1205 kcal",
+      "carbohydrateContent": "77 g",
+      "proteinContent": "75 g",
+      "fatContent": "42 g",
+      "saturatedFatContent": "15 g",
+      "transFatContent": "1 g",
+      "cholesterolContent": "215 mg",
+      "sodiumContent": "1728 mg",
+      "fiberContent": "5 g",
+      "sugarContent": "7 g",
+      "unsaturatedFatContent": "23 g",
+      "servingSize": "1 serving"
+    }
+  },
+  "ingredients": [
+    {
+      "input": "1/3 cup full-fat plain Greek yogurt",
+      "name": "full-fat plain Greek yogurt",
+      "qty": 0.333,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999925
+    },
+    {
+      "input": "1/4 cup extra virgin olive oil",
+      "name": "extra virgin olive oil",
+      "qty": 0.25,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999952
+    },
+    {
+      "input": "1 1/2 pounds boneless skinless chicken breasts or thighs, cubed",
+      "name": "boneless skinless chicken breasts or thighs",
+      "qty": 1.5,
+      "unit": "pound",
+      "comment": "cubed",
+      "other": "",
+      "confidence": 0.999829
+    },
+    {
+      "input": "1/4 cup fresh lemon juice",
+      "name": "fresh lemon juice",
+      "qty": 0.25,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999922
+    },
+    {
+      "input": "6 garlic cloves, chopped",
+      "name": "garlic",
+      "qty": 6.0,
+      "unit": "cloves",
+      "comment": "chopped",
+      "other": "",
+      "confidence": 0.977475
+    },
+    {
+      "input": "2 shallots, chopped",
+      "name": "shallots",
+      "qty": 2.0,
+      "unit": "",
+      "comment": "chopped",
+      "other": "",
+      "confidence": 0.999524
+    },
+    {
+      "input": "1 tablespoon smoked paprika",
+      "name": "smoked paprika",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999911
+    },
+    {
+      "input": "1 tablespoon chopped fresh oregano",
+      "name": "fresh oregano",
+      "qty": 1.0,
+      "unit": "tablespoon",
+      "comment": "chopped",
+      "other": "",
+      "confidence": 0.999893
+    },
+    {
+      "input": "red pepper flakes",
+      "name": "red pepper flakes",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.0
+    },
+    {
+      "input": "Kosher salt and black pepper",
+      "name": "Kosher salt and black pepper",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.0
+    },
+    {
+      "input": "6 fresh pitas or naan warmed,",
+      "name": "fresh pitas or naan",
+      "qty": 6.0,
+      "unit": "",
+      "comment": "warmed",
+      "other": "",
+      "confidence": 0.998949
+    },
+    {
+      "input": "pickled red onion, lettuce, dill, and parsley for serving",
+      "name": "pickled red onion, lettuce and parsley",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "dill",
+      "other": "",
+      "confidence": 0.0
+    },
+    {
+      "input": "8 ounces feta cheese",
+      "name": "feta cheese",
+      "qty": 8.0,
+      "unit": "ounce",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999813
+    },
+    {
+      "input": "1/4 cup + 1/3 cup plain Greek yogurt",
+      "name": "plain Greek yogurt",
+      "qty": 0.25,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999618
+    },
+    {
+      "input": "2 cloves garlic grated",
+      "name": "garlic",
+      "qty": 2.0,
+      "unit": "cloves",
+      "comment": "grated",
+      "other": "",
+      "confidence": 0.998825
+    },
+    {
+      "input": "juice from 1 lemon",
+      "name": "lemon",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "juice from",
+      "other": "",
+      "confidence": 0.829982
+    },
+    {
+      "input": "1-2 Persian cucumbers, shredded",
+      "name": "Persian cucumbers",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "shredded",
+      "other": "",
+      "confidence": 0.999087
+    },
+    {
+      "input": "kosher salt",
+      "name": "kosher salt",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.0
+    }
+  ],
+  "error": null,
+  "nutrition": [
+    {
+      "name": "calories",
+      "amount": 1205.0,
+      "unit": "kilocalorie"
+    },
+    {
+      "name": "carbohydrateContent",
+      "amount": 77.0,
+      "unit": "gram"
+    },
+    {
+      "name": "proteinContent",
+      "amount": 75.0,
+      "unit": "gram"
+    },
+    {
+      "name": "fatContent",
+      "amount": 42.0,
+      "unit": "gram"
+    },
+    {
+      "name": "saturatedFatContent",
+      "amount": 15.0,
+      "unit": "gram"
+    },
+    {
+      "name": "transFatContent",
+      "amount": 1.0,
+      "unit": "gram"
+    },
+    {
+      "name": "cholesterolContent",
+      "amount": 215.0,
+      "unit": "milligram"
+    },
+    {
+      "name": "sodiumContent",
+      "amount": 1728.0,
+      "unit": "milligram"
+    },
+    {
+      "name": "fiberContent",
+      "amount": 5.0,
+      "unit": "gram"
+    },
+    {
+      "name": "sugarContent",
+      "amount": 7.0,
+      "unit": "gram"
+    },
+    {
+      "name": "unsaturatedFatContent",
+      "amount": 23.0,
+      "unit": "gram"
+    }
+  ]
+}
