@@ -36,6 +36,9 @@ def replace_common_abbreviations(string: str) -> str:
         regex = rf"(?<=\d)\s?({k}\bs?)"
         string = re.sub(regex, v, string)
 
+        regex = rf"(?<=\d)\s?({k.upper()}\bs?)"
+        string = re.sub(regex, v, string)
+
     return string
 
 
