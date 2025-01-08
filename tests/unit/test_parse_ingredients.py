@@ -26,6 +26,7 @@ from pkg.services.parser.nlp_parser import list_to_parsed_ingredients, normalize
         ("2-3 tablespoons soy sauce", "2 1/2 tablespoon soy sauce"),
         ("1 to 2 teaspoons cayenne pepper", "1 1/2 teaspoon cayenne pepper"),
         ("1 ½ teaspoons ground black pepper", "1 1/2 teaspoon ground black pepper"),
+        ("1 C parmesan cheese", "1.0 cup parmesan cheese"),
         (
             "¾ tsp. Diamond Crystal or ½ tsp. Morton kosher salt, plus more",
             "3/4 teaspoon Diamond Crystal or 1/2 teaspoon Morton kosher salt, plus more",
@@ -58,6 +59,7 @@ class IngredientCase:
         IngredientCase("1/8 cup all-purpose flour", 0.125, "cup", "all-purpose flour", ""),
         IngredientCase("3.5 cup all-purpose flour", 3.5, "cup", "all-purpose flour", ""),
         IngredientCase("1/32 cup all-purpose flour", 0.031, "cup", "all-purpose flour", ""),
+        IngredientCase("1 C parmesan cheese", 1.0, "cup", "parmesan cheese", ""),
     ],
 )
 def test_nlp_parser(testcase: IngredientCase):
