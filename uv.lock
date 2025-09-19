@@ -667,16 +667,16 @@ wheels = [
 
 [[package]]
 name = "recipe-scrapers"
-version = "15.7.1"
+version = "15.9.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beautifulsoup4" },
     { name = "extruct" },
     { name = "isodate" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/02/52/062d975182c7acb03c445910f64577a889c8dfa68c4ce854ed0569041294/recipe_scrapers-15.7.1.tar.gz", hash = "sha256:7657a743994712fdb1f7ff463891e593a55c6f9597be4e64425dcadd3b9aa75f", size = 120966, upload-time = "2025-05-02T12:39:15.344Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e1/d8/ebe4bd4e9a0cee6986d4fd1f6a2f0c96753dbd9302021485d47d6596c6dc/recipe_scrapers-15.9.0.tar.gz", hash = "sha256:0235e9d1dd290be5ad5e58ba5be3ff51941c45efb7ec58f2872216fe501cd7d1", size = 128953, upload-time = "2025-08-09T12:59:15.471Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2a/88/2cd80d6a6f25dbca94b45036da5f740cc42601f81fc63ab6097c22bcddfc/recipe_scrapers-15.7.1-py3-none-any.whl", hash = "sha256:f5131c3c9ce7c7a261ffe25514334c2b86b911fc3e53935c91cf7dd420b80855", size = 254230, upload-time = "2025-05-02T12:39:13.413Z" },
+    { url = "https://files.pythonhosted.org/packages/0a/32/cbc15eb91fb30cb1a0eb2992f83ca3f1bfdb555343fe64a1a40cd61708df/recipe_scrapers-15.9.0-py3-none-any.whl", hash = "sha256:8f794090b46c18b9b863c39965adee0823253d366278d1fa2623235446caa701", size = 275107, upload-time = "2025-08-09T12:59:13.548Z" },
 ]
 
 [[package]]

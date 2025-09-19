@@ -63,11 +63,11 @@ def to_schema_data(scraper: AbstractScraper) -> dict[str, Any]:
         "cooktime": str(try_get(scraper.cook_time, "")),
         "nutrition": try_get(scraper.nutrients, {}),
         "recipeYield": try_get(scraper.yields, ""),
-        "review": try_get(scraper.reviews, []),
+        "review": try_get(lambda: scraper.reviews(), []),
         "recipeCategory": try_get(scraper.category, ""),
-        "ratings": try_get(scraper.ratings, ""),
+        "ratings": try_get(lambda: scraper.ratings(), ""),
         "recipeCuisine": try_get(scraper.cuisine, ""),
-        "links": try_get(scraper.links, []),
+        "links": try_get(lambda: scraper.links(), []),
         "siteName": try_get(scraper.site_name, ""),
     }
 
