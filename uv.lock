@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.12"
 resolution-markers = [
     "python_full_version < '3.13'",
@@ -145,16 +145,16 @@ wheels = [
 
 [[package]]
 name = "fastapi"
-version = "0.115.12"
+version = "0.116.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pydantic" },
     { name = "starlette" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f4/55/ae499352d82338331ca1e28c7f4a63bfd09479b16395dce38cf50a39e2c2/fastapi-0.115.12.tar.gz", hash = "sha256:1e2c2a2646905f9e83d32f04a3f86aff4a286669c6c950ca95b5fd68c2602681", size = 295236, upload-time = "2025-03-23T22:55:43.822Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/01/64/1296f46d6b9e3b23fb22e5d01af3f104ef411425531376212f1eefa2794d/fastapi-0.116.2.tar.gz", hash = "sha256:231a6af2fe21cfa2c32730170ad8514985fc250bec16c9b242d3b94c835ef529", size = 298595, upload-time = "2025-09-16T18:29:23.058Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/50/b3/b51f09c2ba432a576fe63758bddc81f78f0c6309d9e5c10d194313bf021e/fastapi-0.115.12-py3-none-any.whl", hash = "sha256:e94613d6c05e27be7ffebdd6ea5f388112e5e430c8f7d6494a9d1d88d43e814d", size = 95164, upload-time = "2025-03-23T22:55:42.101Z" },
+    { url = "https://files.pythonhosted.org/packages/32/e4/c543271a8018874b7f682bf6156863c416e1334b8ed3e51a69495c5d4360/fastapi-0.116.2-py3-none-any.whl", hash = "sha256:c3a7a8fb830b05f7e087d920e0d786ca1fc9892eb4e9a84b227be4c1bc7569db", size = 95670, upload-time = "2025-09-16T18:29:21.329Z" },
 ]
 
 [[package]]
@@ -545,16 +545,16 @@ wheels = [
 
 [[package]]
 name = "pydantic-settings"
-version = "2.9.1"
+version = "2.10.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pydantic" },
     { name = "python-dotenv" },
     { name = "typing-inspection" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/67/1d/42628a2c33e93f8e9acbde0d5d735fa0850f3e6a2f8cb1eb6c40b9a732ac/pydantic_settings-2.9.1.tar.gz", hash = "sha256:c509bf79d27563add44e8446233359004ed85066cd096d8b510f715e6ef5d268", size = 163234, upload-time = "2025-04-18T16:44:48.265Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/68/85/1ea668bbab3c50071ca613c6ab30047fb36ab0da1b92fa8f17bbc38fd36c/pydantic_settings-2.10.1.tar.gz", hash = "sha256:06f0062169818d0f5524420a360d632d5857b83cffd4d42fe29597807a1614ee", size = 172583, upload-time = "2025-06-24T13:26:46.841Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b6/5f/d6d641b490fd3ec2c4c13b4244d68deea3a1b970a97be64f34fb5504ff72/pydantic_settings-2.9.1-py3-none-any.whl", hash = "sha256:59b4f431b1defb26fe620c71a7d3968a710d719f5f4cdbbdb7926edeb770f6ef", size = 44356, upload-time = "2025-04-18T16:44:46.617Z" },
+    { url = "https://files.pythonhosted.org/packages/58/f0/427018098906416f580e3cf1366d3b1abfb408a0652e9f31600c24a1903c/pydantic_settings-2.10.1-py3-none-any.whl", hash = "sha256:a60952460b99cf661dc25c29c0ef171721f98bfcb52ef8d9ea4c943d7c8cc796", size = 45235, upload-time = "2025-06-24T13:26:45.485Z" },
 ]
 
 [[package]]
@@ -667,16 +667,16 @@ wheels = [
 
 [[package]]
 name = "recipe-scrapers"
-version = "15.7.1"
+version = "15.9.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beautifulsoup4" },
     { name = "extruct" },
     { name = "isodate" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/02/52/062d975182c7acb03c445910f64577a889c8dfa68c4ce854ed0569041294/recipe_scrapers-15.7.1.tar.gz", hash = "sha256:7657a743994712fdb1f7ff463891e593a55c6f9597be4e64425dcadd3b9aa75f", size = 120966, upload-time = "2025-05-02T12:39:15.344Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e1/d8/ebe4bd4e9a0cee6986d4fd1f6a2f0c96753dbd9302021485d47d6596c6dc/recipe_scrapers-15.9.0.tar.gz", hash = "sha256:0235e9d1dd290be5ad5e58ba5be3ff51941c45efb7ec58f2872216fe501cd7d1", size = 128953, upload-time = "2025-08-09T12:59:15.471Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2a/88/2cd80d6a6f25dbca94b45036da5f740cc42601f81fc63ab6097c22bcddfc/recipe_scrapers-15.7.1-py3-none-any.whl", hash = "sha256:f5131c3c9ce7c7a261ffe25514334c2b86b911fc3e53935c91cf7dd420b80855", size = 254230, upload-time = "2025-05-02T12:39:13.413Z" },
+    { url = "https://files.pythonhosted.org/packages/0a/32/cbc15eb91fb30cb1a0eb2992f83ca3f1bfdb555343fe64a1a40cd61708df/recipe_scrapers-15.9.0-py3-none-any.whl", hash = "sha256:8f794090b46c18b9b863c39965adee0823253d366278d1fa2623235446caa701", size = 275107, upload-time = "2025-08-09T12:59:13.548Z" },
 ]
 
 [[package]]
