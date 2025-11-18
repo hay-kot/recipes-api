@@ -2,5 +2,8 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "lockFileMaintenance": {
     "enabled": true
+  },
+  "constraints": {
+    "python": "3.12"
   }
 }
