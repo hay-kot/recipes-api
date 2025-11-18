@@ -17,9 +17,16 @@ class Author(BaseModel):
 
 
 def clean_date(date: Any) -> Any:
+    if date is None:
+        return None
+
     if isinstance(date, str):
         # some include EST or EDT at the end
         date = date.split(" ")[0]
+
+        # if the string is too short or invalid, return None
+        if len(date) < 8:  # minimum valid date is YYYY-M-D (8 chars)
+            return None
 
     if isinstance(date, datetime.datetime):
         return date.date()
@@ -27,7 +34,7 @@ def clean_date(date: Any) -> Any:
     return date
 
 
-DateLike = Annotated[datetime.date | datetime.datetime, BeforeValidator(clean_date)]
+DateLike = Annotated[datetime.date | datetime.datetime | None, BeforeValidator(clean_date)]
 
 
 class Recipe(BaseModel):
