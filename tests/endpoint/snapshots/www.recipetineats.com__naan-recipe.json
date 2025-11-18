@@ -172,7 +172,7 @@
       "unit": "gram",
       "comment": ", melted",
       "other": "",
-      "confidence": 0.999812
+      "confidence": 0.999423
     },
     {
       "input": "30g / 2 tbsp tbsp ghee or butter (, melted (Note 4))",
@@ -181,7 +181,7 @@
       "unit": "gram",
       "comment": ", melted",
       "other": "",
-      "confidence": 0.999829
+      "confidence": 0.999423
     },
     {
       "input": "1 small garlic clove (, for Garlic Butter option (Note 5))",

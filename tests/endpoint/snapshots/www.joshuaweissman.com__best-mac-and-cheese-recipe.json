@@ -1,0 +1,30 @@
+{
+  "url": "https://www.joshuaweissman.com/best-mac-and-cheese-recipe",
+  "data": {
+    "name": "The Best Mac and Cheese 3 Ways",
+    "url": "https://www.joshuaweissman.com/best-mac-and-cheese-recipe",
+    "description": "Homemade mac and cheese is not only one of the easiest things to make, but it's also one of the most satisfying. Nothing feels better than having such a level of control in your own life that you make macaroni and cheese from scratch.",
+    "recipeInstructions": [],
+    "recipeIngredient": [],
+    "recipeCuisine": null,
+    "recipeCategory": [
+      "Entree"
+    ],
+    "keywords": [],
+    "images": [
+      "https://cdn.prod.website-files.com/6744d2d124649f6ecd466f50/67ad3d8b93ac1e65391053e6_The%20Best%20Mac%20and%20Cheese%203%20Ways.jpg"
+    ],
+    "recipeYield": "",
+    "prepTime": "10-35 minutes",
+    "performTime": null,
+    "totalTime": "25 minutes - 2 hours",
+    "dateModified": null,
+    "datePublished": null,
+    "nutrition": {
+      "@type": "NutritionInformation"
+    }
+  },
+  "ingredients": [],
+  "error": null,
+  "nutrition": []
+}
