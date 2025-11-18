@@ -4,6 +4,9 @@ import sys
 
 import httpx
 
+# Add parent directory to path to import pkg module
+sys.path.insert(0, str(pathlib.Path(__file__).parent.parent))
+
 from pkg.core import logger
 
 __filepath = pathlib.Path(__file__).parent

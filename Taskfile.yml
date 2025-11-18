@@ -30,3 +30,9 @@ tasks:
     desc: syncs dependencies
     cmds:
       - uv sync
+
+  testgen:
+    desc: generates test files from recipe URLs
+    cmds:
+      - uv run scripts/testgen.py {{ .CLI_ARGS }}
+      - SNAPSHOT=true uv run pytest tests -s
