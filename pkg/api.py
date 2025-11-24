@@ -6,6 +6,7 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.gzip import GZipMiddleware
 
 from . import __version__, core
+from .core.telemetry import setup_telemetry
 from .web.processors import router as processors_router
 from .web.scrapers import router as scraper_router
 from .web.system import router as system_router
@@ -17,6 +18,11 @@ logger = core.logger()
 app: FastAPI = FastAPI(
     title="Recipe API", description="A simple API for parsing recipes and ingredients.", version=__version__
 )
+
+# Setup OpenTelemetry if endpoint is configured
+if settings.otel_endpoint:
+    setup_telemetry(app, service_name="recipes-api", endpoint=settings.otel_endpoint)
+    logger.info(f"OpenTelemetry enabled with endpoint: {settings.otel_endpoint}")
 
 
 @app.middleware("http")
