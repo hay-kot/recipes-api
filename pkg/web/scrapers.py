@@ -1,4 +1,5 @@
 from fastapi import APIRouter, Depends, HTTPException
+from opentelemetry import trace
 from typing_extensions import Annotated
 
 from pkg.schema.scrapers import CleanedScrapeResponse, ScrapeError, ScrapeRequest, ScrapeResponse
@@ -7,6 +8,8 @@ from pkg.services.cleaner import cleaner
 from pkg.services.parser.nlp_parser import dict_to_parsed_nutrition, list_to_parsed_ingredients
 from pkg.services.recipes.recipe import Recipe
 from pkg.services.recipes.scraper import scrape_urls
+
+tracer = trace.get_tracer(__name__)
 
 router = APIRouter(tags=["Recipe Web Scrapers"])
 
@@ -19,7 +22,9 @@ async def scrape_recipe(ctx: Annotated[Context, Depends(Context)], req: list[Scr
     if len(req) == 0:
         raise HTTPException(status_code=400, detail={"error": "no urls or html provided"})
 
-    data = await scrape_urls(ctx, req)
+    # Scrape all URLs
+    with tracer.start_as_current_span("scrape_urls"):
+        data = await scrape_urls(ctx, req)
 
     results = []
     for d in data:
@@ -31,13 +36,19 @@ async def scrape_recipe(ctx: Annotated[Context, Depends(Context)], req: list[Scr
             results.append(ScrapeResponse(url=d.url, data=d.data, error=None))
             continue
 
-        cleaned = Recipe(**cleaner.clean(d.data, d.url))
+        # Clean the recipe data
+        with tracer.start_as_current_span("clean_recipe"):
+            cleaned = Recipe(**cleaner.clean(d.data, d.url))
 
-        parsed_ingredients = list_to_parsed_ingredients(cleaned.ingredients, ctx)
+        # Parse ingredients
+        with tracer.start_as_current_span("parse_ingredients"):
+            parsed_ingredients = list_to_parsed_ingredients(cleaned.ingredients, ctx)
 
+        # Parse nutrition
         parsed_nutrition = []
         if cleaned.nutrition:
-            parsed_nutrition = dict_to_parsed_nutrition(cleaned.nutrition)
+            with tracer.start_as_current_span("parse_nutrition"):
+                parsed_nutrition = dict_to_parsed_nutrition(cleaned.nutrition)
 
         results.append(
             CleanedScrapeResponse(
