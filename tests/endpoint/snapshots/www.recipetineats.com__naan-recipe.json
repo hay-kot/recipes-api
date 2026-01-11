@@ -83,6 +83,7 @@
     "recipeYield": "6",
     "prepTime": "20 Minutes",
     "performTime": null,
+    "cookTime": "10 Minutes",
     "totalTime": null,
     "dateModified": null,
     "datePublished": "2021-02-24T20:41:27Z",
@@ -172,7 +173,7 @@
       "unit": "gram",
       "comment": ", melted",
       "other": "",
-      "confidence": 0.999423
+      "confidence": 0.999812
     },
     {
       "input": "30g / 2 tbsp tbsp ghee or butter (, melted (Note 4))",
@@ -181,7 +182,7 @@
       "unit": "gram",
       "comment": ", melted",
       "other": "",
-      "confidence": 0.999423
+      "confidence": 0.999829
     },
     {
       "input": "1 small garlic clove (, for Garlic Butter option (Note 5))",

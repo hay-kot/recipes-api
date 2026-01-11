@@ -66,6 +66,7 @@ class Recipe(BaseModel):
 
     prepTime: str | None = None
     performTime: str | None = None
+    cookTime: str | None = None
     totalTime: str | None = None
 
     dateModified: DateLike | None = None

@@ -85,6 +85,7 @@
     "recipeYield": "4 - 6",
     "prepTime": "20 Minutes",
     "performTime": null,
+    "cookTime": "6 Minutes",
     "totalTime": "26 Minutes",
     "dateModified": null,
     "datePublished": "2020-05-24T23:00:00Z",
@@ -110,7 +111,7 @@
       "unit": "pound",
       "comment": "(, boneless skinless)",
       "other": "",
-      "confidence": 0.999847
+      "confidence": 0.999818
     },
     {
       "input": "3 large garlic cloves (, minced (~ 3 tsp))",

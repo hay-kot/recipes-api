@@ -418,7 +418,7 @@ def pretty_print_timedelta(t: timedelta, max_components=None, max_decimal_places
     return " ".join(out_list)
 
 
-def clean_category_like(category: str | list) -> list[str]:
+def clean_category_like(category: str | list | None) -> list[str]:
     """
     Cleans a string or list of strings or objects into a list of strings.
 

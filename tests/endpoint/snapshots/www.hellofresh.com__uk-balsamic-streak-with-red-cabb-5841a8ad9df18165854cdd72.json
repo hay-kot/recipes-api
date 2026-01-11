@@ -54,6 +54,7 @@
     "recipeYield": "2",
     "prepTime": null,
     "performTime": null,
+    "cookTime": null,
     "totalTime": "40 Minutes",
     "dateModified": null,
     "datePublished": "2016-12-02T17:00:29Z",
