@@ -53,7 +53,7 @@ async def logger_middleware(request: Request, call_next):
 
     # Log the request details including the response status code
     logger.info(
-        f"rid={request_id} path={path} method={method} " f"status_code={response.status_code} dur_ms={process_time:.2f}"
+        f"rid={request_id} path={path} method={method} status_code={response.status_code} dur_ms={process_time:.2f}"
     )
 
     return response
