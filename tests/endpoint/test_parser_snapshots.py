@@ -119,6 +119,7 @@ def test_parse_clean(client: TestClient, url: str, name: str) -> None:
     assert recipe.recipeYield == expect_recipe.recipeYield
     assert recipe.prepTime == expect_recipe.prepTime
     assert recipe.performTime == expect_recipe.performTime
+    assert recipe.cookTime == expect_recipe.cookTime
     assert recipe.totalTime == expect_recipe.totalTime
 
     assert recipe.dateModified == expect_recipe.dateModified
