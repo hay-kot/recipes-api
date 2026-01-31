@@ -229,6 +229,174 @@ def test_cleaner_instructions(instructions: CleanerCase):
     assert result == expected
 
 
+instruction_sections_test_cases = (
+    CleanerCase(
+        test_id="empty input",
+        input=None,
+        expected=None,
+    ),
+    CleanerCase(
+        test_id="flat instructions - no sections",
+        input=[
+            {"text": "Instruction A"},
+            {"text": "Instruction B"},
+        ],
+        expected=None,
+    ),
+    CleanerCase(
+        test_id="string input - no sections",
+        input="Instruction A\nInstruction B",
+        expected=None,
+    ),
+    CleanerCase(
+        test_id="HowToSection with @type",
+        input=[
+            {
+                "@type": "HowToSection",
+                "name": "Prepare the Dough",
+                "itemListElement": [
+                    {"@type": "HowToStep", "text": "Mix flour and water"},
+                    {"@type": "HowToStep", "text": "Knead for 10 minutes"},
+                ],
+            },
+            {
+                "@type": "HowToSection",
+                "name": "Bake",
+                "itemListElement": [
+                    {"@type": "HowToStep", "text": "Preheat oven to 350F"},
+                ],
+            },
+        ],
+        expected=[
+            {
+                "name": "Prepare the Dough",
+                "steps": [
+                    {"text": "Mix flour and water"},
+                    {"text": "Knead for 10 minutes"},
+                ],
+            },
+            {
+                "name": "Bake",
+                "steps": [
+                    {"text": "Preheat oven to 350F"},
+                ],
+            },
+        ],
+    ),
+    CleanerCase(
+        test_id="HowToSection with type (no @)",
+        input=[
+            {
+                "type": "HowToSection",
+                "name": "Section One",
+                "itemListElement": [
+                    {"type": "HowToStep", "text": "Step 1"},
+                ],
+            },
+        ],
+        expected=[
+            {
+                "name": "Section One",
+                "steps": [
+                    {"text": "Step 1"},
+                ],
+            },
+        ],
+    ),
+    CleanerCase(
+        test_id="HowToSection without name",
+        input=[
+            {
+                "@type": "HowToSection",
+                "itemListElement": [
+                    {"@type": "HowToStep", "text": "Unnamed section step"},
+                ],
+            },
+        ],
+        expected=[
+            {
+                "name": None,
+                "steps": [
+                    {"text": "Unnamed section step"},
+                ],
+            },
+        ],
+    ),
+    CleanerCase(
+        test_id="HowToSection with HTML in steps",
+        input=[
+            {
+                "@type": "HowToSection",
+                "name": "Test",
+                "itemListElement": [
+                    {"@type": "HowToStep", "text": "<p>Clean this text</p>"},
+                ],
+            },
+        ],
+        expected=[
+            {
+                "name": "Test",
+                "steps": [
+                    {"text": "Clean this text"},
+                ],
+            },
+        ],
+    ),
+    CleanerCase(
+        test_id="mixed HowToStep and HowToSection",
+        input=[
+            {"@type": "HowToStep", "text": "Step before section"},
+            {
+                "@type": "HowToSection",
+                "name": "Named Section",
+                "itemListElement": [
+                    {"@type": "HowToStep", "text": "Section step 1"},
+                    {"@type": "HowToStep", "text": "Section step 2"},
+                ],
+            },
+            {"@type": "HowToStep", "text": "Step after section"},
+        ],
+        expected=[
+            {
+                "name": None,
+                "steps": [
+                    {"text": "Step before section"},
+                ],
+            },
+            {
+                "name": "Named Section",
+                "steps": [
+                    {"text": "Section step 1"},
+                    {"text": "Section step 2"},
+                ],
+            },
+            {
+                "name": None,
+                "steps": [
+                    {"text": "Step after section"},
+                ],
+            },
+        ],
+    ),
+    CleanerCase(
+        test_id="HowToStep only - no HowToSection",
+        input=[
+            {"@type": "HowToStep", "text": "Step 1"},
+            {"@type": "HowToStep", "text": "Step 2"},
+        ],
+        expected=None,
+    ),
+)
+
+
+@pytest.mark.parametrize(
+    "case", instruction_sections_test_cases, ids=(x.test_id for x in instruction_sections_test_cases)
+)
+def test_cleaner_instruction_sections(case: CleanerCase):
+    result = cleaner.clean_instruction_sections(case.input)
+    assert result == case.expected
+
+
 ingredients_test_cases = (
     CleanerCase(
         input="",

@@ -39,6 +39,66 @@
         "text": "I prefer to lay everything out on a table and let everyone help themselves."
       }
     ],
+    "recipeInstructionSections": [
+      {
+        "name": null,
+        "steps": [
+          {
+            "text": "Place the Marinade ingredients in a ziplock bag and massage to mix. Add the chicken into the ziplock bag and massage to cover all the chicken in the Marinade. Marinate for at least 2 hours, preferably 3 hours, ideally 12 hours and no longer than 24 hours."
+          }
+        ]
+      },
+      {
+        "name": "Make the Tzatziki",
+        "steps": [
+          {
+            "text": "Cut the cucumber in half lengthwise. Use a teaspoon to scrape the watery seeds out. Coarsely grate the cucumber using a box grater. Then wrap in paper towels or a tea towel and squeeze to remove excess liquid."
+          },
+          {
+            "text": "Place cucumber in a bowl. Add remaining ingredients then mix to combine. Set aside for at least 20 minutes for the flavours to meld."
+          }
+        ]
+      },
+      {
+        "name": "Salad",
+        "steps": [
+          {
+            "text": "Combine ingredients in a bowl."
+          }
+        ]
+      },
+      {
+        "name": "Cook Chicken",
+        "steps": [
+          {
+            "text": "Brush the outdoor grill with oil, then preheat on medium high. Or heat 1 tbsp of oil in a fry pan over medium high heat."
+          },
+          {
+            "text": "Remove chicken from Marinade. Cook the chicken for 2 to 3 minutes on each side, until golden brown and cooked through (cooking time depends on size of chicken)."
+          },
+          {
+            "text": "Remove the chicken from the grill / fry pan onto a plate. Cover loosely with foil and allow to rest for 5 minutes before serving."
+          }
+        ]
+      },
+      {
+        "name": "Assemble Gyros",
+        "steps": [
+          {
+            "text": "If your chicken thighs are large, you may need to cut them. Mine were small."
+          },
+          {
+            "text": "Get a pita bread or flatbread (preferably warmed) and place it on a piece of parchment (baking) paper (or you could use foil). Place some Salad down the middle of the bread, then top with chicken and Tzatziki."
+          },
+          {
+            "text": "Roll the wrap up, enclosing it with the parchment paper. Twist the end with the excess parchment paper to secure it and cut if desired."
+          },
+          {
+            "text": "I prefer to lay everything out on a table and let everyone help themselves."
+          }
+        ]
+      }
+    ],
     "recipeIngredient": [
       "2 lb / 1 kg chicken thigh fillets (, boneless skinless)",
       "3 large garlic cloves (, minced (~ 3 tsp))",
@@ -111,7 +171,7 @@
       "unit": "pound",
       "comment": "(, boneless skinless)",
       "other": "",
-      "confidence": 0.999818
+      "confidence": 0.999847
     },
     {
       "input": "3 large garlic cloves (, minced (~ 3 tsp))",

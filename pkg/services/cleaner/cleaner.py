@@ -35,6 +35,8 @@ def clean(recipe_data: dict, url=None) -> dict:
     Returns:
         dict: cleaned recipe dictionary
     """
+    raw_instructions = recipe_data.get("recipeInstructions", [])
+
     recipe_copy = {
         "name": clean_string(recipe_data.get("name", "")),
         "description": clean_string(recipe_data.get("description", "")),
@@ -47,7 +49,8 @@ def clean(recipe_data: dict, url=None) -> dict:
         "recipeCategory": clean_category_like(recipe_data.get("recipeCategory", None)),
         "recipeYield": clean_yield(recipe_data.get("recipeYield")),
         "recipeIngredient": clean_ingredients(recipe_data.get("recipeIngredient", [])),
-        "recipeInstructions": clean_instructions(recipe_data.get("recipeInstructions", [])),
+        "recipeInstructions": clean_instructions(raw_instructions),
+        "recipeInstructionSections": clean_instruction_sections(raw_instructions),
         "images": clean_image(recipe_data.get("image")),
         "orgUrl": url,
         "url": url,
@@ -127,6 +130,77 @@ def clean_image(image: str | list | dict | None = None, default: str = "no image
             return [image]
         case _:
             raise TypeError(f"Unexpected type for image: {type(image)}, {image}")
+
+
+def clean_instruction_sections(steps_object: list | dict | str | None) -> list[dict] | None:
+    """
+    Extract sectioned instructions from HowToSection structures, preserving
+    the section name and grouping.
+
+    Handles both pure HowToSection arrays and mixed arrays containing
+    HowToStep and HowToSection items. For mixed arrays, ungrouped steps
+    are collected into a section with name=None.
+
+    Returns:
+        list[dict] | None: List of sections with name and steps, or None if
+        the input doesn't contain any HowToSection structures.
+    """
+    if not steps_object:
+        return None
+
+    if not isinstance(steps_object, list):
+        return None
+
+    # Check if any HowToSection exists in the array
+    has_sections = any(
+        isinstance(item, dict) and (item.get("@type") == "HowToSection" or item.get("type") == "HowToSection")
+        for item in steps_object
+    )
+
+    if not has_sections:
+        return None
+
+    sections = []
+    current_ungrouped_steps: list[dict] = []
+
+    for item in steps_object:
+        if not isinstance(item, dict):
+            continue
+
+        item_type = item.get("@type") or item.get("type")
+
+        if item_type == "HowToSection":
+            # Flush any ungrouped steps as a section before processing this section
+            if current_ungrouped_steps:
+                sections.append({"name": None, "steps": current_ungrouped_steps})
+                current_ungrouped_steps = []
+
+            # Process the section
+            name = item.get("name")
+            items = item.get("itemListElement", [])
+            steps = []
+            for step in items:
+                text = step.get("text", "") if isinstance(step, dict) else ""
+                if text:
+                    cleaned = _sanitize_instruction_text(text)
+                    if cleaned:
+                        steps.append({"text": cleaned})
+            if steps:
+                sections.append({"name": name, "steps": steps})
+
+        elif item_type == "HowToStep":
+            # Collect ungrouped steps
+            text = item.get("text", "")
+            if text:
+                cleaned = _sanitize_instruction_text(text)
+                if cleaned:
+                    current_ungrouped_steps.append({"text": cleaned})
+
+    # Flush any remaining ungrouped steps
+    if current_ungrouped_steps:
+        sections.append({"name": None, "steps": current_ungrouped_steps})
+
+    return sections if sections else None
 
 
 def clean_instructions(steps_object: list | dict | str, default: list | None = None) -> list[dict]:
