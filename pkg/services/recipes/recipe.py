@@ -9,6 +9,15 @@ class Instructions(BaseModel):
     text: str
 
 
+class InstructionStep(BaseModel):
+    text: str
+
+
+class InstructionSection(BaseModel):
+    name: str | None = None
+    steps: list[InstructionStep]
+
+
 class Author(BaseModel):
     model_config = ConfigDict(arbitrary_types_allowed=True)
 
@@ -50,6 +59,10 @@ class Recipe(BaseModel):
     instructions: list[Instructions] = Field(
         default_factory=list,
         alias="recipeInstructions",
+    )
+    instruction_sections: list[InstructionSection] | None = Field(
+        default=None,
+        alias="recipeInstructionSections",
     )
     ingredients: list[str] = Field(
         default_factory=list,
