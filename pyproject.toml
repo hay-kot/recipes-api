@@ -18,7 +18,7 @@ dependencies = [
   "setuptools==83.0.0",
   # Pinned to match the scikit-learn version quantulum3's pickled classifier
   # was built with (quantulum3 0.10.0 -> scikit-learn 1.8.0).
-  "scikit-learn==1.8.0",
+  "scikit-learn==1.9.0",
 ]
 
 [dependency-groups]
