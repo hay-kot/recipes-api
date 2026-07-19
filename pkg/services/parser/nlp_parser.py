@@ -9,6 +9,50 @@ from pkg.schema.scrapers import ParsedIngredients, ParsedNutrition
 from pkg.schema.web import Context
 from pkg.services.parser.pre_processor import normalize_ingredient, pre_process_string
 
+_MASS_DIMENSIONALITY = Unit("gram").dimensionality
+
+# A count unit is only overridden by a weight when the parser is genuinely
+# unsure about it. Deliberate counts ("4 breasts", "1 can") score ~1.0; the
+# spurious defaults we want to replace score well below this.
+_COUNT_CONFIDENCE_CEILING = 0.9
+
+
+def _is_mass_unit(unit) -> bool:
+    return isinstance(unit, Unit) and unit.dimensionality == _MASS_DIMENSIONALITY
+
+
+def _is_count_amount(amount) -> bool:
+    """True when the amount's unit is a bare count (e.g. "slice", "can") rather
+    than a dimensioned measure such as a weight or volume."""
+    unit = getattr(amount, "unit", None)
+    if unit is None:
+        return False
+    return not isinstance(unit, Unit) or unit.dimensionless
+
+
+def select_amount(amounts):
+    """Pick the amount that best represents the ingredient quantity.
+
+    ingredient-parser v2 sometimes ranks a low-confidence count unit ahead of an
+    explicit weight (e.g. "10 ounces ... slices" -> "1 slice"). When the primary
+    amount is such an uncertain count and a more confident weight is present,
+    prefer the weight. Deliberate counts ("4 chicken breasts", "1 can") keep
+    their count because they score above the confidence ceiling.
+    """
+    if not amounts:
+        return None
+
+    primary = amounts[0]
+    if _is_count_amount(primary) and primary.confidence < _COUNT_CONFIDENCE_CEILING:
+        weight = next(
+            (a for a in amounts if _is_mass_unit(getattr(a, "unit", None)) and a.confidence > primary.confidence),
+            None,
+        )
+        if weight is not None:
+            return weight
+
+    return primary
+
 
 def dict_to_parsed_nutrition(nutrition: dict[str, str]) -> list[ParsedNutrition]:
     parsed_nutrition: list[ParsedNutrition] = []
@@ -49,9 +93,7 @@ def list_to_parsed_ingredients(ingredients: list[str], _: Context) -> list[Parse
         ingredient = normalize_ingredient(ingredient)
         parsed_ingredient = parse_ingredient(ingredient)
 
-        amount = None
-        if parsed_ingredient.amount:
-            amount = parsed_ingredient.amount[0]
+        amount = select_amount(parsed_ingredient.amount)
 
         if isinstance(amount, CompositeIngredientAmount):
             composite_amount: CompositeIngredientAmount = amount

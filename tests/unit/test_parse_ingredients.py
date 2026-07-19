@@ -74,3 +74,20 @@ def test_nlp_parser(testcase: IngredientCase):
         assert model.comment == test_ingredient.comments
         assert model.name == test_ingredient.food
         assert model.unit == test_ingredient.unit
+
+
+@mark.parametrize(
+    "input,qty,unit",
+    [
+        # v2 ranks a low-confidence "slice" count ahead of the explicit weight;
+        # prefer the weight instead.
+        ("10 ounces white American cheese slices (about 16)", 10.0, "ounce"),
+        # deliberate counts stay as counts even when a weight is also present
+        ("4 boneless skinless chicken breasts (5 to 7 ounces each)", 4.0, ""),
+        ("1 28-oz. can whole peeled tomatoes", 1.0, "can"),
+    ],
+)
+def test_prefers_weight_over_uncertain_count(input: str, qty: float, unit: str):
+    model = list_to_parsed_ingredients([input], Context())[0]
+    assert model.qty == pytest.approx(qty)
+    assert model.unit == unit

@@ -164,20 +164,20 @@
     {
       "input": "10 ounces white or yellow American cheese slices (about 16)",
       "name": "white American cheese, yellow American cheese",
-      "qty": 1.0,
-      "unit": "slice",
+      "qty": 10.0,
+      "unit": "ounce",
       "comment": "",
       "other": "",
-      "confidence": 0.829909
+      "confidence": 0.999966
     },
     {
       "input": "10 ounces mild or sharp provolone slices (about 16)",
       "name": "mild provolone, sharp provolone",
-      "qty": 1.0,
-      "unit": "slice",
+      "qty": 10.0,
+      "unit": "ounce",
       "comment": "",
       "other": "",
-      "confidence": 0.793627
+      "confidence": 0.999973
     },
     {
       "input": "Ketchup and/or hot sauce (for serving; optional)",
