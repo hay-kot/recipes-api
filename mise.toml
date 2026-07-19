@@ -1,0 +1,39 @@
+[tools]
+python = "3.14"
+uv = "0.11.29"
+
+[env]
+_.file = ".env"
+# Ignore the user's global uv config (e.g. a relative `exclude-newer`) so it
+# can't bake a machine-local resolution cutoff into the committed uv.lock and
+# break Renovate/CI. This repo has no project-level uv config to preserve.
+UV_NO_CONFIG = "1"
+
+[tasks.lint]
+description = "format and lint with autofix"
+run = [
+  "uv run ruff format .",
+  "uv run ruff check . --fix",
+]
+
+[tasks.test]
+description = "run the test suite (pass pytest args after the task name)"
+env = { SNAPSHOT = "false" }
+run = "uv run pytest tests -s"
+
+[tasks.run]
+description = "run the app locally"
+env = { RCP_DEV = "true" }
+run = "uv run main.py"
+
+[tasks.sync]
+description = "sync dependencies"
+run = "uv sync"
+
+[tasks.testgen]
+description = "generate test snapshots from recipe URLs"
+usage = 'arg "<urls>" var=#true help="recipe URLs to generate tests from"'
+run = [
+  "uv run scripts/testgen.py $usage_urls",
+  "SNAPSHOT=true uv run pytest tests -s",
+]

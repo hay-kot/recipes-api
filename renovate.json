@@ -2,7 +2,8 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "enabledManagers": [
     "pep621",
-    "dockerfile"
+    "dockerfile",
+    "mise"
   ],
   "extends": [
     "config:recommended"
@@ -25,6 +26,14 @@
         "pep621"
       ],
       "rangeStrategy": "pin"
+    },
+    {
+      "matchDepNames": [
+        "uv",
+        "astral-sh/uv",
+        "ghcr.io/astral-sh/uv"
+      ],
+      "groupName": "uv"
     }
   ]
 }
