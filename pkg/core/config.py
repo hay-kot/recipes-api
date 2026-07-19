@@ -18,7 +18,8 @@ class Settings(BaseSettings):
 
     auth_key: str = ""
     """
-    The authentication key for the API. If set, all requests must include the header
+    The authentication key for the API. If set, every request except the
+    `/api/system/ready` liveness probe must include the header
     `Authorization: <auth_key>`.
     """
 

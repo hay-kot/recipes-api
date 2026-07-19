@@ -9,7 +9,7 @@ def main():
     settings = core.settings()
 
     # patch log level
-    logging.getLogger().setLevel(logging.INFO)
+    logging.getLogger().setLevel(settings.log_level.upper())
 
     uvicorn.run(
         "pkg.api:app",

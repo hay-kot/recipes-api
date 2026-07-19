@@ -34,7 +34,8 @@ RUN chmod +x run.sh
 RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /app
 USER appuser
 
-ENV RECIPES_POST=8080
+ARG COMMIT=nightly
+ENV RECIPES_PORT=8080
 ENV RECIPES_HOST="0.0.0.0"
 ENV RECIPES_COMMIT=$COMMIT
 

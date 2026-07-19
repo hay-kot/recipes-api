@@ -1,5 +1,6 @@
+from typing import Annotated
+
 from fastapi import APIRouter, Depends, HTTPException
-from typing_extensions import Annotated
 
 from pkg.schema.scrapers import CleanedScrapeResponse, ScrapeError, ScrapeRequest, ScrapeResponse
 from pkg.schema.web import Context
