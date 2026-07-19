@@ -225,12 +225,12 @@
     },
     {
       "input": "30g / 2 tbsp ghee or unsalted butter (, melted (Note 4))",
-      "name": "ghee unsalted butter",
+      "name": "ghee, unsalted butter",
       "qty": 30.0,
       "unit": "gram",
       "comment": ", melted",
       "other": "",
-      "confidence": 0.999696
+      "confidence": 0.999486
     },
     {
       "input": "30g / 2 tbsp tbsp ghee or butter (, melted (Note 4))",
@@ -239,7 +239,7 @@
       "unit": "gram",
       "comment": ", melted",
       "other": "",
-      "confidence": 0.999854
+      "confidence": 0.999484
     },
     {
       "input": "1 small garlic clove (, for Garlic Butter option (Note 5))",

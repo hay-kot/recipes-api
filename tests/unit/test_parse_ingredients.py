@@ -26,6 +26,9 @@ from pkg.services.parser.nlp_parser import list_to_parsed_ingredients, normalize
         ("2-3 tablespoons soy sauce", "2 1/2 tablespoon soy sauce"),
         ("1-1/2 cups water", "1.5 cup water"),
         ("2-1/4 cups almond flour", "2.25 cup almond flour"),
+        # a stray trailing "/" from quantulum3 must not be consumed (regression:
+        # this used to be non-deterministic across hash seeds)
+        ("30g / 2 tbsp ghee or unsalted butter", "30.0 gram / 2 tablespoon ghee or unsalted butter"),
         ("1 to 2 teaspoons cayenne pepper", "1 1/2 teaspoon cayenne pepper"),
         ("1 ½ teaspoons ground black pepper", "1 1/2 teaspoon ground black pepper"),
         ("1 C parmesan cheese", "1.0 cup parmesan cheese"),

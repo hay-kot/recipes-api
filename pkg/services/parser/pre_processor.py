@@ -107,7 +107,11 @@ def normalize_ingredient(string: str) -> str:
     # Replace identified units and quantities with their normalized values
     for entity in parsed:
         if entity.unit is not None and entity.unit.name != "dimensionless":
-            if entity.surface:
+            # quantulum3 non-deterministically appends a trailing separator (e.g.
+            # "30 gram /" for "30g / 2 tbsp") to the surface depending on the hash
+            # seed. Strip it so normalization — and the downstream parse — is stable.
+            surface = entity.surface.rstrip(" /")
+            if surface:
                 unit: str = entity.unit.name
                 if unit.endswith("-mass"):
                     unit = unit.removesuffix("-mass")
@@ -122,7 +126,7 @@ def normalize_ingredient(string: str) -> str:
                 if unit == "teaspoon" or unit == "tablespoon" or rounded < 0:
                     quantityStr = fraction_str(rounded)
 
-                string = string.replace(entity.surface, f"{quantityStr} {unit}")
+                string = string.replace(surface, f"{quantityStr} {unit}")
 
     return string
 
