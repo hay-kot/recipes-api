@@ -23,7 +23,7 @@ run = "uv run pytest tests -s"
 
 [tasks.run]
 description = "run the app locally"
-env = { RCP_DEV = "true" }
+env = { RECIPES_DEV = "true" }
 run = "uv run main.py"
 
 [tasks.sync]
