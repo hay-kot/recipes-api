@@ -59,7 +59,7 @@
       "unit": "sticks",
       "comment": "",
       "other": "",
-      "confidence": 0.99615
+      "confidence": 0.995317
     },
     {
       "input": "1 1/4 cup brown sugar",
@@ -68,7 +68,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999929
+      "confidence": 0.999985
     },
     {
       "input": "2 large eggs",
@@ -77,7 +77,7 @@
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.999913
+      "confidence": 0.999147
     },
     {
       "input": "1 tablespoon vanilla extract",
@@ -86,7 +86,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99983
+      "confidence": 0.999937
     },
     {
       "input": "2 cups all-purpose flour",
@@ -95,7 +95,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999407
+      "confidence": 0.999899
     },
     {
       "input": "2 cups old fashioned oats",
@@ -104,7 +104,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.99986
+      "confidence": 0.999979
     },
     {
       "input": "1 teaspoon baking soda",
@@ -113,7 +113,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999953
+      "confidence": 0.999935
     },
     {
       "input": "1/2 teaspoon kosher salt",
@@ -122,16 +122,16 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99993
+      "confidence": 0.999979
     },
     {
       "input": "2 cups chocolate chunks or chips",
-      "name": "chocolate chunks or chips",
+      "name": "chocolate chunks, chocolate chips",
       "qty": 2.0,
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999962
+      "confidence": 0.999961
     },
     {
       "input": "flaky sea salt, for sprinkling ((optional))",

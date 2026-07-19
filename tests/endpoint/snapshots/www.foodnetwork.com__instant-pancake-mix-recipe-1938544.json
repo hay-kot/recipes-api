@@ -91,7 +91,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999407
+      "confidence": 0.999899
     },
     {
       "input": "1 1/2 teaspoons baking soda (check expiration date first)",
@@ -100,7 +100,7 @@
       "unit": "teaspoon",
       "comment": "(check expiration date first)",
       "other": "",
-      "confidence": 0.999873
+      "confidence": 0.999968
     },
     {
       "input": "3 teaspoons baking powder",
@@ -109,7 +109,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999953
+      "confidence": 0.999936
     },
     {
       "input": "1 tablespoon kosher salt",
@@ -118,7 +118,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999916
+      "confidence": 0.999981
     },
     {
       "input": "2 tablespoons sugar",
@@ -127,7 +127,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999753
+      "confidence": 0.999885
     },
     {
       "input": "2 eggs, separated",
@@ -136,7 +136,7 @@
       "unit": "",
       "comment": "separated",
       "other": "",
-      "confidence": 0.999511
+      "confidence": 0.999877
     },
     {
       "input": "2 cups buttermilk",
@@ -145,7 +145,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999797
+      "confidence": 0.999931
     },
     {
       "input": "4 tablespoons melted butter",
@@ -154,16 +154,16 @@
       "unit": "tablespoon",
       "comment": "melted",
       "other": "",
-      "confidence": 0.999638
+      "confidence": 0.999521
     },
     {
       "input": "2 cups \"Instant\" Pancake Mix, recipe above",
       "name": "\"Instant\" Pancake Mix",
       "qty": 2.0,
       "unit": "cup",
-      "comment": "recipe above",
+      "comment": "recipes above",
       "other": "",
-      "confidence": 0.999368
+      "confidence": 0.999981
     },
     {
       "input": "1 stick butter, for greasing the pan",
@@ -172,7 +172,7 @@
       "unit": "stick",
       "comment": "",
       "other": "",
-      "confidence": 0.99421
+      "confidence": 0.996491
     },
     {
       "input": "2 cups fresh fruit such as blueberries, if desired",
@@ -181,7 +181,7 @@
       "unit": "cup",
       "comment": "such as blueberries, if desired",
       "other": "",
-      "confidence": 0.999926
+      "confidence": 0.999978
     }
   ],
   "error": null,

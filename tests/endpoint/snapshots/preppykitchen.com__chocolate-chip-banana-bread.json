@@ -88,7 +88,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999418
+      "confidence": 0.999922
     },
     {
       "input": "1 teaspoon baking powder",
@@ -97,7 +97,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999953
+      "confidence": 0.999936
     },
     {
       "input": "\u00bd teaspoon baking soda",
@@ -106,7 +106,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999953
+      "confidence": 0.999935
     },
     {
       "input": "1 teaspoon salt",
@@ -115,7 +115,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999858
+      "confidence": 0.999849
     },
     {
       "input": "\u00be cup sugar ((150g))",
@@ -124,7 +124,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999777
+      "confidence": 0.999884
     },
     {
       "input": "\u00bd cup unsalted butter (room temperature (113g))",
@@ -133,7 +133,7 @@
       "unit": "cup",
       "comment": "room temperature",
       "other": "",
-      "confidence": 0.999947
+      "confidence": 0.999974
     },
     {
       "input": "2 large eggs",
@@ -142,7 +142,7 @@
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.999913
+      "confidence": 0.999147
     },
     {
       "input": "1 teaspoon vanilla ((5ml))",
@@ -151,7 +151,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999789
+      "confidence": 0.99985
     },
     {
       "input": "3 very ripe bananas (mashed (1 1/2 cups))",
@@ -160,7 +160,7 @@
       "unit": "",
       "comment": "mashed",
       "other": "",
-      "confidence": 0.999073
+      "confidence": 0.999926
     },
     {
       "input": "1 cup semi-sweet chocolate chips ((180g))",
@@ -169,7 +169,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999896
+      "confidence": 0.999779
     }
   ],
   "error": null,

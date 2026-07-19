@@ -82,120 +82,120 @@
   "ingredients": [
     {
       "input": "2 tsp smoked paprika ($0.20)",
-      "name": "smoked paprika -0.2 dollar",
+      "name": "smoked paprika -#1$5 dollar",
       "qty": 2.0,
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999918
+      "confidence": 0.999934
     },
     {
       "input": "1 tsp oregano ($0.10)",
-      "name": "oregano -0.1 dollar",
+      "name": "oregano -#1$10 dollar",
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999772
+      "confidence": 0.99993
     },
     {
       "input": "1 tsp thyme ($0.10)",
-      "name": "thyme -0.1 dollar",
+      "name": "thyme -#1$10 dollar",
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999673
+      "confidence": 0.999824
     },
     {
       "input": "1/2 tsp garlic powder ($0.05)",
-      "name": "garlic powder -0.05 dollar",
+      "name": "garlic powder -#1$20 dollar",
       "qty": 0.5,
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999981
+      "confidence": 0.999974
     },
     {
       "input": "1/2 tsp onion powder ($0.05)",
-      "name": "onion powder -0.05 dollar",
+      "name": "onion powder -#1$20 dollar",
       "qty": 0.5,
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999757
+      "confidence": 0.999811
     },
     {
       "input": "1/4 tsp cayenne pepper ($0.03)",
-      "name": "cayenne pepper -0.03 dollar",
+      "name": "cayenne pepper -#3$100 dollar",
       "qty": 0.25,
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999913
+      "confidence": 0.99994
     },
     {
       "input": "1/4 tsp black pepper ($0.02)",
-      "name": "black pepper -0.02 dollar",
+      "name": "black pepper -#1$50 dollar",
       "qty": 0.25,
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999921
+      "confidence": 0.99997
     },
     {
       "input": "1/4 tsp salt ($0.02)",
-      "name": "salt -0.02 dollar",
+      "name": "salt -#1$50 dollar",
       "qty": 0.25,
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999862
+      "confidence": 0.999888
     },
     {
       "input": "1 Tbsp olive oil ($0.16)",
-      "name": "olive oil -0.16 dollar",
+      "name": "olive oil -#4$25 dollar",
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999858
+      "confidence": 0.999962
     },
     {
       "input": "1 Tbsp butter ($0.13)",
-      "name": "butter -0.13 dollar",
+      "name": "butter -#13$100 dollar",
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99988
+      "confidence": 0.999942
     },
     {
       "input": "1 lb. boneless, skinless chicken breast ($5.47)",
-      "name": "boneless, skinless chicken breast -5-0.47 dollar",
+      "name": "boneless, skinless chicken breast -5-#47$100 dollar",
       "qty": 1.0,
       "unit": "pound",
       "comment": "",
       "other": "",
-      "confidence": 0.999791
+      "confidence": 0.999978
     },
     {
       "input": "1 yellow onion, diced ($0.32)",
       "name": "yellow onion",
       "qty": 1.0,
       "unit": "",
-      "comment": "diced -0.32 dollar",
+      "comment": "diced -#8$25 dollar",
       "other": "",
-      "confidence": 0.999435
+      "confidence": 0.999879
     },
     {
       "input": "1/2 lb. penne pasta (uncooked) ($0.75)",
-      "name": "penne pasta -0.75 dollar",
+      "name": "penne pasta, -#3$4 dollar",
       "qty": 0.5,
       "unit": "pound",
       "comment": "(uncooked)",
       "other": "",
-      "confidence": 0.999764
+      "confidence": 0.999946
     },
     {
       "input": "15 oz. fire roasted diced tomatoes ($1.00)",
@@ -204,34 +204,34 @@
       "unit": "ounce",
       "comment": "",
       "other": "",
-      "confidence": 0.999517
+      "confidence": 0.999801
     },
     {
       "input": "2 cups chicken broth ($0.26)",
-      "name": "chicken broth -0.26 dollar",
+      "name": "chicken broth -#13$50 dollar",
       "qty": 2.0,
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999816
+      "confidence": 0.99996
     },
     {
       "input": "2 oz. cream cheese ($0.50)",
-      "name": "cream cheese -0.5 dollar",
+      "name": "cream cheese -#1$2 dollar",
       "qty": 2.0,
       "unit": "ounce",
       "comment": "",
       "other": "",
-      "confidence": 0.999851
+      "confidence": 0.999731
     },
     {
       "input": "3 green onions, sliced ($0.25)",
       "name": "green onions",
       "qty": 3.0,
       "unit": "",
-      "comment": "sliced -0.25 dollar",
+      "comment": "sliced -#1$4 dollar",
       "other": "",
-      "confidence": 0.999302
+      "confidence": 0.999923
     }
   ],
   "error": null,

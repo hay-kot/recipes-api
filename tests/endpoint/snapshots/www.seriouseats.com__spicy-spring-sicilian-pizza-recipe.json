@@ -96,10 +96,10 @@
   "ingredients": [
     {
       "input": "For the Dough (see note):",
-      "name": "Dough",
+      "name": "For the Dough",
       "qty": 1.0,
       "unit": "",
-      "comment": "For the, (see note)",
+      "comment": "(see note)",
       "other": "",
       "confidence": 0.0
     },
@@ -110,7 +110,7 @@
       "unit": "gram",
       "comment": "",
       "other": "",
-      "confidence": 0.983297
+      "confidence": 0.996433
     },
     {
       "input": "14g kosher salt (0.5 ounce; about 1 tablespoon); for table salt use same weight or half as much by volume",
@@ -119,41 +119,41 @@
       "unit": "gram",
       "comment": "for table salt use same weight or half as much by volume",
       "other": "",
-      "confidence": 0.998013
+      "confidence": 0.999625
     },
     {
       "input": "6g instant or rapid-rise yeast (0.25 ounce; about 1 1/2 teaspoons)",
-      "name": "instant or rapid-rise yeast",
+      "name": "instant yeast, rapid-rise yeast",
       "qty": 6.0,
       "unit": "gram",
       "comment": "",
       "other": "",
-      "confidence": 0.994574
+      "confidence": 0.995928
     },
     {
       "input": "20g extra-virgin olive oil (0.70 ounce; 2 tablespoons), plus 40g (1.4 ounces; 1/4 cup) for the baking pan",
       "name": "extra-virgin olive oil",
       "qty": 20.0,
       "unit": "gram",
-      "comment": "plus 40.0 gram (1.4 ounce; 0.25 cup) for the baking pan",
+      "comment": "0.7 ounces, plus 40.0 grams (1.4 ounces; 0.25 cups) for the baking pan",
       "other": "",
-      "confidence": 0.998672
+      "confidence": 0.997596
     },
     {
       "input": "325g room-temperature water (11.5 ounces; about 1 cup plus 7 tablespoons)",
       "name": "room-temperature water",
       "qty": 325.0,
       "unit": "gram",
-      "comment": "about 1.0 cup plus",
+      "comment": "",
       "other": "",
-      "confidence": 0.995093
+      "confidence": 0.994216
     },
     {
       "input": "For the Sauce:",
-      "name": "",
+      "name": "For the Sauce",
       "qty": 1.0,
       "unit": "",
-      "comment": "For the Sauce",
+      "comment": "",
       "other": "",
       "confidence": 0.0
     },
@@ -164,7 +164,7 @@
       "unit": "gram",
       "comment": "",
       "other": "",
-      "confidence": 0.998672
+      "confidence": 0.998724
     },
     {
       "input": "9 medium cloves garlic (45g), roughly chopped",
@@ -173,7 +173,7 @@
       "unit": "medium cloves",
       "comment": "roughly chopped",
       "other": "",
-      "confidence": 0.990418
+      "confidence": 0.995788
     },
     {
       "input": "1 tablespoon dried oregano",
@@ -182,7 +182,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999743
+      "confidence": 0.999941
     },
     {
       "input": "2 teaspoons red pepper flakes, or more to taste",
@@ -191,7 +191,7 @@
       "unit": "teaspoon",
       "comment": "or more to taste",
       "other": "",
-      "confidence": 0.999907
+      "confidence": 0.999877
     },
     {
       "input": "One 28-ounce (800g) can whole peeled tomatoes",
@@ -200,7 +200,7 @@
       "unit": "can",
       "comment": "",
       "other": "",
-      "confidence": 0.99915
+      "confidence": 0.99828
     },
     {
       "input": "1 teaspoon sugar",
@@ -209,7 +209,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999801
+      "confidence": 0.999834
     },
     {
       "input": "Kosher salt",
@@ -236,7 +236,7 @@
       "unit": "pound",
       "comment": "sliced",
       "other": "",
-      "confidence": 0.999741
+      "confidence": 0.999917
     },
     {
       "input": "12 ounces (325g) natural-casing pepperoni, cut into 1/8-inch-thick slices",
@@ -245,7 +245,7 @@
       "unit": "ounce",
       "comment": "cut into 0.125 inch-thick slices",
       "other": "",
-      "confidence": 0.999773
+      "confidence": 0.999759
     },
     {
       "input": "4 ounces (115g) ground Pecorino Romano cheese",
@@ -254,7 +254,7 @@
       "unit": "ounce",
       "comment": "",
       "other": "",
-      "confidence": 0.999773
+      "confidence": 0.999695
     }
   ],
   "error": null,

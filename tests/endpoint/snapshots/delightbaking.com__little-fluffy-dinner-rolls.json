@@ -49,7 +49,7 @@
       "unit": "gram",
       "comment": "",
       "other": "",
-      "confidence": 0.991049
+      "confidence": 0.996982
     },
     {
       "input": "15 g Salt",
@@ -58,7 +58,7 @@
       "unit": "gram",
       "comment": "",
       "other": "",
-      "confidence": 0.998088
+      "confidence": 0.999106
     },
     {
       "input": "35 g White sugar",
@@ -67,7 +67,7 @@
       "unit": "gram",
       "comment": "",
       "other": "",
-      "confidence": 0.998164
+      "confidence": 0.998699
     },
     {
       "input": "30 g Yeast",
@@ -76,16 +76,16 @@
       "unit": "gram",
       "comment": "",
       "other": "",
-      "confidence": 0.998788
+      "confidence": 0.997046
     },
     {
       "input": "350 g Milk 3.5% fat",
-      "name": "Milk 3.5 percentage fat",
+      "name": "Milk, percentage fat",
       "qty": 350.0,
       "unit": "gram",
       "comment": "",
       "other": "",
-      "confidence": 0.998978
+      "confidence": 0.992437
     },
     {
       "input": "75 g Butter",
@@ -94,7 +94,7 @@
       "unit": "gram",
       "comment": "",
       "other": "",
-      "confidence": 0.996971
+      "confidence": 0.998433
     },
     {
       "input": "2x Eggs (medium)",
@@ -103,7 +103,7 @@
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.999539
+      "confidence": 0.999573
     }
   ],
   "error": null,

@@ -62,7 +62,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.99983
+      "confidence": 0.999895
     },
     {
       "input": "3 tablespoons (20g) cocoa powder (I use Dutch process)",
@@ -71,7 +71,7 @@
       "unit": "tablespoon",
       "comment": "(I use Dutch process)",
       "other": "",
-      "confidence": 0.999685
+      "confidence": 0.999909
     },
     {
       "input": "6 tablespoons (75g) granulated sugar",
@@ -80,7 +80,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999685
+      "confidence": 0.999898
     },
     {
       "input": "2\u00bc teaspoons (7g) instant yeast",
@@ -89,7 +89,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999666
+      "confidence": 0.999845
     },
     {
       "input": "1\u00bd teaspoons salt",
@@ -98,7 +98,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999858
+      "confidence": 0.999849
     },
     {
       "input": "1 cup (240 ml) water, lukewarm",
@@ -107,7 +107,7 @@
       "unit": "cup",
       "comment": "lukewarm",
       "other": "",
-      "confidence": 0.99983
+      "confidence": 0.999906
     },
     {
       "input": "\u00bc cup (60 ml) whole milk, lukewarm",
@@ -116,25 +116,25 @@
       "unit": "cup",
       "comment": "lukewarm",
       "other": "",
-      "confidence": 0.99983
+      "confidence": 0.999906
     },
     {
       "input": "1/2 stick ((55g) unsalted butter, cubed and softened to room temperature)",
-      "name": "",
+      "name": "unsalted butter",
       "qty": 0.5,
       "unit": "sticks",
       "comment": "cubed and softened to room temperature",
       "other": "",
-      "confidence": 0.983854
+      "confidence": 0.996387
     },
     {
       "input": "2/3 cup (100-120g) chocolate chips or chunks",
-      "name": "chocolate chips or chunks",
+      "name": "chocolate chips, chocolate chunks",
       "qty": 0.667,
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.99983
+      "confidence": 0.999895
     }
   ],
   "error": null,

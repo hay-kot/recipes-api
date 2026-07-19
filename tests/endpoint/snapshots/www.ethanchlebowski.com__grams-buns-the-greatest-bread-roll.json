@@ -54,7 +54,7 @@
       "unit": "milliliter",
       "comment": "",
       "other": "",
-      "confidence": 0.996693
+      "confidence": 0.999817
     },
     {
       "input": "6 g instant yeast",
@@ -63,7 +63,7 @@
       "unit": "gram",
       "comment": "",
       "other": "",
-      "confidence": 0.995894
+      "confidence": 0.997785
     },
     {
       "input": "300 g flour",
@@ -72,7 +72,7 @@
       "unit": "gram",
       "comment": "",
       "other": "",
-      "confidence": 0.99099
+      "confidence": 0.999471
     },
     {
       "input": "6 g coarse kosher salt",
@@ -81,7 +81,7 @@
       "unit": "gram",
       "comment": "",
       "other": "",
-      "confidence": 0.99791
+      "confidence": 0.999375
     },
     {
       "input": "50 g sugar",
@@ -90,7 +90,7 @@
       "unit": "gram",
       "comment": "",
       "other": "",
-      "confidence": 0.993589
+      "confidence": 0.993091
     },
     {
       "input": "56 g softened butter",
@@ -99,7 +99,7 @@
       "unit": "gram",
       "comment": "softened",
       "other": "",
-      "confidence": 0.998999
+      "confidence": 0.999279
     },
     {
       "input": "1 whole egg, beaten",
@@ -108,7 +108,7 @@
       "unit": "",
       "comment": "beaten",
       "other": "",
-      "confidence": 0.999553
+      "confidence": 0.999852
     }
   ],
   "error": null,

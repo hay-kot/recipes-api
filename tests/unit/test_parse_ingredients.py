@@ -24,6 +24,11 @@ from pkg.services.parser.nlp_parser import list_to_parsed_ingredients, normalize
         ("1/2 cup chopped onions", "0.5 cup chopped onions"),
         ("3 1/2 cups diced tomatoes", "3.5 cup diced tomatoes"),
         ("2-3 tablespoons soy sauce", "2 1/2 tablespoon soy sauce"),
+        ("1-1/2 cups water", "1.5 cup water"),
+        ("2-1/4 cups almond flour", "2.25 cup almond flour"),
+        # a stray trailing "/" from quantulum3 must not be consumed (regression:
+        # this used to be non-deterministic across hash seeds)
+        ("30g / 2 tbsp ghee or unsalted butter", "30.0 gram / 2 tablespoon ghee or unsalted butter"),
         ("1 to 2 teaspoons cayenne pepper", "1 1/2 teaspoon cayenne pepper"),
         ("1 ½ teaspoons ground black pepper", "1 1/2 teaspoon ground black pepper"),
         ("1 C parmesan cheese", "1.0 cup parmesan cheese"),
@@ -53,7 +58,7 @@ class IngredientCase:
         IngredientCase("0.5 teaspoons salt", 0.5, "teaspoon", "salt", ""),
         IngredientCase("2 1/4 cups almond flour", 2.25, "cup", "almond flour", ""),
         IngredientCase("½ cup all-purpose flour", 0.5, "cup", "all-purpose flour", ""),
-        IngredientCase("1 ½ teaspoons ground black pepper", 1.5, "teaspoon", "ground black pepper", ""),
+        IngredientCase("1 ½ teaspoons ground black pepper", 1.5, "teaspoon", "black pepper", "ground"),
         IngredientCase("⅔ cup unsweetened flaked coconut", 0.667, "cup", "unsweetened flaked coconut", ""),
         IngredientCase("⅓ cup panko bread crumbs", 0.333, "cup", "panko bread crumbs", ""),
         IngredientCase("1/8 cup all-purpose flour", 0.125, "cup", "all-purpose flour", ""),
@@ -72,3 +77,20 @@ def test_nlp_parser(testcase: IngredientCase):
         assert model.comment == test_ingredient.comments
         assert model.name == test_ingredient.food
         assert model.unit == test_ingredient.unit
+
+
+@mark.parametrize(
+    "input,qty,unit",
+    [
+        # v2 ranks a low-confidence "slice" count ahead of the explicit weight;
+        # prefer the weight instead.
+        ("10 ounces white American cheese slices (about 16)", 10.0, "ounce"),
+        # deliberate counts stay as counts even when a weight is also present
+        ("4 boneless skinless chicken breasts (5 to 7 ounces each)", 4.0, ""),
+        ("1 28-oz. can whole peeled tomatoes", 1.0, "can"),
+    ],
+)
+def test_prefers_weight_over_uncertain_count(input: str, qty: float, unit: str):
+    model = list_to_parsed_ingredients([input], Context())[0]
+    assert model.qty == pytest.approx(qty)
+    assert model.unit == unit

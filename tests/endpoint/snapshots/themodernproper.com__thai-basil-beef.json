@@ -84,21 +84,21 @@
   "ingredients": [
     {
       "input": "2 tbsp olive oil or vegetable oil",
-      "name": "olive oil or vegetable oil",
+      "name": "olive oil, vegetable oil",
       "qty": 2.0,
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999901
+      "confidence": 0.999969
     },
     {
       "input": "1 lb ground beef 90/10",
-      "name": "ground beef 9",
+      "name": "ground beef",
       "qty": 1.0,
       "unit": "pound",
       "comment": "",
       "other": "",
-      "confidence": 0.999512
+      "confidence": 0.999957
     },
     {
       "input": "1 bell pepper, thinly sliced",
@@ -107,7 +107,7 @@
       "unit": "",
       "comment": "thinly sliced",
       "other": "",
-      "confidence": 0.998187
+      "confidence": 0.999138
     },
     {
       "input": "1 sweet onion, thinly sliced",
@@ -116,7 +116,7 @@
       "unit": "",
       "comment": "thinly sliced",
       "other": "",
-      "confidence": 0.999301
+      "confidence": 0.999883
     },
     {
       "input": "6 garlic cloves, minced",
@@ -125,7 +125,7 @@
       "unit": "cloves",
       "comment": "minced",
       "other": "",
-      "confidence": 0.991918
+      "confidence": 0.995232
     },
     {
       "input": "1 cup loosely packed fresh basil leaves, divided",
@@ -134,7 +134,7 @@
       "unit": "cup",
       "comment": "divided",
       "other": "",
-      "confidence": 0.999477
+      "confidence": 0.999705
     },
     {
       "input": "fresh cilantro (optional)",
@@ -152,7 +152,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999822
+      "confidence": 0.999944
     },
     {
       "input": "2 tbsp soy sauce (or tamari for gluten free alternative)",
@@ -161,7 +161,7 @@
       "unit": "tablespoon",
       "comment": "(or tamari for gluten free alternative)",
       "other": "",
-      "confidence": 0.999785
+      "confidence": 0.999926
     },
     {
       "input": "1 tbsp fish sauce",
@@ -170,7 +170,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999676
+      "confidence": 0.999921
     },
     {
       "input": "1 tbsp brown sugar",
@@ -179,7 +179,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999861
+      "confidence": 0.999978
     },
     {
       "input": "2 tbsp fresh lime juice",
@@ -188,7 +188,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999968
+      "confidence": 0.999981
     }
   ],
   "error": null,

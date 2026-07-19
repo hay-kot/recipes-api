@@ -80,7 +80,7 @@
       "unit": "ounce",
       "comment": "",
       "other": "",
-      "confidence": 0.999108
+      "confidence": 0.99986
     },
     {
       "input": "2 tablespoon Balsamic Vinegar",
@@ -89,7 +89,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999879
+      "confidence": 0.999978
     },
     {
       "input": "1 ounce Soy Sauce",
@@ -98,7 +98,7 @@
       "unit": "ounce",
       "comment": "",
       "other": "",
-      "confidence": 0.999829
+      "confidence": 0.99986
     },
     {
       "input": "16 ounce Yukon Gold Potatoes",
@@ -107,7 +107,7 @@
       "unit": "ounce",
       "comment": "",
       "other": "",
-      "confidence": 0.999853
+      "confidence": 0.999936
     },
     {
       "input": "\u00bc ounce Rosemary",
@@ -116,25 +116,25 @@
       "unit": "ounce",
       "comment": "",
       "other": "",
-      "confidence": 0.999827
+      "confidence": 0.999846
     },
     {
       "input": "1 unit Yellow Onion",
-      "name": "unit Yellow Onion",
+      "name": "Yellow Onion",
       "qty": 1.0,
-      "unit": "",
+      "unit": "unit",
       "comment": "",
       "other": "",
-      "confidence": 0.996239
+      "confidence": 0.999523
     },
     {
       "input": "4 ounce Shredded Red Cabbage",
-      "name": "Red Cabbage",
+      "name": "Shredded Red Cabbage",
       "qty": 4.0,
       "unit": "ounce",
-      "comment": "Shredded",
+      "comment": "",
       "other": "",
-      "confidence": 0.999906
+      "confidence": 0.999878
     },
     {
       "input": "1 teaspoon Mustard Seeds",
@@ -143,7 +143,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999842
+      "confidence": 0.999973
     },
     {
       "input": "2 tablespoon White Wine Vinegar",
@@ -152,7 +152,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999964
+      "confidence": 0.999982
     },
     {
       "input": "1 ounce Cranberry Jam",
@@ -161,25 +161,25 @@
       "unit": "ounce",
       "comment": "",
       "other": "",
-      "confidence": 0.999853
+      "confidence": 0.999949
     },
     {
       "input": "unit Salt",
-      "name": "unit Salt",
+      "name": "Salt",
       "qty": 1.0,
-      "unit": "",
+      "unit": "unit",
       "comment": "",
       "other": "",
-      "confidence": 0.0
+      "confidence": 0.990476
     },
     {
       "input": "unit Pepper",
-      "name": "unit Pepper",
+      "name": "Pepper",
       "qty": 1.0,
-      "unit": "",
+      "unit": "unit",
       "comment": "",
       "other": "",
-      "confidence": 0.0
+      "confidence": 0.982829
     },
     {
       "input": "2 teaspoon Olive Oil",
@@ -188,7 +188,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999906
+      "confidence": 0.999977
     },
     {
       "input": "1 tablespoon Vegetable Oil",
@@ -197,7 +197,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999798
+      "confidence": 0.999976
     },
     {
       "input": "1 teaspoon Sugar",
@@ -206,7 +206,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999861
+      "confidence": 0.999858
     }
   ],
   "error": null,

@@ -167,16 +167,16 @@
       "unit": "teaspoon",
       "comment": "((Note 1))",
       "other": "",
-      "confidence": 0.999722
+      "confidence": 0.999855
     },
     {
       "input": "1/2 cup warm tap water ((~40\u00b0C/105\u00b0F in temperature))",
-      "name": "warm tap water",
+      "name": "warm tap water ~",
       "qty": 0.5,
       "unit": "cup",
-      "comment": "((~40.0 degree Celsius/105.0 degree fahrenheit in temperature))",
+      "comment": "40.0 degree Celsius/105.0 degree fahrenheit in temperature",
       "other": "",
-      "confidence": 0.999935
+      "confidence": 0.999944
     },
     {
       "input": "1 tbsp white sugar",
@@ -185,61 +185,61 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999944
+      "confidence": 0.999981
     },
     {
       "input": "2 tbsp milk (, full fat (low fat ok too))",
       "name": "milk",
       "qty": 2.0,
       "unit": "tablespoon",
-      "comment": ", full fat",
+      "comment": "(, full fat (low fat ok too))",
       "other": "",
-      "confidence": 0.999794
+      "confidence": 0.999763
     },
     {
       "input": "1 1/2 tbsp whisked egg (, at room temp (around 1/2 an egg, Note 2))",
-      "name": "egg",
+      "name": "whisked egg",
       "qty": 1.5,
       "unit": "tablespoon",
-      "comment": "whisked,, at room temp",
+      "comment": ", at room temp",
       "other": "",
-      "confidence": 0.999609
+      "confidence": 0.99981
     },
     {
       "input": "1/2 tsp salt (, cooking / kosher)",
       "name": "salt",
       "qty": 0.5,
       "unit": "teaspoon",
-      "comment": ", cooking /",
+      "comment": ", cooking",
       "other": "",
-      "confidence": 0.99984
+      "confidence": 0.999822
     },
     {
       "input": "1 3/4 cups bread flour (, or all-purpose/plain (Note 3))",
-      "name": "bread flour/plain",
+      "name": "bread flour",
       "qty": 1.75,
       "unit": "cup",
-      "comment": ", or all-purpose, (Note 3)",
+      "comment": "(, or all-purpose/plain (Note 3))",
       "other": "",
-      "confidence": 0.999415
+      "confidence": 0.999932
     },
     {
       "input": "30g / 2 tbsp ghee or unsalted butter (, melted (Note 4))",
-      "name": "ghee or unsalted butter",
+      "name": "ghee, unsalted butter",
       "qty": 30.0,
       "unit": "gram",
       "comment": ", melted",
       "other": "",
-      "confidence": 0.999423
+      "confidence": 0.999486
     },
     {
       "input": "30g / 2 tbsp tbsp ghee or butter (, melted (Note 4))",
-      "name": "ghee or butter",
+      "name": "ghee, butter",
       "qty": 30.0,
       "unit": "gram",
       "comment": ", melted",
       "other": "",
-      "confidence": 0.999423
+      "confidence": 0.999484
     },
     {
       "input": "1 small garlic clove (, for Garlic Butter option (Note 5))",
@@ -248,7 +248,7 @@
       "unit": "small clove",
       "comment": "(, for Garlic Butter option (Note 5))",
       "other": "",
-      "confidence": 0.969752
+      "confidence": 0.986012
     },
     {
       "input": "Nigella seeds",
@@ -261,7 +261,7 @@
     },
     {
       "input": "Coriander/cilantro (, finely chopped)",
-      "name": "Coriander/cilantro",
+      "name": "Coriander, cilantro",
       "qty": 1.0,
       "unit": "",
       "comment": "(, finely chopped)",
@@ -271,11 +271,11 @@
     {
       "input": "Shredded cheese ((for cheese naan) \u2013 Monterey Jack, cheddar, tasty, colby, anything that melts (shred yourself) (Note 6))",
       "name": "cheese",
-      "qty": 1.0,
+      "qty": 6.0,
       "unit": "",
       "comment": "Shredded",
       "other": "",
-      "confidence": 0.0
+      "confidence": 0.72281
     }
   ],
   "error": null,

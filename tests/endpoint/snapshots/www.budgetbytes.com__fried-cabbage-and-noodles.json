@@ -66,55 +66,55 @@
   "ingredients": [
     {
       "input": "2 Tbsp cooking oil ($0.08)",
-      "name": "cooking oil -0.08 dollar",
+      "name": "cooking oil -#2$25 dollar",
       "qty": 2.0,
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999034
+      "confidence": 0.999749
     },
     {
       "input": "1 yellow onion ($0.32)",
-      "name": "yellow onion -0.32 dollar",
+      "name": "yellow onion -#8$25 dollar",
       "qty": 1.0,
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.999216
+      "confidence": 0.999213
     },
     {
       "input": "8 oz. wide egg noodles ($0.90)",
-      "name": "wide egg noodles -0.9 dollar",
+      "name": "wide egg noodles -#9$10 dollar",
       "qty": 8.0,
       "unit": "ounce",
       "comment": "",
       "other": "",
-      "confidence": 0.999882
+      "confidence": 0.999061
     },
     {
       "input": "1/2 head cabbage (4-5 cups sliced) ($1.28)",
-      "name": "cabbage -1-0.28 dollar",
+      "name": "cabbage, -1-#7$25 dollar",
       "qty": 0.5,
       "unit": "heads",
       "comment": "sliced",
       "other": "",
-      "confidence": 0.990565
+      "confidence": 0.999497
     },
     {
       "input": "2 Tbsp butter ($0.20)",
-      "name": "butter -0.2 dollar",
+      "name": "butter -#1$5 dollar",
       "qty": 2.0,
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99988
+      "confidence": 0.999942
     },
     {
       "input": "salt and pepper to taste ($0.05)",
-      "name": "salt and pepper",
+      "name": "salt, pepper",
       "qty": 1.0,
       "unit": "",
-      "comment": "to taste -0.05 dollar",
+      "comment": "to taste -#1$20 dollar",
       "other": "",
       "confidence": 0.0
     }

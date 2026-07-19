@@ -90,7 +90,7 @@
   "ingredients": [
     {
       "input": "For the Nuggets:",
-      "name": "",
+      "name": "For the",
       "qty": 1.0,
       "unit": "",
       "comment": "",
@@ -104,7 +104,7 @@
       "unit": "pound",
       "comment": "cut into 1.0 inch pieces",
       "other": "",
-      "confidence": 0.999741
+      "confidence": 0.999922
     },
     {
       "input": "1 teaspoon (5g) Diamond Crystal kosher salt; for table salt, use about half as much by volume or the same weight",
@@ -113,7 +113,7 @@
       "unit": "teaspoon",
       "comment": "for table salt, use about half as much by volume or the same weight",
       "other": "",
-      "confidence": 0.999666
+      "confidence": 0.999768
     },
     {
       "input": "1 teaspoon (3g) chicken-flavored broth powder, such as Orrington Farms",
@@ -122,7 +122,7 @@
       "unit": "teaspoon",
       "comment": "such as Orrington Farms",
       "other": "",
-      "confidence": 0.999666
+      "confidence": 0.999875
     },
     {
       "input": "1/2 teaspoon finely ground white pepper",
@@ -131,7 +131,7 @@
       "unit": "teaspoon",
       "comment": "finely ground",
       "other": "",
-      "confidence": 0.999703
+      "confidence": 0.999902
     },
     {
       "input": "1/2 teaspoon garlic powder",
@@ -140,7 +140,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99998
+      "confidence": 0.999973
     },
     {
       "input": "1/2 teaspoon onion powder",
@@ -149,7 +149,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999755
+      "confidence": 0.999883
     },
     {
       "input": "Neutral oil such as canola or nonstick cooking spray, for greasing",
@@ -162,21 +162,21 @@
     },
     {
       "input": "For the Sauce:",
-      "name": "",
+      "name": "For the Sauce",
       "qty": 1.0,
       "unit": "",
-      "comment": "For the Sauce",
+      "comment": "",
       "other": "",
       "confidence": 0.0
     },
     {
       "input": "1/2 cup (160g) apricot jam or preserves",
-      "name": "apricot jam or preserves",
+      "name": "apricot jam, apricot preserves",
       "qty": 0.5,
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.99983
+      "confidence": 0.999894
     },
     {
       "input": "2 tablespoons (40g) corn syrup",
@@ -185,7 +185,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999685
+      "confidence": 0.999897
     },
     {
       "input": "2 tablespoons (30ml) water",
@@ -194,7 +194,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999685
+      "confidence": 0.999918
     },
     {
       "input": "5 teaspoons (25ml) distilled white vinegar",
@@ -203,7 +203,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999666
+      "confidence": 0.999861
     },
     {
       "input": "1 1/2 teaspoons (4g) cornstarch",
@@ -212,7 +212,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999666
+      "confidence": 0.999851
     },
     {
       "input": "1 teaspoon (3g) chicken-flavored broth powder, such as Orrington Farms",
@@ -221,7 +221,7 @@
       "unit": "teaspoon",
       "comment": "such as Orrington Farms",
       "other": "",
-      "confidence": 0.999666
+      "confidence": 0.999875
     },
     {
       "input": "1/2 teaspoon (3ml) soy sauce",
@@ -230,7 +230,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999666
+      "confidence": 0.999861
     },
     {
       "input": "1/2 teaspoon (3g) yellow mustard",
@@ -239,7 +239,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999666
+      "confidence": 0.999844
     },
     {
       "input": "1/8 teaspoon cayenne pepper",
@@ -248,7 +248,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999912
+      "confidence": 0.999938
     },
     {
       "input": "1/8 teaspoon garlic powder",
@@ -257,7 +257,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99998
+      "confidence": 0.999973
     },
     {
       "input": "1/8 teaspoon finely ground white pepper",
@@ -266,7 +266,7 @@
       "unit": "teaspoon",
       "comment": "finely ground",
       "other": "",
-      "confidence": 0.999703
+      "confidence": 0.999902
     },
     {
       "input": "To Coat and Fry:",
@@ -284,7 +284,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.99983
+      "confidence": 0.999904
     },
     {
       "input": "2 tablespoons (16g) cornstarch",
@@ -293,7 +293,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999685
+      "confidence": 0.999908
     },
     {
       "input": "1 teaspoon (3g) chicken-flavored broth powder, such as Orrington Farms",
@@ -302,7 +302,7 @@
       "unit": "teaspoon",
       "comment": "such as Orrington Farms",
       "other": "",
-      "confidence": 0.999666
+      "confidence": 0.999875
     },
     {
       "input": "1/2 teaspoon (1.5g) baking powder",
@@ -311,7 +311,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999666
+      "confidence": 0.999845
     },
     {
       "input": "1/2 teaspoon finely ground white pepper",
@@ -320,7 +320,7 @@
       "unit": "teaspoon",
       "comment": "finely ground",
       "other": "",
-      "confidence": 0.999703
+      "confidence": 0.999902
     },
     {
       "input": "3/4 cup (180ml) water",
@@ -329,7 +329,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.99983
+      "confidence": 0.999908
     },
     {
       "input": "4 cups (950ml) vegetable oil, for frying",
@@ -338,7 +338,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.99983
+      "confidence": 0.999906
     }
   ],
   "error": null,

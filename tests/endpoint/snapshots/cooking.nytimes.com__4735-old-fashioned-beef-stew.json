@@ -82,7 +82,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999407
+      "confidence": 0.999899
     },
     {
       "input": "1/4 teaspoon freshly ground pepper",
@@ -91,7 +91,7 @@
       "unit": "teaspoon",
       "comment": "freshly ground",
       "other": "",
-      "confidence": 0.999702
+      "confidence": 0.999793
     },
     {
       "input": "1 pound beef stewing meat, trimmed and cut into inch cubes",
@@ -100,7 +100,7 @@
       "unit": "pound",
       "comment": "trimmed and cut into inch cubes",
       "other": "",
-      "confidence": 0.999605
+      "confidence": 0.999905
     },
     {
       "input": "5 teaspoons vegetable oil",
@@ -109,7 +109,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999857
+      "confidence": 0.999973
     },
     {
       "input": "2 tablespoons red wine vinegar",
@@ -118,7 +118,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99994
+      "confidence": 0.999977
     },
     {
       "input": "1 cup red wine",
@@ -127,7 +127,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999946
+      "confidence": 0.999981
     },
     {
       "input": "3 1/2 cups beef broth, homemade or low-sodium canned",
@@ -136,7 +136,7 @@
       "unit": "cup",
       "comment": "homemade or low-sodium canned",
       "other": "",
-      "confidence": 0.999801
+      "confidence": 0.999888
     },
     {
       "input": "2 bay leaves",
@@ -145,7 +145,7 @@
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.998751
+      "confidence": 0.999417
     },
     {
       "input": "1 medium onion, peeled and chopped",
@@ -154,7 +154,7 @@
       "unit": "",
       "comment": "peeled and chopped",
       "other": "",
-      "confidence": 0.999934
+      "confidence": 0.9995
     },
     {
       "input": "5 medium carrots, peeled and cut into 1/4-inch rounds",
@@ -163,7 +163,7 @@
       "unit": "",
       "comment": "peeled and cut into 0.25 inch rounds",
       "other": "",
-      "confidence": 0.999967
+      "confidence": 0.99988
     },
     {
       "input": "2 large baking potatoes, peeled and cut into 3/4-inch cubes",
@@ -172,7 +172,7 @@
       "unit": "",
       "comment": "peeled and cut into 0.75 inch cubes",
       "other": "",
-      "confidence": 0.999888
+      "confidence": 0.998638
     },
     {
       "input": "2 teaspoons salt",
@@ -181,7 +181,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999858
+      "confidence": 0.999849
     }
   ],
   "error": null,

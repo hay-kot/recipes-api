@@ -78,7 +78,7 @@
       "unit": "cup",
       "comment": "at room temperature",
       "other": "",
-      "confidence": 0.999817
+      "confidence": 0.999762
     },
     {
       "input": "1 1/4 cups granulated sugar (250 g)",
@@ -87,7 +87,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999361
+      "confidence": 0.999979
     },
     {
       "input": "2/3 cup molasses (not blackstrap) (226 g)",
@@ -96,7 +96,7 @@
       "unit": "cup",
       "comment": "(not blackstrap)",
       "other": "",
-      "confidence": 0.999604
+      "confidence": 0.999642
     },
     {
       "input": "3 large eggs, at room temperature (170 g)",
@@ -105,7 +105,7 @@
       "unit": "",
       "comment": "at room temperature",
       "other": "",
-      "confidence": 0.999915
+      "confidence": 0.999798
     },
     {
       "input": "7 cups all purpose flour (840 g)",
@@ -114,7 +114,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999082
+      "confidence": 0.999969
     },
     {
       "input": "1 tablespoon ground cinnamon (9 g)",
@@ -123,7 +123,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999936
+      "confidence": 0.999941
     },
     {
       "input": "1 1/2 tablespoons (4 \u00bd teaspoons) ground ginger (13 g)",
@@ -132,7 +132,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999685
+      "confidence": 0.99987
     },
     {
       "input": "1 1/2 teaspoons baking soda (6 g)",
@@ -141,7 +141,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99987
+      "confidence": 0.999964
     },
     {
       "input": "3/4 teaspoon fine sea salt (3 g)",
@@ -150,7 +150,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999917
+      "confidence": 0.999972
     }
   ],
   "error": null,

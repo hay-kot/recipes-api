@@ -52,9 +52,9 @@
       "name": "broccoli",
       "qty": 2.0,
       "unit": "large heads",
-      "comment": "cut into large florets with some stalk attached",
+      "comment": "cut into large florets with some stalks attached",
       "other": "",
-      "confidence": 0.998163
+      "confidence": 0.989022
     },
     {
       "input": "5 Tbsp. olive oil",
@@ -63,7 +63,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999893
+      "confidence": 0.999979
     },
     {
       "input": "Kosher salt, freshly ground black pepper",

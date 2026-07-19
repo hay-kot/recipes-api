@@ -71,7 +71,7 @@
       "unit": "ounce",
       "comment": "",
       "other": "",
-      "confidence": 0.999773
+      "confidence": 0.999695
     },
     {
       "input": "Salt",
@@ -89,16 +89,16 @@
       "unit": "ounce",
       "comment": "",
       "other": "",
-      "confidence": 0.999773
+      "confidence": 0.999748
     },
     {
       "input": "6 ounces (170g) grated mild or medium cheddar cheese, or any good melting cheese, such as Fontina, Gruy\u00e8re, or Jack",
-      "name": "mild or medium cheddar cheese Gruy\u00e8re",
+      "name": "mild cheddar cheese, medium cheddar cheese",
       "qty": 6.0,
       "unit": "ounce",
       "comment": "grated",
       "other": "",
-      "confidence": 0.999773
+      "confidence": 0.999612
     }
   ],
   "error": null,

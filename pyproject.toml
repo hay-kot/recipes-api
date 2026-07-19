@@ -10,12 +10,10 @@ dependencies = [
   "pydantic==2.13.4",
   "pydantic-settings==2.14.2",
   "uvicorn==0.51.0",
-  "ingredient-parser-nlp==1.2.0",
+  "ingredient-parser-nlp==2.7.0",
   "recipe-scrapers==15.11.0",
-  "lxml==6.1.1",
   "httpx==0.28.1",
   "quantulum3[classifier]==0.10.0",
-  "setuptools==83.0.0",
   # Pinned to match the scikit-learn version quantulum3's pickled classifier
   # was built with (quantulum3 0.10.0 -> scikit-learn 1.8.0).
   "scikit-learn==1.8.0",

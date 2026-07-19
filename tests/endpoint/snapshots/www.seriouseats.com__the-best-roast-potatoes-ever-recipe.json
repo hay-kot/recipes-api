@@ -86,34 +86,34 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999666
+      "confidence": 0.999845
     },
     {
       "input": "4 pounds (about 2kg) russet or Yukon Gold potatoes, peeled and cut into quarters, sixths, or eighths, depending on size (see note)",
-      "name": "russet or Yukon Gold potatoes",
+      "name": "russet potatoes, Yukon Gold potatoes, eighths",
       "qty": 4.0,
       "unit": "pound",
       "comment": "peeled and cut into quarters",
       "other": "",
-      "confidence": 0.999869
+      "confidence": 0.999805
     },
     {
       "input": "5 tablespoons (75ml) extra-virgin olive oil, duck fat, goose fat, or beef fat",
-      "name": "extra-virgin olive oil, duck fat, goose fat, or beef fat",
+      "name": "extra-virgin olive oil, duck fat, goose fat, beef fat",
       "qty": 5.0,
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999685
+      "confidence": 0.999893
     },
     {
       "input": "Small handful picked rosemary leaves, finely chopped",
       "name": "rosemary leaves",
-      "qty": 0.0,
+      "qty": 1.0,
       "unit": "Small handful",
       "comment": "picked, finely chopped",
       "other": "",
-      "confidence": 0.990055
+      "confidence": 0.993681
     },
     {
       "input": "3 medium cloves garlic, minced",
@@ -122,7 +122,7 @@
       "unit": "medium cloves",
       "comment": "minced",
       "other": "",
-      "confidence": 0.992017
+      "confidence": 0.990899
     },
     {
       "input": "Freshly ground black pepper",
@@ -136,11 +136,11 @@
     {
       "input": "Small handful fresh parsley leaves, minced",
       "name": "fresh parsley leaves",
-      "qty": 0.0,
+      "qty": 1.0,
       "unit": "Small handful",
       "comment": "minced",
       "other": "",
-      "confidence": 0.98959
+      "confidence": 0.997953
     }
   ],
   "error": null,

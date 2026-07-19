@@ -82,7 +82,7 @@
       "unit": "cup",
       "comment": "cubed",
       "other": "",
-      "confidence": 0.999918
+      "confidence": 0.999218
     },
     {
       "input": "8 slices uncooked bacon",
@@ -91,7 +91,7 @@
       "unit": "slices",
       "comment": "uncooked",
       "other": "",
-      "confidence": 0.997018
+      "confidence": 0.994081
     },
     {
       "input": "1/2 cup chopped onion",
@@ -100,7 +100,7 @@
       "unit": "cup",
       "comment": "chopped",
       "other": "",
-      "confidence": 0.999748
+      "confidence": 0.999872
     },
     {
       "input": "3 garlic cloves, finely minced",
@@ -109,16 +109,16 @@
       "unit": "cloves",
       "comment": "finely minced",
       "other": "",
-      "confidence": 0.985378
+      "confidence": 0.996817
     },
     {
       "input": "3 packed cups fresh chopped spinach*",
-      "name": "fresh spinach*",
+      "name": "fresh chopped spinach",
       "qty": 3.0,
       "unit": "cup",
-      "comment": "chopped",
+      "comment": "packed",
       "other": "",
-      "confidence": 0.977883
+      "confidence": 0.997816
     },
     {
       "input": "1 and 1/2 cups shredded parmesan cheese",
@@ -127,7 +127,7 @@
       "unit": "cup",
       "comment": "shredded",
       "other": "",
-      "confidence": 0.998599
+      "confidence": 0.999682
     },
     {
       "input": "9 large eggs",
@@ -136,7 +136,7 @@
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.999913
+      "confidence": 0.999147
     },
     {
       "input": "2 cups whole milk",
@@ -145,7 +145,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999953
+      "confidence": 0.999954
     },
     {
       "input": "1 teaspoon salt",
@@ -154,7 +154,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999858
+      "confidence": 0.999849
     },
     {
       "input": "1 teaspoon ground mustard",
@@ -163,7 +163,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999876
+      "confidence": 0.999926
     },
     {
       "input": "1/4 teaspoon fresh ground black pepper",
@@ -172,11 +172,11 @@
       "unit": "teaspoon",
       "comment": "fresh ground",
       "other": "",
-      "confidence": 0.999167
+      "confidence": 0.999838
     },
     {
       "input": "optional garnish: fresh ground black pepper, flaky sea salt, and/or extra parmesan cheese",
-      "name": "black pepper, flaky sea salt, and /",
+      "name": "black pepper, flaky sea salt, extra parmesan cheese",
       "qty": 1.0,
       "unit": "",
       "comment": "fresh ground",

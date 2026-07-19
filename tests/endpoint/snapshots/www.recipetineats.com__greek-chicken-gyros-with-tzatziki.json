@@ -171,16 +171,16 @@
       "unit": "pound",
       "comment": "(, boneless skinless)",
       "other": "",
-      "confidence": 0.999847
+      "confidence": 0.999953
     },
     {
       "input": "3 large garlic cloves (, minced (~ 3 tsp))",
       "name": "garlic",
       "qty": 3.0,
       "unit": "large cloves",
-      "comment": ", minced ~",
+      "comment": ", minced",
       "other": "",
-      "confidence": 0.977475
+      "confidence": 0.983046
     },
     {
       "input": "1 tbsp white wine vinegar ((or red wine or apple cider vinegar))",
@@ -189,7 +189,7 @@
       "unit": "tablespoon",
       "comment": "((or red wine or apple cider vinegar))",
       "other": "",
-      "confidence": 0.999963
+      "confidence": 0.999968
     },
     {
       "input": "3 tbsp lemon juice",
@@ -198,7 +198,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999946
+      "confidence": 0.999953
     },
     {
       "input": "1 tbsp extra virgin olive oil",
@@ -207,7 +207,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99994
+      "confidence": 0.999974
     },
     {
       "input": "3 tbsp Greek yogurt (, preferably full fat)",
@@ -216,7 +216,7 @@
       "unit": "tablespoon",
       "comment": "(, preferably full fat)",
       "other": "",
-      "confidence": 0.999951
+      "confidence": 0.999976
     },
     {
       "input": "1 1/2 tbsp dried oregano",
@@ -225,7 +225,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999743
+      "confidence": 0.999941
     },
     {
       "input": "1 tsp salt",
@@ -234,7 +234,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999858
+      "confidence": 0.999849
     },
     {
       "input": "Black pepper",
@@ -250,9 +250,9 @@
       "name": "cucumbers",
       "qty": 2.0,
       "unit": "",
-      "comment": "((to make about 0.5-0.75 cup grated cucumber after squeezing out juice))",
+      "comment": "((to make about 1/2-3/4 cups grated cucumber after squeezing out juice))",
       "other": "",
-      "confidence": 0.999504
+      "confidence": 0.999622
     },
     {
       "input": "1 1/4 cups Greek yoghurt (, preferably full fat)",
@@ -261,7 +261,7 @@
       "unit": "cup",
       "comment": "(, preferably full fat)",
       "other": "",
-      "confidence": 0.999958
+      "confidence": 0.999981
     },
     {
       "input": "1 tbsp lemon juice",
@@ -270,7 +270,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999946
+      "confidence": 0.999953
     },
     {
       "input": "1 tbsp extra virgin olive oil ((or more if you want richer))",
@@ -279,7 +279,7 @@
       "unit": "tablespoon",
       "comment": "((or more if you want richer))",
       "other": "",
-      "confidence": 0.999941
+      "confidence": 0.99995
     },
     {
       "input": "1 garlic clove (, minced)",
@@ -288,7 +288,7 @@
       "unit": "clove",
       "comment": "(, minced)",
       "other": "",
-      "confidence": 0.967287
+      "confidence": 0.989547
     },
     {
       "input": "1/4 tsp salt",
@@ -297,7 +297,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999858
+      "confidence": 0.999849
     },
     {
       "input": "Black pepper",
@@ -315,7 +315,7 @@
       "unit": "",
       "comment": "(, desseeded and diced)",
       "other": "",
-      "confidence": 0.99923
+      "confidence": 0.999813
     },
     {
       "input": "3 cucumbers (, diced)",
@@ -324,7 +324,7 @@
       "unit": "",
       "comment": "(, diced)",
       "other": "",
-      "confidence": 0.999472
+      "confidence": 0.999936
     },
     {
       "input": "1/2 red spanish onion (, peeled and finely chopped)",
@@ -333,7 +333,7 @@
       "unit": "",
       "comment": "(, peeled and finely chopped)",
       "other": "",
-      "confidence": 0.998201
+      "confidence": 0.999567
     },
     {
       "input": "1/4 cup fresh parsley leaves ((optional))",
@@ -342,11 +342,11 @@
       "unit": "cup",
       "comment": "((optional))",
       "other": "",
-      "confidence": 0.999975
+      "confidence": 0.99998
     },
     {
       "input": "Salt and pepper",
-      "name": "Salt and pepper",
+      "name": "Salt, pepper",
       "qty": 1.0,
       "unit": "",
       "comment": "",
@@ -355,12 +355,12 @@
     },
     {
       "input": "4 to 6 pita breads or flat breads",
-      "name": "pita breads or flat breads",
+      "name": "pita breads, flat breads",
       "qty": 4.0,
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.999109
+      "confidence": 0.999745
     }
   ],
   "error": null,

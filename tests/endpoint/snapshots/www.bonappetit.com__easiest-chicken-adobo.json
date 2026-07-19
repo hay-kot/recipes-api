@@ -82,7 +82,7 @@
       "unit": "head",
       "comment": "",
       "other": "",
-      "confidence": 0.999725
+      "confidence": 0.999787
     },
     {
       "input": "2 green chiles (such as serrano or jalape\u00f1o), divided",
@@ -91,7 +91,7 @@
       "unit": "",
       "comment": "divided",
       "other": "",
-      "confidence": 0.998726
+      "confidence": 0.998838
     },
     {
       "input": "4 bone-in, skin-on chicken thighs and 4 drumsticks, or 4 whole chicken legs",
@@ -100,7 +100,7 @@
       "unit": "",
       "comment": "and 4 drumsticks, or 4 whole chicken legs",
       "other": "",
-      "confidence": 0.998394
+      "confidence": 0.999621
     },
     {
       "input": "1 tablespoon vegetable oil",
@@ -109,7 +109,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999826
+      "confidence": 0.999977
     },
     {
       "input": "\u00be cup distilled white vinegar",
@@ -118,7 +118,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999935
+      "confidence": 0.999983
     },
     {
       "input": "\u00be cup soy sauce (not low sodium)",
@@ -127,7 +127,7 @@
       "unit": "cup",
       "comment": "(not low sodium)",
       "other": "",
-      "confidence": 0.999809
+      "confidence": 0.999954
     },
     {
       "input": "5 dried bay leaves",
@@ -136,16 +136,16 @@
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.999589
+      "confidence": 0.999849
     },
     {
       "input": "1 tablespoon light or dark brown sugar",
-      "name": "light or dark brown sugar",
+      "name": "light brown sugar, dark brown sugar",
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999725
+      "confidence": 0.999952
     },
     {
       "input": "Freshly ground black pepper",
@@ -163,7 +163,7 @@
       "unit": "cup",
       "comment": "uncooked",
       "other": "",
-      "confidence": 0.999554
+      "confidence": 0.99968
     }
   ],
   "error": null,

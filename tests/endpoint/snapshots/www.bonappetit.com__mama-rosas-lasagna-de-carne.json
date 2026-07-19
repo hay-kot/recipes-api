@@ -88,7 +88,7 @@
       "unit": "",
       "comment": "coarsely chopped",
       "other": "",
-      "confidence": 0.999119
+      "confidence": 0.999485
     },
     {
       "input": "1 small onion, coarsely chopped",
@@ -97,16 +97,16 @@
       "unit": "",
       "comment": "coarsely chopped",
       "other": "",
-      "confidence": 0.999947
+      "confidence": 0.999418
     },
     {
       "input": "1 plum tomato, coarsely chopped",
-      "name": "atomic mass unit metre tomato",
+      "name": "atomic mass units metre tomato",
       "qty": 1.0,
       "unit": "liter * pint",
       "comment": "coarsely chopped",
       "other": "",
-      "confidence": 0.985977
+      "confidence": 0.991976
     },
     {
       "input": "4 sprigs cilantro",
@@ -115,7 +115,7 @@
       "unit": "sprigs",
       "comment": "",
       "other": "",
-      "confidence": 0.999855
+      "confidence": 0.999764
     },
     {
       "input": "2 sprigs parsley",
@@ -124,7 +124,7 @@
       "unit": "sprigs",
       "comment": "",
       "other": "",
-      "confidence": 0.99978
+      "confidence": 0.999465
     },
     {
       "input": "5 large black olives, pitted",
@@ -133,7 +133,7 @@
       "unit": "",
       "comment": "pitted",
       "other": "",
-      "confidence": 0.999893
+      "confidence": 0.999703
     },
     {
       "input": "5 garlic cloves",
@@ -142,7 +142,7 @@
       "unit": "cloves",
       "comment": "",
       "other": "",
-      "confidence": 0.960568
+      "confidence": 0.992361
     },
     {
       "input": "2 tsp. Italian seasoning",
@@ -151,7 +151,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999929
+      "confidence": 0.99998
     },
     {
       "input": "1 tsp. drained capers, rinsed",
@@ -160,7 +160,7 @@
       "unit": "teaspoon",
       "comment": "drained, rinsed",
       "other": "",
-      "confidence": 0.99926
+      "confidence": 0.999418
     },
     {
       "input": "\u00bd tsp. ground cumin",
@@ -169,7 +169,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999908
+      "confidence": 0.999932
     },
     {
       "input": "\u00bc tsp. freshly ground black pepper",
@@ -178,16 +178,16 @@
       "unit": "teaspoon",
       "comment": "freshly ground",
       "other": "",
-      "confidence": 0.999656
+      "confidence": 0.999918
     },
     {
       "input": "1 Tbsp. Diamond Crystal or 1\u00be tsp. Morton kosher salt, plus more",
-      "name": "Diamond Crystal Morton kosher salt",
+      "name": "Diamond Crystal",
       "qty": 1.0,
       "unit": "tablespoon",
-      "comment": "plus more",
+      "comment": "or 1 3/4 teaspoons Morton kosher salt, plus more",
       "other": "",
-      "confidence": 0.999801
+      "confidence": 0.999839
     },
     {
       "input": "1 Tbsp. extra-virgin olive oil",
@@ -196,7 +196,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999903
+      "confidence": 0.999959
     },
     {
       "input": "2 lb. ground beef chuck (10% fat)",
@@ -205,7 +205,7 @@
       "unit": "pound",
       "comment": "(10.0 percentage fat)",
       "other": "",
-      "confidence": 0.999868
+      "confidence": 0.999931
     },
     {
       "input": "1 Tbsp. tomato paste",
@@ -214,7 +214,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999827
+      "confidence": 0.999937
     },
     {
       "input": "2 bay leaves",
@@ -223,7 +223,7 @@
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.998751
+      "confidence": 0.999417
     },
     {
       "input": "1 24-oz. jar marinara sauce",
@@ -232,7 +232,7 @@
       "unit": "jar",
       "comment": "",
       "other": "",
-      "confidence": 0.992694
+      "confidence": 0.999245
     },
     {
       "input": "Kosher salt",
@@ -250,7 +250,7 @@
       "unit": "cloves",
       "comment": "smashed",
       "other": "",
-      "confidence": 0.978004
+      "confidence": 0.9932
     },
     {
       "input": "\u00bd tsp. Italian seasoning",
@@ -259,7 +259,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999929
+      "confidence": 0.99998
     },
     {
       "input": "8 oz. dried lasagna noodles",
@@ -268,7 +268,7 @@
       "unit": "ounce",
       "comment": "",
       "other": "",
-      "confidence": 0.999835
+      "confidence": 0.999701
     },
     {
       "input": "Extra-virgin olive oil (for greasing)",
@@ -286,7 +286,7 @@
       "unit": "pound",
       "comment": "",
       "other": "",
-      "confidence": 0.999785
+      "confidence": 0.999878
     },
     {
       "input": "Freshly ground black pepper",
@@ -304,7 +304,7 @@
       "unit": "ounce",
       "comment": "coarsely grated",
       "other": "",
-      "confidence": 0.999703
+      "confidence": 0.998901
     }
   ],
   "error": null,
