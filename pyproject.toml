@@ -10,7 +10,7 @@ dependencies = [
   "pydantic==2.13.4",
   "pydantic-settings==2.14.2",
   "uvicorn==0.51.0",
-  "ingredient-parser-nlp==1.2.0",
+  "ingredient-parser-nlp==1.3.2",
   "recipe-scrapers==15.11.0",
   "lxml==6.1.1",
   "httpx==0.28.1",
