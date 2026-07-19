@@ -93,7 +93,7 @@
       "unit": "pound",
       "comment": "",
       "other": "",
-      "confidence": 0.999778
+      "confidence": 0.999945
     },
     {
       "input": "3 tablespoons butter",
@@ -102,7 +102,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99987
+      "confidence": 0.999939
     },
     {
       "input": "3 tablespoons flour",
@@ -111,7 +111,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999648
+      "confidence": 0.99992
     },
     {
       "input": "1 tablespoon powdered mustard",
@@ -120,7 +120,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999894
+      "confidence": 0.999981
     },
     {
       "input": "3 cups milk",
@@ -129,7 +129,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999846
+      "confidence": 0.999844
     },
     {
       "input": "1/2 cup yellow onion, finely diced",
@@ -138,16 +138,16 @@
       "unit": "cup",
       "comment": "finely diced",
       "other": "",
-      "confidence": 0.999945
+      "confidence": 0.999976
     },
     {
       "input": "1 bay leaf",
-      "name": "bay leaf",
+      "name": "bay leaves",
       "qty": 1.0,
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.998751
+      "confidence": 0.998556
     },
     {
       "input": "1/2 teaspoon paprika",
@@ -156,7 +156,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999717
+      "confidence": 0.999892
     },
     {
       "input": "1 large egg",
@@ -165,7 +165,7 @@
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.999945
+      "confidence": 0.999043
     },
     {
       "input": "12 ounces sharp cheddar, shredded",
@@ -174,7 +174,7 @@
       "unit": "ounce",
       "comment": "shredded",
       "other": "",
-      "confidence": 0.99991
+      "confidence": 0.999942
     },
     {
       "input": "1 teaspoon kosher salt",
@@ -183,7 +183,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99993
+      "confidence": 0.999979
     },
     {
       "input": "Fresh black pepper",
@@ -201,7 +201,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99987
+      "confidence": 0.999939
     },
     {
       "input": "1 cup panko bread crumbs",
@@ -210,7 +210,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999868
+      "confidence": 0.999958
     }
   ],
   "error": null,

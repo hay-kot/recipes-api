@@ -84,48 +84,48 @@
   "ingredients": [
     {
       "input": "1 clove garlic ($0.08)",
-      "name": "garlic -0.08 dollar",
+      "name": "garlic -#2$25 dollar",
       "qty": 1.0,
       "unit": "clove",
       "comment": "",
       "other": "",
-      "confidence": 0.993523
+      "confidence": 0.99884
     },
     {
       "input": "1 yellow onion ($0.32)",
-      "name": "yellow onion -0.32 dollar",
+      "name": "yellow onion -#8$25 dollar",
       "qty": 1.0,
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.999216
+      "confidence": 0.999213
     },
     {
       "input": "2 bell peppers ($1.53)",
-      "name": "bell peppers -1-0.53 dollar",
+      "name": "bell peppers -1-#53$100 dollar",
       "qty": 2.0,
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.999357
+      "confidence": 0.999255
     },
     {
       "input": "1 Tbsp olive oil ($0.16)",
-      "name": "olive oil -0.16 dollar",
+      "name": "olive oil -#4$25 dollar",
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999858
+      "confidence": 0.999962
     },
     {
       "input": "1/2 lb. ground beef ($2.85)",
-      "name": "ground beef -2-0.85 dollar",
+      "name": "ground beef -2-#17$20 dollar",
       "qty": 0.5,
       "unit": "pound",
       "comment": "",
       "other": "",
-      "confidence": 0.999905
+      "confidence": 0.999927
     },
     {
       "input": "1 15oz. can diced tomatoes ($1.00)",
@@ -134,88 +134,88 @@
       "unit": "can",
       "comment": "",
       "other": "",
-      "confidence": 0.996967
+      "confidence": 0.999647
     },
     {
       "input": "1 cup long grain white rice (uncooked) ($0.62)",
-      "name": "long grain white rice -0.62 dollar",
+      "name": "long grain white rice, -#31$50 dollar",
       "qty": 1.0,
       "unit": "cup",
       "comment": "(uncooked)",
       "other": "",
-      "confidence": 0.999747
+      "confidence": 0.999957
     },
     {
       "input": "1 tsp dried basil ($0.10)",
-      "name": "dried basil -0.1 dollar",
+      "name": "dried basil -#1$10 dollar",
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999902
+      "confidence": 0.999842
     },
     {
       "input": "1 tsp dried oregano ($0.10)",
-      "name": "dried oregano -0.1 dollar",
+      "name": "dried oregano -#1$10 dollar",
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999855
+      "confidence": 0.999946
     },
     {
       "input": "1/4 tsp freshly cracked black pepper ($0.02)",
-      "name": "black pepper -0.02 dollar",
+      "name": "black pepper -#1$50 dollar",
       "qty": 0.25,
       "unit": "teaspoon",
       "comment": "freshly cracked",
       "other": "",
-      "confidence": 0.99964
+      "confidence": 0.999876
     },
     {
       "input": "1.5 cups beef broth ($0.07)",
-      "name": "beef broth -0.07 dollar",
+      "name": "beef broth -#7$100 dollar",
       "qty": 1.5,
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999753
+      "confidence": 0.99995
     },
     {
       "input": "1 8oz. can tomato sauce ($0.26)",
-      "name": "tomato sauce -0.26 dollar",
+      "name": "tomato sauce -#13$50 dollar",
       "qty": 1.0,
       "unit": "can",
       "comment": "",
       "other": "",
-      "confidence": 0.998094
+      "confidence": 0.999836
     },
     {
       "input": "1 tsp Worcestershire sauce ($0.01)",
-      "name": "Worcestershire sauce -0.01 dollar",
+      "name": "Worcestershire sauce -#1$100 dollar",
       "qty": 1.0,
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999929
+      "confidence": 0.999981
     },
     {
       "input": "1 cup shredded mozzarella ($0.85)",
-      "name": "mozzarella -0.85 dollar",
+      "name": "mozzarella -#17$20 dollar",
       "qty": 1.0,
       "unit": "cup",
       "comment": "shredded",
       "other": "",
-      "confidence": 0.999797
+      "confidence": 0.999959
     },
     {
       "input": "1 Tbsp chopped parsley (optional garnish) ($0.05)",
-      "name": "parsley -0.05 dollar",
+      "name": "parsley, -#1$20 dollar",
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "chopped",
       "other": "",
-      "confidence": 0.999772
+      "confidence": 0.999896
     }
   ],
   "error": null,

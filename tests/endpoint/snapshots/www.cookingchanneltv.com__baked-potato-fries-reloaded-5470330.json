@@ -58,12 +58,12 @@
   "ingredients": [
     {
       "input": "4 russet potatoes (about 8 ounces/227 grams each), scrubbed and rinsed",
-      "name": "roentgen atomic mass unit second set potatoes",
+      "name": "roentgen atomic mass units second set potatoes",
       "qty": 4.0,
       "unit": "",
       "comment": "scrubbed and rinsed",
       "other": "",
-      "confidence": 0.997639
+      "confidence": 0.996987
     },
     {
       "input": "2 teaspoons plus 2 quarts peanut oil",
@@ -72,7 +72,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.993132
+      "confidence": 0.999789
     },
     {
       "input": "Kosher salt",
@@ -85,7 +85,7 @@
     },
     {
       "input": "Heavy pot or large Dutch oven",
-      "name": "Heavy pot or Dutch oven",
+      "name": "Heavy pots, large Dutch oven",
       "qty": 1.0,
       "unit": "",
       "comment": "",
@@ -94,7 +94,7 @@
     },
     {
       "input": "Fry/candy thermometer",
-      "name": "Fry/candy thermometer",
+      "name": "Fry, candy thermometer",
       "qty": 1.0,
       "unit": "",
       "comment": "",
@@ -103,7 +103,7 @@
     },
     {
       "input": "Large hand strainer or \"spider\"",
-      "name": "hand strainer or \"spider\"",
+      "name": "hand strainer, \"spider\"",
       "qty": 1.0,
       "unit": "",
       "comment": "",

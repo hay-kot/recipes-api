@@ -73,7 +73,7 @@
       "unit": "tablespoon",
       "comment": "divided",
       "other": "",
-      "confidence": 0.999943
+      "confidence": 0.999972
     },
     {
       "input": "1 large onion, finely chopped",
@@ -82,7 +82,7 @@
       "unit": "",
       "comment": "finely chopped",
       "other": "",
-      "confidence": 0.999918
+      "confidence": 0.999264
     },
     {
       "input": "1 celery stalk, finely chopped",
@@ -91,7 +91,7 @@
       "unit": "stalk",
       "comment": "finely chopped",
       "other": "",
-      "confidence": 0.9908
+      "confidence": 0.992184
     },
     {
       "input": "1 Tbsp. Old Bay seasoning",
@@ -100,7 +100,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99994
+      "confidence": 0.999979
     },
     {
       "input": "1 tsp. freshly ground black pepper, plus more",
@@ -109,16 +109,16 @@
       "unit": "teaspoon",
       "comment": "freshly ground",
       "other": "",
-      "confidence": 0.999655
+      "confidence": 0.999886
     },
     {
       "input": "1 Tbsp. dry sherry or mirin",
-      "name": "dry sherry or mirin",
+      "name": "dry sherry, mirin",
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999901
+      "confidence": 0.99992
     },
     {
       "input": "2\u00bd cups clam juice, divided",
@@ -127,16 +127,16 @@
       "unit": "cup",
       "comment": "divided",
       "other": "",
-      "confidence": 0.999839
+      "confidence": 0.999936
     },
     {
       "input": "2 cups fish or seafood stock or broth",
-      "name": "fish or seafood stock or broth",
+      "name": "fish stock, seafood stock, broth",
       "qty": 2.0,
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999736
+      "confidence": 0.99898
     },
     {
       "input": "1 lb. potatoes (any kind), peeled, cut into \u00bd\" pieces",
@@ -145,16 +145,16 @@
       "unit": "pound",
       "comment": "peeled, cut into 0.5 inch pieces",
       "other": "",
-      "confidence": 0.999779
+      "confidence": 0.999926
     },
     {
       "input": "1\u00bc lb. mixed white fish (such as swordfish, sea bass, and/or halibut) and shellfish (such as lump crab meat, scallops and/or peeled, deveined shrimp), cut into \u00bd\" pieces",
-      "name": "mixed white fish shrimp",
+      "name": "mixed white fish",
       "qty": 1.25,
       "unit": "pound",
-      "comment": "/ or peeled, deveined, cut into 0.5 inch pieces",
+      "comment": "cut into 0.5 inch pieces",
       "other": "",
-      "confidence": 0.999873
+      "confidence": 0.999962
     },
     {
       "input": "8 oz. cooked lobster meat, cut into cubes (optional)",
@@ -163,7 +163,7 @@
       "unit": "ounce",
       "comment": "cooked, cut into cubes",
       "other": "",
-      "confidence": 0.999551
+      "confidence": 0.999818
     },
     {
       "input": "1 Tbsp. all-purpose flour",
@@ -172,7 +172,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99926
+      "confidence": 0.999856
     },
     {
       "input": "\u00bd cup half-and-half",
@@ -181,7 +181,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999657
+      "confidence": 0.999833
     }
   ],
   "error": null,

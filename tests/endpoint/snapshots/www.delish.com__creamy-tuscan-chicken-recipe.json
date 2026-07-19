@@ -86,7 +86,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999903
+      "confidence": 0.999959
     },
     {
       "input": "4 boneless skinless chicken breasts",
@@ -95,7 +95,7 @@
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.999102
+      "confidence": 0.999801
     },
     {
       "input": "Kosher salt",
@@ -122,7 +122,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999657
+      "confidence": 0.999936
     },
     {
       "input": "3 tbsp. butter",
@@ -131,7 +131,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99987
+      "confidence": 0.999939
     },
     {
       "input": "3 cloves garlic, minced",
@@ -140,7 +140,7 @@
       "unit": "cloves",
       "comment": "minced",
       "other": "",
-      "confidence": 0.997103
+      "confidence": 0.999677
     },
     {
       "input": "1 1/2 c. cherry tomatoes, halved",
@@ -149,7 +149,7 @@
       "unit": "cup",
       "comment": "halved",
       "other": "",
-      "confidence": 0.999901
+      "confidence": 0.999964
     },
     {
       "input": "3 c. baby spinach",
@@ -158,7 +158,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999829
+      "confidence": 0.999944
     },
     {
       "input": "1/2 c. heavy cream",
@@ -167,7 +167,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.99995
+      "confidence": 0.999986
     },
     {
       "input": "1/4 c. freshly grated Parmesan",
@@ -176,7 +176,7 @@
       "unit": "cup",
       "comment": "freshly grated",
       "other": "",
-      "confidence": 0.999792
+      "confidence": 0.9999
     },
     {
       "input": "Lemon wedges, for serving",

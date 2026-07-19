@@ -115,7 +115,7 @@
       "unit": "pound",
       "comment": "very finely chopped by hand",
       "other": "",
-      "confidence": 0.999791
+      "confidence": 0.999971
     },
     {
       "input": "3 tablespoons minced mixed fresh parsley, tarragon, and chives (about 4 teaspoons each minced parsley and chives and 1 teaspoon minced tarragon",
@@ -124,7 +124,7 @@
       "unit": "tablespoon",
       "comment": "minced",
       "other": "",
-      "confidence": 0.999526
+      "confidence": 0.997625
     },
     {
       "input": "1/4 teaspoon ground coriander seed",
@@ -133,23 +133,23 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999608
+      "confidence": 0.999928
     },
     {
       "input": "1 (1-inch) knob fresh peeled ginger, grated",
-      "name": "fresh ginger",
+      "name": "fresh peeled ginger",
       "qty": 1.0,
-      "unit": "",
-      "comment": "peeled, grated",
+      "unit": "knob",
+      "comment": "grated",
       "other": "",
-      "confidence": 0.999601
+      "confidence": 0.996628
     },
     {
       "input": "Kosher salt and freshly ground black or white pepper",
-      "name": "Kosher salt and freshly ground black or white pepper",
+      "name": "Kosher salt, black pepper, white pepper",
       "qty": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "freshly ground",
       "other": "",
       "confidence": 0.0
     },
@@ -158,7 +158,7 @@
       "name": "",
       "qty": 1.0,
       "unit": "",
-      "comment": "For the R\u00e9moulade",
+      "comment": "",
       "other": "",
       "confidence": 0.0
     },
@@ -169,7 +169,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.997311
+      "confidence": 0.999901
     },
     {
       "input": "1 tablespoon drained brined capers, minced",
@@ -178,7 +178,7 @@
       "unit": "tablespoon",
       "comment": "drained, minced",
       "other": "",
-      "confidence": 0.999767
+      "confidence": 0.999623
     },
     {
       "input": "4 cornichons, minced (about 1 1/2 tablespoons)",
@@ -187,25 +187,25 @@
       "unit": "",
       "comment": "minced",
       "other": "",
-      "confidence": 0.998685
+      "confidence": 0.999838
     },
     {
       "input": "2 1/2 teaspoons minced fresh flat-leaf parsley, tarragon, and chives (about 1 teaspoon each minced parsley and chives and 1/2 teaspoon minced tarragon",
-      "name": "fresh flat-leaf parsley, tarragon, and chives",
+      "name": "fresh flat-leaves parsley, tarragon, and chives",
       "qty": 2.5,
       "unit": "teaspoon",
       "comment": "minced",
       "other": "",
-      "confidence": 0.999894
+      "confidence": 0.999551
     },
     {
       "input": "2 teaspoons fresh juice from 1 lemon (10ml)",
-      "name": "fresh juice lemon",
+      "name": "fresh juice from lemon",
       "qty": 2.0,
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999454
+      "confidence": 0.999759
     },
     {
       "input": "1 teaspoon Dijon mustard (5ml)",
@@ -214,7 +214,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999896
+      "confidence": 0.999976
     },
     {
       "input": "1/2 teaspoon drained prepared horseradish",
@@ -223,14 +223,14 @@
       "unit": "teaspoon",
       "comment": "drained",
       "other": "",
-      "confidence": 0.9998
+      "confidence": 0.999779
     },
     {
       "input": "Kosher salt and freshly ground black pepper",
-      "name": "Kosher salt and freshly ground black pepper",
+      "name": "Kosher salt, black pepper",
       "qty": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "freshly ground",
       "other": "",
       "confidence": 0.0
     },
@@ -239,7 +239,7 @@
       "name": "",
       "qty": 1.0,
       "unit": "",
-      "comment": "For the Slaw",
+      "comment": "",
       "other": "",
       "confidence": 0.0
     },
@@ -250,7 +250,7 @@
       "unit": "ounce",
       "comment": "peeled, julienned",
       "other": "",
-      "confidence": 0.999955
+      "confidence": 0.999458
     },
     {
       "input": "1 3/4 ounces shredded radicchio (50g; from 1 small head)",
@@ -259,7 +259,7 @@
       "unit": "ounce",
       "comment": "shredded",
       "other": "",
-      "confidence": 0.999424
+      "confidence": 0.999726
     },
     {
       "input": "1 3/4 ounces fennel (50g; from 1 small head), julienned",
@@ -268,7 +268,7 @@
       "unit": "ounce",
       "comment": "julienned",
       "other": "",
-      "confidence": 0.999882
+      "confidence": 0.999883
     },
     {
       "input": "Extra-virgin olive oil, for drizzling",
@@ -281,19 +281,19 @@
     },
     {
       "input": "Fresh juice from 1 lemon, for drizzling",
-      "name": "Fresh juice lemon",
+      "name": "Fresh juice from lemon",
       "qty": 1.0,
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.620141
+      "confidence": 0.782241
     },
     {
       "input": "Kosher salt and freshly ground black pepper",
-      "name": "Kosher salt and freshly ground black pepper",
+      "name": "Kosher salt, black pepper",
       "qty": 1.0,
       "unit": "",
-      "comment": "",
+      "comment": "freshly ground",
       "other": "",
       "confidence": 0.0
     },
@@ -302,7 +302,7 @@
       "name": "",
       "qty": 1.0,
       "unit": "",
-      "comment": "For Cooking and Serving",
+      "comment": "",
       "other": "",
       "confidence": 0.0
     },
@@ -313,7 +313,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999868
+      "confidence": 0.999958
     },
     {
       "input": "1/4 cup vegetable oil (60ml)",
@@ -322,7 +322,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999858
+      "confidence": 0.999982
     },
     {
       "input": "4 brioche hamburger buns, buttered and toasted",
@@ -331,7 +331,7 @@
       "unit": "",
       "comment": "buttered and toasted",
       "other": "",
-      "confidence": 0.997976
+      "confidence": 0.999775
     }
   ],
   "error": null,

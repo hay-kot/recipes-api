@@ -66,7 +66,7 @@
       "unit": "cup",
       "comment": "cut into cubes",
       "other": "",
-      "confidence": 0.999951
+      "confidence": 0.999974
     },
     {
       "input": "1 cup light brown sugar",
@@ -75,7 +75,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999946
+      "confidence": 0.999985
     },
     {
       "input": "1/2 cup granulated white sugar",
@@ -84,7 +84,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.99993
+      "confidence": 0.999986
     },
     {
       "input": "2 large eggs",
@@ -93,7 +93,7 @@
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.999913
+      "confidence": 0.999147
     },
     {
       "input": "2 tsp vanilla extract",
@@ -102,7 +102,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999799
+      "confidence": 0.999931
     },
     {
       "input": "1/2 cup creamy peanut butter",
@@ -111,7 +111,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999961
+      "confidence": 0.999987
     },
     {
       "input": "1 tsp cornstarch",
@@ -120,7 +120,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999789
+      "confidence": 0.999892
     },
     {
       "input": "1 tsp baking soda",
@@ -129,7 +129,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999953
+      "confidence": 0.999935
     },
     {
       "input": "1/2 tsp salt",
@@ -138,7 +138,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999858
+      "confidence": 0.999849
     },
     {
       "input": "1 cup cake flour",
@@ -147,7 +147,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.997441
+      "confidence": 0.999967
     },
     {
       "input": "2 cups all-purpose flour",
@@ -156,7 +156,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999407
+      "confidence": 0.999899
     },
     {
       "input": "2 cups peanut butter chips",
@@ -165,7 +165,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999945
+      "confidence": 0.99994
     },
     {
       "input": "1\u00bd cups Reese's Pieces candies",
@@ -174,7 +174,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999964
+      "confidence": 0.999994
     }
   ],
   "error": null,

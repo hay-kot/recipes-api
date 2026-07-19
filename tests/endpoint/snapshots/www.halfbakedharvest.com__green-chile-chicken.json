@@ -60,7 +60,7 @@
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.999102
+      "confidence": 0.999801
     },
     {
       "input": "2 ounces cream cheese, at room temperature",
@@ -69,7 +69,7 @@
       "unit": "ounce",
       "comment": "at room temperature",
       "other": "",
-      "confidence": 0.999738
+      "confidence": 0.999243
     },
     {
       "input": "4 slices pepperjack cheese",
@@ -78,7 +78,7 @@
       "unit": "slices",
       "comment": "",
       "other": "",
-      "confidence": 0.999462
+      "confidence": 0.999875
     },
     {
       "input": "2 poblano peppers, sliced",
@@ -87,7 +87,7 @@
       "unit": "",
       "comment": "sliced",
       "other": "",
-      "confidence": 0.999577
+      "confidence": 0.999717
     },
     {
       "input": "1 yellow onion, chopped or sliced",
@@ -96,7 +96,7 @@
       "unit": "",
       "comment": "chopped or sliced",
       "other": "",
-      "confidence": 0.9994
+      "confidence": 0.999847
     },
     {
       "input": "1 teaspoon chili powder",
@@ -105,7 +105,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999858
+      "confidence": 0.999949
     },
     {
       "input": "1 teaspoon smoked paprika",
@@ -114,7 +114,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999904
+      "confidence": 0.999954
     },
     {
       "input": "1 teaspoon garlic powder",
@@ -123,11 +123,11 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99998
+      "confidence": 0.999973
     },
     {
       "input": "kosher salt and black pepper",
-      "name": "kosher salt and black pepper",
+      "name": "kosher salt, black pepper",
       "qty": 1.0,
       "unit": "",
       "comment": "",
@@ -141,7 +141,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99994
+      "confidence": 0.999974
     },
     {
       "input": "1 jar salsa verde",
@@ -150,11 +150,11 @@
       "unit": "jar",
       "comment": "",
       "other": "",
-      "confidence": 0.998388
+      "confidence": 0.999308
     },
     {
       "input": "fresh cilantro and limes for serving",
-      "name": "fresh cilantro and limes",
+      "name": "fresh cilantro, fresh limes",
       "qty": 1.0,
       "unit": "",
       "comment": "",

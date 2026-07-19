@@ -69,7 +69,7 @@
       "unit": "",
       "comment": "sliced in half",
       "other": "",
-      "confidence": 0.997066
+      "confidence": 0.998754
     },
     {
       "input": "8 Tablespoons butter (divided)",
@@ -78,7 +78,7 @@
       "unit": "tablespoon",
       "comment": "(divided)",
       "other": "",
-      "confidence": 0.999858
+      "confidence": 0.999948
     },
     {
       "input": "\u00bd cup Italian Bread Crumbs",
@@ -87,7 +87,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.99994
+      "confidence": 0.999959
     },
     {
       "input": "\u00bd cup plus 1 Tablespoon grated parmesan (divided)",
@@ -96,7 +96,7 @@
       "unit": "cup",
       "comment": "grated, (divided)",
       "other": "",
-      "confidence": 0.997311
+      "confidence": 0.999901
     },
     {
       "input": "\u00bc cup flour",
@@ -105,7 +105,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999643
+      "confidence": 0.999975
     },
     {
       "input": "2 medium zucchini (sliced)",
@@ -114,7 +114,7 @@
       "unit": "",
       "comment": "(sliced)",
       "other": "",
-      "confidence": 0.999948
+      "confidence": 0.99886
     },
     {
       "input": "2 garlic cloves (minced)",
@@ -123,7 +123,7 @@
       "unit": "cloves",
       "comment": "(minced)",
       "other": "",
-      "confidence": 0.989262
+      "confidence": 0.996186
     }
   ],
   "error": null,

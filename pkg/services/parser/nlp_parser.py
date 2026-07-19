@@ -70,10 +70,13 @@ def list_to_parsed_ingredients(ingredients: list[str], _: Context) -> list[Parse
         elif parsed_ingredient.comment:
             comment = parsed_ingredient.comment.text
 
+        # ingredient-parser v2 returns name as a list of IngredientText segments
+        name = ", ".join(n.text for n in parsed_ingredient.name) if parsed_ingredient.name else ""
+
         parsed_ingredients.append(
             ParsedIngredients(
                 input=original_input,
-                name=parsed_ingredient.name.text if parsed_ingredient.name else "",
+                name=name,
                 qty=convert_to_float(amount.quantity) if amount else 1.0,
                 unit=unit_str,
                 confidence=amount.confidence if amount else 0.0,
@@ -85,10 +88,13 @@ def list_to_parsed_ingredients(ingredients: list[str], _: Context) -> list[Parse
     return parsed_ingredients
 
 
-def convert_to_float(frac_str: str | float):
+def convert_to_float(frac_str: str | float | Fraction):
     if frac_str is None:
         return 1.0
 
+    # ingredient-parser v2 returns quantities as Fraction instances
+    if isinstance(frac_str, Fraction):
+        return float(frac_str)
     if isinstance(frac_str, float):
         return frac_str
     if isinstance(frac_str, int):

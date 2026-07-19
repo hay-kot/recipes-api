@@ -56,7 +56,7 @@
       "unit": "pound",
       "comment": "",
       "other": "",
-      "confidence": 0.999905
+      "confidence": 0.999967
     },
     {
       "input": "1 head broccoli, chopped",
@@ -65,16 +65,16 @@
       "unit": "head",
       "comment": "chopped",
       "other": "",
-      "confidence": 0.994771
+      "confidence": 0.998473
     },
     {
       "input": "3/4 cup canned coconut milk, heavy cream, or whole milk",
-      "name": "canned coconut milk, heavy cream",
+      "name": "canned coconut milk, heavy cream, whole milk",
       "qty": 0.75,
       "unit": "cup",
-      "comment": "or whole milk",
+      "comment": "",
       "other": "",
-      "confidence": 0.999944
+      "confidence": 0.999983
     },
     {
       "input": "3 ounces cream cheese, cubed",
@@ -83,7 +83,7 @@
       "unit": "ounce",
       "comment": "cubed",
       "other": "",
-      "confidence": 0.999736
+      "confidence": 0.999499
     },
     {
       "input": "1 medium zucchini, grated ((about 1 cup grated))",
@@ -92,7 +92,7 @@
       "unit": "",
       "comment": "grated",
       "other": "",
-      "confidence": 0.999949
+      "confidence": 0.999187
     },
     {
       "input": "1 tablespoon dijon mustard",
@@ -101,7 +101,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99984
+      "confidence": 0.999938
     },
     {
       "input": "2 cups shredded sharp cheddar cheese",
@@ -110,7 +110,7 @@
       "unit": "cup",
       "comment": "shredded",
       "other": "",
-      "confidence": 0.999901
+      "confidence": 0.999944
     },
     {
       "input": "1 cup shredded monterey jack cheese",
@@ -119,7 +119,7 @@
       "unit": "cup",
       "comment": "shredded",
       "other": "",
-      "confidence": 0.999931
+      "confidence": 0.999938
     },
     {
       "input": "1 teaspoon garlic powder",
@@ -128,7 +128,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99998
+      "confidence": 0.999973
     },
     {
       "input": "1 teaspoon onion powder",
@@ -137,7 +137,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999755
+      "confidence": 0.999883
     },
     {
       "input": "1 teaspoon paprika",
@@ -146,7 +146,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999717
+      "confidence": 0.999892
     },
     {
       "input": "1/4 teaspoon cayenne pepper",
@@ -155,7 +155,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999912
+      "confidence": 0.999938
     },
     {
       "input": "1-2 tablespoons salted butter ((optional))",
@@ -164,11 +164,11 @@
       "unit": "tablespoon",
       "comment": "((optional))",
       "other": "",
-      "confidence": 0.99969
+      "confidence": 0.999953
     },
     {
       "input": "Kosher salt and black pepper",
-      "name": "Kosher salt and black pepper",
+      "name": "Kosher salt, black pepper",
       "qty": 1.0,
       "unit": "",
       "comment": "",

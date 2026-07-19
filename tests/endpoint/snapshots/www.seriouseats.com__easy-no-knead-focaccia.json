@@ -71,39 +71,39 @@
   "ingredients": [
     {
       "input": "500 grams bread or all-purpose flour (17.5 ounces; about 3 1/4 cups), see note",
-      "name": "bread or all-purpose flour",
+      "name": "bread flour, all-purpose flour",
       "qty": 500.0,
       "unit": "gram",
       "comment": "see note",
       "other": "",
-      "confidence": 0.996652
+      "confidence": 0.997457
     },
     {
       "input": "10 grams Diamond Crystal kosher salt (0.4 ounce; 2 1/2 teaspoons); for table salt, use about half as much by volume or the same weight",
       "name": "Diamond Crystal kosher salt",
       "qty": 10.0,
       "unit": "gram",
-      "comment": "for table salt, use about half as much by volume or the same weight",
+      "comment": "0.4 ounces, for table salt, use about half as much by volume or the same weight",
       "other": "",
-      "confidence": 0.996676
+      "confidence": 0.988154
     },
     {
       "input": "4 grams instant dry yeast, such as SAF (0.1 ounce; 1/2 packet or 1 rounded teaspoon)",
       "name": "instant dry yeast",
       "qty": 4.0,
       "unit": "gram",
-      "comment": "such as SAF, 0.5 packet or 1 rounded teaspoon",
+      "comment": "such as SAF (0.1 ounces; 1/2 packets or 1 rounded teaspoons)",
       "other": "",
-      "confidence": 0.997347
+      "confidence": 0.99286
     },
     {
       "input": "400 grams room temperature water (14.1 ounces; 1 1/2 cups plus 3 tablespoons)",
       "name": "room temperature water",
       "qty": 400.0,
       "unit": "gram",
-      "comment": "1.5 cup plus",
+      "comment": "",
       "other": "",
-      "confidence": 0.987566
+      "confidence": 0.824396
     },
     {
       "input": "68 grams extra-virgin olive oil (2.4 ounces; 5 tablespoons), divided",
@@ -112,7 +112,7 @@
       "unit": "gram",
       "comment": "divided",
       "other": "",
-      "confidence": 0.998672
+      "confidence": 0.998724
     },
     {
       "input": "Coarse sea salt, such as Maldon or fleur de sel",

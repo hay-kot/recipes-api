@@ -89,7 +89,7 @@
       "unit": "pound",
       "comment": "",
       "other": "",
-      "confidence": 0.999812
+      "confidence": 0.999756
     },
     {
       "input": "\u00bd cup (1 stick) chilled unsalted butter",
@@ -98,7 +98,7 @@
       "unit": "cup",
       "comment": "chilled",
       "other": "",
-      "confidence": 0.99983
+      "confidence": 0.999861
     },
     {
       "input": "2 tsp. coarsely ground black pepper",
@@ -107,7 +107,7 @@
       "unit": "teaspoon",
       "comment": "coarsely ground",
       "other": "",
-      "confidence": 0.999523
+      "confidence": 0.999882
     },
     {
       "input": "1 cup whole milk",
@@ -116,7 +116,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999953
+      "confidence": 0.999954
     },
     {
       "input": "5 oz. store-bought grated Parmesan",
@@ -125,7 +125,7 @@
       "unit": "ounce",
       "comment": "store-bought grated",
       "other": "",
-      "confidence": 0.999132
+      "confidence": 0.999523
     }
   ],
   "error": null,
