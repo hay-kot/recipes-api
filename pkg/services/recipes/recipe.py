@@ -4,11 +4,6 @@ from typing import Annotated, Any
 from pydantic import BaseModel, BeforeValidator, ConfigDict, Field
 
 
-class Instructions(BaseModel):
-    model_config = ConfigDict(arbitrary_types_allowed=True)
-    text: str
-
-
 class InstructionStep(BaseModel):
     text: str
 
@@ -56,7 +51,7 @@ class Recipe(BaseModel):
     name: str
     url: str
     description: str
-    instructions: list[Instructions] = Field(
+    instructions: list[InstructionStep] = Field(
         default_factory=list,
         alias="recipeInstructions",
     )

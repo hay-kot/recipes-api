@@ -1,9 +1,11 @@
 import logging
+import secrets
 import time
 import uuid
 
 from fastapi import FastAPI, Request
 from fastapi.middleware.gzip import GZipMiddleware
+from fastapi.responses import JSONResponse
 
 from . import __version__, core
 from .web.processors import router as processors_router
@@ -28,7 +30,7 @@ async def logger_middleware(request: Request, call_next):
 
         # https://github.com/fastapi/fastapi/issues/2727
         new_headers = request.headers.mutablecopy()
-        new_headers.append("X-Request-ID", request_id.__str__())
+        new_headers.append("X-Request-ID", str(request_id))
         request._headers = new_headers
         request.scope.update(headers=request.headers.raw)
     path = request.url.path
@@ -57,6 +59,21 @@ async def logger_middleware(request: Request, call_next):
     )
 
     return response
+
+
+# Paths reachable without the auth key (e.g. container liveness probes).
+_AUTH_EXEMPT_PATHS = {"/api/system/ready"}
+
+
+@app.middleware("http")
+async def auth_middleware(request: Request, call_next):
+    if settings.auth_key and request.url.path not in _AUTH_EXEMPT_PATHS:
+        provided = request.headers.get("Authorization", "")
+        if not secrets.compare_digest(provided.encode(), settings.auth_key.encode()):
+            logger.warning(f"rejected unauthorized request path={request.url.path}")
+            return JSONResponse(status_code=401, content={"detail": "unauthorized"})
+
+    return await call_next(request)
 
 
 app.add_middleware(GZipMiddleware, minimum_size=1000)

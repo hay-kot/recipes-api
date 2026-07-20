@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from .. import core
+from .. import __version__, core
 from ..schema import system as schema
 
 router = APIRouter(prefix="/system", tags=["System"])
@@ -14,4 +14,4 @@ def ready() -> schema.Health:
 
 @router.get("/info")
 def info() -> schema.AppInfo:
-    return schema.AppInfo(version="", commit=settings.commit)
+    return schema.AppInfo(version=__version__, commit=settings.commit)

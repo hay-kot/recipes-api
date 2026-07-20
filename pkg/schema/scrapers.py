@@ -1,6 +1,7 @@
 from enum import Enum
 from typing import Any
 
+import httpx
 from pydantic import AnyHttpUrl, BaseModel, ConfigDict
 from recipe_scrapers import WebsiteNotImplementedError
 from recipe_scrapers._exceptions import NoSchemaFoundInWildMode
@@ -66,10 +67,13 @@ class ScrapeError(str, Enum):
         if e is None:
             return None
 
-        elif isinstance(e, (NoSchemaFoundInWildMode, WebsiteNotImplementedError)):
+        if isinstance(e, (NoSchemaFoundInWildMode, WebsiteNotImplementedError)):
             return cls.no_schema_found
-        else:
-            return cls.unknown
+
+        if isinstance(e, httpx.RequestError):
+            return cls.unreachable
+
+        return cls.unknown
 
 
 class ScrapeRequest(BaseModel):

@@ -75,26 +75,6 @@ def replace_fraction_unicode(string: str):
     return string
 
 
-def wrap_or_clause(string: str):
-    """
-    Attempts to wrap or clauses in ()
-
-    Examples:
-    '1 tsp. Diamond Crystal or ½ tsp. Morton kosher salt, plus more'
-        -> '1 teaspoon diamond crystal (or 1/2 teaspoon morton kosher salt), plus more'
-
-    """
-    # TODO: Needs more adequite testing to be sure this doesn't have side effects.
-    split_by_or = string.split(" or ")
-
-    split_by_comma = split_by_or[1].split(",")
-
-    if len(split_by_comma) > 0:
-        return f"{split_by_or[0]} (or {split_by_comma[0]}),{''.join(split_by_comma[1:])}".strip().removesuffix(",")
-
-    return string
-
-
 def normalize_ingredient(string: str) -> str:
     string = pre_process_string(string)
 
@@ -172,9 +152,6 @@ def pre_process_string(string: str) -> str:
     string = normalize_mixed_number(string)
     string = remove_periods(string)
     string = replace_common_abbreviations(string)
-
-    # if " or " in string:
-    #     string = wrap_or_clause(string)
 
     # Remove duplicate whitespace
     string = " ".join(string.split())

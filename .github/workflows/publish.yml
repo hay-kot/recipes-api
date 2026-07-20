@@ -45,5 +45,5 @@ jobs:
           docker build --push --no-cache \
             --tag ghcr.io/hay-kot/recipes-api:latest \
             --tag ghcr.io/hay-kot/recipes-api:${{ github.event.release.tag_name }} \
-            --build-arg="${{ github.sha }}" \
+            --build-arg COMMIT=${{ github.sha }} \
             --platform linux/amd64,linux/arm64 .

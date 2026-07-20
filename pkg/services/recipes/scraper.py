@@ -93,7 +93,11 @@ async def scrape_recipe(
     html: str | None,
 ) -> ScrapeResult:
     if not html:
-        r = await client.get(url, headers=headers)
+        try:
+            r = await client.get(url, headers=headers)
+        except httpx.RequestError as e:
+            ctx.logger.error(f"{ctx.kv()} scrape_url={url} err={e} request failed")
+            return ScrapeResult(url=url, data={}, error=e)
         ctx.logger.info(f"{ctx.kv()} scrape_url={url} status_code={r.status_code}")
         html = r.text
     else:

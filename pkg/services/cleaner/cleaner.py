@@ -1,4 +1,3 @@
-import contextlib
 import functools
 import html
 import json
@@ -6,9 +5,6 @@ import operator
 import re
 import typing
 from datetime import datetime, timedelta
-
-MATCH_DIGITS = re.compile(r"\d+([.,]\d+)?")
-""" Allow for commas as decimals (common in Europe) """
 
 MATCH_ISO_STR = re.compile(
     r"^P((\d+)Y)?((\d+)M)?((?P<days>\d+)D)?" r"T((?P<hours>\d+)H)?((?P<minutes>\d+)M)?((?P<seconds>\d+(?:\.\d+)?)S)?$",
@@ -527,32 +523,3 @@ def clean_category_like(category: str | list | None) -> list[str]:
             return [cat["name"] for cat in category if "name" in cat]
         case _:
             raise TypeError(f"Unexpected type for category: {type(category)}, {category}")
-
-
-def clean_nutrition(nutrition: dict | None) -> dict[str, str]:
-    """
-    clean_nutrition takes a dictionary of nutrition information and cleans it up
-    to be stored in the database. It will remove any keys that are not in the
-    list of valid keys
-
-    Assumptionas:
-        - All units are supplied in grams, expect sodium which maybe be in milligrams
-
-    Returns:
-        dict[str, str]: If the argument is None, or not a dictionary, an empty dictionary is returned
-    """
-    if not isinstance(nutrition, dict):
-        return {}
-
-    output_nutrition = {}
-    for key, val in nutrition.items():
-        with contextlib.suppress(AttributeError, TypeError):
-            if matched_digits := MATCH_DIGITS.search(val):
-                output_nutrition[key] = matched_digits.group(0).replace(",", ".")
-
-    if sodium := nutrition.get("sodiumContent", None):
-        if isinstance(sodium, str) and "m" not in sodium and "g" in sodium:
-            with contextlib.suppress(AttributeError, TypeError):
-                output_nutrition["sodiumContent"] = str(float(output_nutrition["sodiumContent"]) * 1000)
-
-    return output_nutrition
