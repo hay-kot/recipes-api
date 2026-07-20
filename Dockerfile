@@ -39,6 +39,11 @@ ENV RECIPES_PORT=8080
 ENV RECIPES_HOST="0.0.0.0"
 ENV RECIPES_COMMIT=$COMMIT
 
+# Cap glibc per-thread arenas. Sync endpoints run across uvicorn's threadpool;
+# without this, each thread gets its own arena and freed memory fragments across
+# them, ballooning RSS under load (measured: 8-thread retained 190 -> 119 MiB).
+ENV MALLOC_ARENA_MAX=2
+
 EXPOSE 8080
 
 # During debugging, this entry point will be overridden. For more information, please refer to https://aka.ms/vscode-docker-python-debug
