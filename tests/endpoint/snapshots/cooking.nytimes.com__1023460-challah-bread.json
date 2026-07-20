@@ -111,7 +111,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999958
+      "confidence": 0.999867
     },
     {
       "input": "1/2 cup/72 grams golden raisins (optional)",
@@ -120,7 +120,7 @@
       "unit": "cup",
       "comment": "(optional)",
       "other": "",
-      "confidence": 0.999955
+      "confidence": 0.999927
     },
     {
       "input": "1/3 cup/113 grams honey",
@@ -129,7 +129,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999958
+      "confidence": 0.99993
     },
     {
       "input": "1/3 cup/75 grams extra-virgin olive oil",
@@ -138,7 +138,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999955
+      "confidence": 0.999928
     },
     {
       "input": "1 large egg yolk, at room temperature",
@@ -165,7 +165,7 @@
       "unit": "cup",
       "comment": "plus more for kneading the dough",
       "other": "",
-      "confidence": 0.99996
+      "confidence": 0.999904
     },
     {
       "input": "11 grams kosher salt (about 1 tablespoon Diamond Crystal or 1\u00bd teaspoons Morton coarse kosher salt)",
@@ -174,7 +174,7 @@
       "unit": "gram",
       "comment": "(about 1 tablespoons Diamond Crystal or 1 1/2 teaspoons Morton coarse kosher salt)",
       "other": "",
-      "confidence": 0.999759
+      "confidence": 0.999633
     },
     {
       "input": "Poppy or sesame seeds, for sprinkling (optional)",

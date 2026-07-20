@@ -52,9 +52,9 @@
       "name": "all-purpose flour",
       "qty": 3.0,
       "unit": "cup",
-      "comment": "per",
+      "comment": "per cups",
       "other": "",
-      "confidence": 0.99977
+      "confidence": 0.999625
     },
     {
       "input": "1 teaspoon active dry yeast",
@@ -79,9 +79,9 @@
       "name": "water",
       "qty": 1.5,
       "unit": "cup",
-      "comment": "(72.5 degree angle)",
+      "comment": "(70\u00b0 to 75\u00b0)",
       "other": "",
-      "confidence": 0.999929
+      "confidence": 0.999967
     }
   ],
   "error": null,

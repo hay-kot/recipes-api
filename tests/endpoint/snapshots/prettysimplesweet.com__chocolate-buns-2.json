@@ -62,7 +62,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999895
+      "confidence": 0.999771
     },
     {
       "input": "3 tablespoons (20g) cocoa powder (I use Dutch process)",
@@ -71,7 +71,7 @@
       "unit": "tablespoon",
       "comment": "(I use Dutch process)",
       "other": "",
-      "confidence": 0.999909
+      "confidence": 0.999834
     },
     {
       "input": "6 tablespoons (75g) granulated sugar",
@@ -80,7 +80,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999898
+      "confidence": 0.999795
     },
     {
       "input": "2\u00bc teaspoons (7g) instant yeast",
@@ -89,7 +89,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999845
+      "confidence": 0.999665
     },
     {
       "input": "1\u00bd teaspoons salt",
@@ -98,7 +98,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999849
+      "confidence": 0.999941
     },
     {
       "input": "1 cup (240 ml) water, lukewarm",

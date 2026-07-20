@@ -73,7 +73,7 @@
       "unit": "tablespoon",
       "comment": "divided",
       "other": "",
-      "confidence": 0.999972
+      "confidence": 0.999846
     },
     {
       "input": "1 large onion, finely chopped",
@@ -100,7 +100,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999979
+      "confidence": 0.999305
     },
     {
       "input": "1 tsp. freshly ground black pepper, plus more",
@@ -118,7 +118,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99992
+      "confidence": 0.999006
     },
     {
       "input": "2\u00bd cups clam juice, divided",
@@ -127,7 +127,7 @@
       "unit": "cup",
       "comment": "divided",
       "other": "",
-      "confidence": 0.999936
+      "confidence": 0.999979
     },
     {
       "input": "2 cups fish or seafood stock or broth",
@@ -136,23 +136,23 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.99898
+      "confidence": 0.999911
     },
     {
       "input": "1 lb. potatoes (any kind), peeled, cut into \u00bd\" pieces",
-      "name": "sterling potatoes",
+      "name": "potatoes",
       "qty": 1.0,
       "unit": "pound",
-      "comment": "peeled, cut into 0.5 inch pieces",
+      "comment": "peeled, cut into 1/2 inch pieces",
       "other": "",
-      "confidence": 0.999926
+      "confidence": 0.999558
     },
     {
       "input": "1\u00bc lb. mixed white fish (such as swordfish, sea bass, and/or halibut) and shellfish (such as lump crab meat, scallops and/or peeled, deveined shrimp), cut into \u00bd\" pieces",
       "name": "mixed white fish",
       "qty": 1.25,
       "unit": "pound",
-      "comment": "cut into 0.5 inch pieces",
+      "comment": "cut into 1/2 inch pieces",
       "other": "",
       "confidence": 0.999962
     },
@@ -172,7 +172,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999856
+      "confidence": 0.999817
     },
     {
       "input": "\u00bd cup half-and-half",
@@ -181,7 +181,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999833
+      "confidence": 0.999913
     }
   ],
   "error": null,

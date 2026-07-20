@@ -95,7 +95,7 @@
       "unit": "pound",
       "comment": "peeled and cut into quarters",
       "other": "",
-      "confidence": 0.999805
+      "confidence": 0.999754
     },
     {
       "input": "5 tablespoons (75ml) extra-virgin olive oil, duck fat, goose fat, or beef fat",
@@ -104,7 +104,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999893
+      "confidence": 0.999803
     },
     {
       "input": "Small handful picked rosemary leaves, finely chopped",
@@ -148,7 +148,7 @@
     {
       "name": "calories",
       "amount": 275.0,
-      "unit": "kilocalorie"
+      "unit": "calorie"
     },
     {
       "name": "carbohydrateContent",

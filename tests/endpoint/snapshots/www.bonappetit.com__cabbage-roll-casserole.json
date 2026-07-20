@@ -139,7 +139,7 @@
       "unit": "tablespoon",
       "comment": "divided",
       "other": "",
-      "confidence": 0.999942
+      "confidence": 0.999937
     },
     {
       "input": "1 large onion",
@@ -193,7 +193,7 @@
       "unit": "cup",
       "comment": "(such as basmati)",
       "other": "",
-      "confidence": 0.999718
+      "confidence": 0.999946
     },
     {
       "input": "1 lemon",

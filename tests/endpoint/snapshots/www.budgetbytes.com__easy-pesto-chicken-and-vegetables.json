@@ -80,61 +80,61 @@
   "ingredients": [
     {
       "input": "1 red bell pepper ($1.50)",
-      "name": "red bell pepper -1-#1$2 dollar",
+      "name": "red bell pepper",
       "qty": 1.0,
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.999261
+      "confidence": 0.99946
     },
     {
       "input": "1 zucchini ($0.60)",
-      "name": "zucchini -#3$5 dollar",
+      "name": "zucchini",
       "qty": 1.0,
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.999493
+      "confidence": 0.99982
     },
     {
       "input": "1 yellow squash ($0.50)",
-      "name": "yellow squash -#1$2 dollar",
+      "name": "yellow squash",
       "qty": 1.0,
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.999707
+      "confidence": 0.999713
     },
     {
       "input": "1/2 red onion ($0.19)",
-      "name": "red onion -#19$100 dollar",
+      "name": "red onion",
       "qty": 0.5,
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.998923
+      "confidence": 0.999758
     },
     {
       "input": "1.3 lbs. boneless, skinless chicken breast ($6.67)",
-      "name": "boneless, skinless chicken breast -6-#67$100 dollar",
+      "name": "boneless, skinless chicken breast",
       "qty": 1.3,
       "unit": "pound",
       "comment": "",
       "other": "",
-      "confidence": 0.999978
+      "confidence": 0.999181
     },
     {
       "input": "2 Tbsp cooking oil ($0.08)",
-      "name": "cooking oil -#2$25 dollar",
+      "name": "cooking oil",
       "qty": 2.0,
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999749
+      "confidence": 0.999387
     },
     {
       "input": "1 cup frozen green beans ($0.67)",
-      "name": "frozen green beans -#67$100 dollar",
+      "name": "frozen green beans",
       "qty": 1.0,
       "unit": "cup",
       "comment": "",
@@ -143,39 +143,39 @@
     },
     {
       "input": "1/3 cup pesto* ($0.73)",
-      "name": "pesto* -#73$100 dollar",
+      "name": "pesto",
       "qty": 0.333,
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999931
+      "confidence": 0.999924
     },
     {
       "input": "1/8 tsp salt* ($0.01)",
-      "name": "salt* -#1$100 dollar",
+      "name": "salt",
       "qty": 0.125,
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999894
+      "confidence": 0.999895
     },
     {
       "input": "1/8 tsp freshly cracked pepper* ($0.01)",
-      "name": "pepper, -#1$100 dollar",
+      "name": "pepper",
       "qty": 0.125,
       "unit": "teaspoon",
       "comment": "freshly cracked",
       "other": "",
-      "confidence": 0.999662
+      "confidence": 0.99976
     },
     {
       "input": "1 Tbsp grated Parmesan* ($0.11)",
-      "name": "Parmesan* -#11$100 dollar",
+      "name": "Parmesan",
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "grated",
       "other": "",
-      "confidence": 0.999657
+      "confidence": 0.996387
     }
   ],
   "error": null,
@@ -188,7 +188,7 @@
     {
       "name": "calories",
       "amount": 369.33,
-      "unit": "kilocalorie"
+      "unit": "calorie"
     },
     {
       "name": "carbohydrateContent",

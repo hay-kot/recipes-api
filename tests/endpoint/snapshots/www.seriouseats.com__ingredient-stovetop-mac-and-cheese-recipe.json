@@ -71,7 +71,7 @@
       "unit": "ounce",
       "comment": "",
       "other": "",
-      "confidence": 0.999695
+      "confidence": 0.999364
     },
     {
       "input": "Salt",
@@ -89,7 +89,7 @@
       "unit": "ounce",
       "comment": "",
       "other": "",
-      "confidence": 0.999748
+      "confidence": 0.999455
     },
     {
       "input": "6 ounces (170g) grated mild or medium cheddar cheese, or any good melting cheese, such as Fontina, Gruy\u00e8re, or Jack",
@@ -98,7 +98,7 @@
       "unit": "ounce",
       "comment": "grated",
       "other": "",
-      "confidence": 0.999612
+      "confidence": 0.999277
     }
   ],
   "error": null,
@@ -106,7 +106,7 @@
     {
       "name": "calories",
       "amount": 699.0,
-      "unit": "kilocalorie"
+      "unit": "calorie"
     },
     {
       "name": "carbohydrateContent",

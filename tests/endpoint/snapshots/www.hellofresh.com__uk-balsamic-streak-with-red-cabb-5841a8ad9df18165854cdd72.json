@@ -214,7 +214,7 @@
     {
       "name": "calories",
       "amount": 535.0,
-      "unit": "kilocalorie"
+      "unit": "calorie"
     },
     {
       "name": "fatContent",

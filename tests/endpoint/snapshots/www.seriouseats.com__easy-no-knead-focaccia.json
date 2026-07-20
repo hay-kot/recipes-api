@@ -76,7 +76,7 @@
       "unit": "gram",
       "comment": "see note",
       "other": "",
-      "confidence": 0.997457
+      "confidence": 0.999596
     },
     {
       "input": "10 grams Diamond Crystal kosher salt (0.4 ounce; 2 1/2 teaspoons); for table salt, use about half as much by volume or the same weight",
@@ -85,7 +85,7 @@
       "unit": "gram",
       "comment": "0.4 ounces, for table salt, use about half as much by volume or the same weight",
       "other": "",
-      "confidence": 0.988154
+      "confidence": 0.997719
     },
     {
       "input": "4 grams instant dry yeast, such as SAF (0.1 ounce; 1/2 packet or 1 rounded teaspoon)",
@@ -94,7 +94,7 @@
       "unit": "gram",
       "comment": "such as SAF (0.1 ounces; 1/2 packets or 1 rounded teaspoons)",
       "other": "",
-      "confidence": 0.99286
+      "confidence": 0.99904
     },
     {
       "input": "400 grams room temperature water (14.1 ounces; 1 1/2 cups plus 3 tablespoons)",
@@ -103,7 +103,7 @@
       "unit": "gram",
       "comment": "",
       "other": "",
-      "confidence": 0.824396
+      "confidence": 0.97241
     },
     {
       "input": "68 grams extra-virgin olive oil (2.4 ounces; 5 tablespoons), divided",
@@ -112,7 +112,7 @@
       "unit": "gram",
       "comment": "divided",
       "other": "",
-      "confidence": 0.998724
+      "confidence": 0.999824
     },
     {
       "input": "Coarse sea salt, such as Maldon or fleur de sel",
@@ -129,7 +129,7 @@
     {
       "name": "calories",
       "amount": 302.0,
-      "unit": "kilocalorie"
+      "unit": "calorie"
     },
     {
       "name": "carbohydrateContent",

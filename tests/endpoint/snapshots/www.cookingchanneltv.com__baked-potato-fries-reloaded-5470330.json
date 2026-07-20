@@ -58,12 +58,12 @@
   "ingredients": [
     {
       "input": "4 russet potatoes (about 8 ounces/227 grams each), scrubbed and rinsed",
-      "name": "roentgen atomic mass units second set potatoes",
+      "name": "russet potatoes",
       "qty": 4.0,
       "unit": "",
       "comment": "scrubbed and rinsed",
       "other": "",
-      "confidence": 0.996987
+      "confidence": 0.999163
     },
     {
       "input": "2 teaspoons plus 2 quarts peanut oil",
@@ -72,7 +72,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999789
+      "confidence": 0.99918
     },
     {
       "input": "Kosher salt",

@@ -69,7 +69,7 @@
       "unit": "ounce",
       "comment": "at room temperature",
       "other": "",
-      "confidence": 0.999243
+      "confidence": 0.999839
     },
     {
       "input": "4 slices pepperjack cheese",
@@ -141,7 +141,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999974
+      "confidence": 0.99997
     },
     {
       "input": "1 jar salsa verde",
@@ -167,7 +167,7 @@
     {
       "name": "calories",
       "amount": 550.0,
-      "unit": "kilocalorie"
+      "unit": "calorie"
     }
   ]
 }

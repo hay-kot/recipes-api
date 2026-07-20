@@ -83,7 +83,7 @@
       "unit": "ounce",
       "comment": "cubed",
       "other": "",
-      "confidence": 0.999499
+      "confidence": 0.99989
     },
     {
       "input": "1 medium zucchini, grated ((about 1 cup grated))",
@@ -110,7 +110,7 @@
       "unit": "cup",
       "comment": "shredded",
       "other": "",
-      "confidence": 0.999944
+      "confidence": 0.999822
     },
     {
       "input": "1 cup shredded monterey jack cheese",
@@ -160,7 +160,7 @@
     {
       "input": "1-2 tablespoons salted butter ((optional))",
       "name": "salted butter",
-      "qty": 1.5,
+      "qty": 1.0,
       "unit": "tablespoon",
       "comment": "((optional))",
       "other": "",
@@ -181,7 +181,7 @@
     {
       "name": "calories",
       "amount": 507.0,
-      "unit": "kilocalorie"
+      "unit": "calorie"
     }
   ]
 }

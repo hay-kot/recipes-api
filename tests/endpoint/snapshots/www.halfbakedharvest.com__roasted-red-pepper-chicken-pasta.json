@@ -102,7 +102,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99998
+      "confidence": 0.999982
     },
     {
       "input": "1/2 cup extra-virgin olive oil",
@@ -111,7 +111,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999967
+      "confidence": 0.99999
     },
     {
       "input": "2 tablespoons fruity champagne or wine vinegar",
@@ -120,7 +120,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999971
+      "confidence": 0.999959
     },
     {
       "input": "2 teaspoons honey",
@@ -129,7 +129,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999896
+      "confidence": 0.999957
     },
     {
       "input": "2 teaspoons smoked paprika",
@@ -138,7 +138,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999954
+      "confidence": 0.999956
     },
     {
       "input": "1/2-1 teaspoon cayenne pepper",
@@ -165,7 +165,7 @@
       "unit": "teaspoon",
       "comment": "((see note))",
       "other": "",
-      "confidence": 0.999982
+      "confidence": 0.999981
     },
     {
       "input": "red pepper flakes",
@@ -218,7 +218,7 @@
     {
       "name": "calories",
       "amount": 590.0,
-      "unit": "kilocalorie"
+      "unit": "calorie"
     }
   ]
 }

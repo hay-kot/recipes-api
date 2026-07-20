@@ -82,7 +82,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999899
+      "confidence": 0.999978
     },
     {
       "input": "1/4 teaspoon freshly ground pepper",
@@ -109,7 +109,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999973
+      "confidence": 0.999969
     },
     {
       "input": "2 tablespoons red wine vinegar",
@@ -136,7 +136,7 @@
       "unit": "cup",
       "comment": "homemade or low-sodium canned",
       "other": "",
-      "confidence": 0.999888
+      "confidence": 0.999968
     },
     {
       "input": "2 bay leaves",
@@ -161,16 +161,16 @@
       "name": "carrots",
       "qty": 5.0,
       "unit": "",
-      "comment": "peeled and cut into 0.25 inch rounds",
+      "comment": "peeled and cut into 1/4 inch rounds",
       "other": "",
-      "confidence": 0.99988
+      "confidence": 0.999881
     },
     {
       "input": "2 large baking potatoes, peeled and cut into 3/4-inch cubes",
       "name": "baking potatoes",
       "qty": 2.0,
       "unit": "",
-      "comment": "peeled and cut into 0.75 inch cubes",
+      "comment": "peeled and cut into 3/4 inch cubes",
       "other": "",
       "confidence": 0.998638
     },
@@ -181,7 +181,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999849
+      "confidence": 0.999941
     }
   ],
   "error": null,

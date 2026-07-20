@@ -56,7 +56,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999974
+      "confidence": 0.99997
     },
     {
       "input": "1 pound lean ground beef",
@@ -137,7 +137,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999969
+      "confidence": 0.999963
     },
     {
       "input": "1 1/2 cups milk ((use what you drink))",
@@ -146,7 +146,7 @@
       "unit": "cup",
       "comment": "((use what you drink))",
       "other": "",
-      "confidence": 0.999865
+      "confidence": 0.999963
     },
     {
       "input": "1 1/2-2 cups shredded cheddar cheese",
@@ -181,7 +181,7 @@
     {
       "name": "calories",
       "amount": 675.0,
-      "unit": "kilocalorie"
+      "unit": "calorie"
     }
   ]
 }
