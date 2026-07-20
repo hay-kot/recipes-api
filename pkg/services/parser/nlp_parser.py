@@ -1,15 +1,120 @@
+import re
 from fractions import Fraction
 
 from ingredient_parser import parse_ingredient
 from ingredient_parser.dataclasses import CompositeIngredientAmount
 from pint import Unit
-from quantulum3 import parser
 
 from pkg.schema.scrapers import ParsedIngredients, ParsedNutrition
 from pkg.schema.web import Context
-from pkg.services.parser.pre_processor import normalize_ingredient, pre_process_string
+from pkg.services.parser.pre_processor import pre_process_string
 
 _MASS_DIMENSIONALITY = Unit("gram").dimensionality
+
+# Deterministic unit canonicalisation. ingredient-parser already returns a
+# pint.Unit (canonical singular) for units it recognises; this only kicks in for
+# the string units it leaves as-is (e.g. a plural/capitalised "Tablespoons" the
+# CRF emitted that pint couldn't parse). This replaces the quantulum3 normalize
+# step, which cost ~half the per-line latency, dragged in scikit-learn+scipy,
+# and mangled ~1-in-7 lines. Unknown units pass through unchanged.
+_UNIT_ALIASES = {
+    "tablespoon": "tablespoon",
+    "tablespoons": "tablespoon",
+    "tbsp": "tablespoon",
+    "tbsps": "tablespoon",
+    "tbs": "tablespoon",
+    "tbl": "tablespoon",
+    "teaspoon": "teaspoon",
+    "teaspoons": "teaspoon",
+    "tsp": "teaspoon",
+    "tsps": "teaspoon",
+    "cup": "cup",
+    "cups": "cup",
+    "gram": "gram",
+    "grams": "gram",
+    "g": "gram",
+    "gramme": "gram",
+    "grammes": "gram",
+    "kilogram": "kilogram",
+    "kilograms": "kilogram",
+    "kg": "kilogram",
+    "milligram": "milligram",
+    "milligrams": "milligram",
+    "mg": "milligram",
+    "ounce": "ounce",
+    "ounces": "ounce",
+    "oz": "ounce",
+    "ozs": "ounce",
+    "pound": "pound",
+    "pounds": "pound",
+    "lb": "pound",
+    "lbs": "pound",
+    "milliliter": "milliliter",
+    "milliliters": "milliliter",
+    "millilitre": "milliliter",
+    "millilitres": "milliliter",
+    "ml": "milliliter",
+    "liter": "liter",
+    "liters": "liter",
+    "litre": "liter",
+    "litres": "liter",
+    "pint": "pint",
+    "pints": "pint",
+    "quart": "quart",
+    "quarts": "quart",
+    "gallon": "gallon",
+    "gallons": "gallon",
+}
+
+
+def canonicalize_unit(unit: str) -> str:
+    """Map a unit surface form to a canonical singular name; pass through unknowns."""
+    if not unit:
+        return ""
+    key = unit.strip().rstrip(".").lower()
+    return _UNIT_ALIASES.get(key, unit)
+
+
+# Nutrition values are almost always "<number> <unit>" (e.g. "6 grams", "110 mg").
+# This regex-based parser replaces quantulum3 without the ML dependency. Energy
+# units (Calories/calories/kcal) all normalise to "calorie" — consistent with the
+# full-word "gram"/"milligram" and how nutrition is commonly labelled.
+_NUTRITION_NUMBER_UNIT = re.compile(r"(-?\d+(?:\.\d+)?)\s*([A-Za-z]+)")
+_NUTRITION_UNITS = {
+    "g": "gram",
+    "gram": "gram",
+    "grams": "gram",
+    "gramme": "gram",
+    "grammes": "gram",
+    "mg": "milligram",
+    "milligram": "milligram",
+    "milligrams": "milligram",
+    "mcg": "microgram",
+    "microgram": "microgram",
+    "micrograms": "microgram",
+    "kg": "kilogram",
+    "kilogram": "kilogram",
+    "kilograms": "kilogram",
+    "cup": "cup",
+    "cups": "cup",
+    "ml": "milliliter",
+    "milliliter": "milliliter",
+    "milliliters": "milliliter",
+    "l": "liter",
+    "liter": "liter",
+    "liters": "liter",
+    "litre": "liter",
+    "litres": "liter",
+    "kcal": "calorie",
+    "cal": "calorie",
+    "calorie": "calorie",
+    "calories": "calorie",
+}
+
+
+def _nutrition_unit(token: str) -> str | None:
+    return _NUTRITION_UNITS.get(token.lower())
+
 
 # A count unit is only overridden by a weight when the parser is genuinely
 # unsure about it. Deliberate counts ("4 breasts", "1 can") score ~1.0; the
@@ -57,29 +162,28 @@ def select_amount(amounts):
 def dict_to_parsed_nutrition(nutrition: dict[str, str]) -> list[ParsedNutrition]:
     parsed_nutrition: list[ParsedNutrition] = []
 
-    for key, value in nutrition.items():
-        name = key
-
-        try:
-            parsed = parser.parse(value)
-        except Exception:
+    for name, value in nutrition.items():
+        if not isinstance(value, str):
             continue
 
-        # use the first entry in the parsed list as the most likely
-
-        if len(parsed) == 0:
+        # Take the first "<number> <unit>" pair, matching quantulum's use of the
+        # most-likely (first) entity. A bare number ("399") or an unrecognised
+        # unit ("1 serving") yields nothing, as before.
+        match = _NUTRITION_NUMBER_UNIT.search(value)
+        if not match:
             continue
 
-        entity = parsed[0]
+        unit = _nutrition_unit(match.group(2))
+        if unit is None:
+            continue
 
-        if entity.unit is not None and entity.unit.name != "dimensionless":
-            parsed_nutrition.append(
-                ParsedNutrition(
-                    name=name,
-                    amount=entity.value,
-                    unit=entity.unit.name,
-                )
+        parsed_nutrition.append(
+            ParsedNutrition(
+                name=name,
+                amount=float(match.group(1)),
+                unit=unit,
             )
+        )
 
     return parsed_nutrition
 
@@ -90,7 +194,6 @@ def list_to_parsed_ingredients(ingredients: list[str], _: Context) -> list[Parse
     for ingredient in ingredients:
         original_input = ingredient
         ingredient = pre_process_string(ingredient)
-        ingredient = normalize_ingredient(ingredient)
         parsed_ingredient = parse_ingredient(ingredient)
 
         amount = select_amount(parsed_ingredient.amount)
@@ -105,6 +208,7 @@ def list_to_parsed_ingredients(ingredients: list[str], _: Context) -> list[Parse
                 unit_str = amount.unit
             elif isinstance(amount.unit, Unit):
                 unit_str = amount.unit.__str__()
+        unit_str = canonicalize_unit(unit_str)
 
         comment = ""
         if parsed_ingredient.preparation:
@@ -119,7 +223,7 @@ def list_to_parsed_ingredients(ingredients: list[str], _: Context) -> list[Parse
             ParsedIngredients(
                 input=original_input,
                 name=name,
-                qty=convert_to_float(amount.quantity) if amount else 1.0,
+                qty=round(convert_to_float(amount.quantity), 3) if amount else 1.0,
                 unit=unit_str,
                 confidence=amount.confidence if amount else 0.0,
                 comment=comment,

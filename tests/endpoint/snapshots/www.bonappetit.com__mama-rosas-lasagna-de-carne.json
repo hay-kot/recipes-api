@@ -101,12 +101,12 @@
     },
     {
       "input": "1 plum tomato, coarsely chopped",
-      "name": "atomic mass units metre tomato",
+      "name": "plum tomato",
       "qty": 1.0,
-      "unit": "liter * pint",
+      "unit": "",
       "comment": "coarsely chopped",
       "other": "",
-      "confidence": 0.991976
+      "confidence": 0.998527
     },
     {
       "input": "4 sprigs cilantro",
@@ -187,7 +187,7 @@
       "unit": "tablespoon",
       "comment": "or 1 3/4 teaspoons Morton kosher salt, plus more",
       "other": "",
-      "confidence": 0.999839
+      "confidence": 0.997084
     },
     {
       "input": "1 Tbsp. extra-virgin olive oil",
@@ -196,14 +196,14 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999959
+      "confidence": 0.999948
     },
     {
       "input": "2 lb. ground beef chuck (10% fat)",
       "name": "ground beef chuck",
       "qty": 2.0,
       "unit": "pound",
-      "comment": "(10.0 percentage fat)",
+      "comment": "(10% fat)",
       "other": "",
       "confidence": 0.999931
     },
@@ -214,7 +214,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999937
+      "confidence": 0.999659
     },
     {
       "input": "2 bay leaves",

@@ -95,7 +95,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999899
+      "confidence": 0.999976
     },
     {
       "input": "2 cups old fashioned oats",
@@ -104,7 +104,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999979
+      "confidence": 0.999977
     },
     {
       "input": "1 teaspoon baking soda",
@@ -131,7 +131,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999961
+      "confidence": 0.999976
     },
     {
       "input": "flaky sea salt, for sprinkling ((optional))",
@@ -148,7 +148,7 @@
     {
       "name": "calories",
       "amount": 279.0,
-      "unit": "kilocalorie"
+      "unit": "calorie"
     }
   ]
 }

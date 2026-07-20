@@ -174,9 +174,9 @@
       "name": "warm tap water ~",
       "qty": 0.5,
       "unit": "cup",
-      "comment": "40.0 degree Celsius/105.0 degree fahrenheit in temperature",
+      "comment": "105\u00b0F in temperature",
       "other": "",
-      "confidence": 0.999944
+      "confidence": 0.99996
     },
     {
       "input": "1 tbsp white sugar",
@@ -221,7 +221,7 @@
       "unit": "cup",
       "comment": "(, or all-purpose/plain (Note 3))",
       "other": "",
-      "confidence": 0.999932
+      "confidence": 0.999976
     },
     {
       "input": "30g / 2 tbsp ghee or unsalted butter (, melted (Note 4))",
@@ -283,7 +283,7 @@
     {
       "name": "calories",
       "amount": 223.0,
-      "unit": "kilocalorie"
+      "unit": "calorie"
     },
     {
       "name": "carbohydrateContent",

@@ -121,7 +121,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999911
+      "confidence": 0.999958
     },
     {
       "input": "3/4 cup sugar",
@@ -184,7 +184,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999885
+      "confidence": 0.999954
     },
     {
       "input": "1 tablespoon honey",
@@ -211,7 +211,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999953
+      "confidence": 0.999985
     }
   ],
   "error": null,
@@ -264,7 +264,7 @@
     {
       "name": "calories",
       "amount": 201.0,
-      "unit": "kilocalorie"
+      "unit": "calorie"
     }
   ]
 }

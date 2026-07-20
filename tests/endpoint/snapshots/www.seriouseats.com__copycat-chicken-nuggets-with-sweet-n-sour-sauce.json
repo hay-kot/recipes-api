@@ -102,7 +102,7 @@
       "name": "boneless, skinless chicken thighs",
       "qty": 1.0,
       "unit": "pound",
-      "comment": "cut into 1.0 inch pieces",
+      "comment": "cut into 1 inch pieces",
       "other": "",
       "confidence": 0.999922
     },
@@ -185,7 +185,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999897
+      "confidence": 0.999795
     },
     {
       "input": "2 tablespoons (30ml) water",
@@ -194,7 +194,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999918
+      "confidence": 0.999828
     },
     {
       "input": "5 teaspoons (25ml) distilled white vinegar",
@@ -203,7 +203,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999861
+      "confidence": 0.9997
     },
     {
       "input": "1 1/2 teaspoons (4g) cornstarch",
@@ -212,7 +212,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999851
+      "confidence": 0.999667
     },
     {
       "input": "1 teaspoon (3g) chicken-flavored broth powder, such as Orrington Farms",
@@ -284,7 +284,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999904
+      "confidence": 0.999844
     },
     {
       "input": "2 tablespoons (16g) cornstarch",
@@ -293,7 +293,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999908
+      "confidence": 0.999809
     },
     {
       "input": "1 teaspoon (3g) chicken-flavored broth powder, such as Orrington Farms",
@@ -338,7 +338,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999906
+      "confidence": 0.999797
     }
   ],
   "error": null,
@@ -346,7 +346,7 @@
     {
       "name": "calories",
       "amount": 432.0,
-      "unit": "kilocalorie"
+      "unit": "calorie"
     },
     {
       "name": "carbohydrateContent",

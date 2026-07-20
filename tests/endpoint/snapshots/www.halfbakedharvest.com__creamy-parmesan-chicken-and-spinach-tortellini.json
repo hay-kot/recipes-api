@@ -77,7 +77,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999899
+      "confidence": 0.999978
     },
     {
       "input": "1 teaspoon garlic powder",
@@ -95,7 +95,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999974
+      "confidence": 0.99997
     },
     {
       "input": "2 tablespoons salted butter",
@@ -104,7 +104,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999943
+      "confidence": 0.999942
     },
     {
       "input": "2 shallots, finely chopped",
@@ -131,7 +131,7 @@
       "unit": "tablespoon",
       "comment": "((or 2 teaspoons dried thyme))",
       "other": "",
-      "confidence": 0.999856
+      "confidence": 0.999869
     },
     {
       "input": "red pepper flakes",
@@ -211,7 +211,7 @@
     {
       "name": "calories",
       "amount": 732.0,
-      "unit": "kilocalorie"
+      "unit": "calorie"
     }
   ]
 }

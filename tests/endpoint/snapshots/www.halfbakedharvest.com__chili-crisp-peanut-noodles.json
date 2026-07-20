@@ -63,7 +63,7 @@
       "unit": "ounce",
       "comment": "",
       "other": "",
-      "confidence": 0.999639
+      "confidence": 0.999847
     },
     {
       "input": "1/2 cup creamy peanut butter",
@@ -90,7 +90,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999911
+      "confidence": 0.999958
     },
     {
       "input": "1/4 cup Thai red curry paste",
@@ -133,7 +133,7 @@
       "name": "",
       "qty": 1.0,
       "unit": "tablespoon",
-      "comment": "plus 0.25 cups sesame oil",
+      "comment": "plus 1/4 cups sesame oil",
       "other": "",
       "confidence": 0.999691
     },
@@ -144,7 +144,7 @@
       "unit": "ounce",
       "comment": "cubed and patted dry",
       "other": "",
-      "confidence": 0.99972
+      "confidence": 0.999844
     },
     {
       "input": "6 cloves garlic, chopped",
@@ -198,7 +198,7 @@
       "unit": "tablespoon",
       "comment": "chopped",
       "other": "",
-      "confidence": 0.999789
+      "confidence": 0.9997
     },
     {
       "input": "2 tablespoons lime juice",
@@ -207,7 +207,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999914
+      "confidence": 0.999973
     }
   ],
   "error": null,
@@ -215,7 +215,7 @@
     {
       "name": "calories",
       "amount": 496.0,
-      "unit": "kilocalorie"
+      "unit": "calorie"
     }
   ]
 }

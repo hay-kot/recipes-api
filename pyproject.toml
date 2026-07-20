@@ -13,10 +13,6 @@ dependencies = [
   "ingredient-parser-nlp==2.7.0",
   "recipe-scrapers==15.11.0",
   "httpx==0.28.1",
-  "quantulum3[classifier]==0.10.0",
-  # Pinned to match the scikit-learn version quantulum3's pickled classifier
-  # was built with (quantulum3 0.10.0 -> scikit-learn 1.8.0).
-  "scikit-learn==1.8.0",
 ]
 
 [dependency-groups]

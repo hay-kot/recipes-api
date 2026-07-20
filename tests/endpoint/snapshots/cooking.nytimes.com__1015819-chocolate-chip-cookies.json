@@ -81,7 +81,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999881
+      "confidence": 0.998998
     },
     {
       "input": "1 2/3 cups bread flour (8 1/2 ounces)",
@@ -90,7 +90,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999934
+      "confidence": 0.999978
     },
     {
       "input": "1 1/4 teaspoons baking soda",
@@ -99,7 +99,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999935
+      "confidence": 0.999968
     },
     {
       "input": "1 1/2 teaspoons baking powder",
@@ -108,7 +108,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999936
+      "confidence": 0.999963
     },
     {
       "input": "1 1/2 teaspoons coarse salt",
@@ -117,7 +117,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999939
+      "confidence": 0.999971
     },
     {
       "input": "1 1/4 cups unsalted butter (2 1/2 sticks)",
@@ -126,7 +126,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999978
+      "confidence": 0.999977
     },
     {
       "input": "1 1/4 cups light brown sugar (10 ounces)",
@@ -135,7 +135,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999978
+      "confidence": 0.999974
     },
     {
       "input": "1 cup plus 2 tablespoons granulated sugar (8 ounces)",
@@ -144,7 +144,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999901
+      "confidence": 0.999771
     },
     {
       "input": "2 large eggs",
@@ -162,16 +162,16 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999933
+      "confidence": 0.999977
     },
     {
       "input": "1 1/4 pounds bittersweet chocolate disks or f\u00e8ves, at least 60 percent cacao content (see note)",
       "name": "bittersweet chocolate disks, bittersweet chocolate f\u00e8ves",
       "qty": 1.25,
       "unit": "pound",
-      "comment": "at least 60.0 percentage cacao content (see note)",
+      "comment": "at least 60 percent cacao content (see note)",
       "other": "",
-      "confidence": 0.999913
+      "confidence": 0.999841
     },
     {
       "input": "Sea salt",

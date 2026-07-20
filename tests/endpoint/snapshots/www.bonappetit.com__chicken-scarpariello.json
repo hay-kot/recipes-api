@@ -74,7 +74,7 @@
       "unit": "pound",
       "comment": "halved lengthwise",
       "other": "",
-      "confidence": 0.999839
+      "confidence": 0.999884
     },
     {
       "input": "6 tablespoons extra-virgin olive oil, divided",
@@ -83,7 +83,7 @@
       "unit": "tablespoon",
       "comment": "divided",
       "other": "",
-      "confidence": 0.999959
+      "confidence": 0.999979
     },
     {
       "input": "Kosher salt, freshly ground pepper",
@@ -173,7 +173,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999964
+      "confidence": 0.999988
     },
     {
       "input": "3 sprigs rosemary",

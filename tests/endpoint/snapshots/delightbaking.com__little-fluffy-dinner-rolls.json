@@ -80,12 +80,12 @@
     },
     {
       "input": "350 g Milk 3.5% fat",
-      "name": "Milk, percentage fat",
+      "name": "Milk 3.5% fat",
       "qty": 350.0,
       "unit": "gram",
       "comment": "",
       "other": "",
-      "confidence": 0.992437
+      "confidence": 0.995631
     },
     {
       "input": "75 g Butter",

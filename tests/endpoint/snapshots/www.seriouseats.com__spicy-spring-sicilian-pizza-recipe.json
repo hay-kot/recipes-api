@@ -110,7 +110,7 @@
       "unit": "gram",
       "comment": "",
       "other": "",
-      "confidence": 0.996433
+      "confidence": 0.996435
     },
     {
       "input": "14g kosher salt (0.5 ounce; about 1 tablespoon); for table salt use same weight or half as much by volume",
@@ -135,9 +135,9 @@
       "name": "extra-virgin olive oil",
       "qty": 20.0,
       "unit": "gram",
-      "comment": "0.7 ounces, plus 40.0 grams (1.4 ounces; 0.25 cups) for the baking pan",
+      "comment": "0.70 ounces, plus 40 grams, 1/4 cups for the baking pan",
       "other": "",
-      "confidence": 0.997596
+      "confidence": 0.997595
     },
     {
       "input": "325g room-temperature water (11.5 ounces; about 1 cup plus 7 tablespoons)",
@@ -146,7 +146,7 @@
       "unit": "gram",
       "comment": "",
       "other": "",
-      "confidence": 0.994216
+      "confidence": 0.994707
     },
     {
       "input": "For the Sauce:",
@@ -191,7 +191,7 @@
       "unit": "teaspoon",
       "comment": "or more to taste",
       "other": "",
-      "confidence": 0.999877
+      "confidence": 0.999857
     },
     {
       "input": "One 28-ounce (800g) can whole peeled tomatoes",
@@ -243,9 +243,9 @@
       "name": "natural-casing pepperoni",
       "qty": 12.0,
       "unit": "ounce",
-      "comment": "cut into 0.125 inch-thick slices",
+      "comment": "cut into 1/8 inch-thick slices",
       "other": "",
-      "confidence": 0.999759
+      "confidence": 0.999537
     },
     {
       "input": "4 ounces (115g) ground Pecorino Romano cheese",
@@ -254,7 +254,7 @@
       "unit": "ounce",
       "comment": "",
       "other": "",
-      "confidence": 0.999695
+      "confidence": 0.999365
     }
   ],
   "error": null,
@@ -262,7 +262,7 @@
     {
       "name": "calories",
       "amount": 777.0,
-      "unit": "kilocalorie"
+      "unit": "calorie"
     },
     {
       "name": "carbohydrateContent",

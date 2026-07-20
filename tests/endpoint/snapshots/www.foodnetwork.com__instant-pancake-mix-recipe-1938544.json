@@ -91,7 +91,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999899
+      "confidence": 0.999976
     },
     {
       "input": "1 1/2 teaspoons baking soda (check expiration date first)",
@@ -100,7 +100,7 @@
       "unit": "teaspoon",
       "comment": "(check expiration date first)",
       "other": "",
-      "confidence": 0.999968
+      "confidence": 0.999972
     },
     {
       "input": "3 teaspoons baking powder",
@@ -109,7 +109,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999936
+      "confidence": 0.999963
     },
     {
       "input": "1 tablespoon kosher salt",
@@ -127,7 +127,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999885
+      "confidence": 0.999954
     },
     {
       "input": "2 eggs, separated",
@@ -145,7 +145,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999931
+      "confidence": 0.999969
     },
     {
       "input": "4 tablespoons melted butter",
@@ -154,7 +154,7 @@
       "unit": "tablespoon",
       "comment": "melted",
       "other": "",
-      "confidence": 0.999521
+      "confidence": 0.999496
     },
     {
       "input": "2 cups \"Instant\" Pancake Mix, recipe above",
@@ -163,7 +163,7 @@
       "unit": "cup",
       "comment": "recipes above",
       "other": "",
-      "confidence": 0.999981
+      "confidence": 0.999971
     },
     {
       "input": "1 stick butter, for greasing the pan",
@@ -181,7 +181,7 @@
       "unit": "cup",
       "comment": "such as blueberries, if desired",
       "other": "",
-      "confidence": 0.999978
+      "confidence": 0.999979
     }
   ],
   "error": null,

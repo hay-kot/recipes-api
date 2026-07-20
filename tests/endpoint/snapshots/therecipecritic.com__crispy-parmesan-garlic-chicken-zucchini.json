@@ -78,7 +78,7 @@
       "unit": "tablespoon",
       "comment": "(divided)",
       "other": "",
-      "confidence": 0.999948
+      "confidence": 0.999968
     },
     {
       "input": "\u00bd cup Italian Bread Crumbs",
@@ -96,7 +96,7 @@
       "unit": "cup",
       "comment": "grated, (divided)",
       "other": "",
-      "confidence": 0.999901
+      "confidence": 0.999838
     },
     {
       "input": "\u00bc cup flour",
@@ -105,7 +105,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999975
+      "confidence": 0.999938
     },
     {
       "input": "2 medium zucchini (sliced)",
@@ -131,7 +131,7 @@
     {
       "name": "calories",
       "amount": 418.0,
-      "unit": "kilocalorie"
+      "unit": "calorie"
     },
     {
       "name": "carbohydrateContent",

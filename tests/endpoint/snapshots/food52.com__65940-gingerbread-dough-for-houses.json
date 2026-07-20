@@ -78,7 +78,7 @@
       "unit": "cup",
       "comment": "at room temperature",
       "other": "",
-      "confidence": 0.999762
+      "confidence": 0.999953
     },
     {
       "input": "1 1/4 cups granulated sugar (250 g)",
@@ -114,7 +114,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999969
+      "confidence": 0.999972
     },
     {
       "input": "1 tablespoon ground cinnamon (9 g)",
@@ -132,7 +132,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.99987
+      "confidence": 0.999638
     },
     {
       "input": "1 1/2 teaspoons baking soda (6 g)",
@@ -141,7 +141,7 @@
       "unit": "teaspoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999964
+      "confidence": 0.999968
     },
     {
       "input": "3/4 teaspoon fine sea salt (3 g)",

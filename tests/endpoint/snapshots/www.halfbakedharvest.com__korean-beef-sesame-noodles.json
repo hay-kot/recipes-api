@@ -97,16 +97,16 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999914
+      "confidence": 0.999972
     },
     {
       "input": "2-3 tablespoons Gochujang ((Korean chili paste))",
       "name": "Gochujang",
-      "qty": 2.5,
+      "qty": 2.0,
       "unit": "tablespoon",
       "comment": "((Korean chili paste))",
       "other": "",
-      "confidence": 0.999963
+      "confidence": 0.999951
     },
     {
       "input": "1 tablespoon toasted sesame oil",
@@ -124,7 +124,7 @@
       "unit": "ounce",
       "comment": "",
       "other": "",
-      "confidence": 0.999872
+      "confidence": 0.99988
     },
     {
       "input": "2 tablespoons sesame oil",
@@ -133,7 +133,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999929
+      "confidence": 0.999978
     },
     {
       "input": "3 cups mixed stir fry vegetables",
@@ -142,7 +142,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.99998
+      "confidence": 0.999985
     },
     {
       "input": "3 shallots, sliced",
@@ -186,7 +186,7 @@
     {
       "name": "calories",
       "amount": 740.0,
-      "unit": "kilocalorie"
+      "unit": "calorie"
     }
   ]
 }

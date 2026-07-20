@@ -261,7 +261,7 @@
       "unit": "cup",
       "comment": "(, preferably full fat)",
       "other": "",
-      "confidence": 0.999981
+      "confidence": 0.999984
     },
     {
       "input": "1 tbsp lemon juice",
@@ -368,7 +368,7 @@
     {
       "name": "calories",
       "amount": 641.78,
-      "unit": "kilocalorie"
+      "unit": "calorie"
     },
     {
       "name": "carbohydrateContent",

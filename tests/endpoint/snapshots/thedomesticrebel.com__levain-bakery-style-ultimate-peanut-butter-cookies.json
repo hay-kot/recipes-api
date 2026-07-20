@@ -156,7 +156,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999899
+      "confidence": 0.999976
     },
     {
       "input": "2 cups peanut butter chips",
@@ -165,7 +165,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.99994
+      "confidence": 0.999978
     },
     {
       "input": "1\u00bd cups Reese's Pieces candies",
@@ -174,7 +174,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999994
+      "confidence": 0.99999
     }
   ],
   "error": null,

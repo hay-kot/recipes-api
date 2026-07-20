@@ -1,8 +1,5 @@
 import re
 import unicodedata
-from fractions import Fraction
-
-from quantulum3 import parser
 
 replace_abbreviations = {
     "cup": " cup ",
@@ -58,84 +55,37 @@ def normalize_mixed_number(string: str) -> str:
     return re.sub(r"(?<![\d/])(\d+)-(\d+/\d+)", r"\1 \2", string)
 
 
+def normalize_inch_marks(string: str) -> str:
+    """Rewrite an inch mark glued to a number ('1/2"') as ' inch'.
+
+    A quote glued directly to a fraction (e.g. cut into 1/2" pieces) trips up
+    ingredient-parser's fraction tokenisation and leaks its internal '#1$2'
+    sentinel into the output. Expanding it to ' inch' also reads better.
+    """
+    return re.sub(r'(?<=[0-9])\s?["”″]', " inch ", string)
+
+
 def replace_fraction_unicode(string: str):
-    # TODO: I'm not confident this works well enough for production needs some testing and/or refacorting
-    # TODO: Breaks on multiple unicode fractions
+    """Expand every vulgar fraction char (½, ¼, ¾, ⅔, ...) to ' n/d'.
+
+    The leading space separates a whole number glued to the fraction
+    ("1½" -> "1 1/2"). All occurrences are handled (a sentence can contain more
+    than one, e.g. "1¼ lb ... cut into ½ inch").
+    """
+    out = []
     for c in string:
         try:
             name = unicodedata.name(c)
         except ValueError:
+            out.append(c)
             continue
         if name.startswith("VULGAR FRACTION"):
-            normalized = unicodedata.normalize("NFKC", c)
-            numerator, _, denominator = normalized.partition("⁄")  # _ = slash
-            text = f" {numerator}/{denominator}"
-            return string.replace(c, text).replace("  ", " ")
-
-    return string
-
-
-def normalize_ingredient(string: str) -> str:
-    string = pre_process_string(string)
-
-    parsed = None
-    try:
-        parsed = parser.parse(string)
-    except Exception:
-        return string
-
-    # Replace identified units and quantities with their normalized values
-    for entity in parsed:
-        if entity.unit is not None and entity.unit.name != "dimensionless":
-            # quantulum3 non-deterministically appends a trailing separator (e.g.
-            # "30 gram /" for "30g / 2 tbsp") to the surface depending on the hash
-            # seed. Strip it so normalization — and the downstream parse — is stable.
-            surface = entity.surface.rstrip(" /")
-            if surface:
-                unit: str = entity.unit.name
-                if unit.endswith("-mass"):
-                    unit = unit.removesuffix("-mass")
-                elif unit == "cubic centimetre":
-                    # ml is parsed as cubic centimetre
-                    unit = "milliliter"
-
-                # in some cases a fraction is a better representation of the quantity
-                # than the float value. This has to do with how crfpp handles fractions
-                rounded = round(entity.value, 3)
-                quantityStr = str(rounded)
-                if unit == "teaspoon" or unit == "tablespoon" or rounded < 0:
-                    quantityStr = fraction_str(rounded)
-
-                string = string.replace(surface, f"{quantityStr} {unit}")
-
-    return string
-
-
-def fraction_str(num: float) -> str:
-    """
-    Converts a float to a fraction string if possible. Otherwise returns the original float as a string.
-
-    Examples:
-    1.5 -> '1 1/2'
-    1.333 -> '1 1/3'
-    1.25 -> '1 1/4'
-    1.0 -> '1'
-    1.1 -> '1.1'
-    """
-    if num.is_integer():
-        return str(int(num))
-    else:
-        frac = Fraction(num).limit_denominator()
-        if frac.numerator == 1:
-            return f"{frac.numerator}/{frac.denominator}"
+            numerator, _, denominator = unicodedata.normalize("NFKC", c).partition("⁄")
+            out.append(f" {numerator}/{denominator}")
         else:
-            whole_part = int(num)
-            fractional_part = frac - whole_part
+            out.append(c)
 
-            if whole_part == 0:
-                return f"{fractional_part.numerator}/{fractional_part.denominator}"
-
-            return f"{whole_part} {fractional_part.numerator}/{fractional_part.denominator}"
+    return "".join(out)
 
 
 def pre_process_string(string: str) -> str:
@@ -149,6 +99,7 @@ def pre_process_string(string: str) -> str:
     # string = string.lower()
     string = replace_invisible_whitespace(string)
     string = replace_fraction_unicode(string)
+    string = normalize_inch_marks(string)
     string = normalize_mixed_number(string)
     string = remove_periods(string)
     string = replace_common_abbreviations(string)

@@ -65,43 +65,43 @@
   "ingredients": [
     {
       "input": "2 Tbsp soy sauce ($0.18)",
-      "name": "soy sauce -#9$50 dollar",
+      "name": "soy sauce",
       "qty": 2.0,
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999927
+      "confidence": 0.999354
     },
     {
       "input": "1 Tbsp toasted sesame oil ($0.33)",
-      "name": "toasted sesame oil -#33$100 dollar",
+      "name": "toasted sesame oil",
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999948
+      "confidence": 0.999826
     },
     {
       "input": "1 Tbsp sriracha* ( $0.05)",
       "name": "sriracha",
       "qty": 1.0,
       "unit": "tablespoon",
-      "comment": "(0.05 dollar)",
+      "comment": "",
       "other": "",
-      "confidence": 0.999951
+      "confidence": 0.999265
     },
     {
       "input": "1/2 Tbsp brown sugar ( $0.02)",
       "name": "brown sugar",
       "qty": 0.5,
       "unit": "tablespoon",
-      "comment": "(0.02 dollar)",
+      "comment": "",
       "other": "",
-      "confidence": 0.999976
+      "confidence": 0.999912
     },
     {
       "input": "1/2 head green cabbage ($1.78)",
-      "name": "green cabbage -1-#39$50 dollar",
+      "name": "green cabbage",
       "qty": 0.5,
       "unit": "heads",
       "comment": "",
@@ -110,48 +110,48 @@
     },
     {
       "input": "2 carrots ($0.22)",
-      "name": "carrots -#11$50 dollar",
+      "name": "carrots",
       "qty": 2.0,
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.999581
+      "confidence": 0.999739
     },
     {
       "input": "3 green onions ($0.17)",
-      "name": "green onions -#17$100 dollar",
+      "name": "green onions",
       "qty": 3.0,
       "unit": "",
       "comment": "",
       "other": "",
-      "confidence": 0.999455
+      "confidence": 0.99971
     },
     {
       "input": "1/2 Tbsp neutral cooking oil ($0.02)",
-      "name": "neutral cooking oil -#1$50 dollar",
+      "name": "neutral cooking oil",
       "qty": 0.5,
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999977
+      "confidence": 0.999914
     },
     {
       "input": "1/2 lb. lean ground beef ($3.90)",
-      "name": "lean ground beef -3-#9$10 dollar",
+      "name": "lean ground beef",
       "qty": 0.5,
       "unit": "pound",
       "comment": "",
       "other": "",
-      "confidence": 0.999852
+      "confidence": 0.99988
     },
     {
       "input": "2 cloves garlic ($0.16)",
-      "name": "garlic -#4$25 dollar",
+      "name": "garlic",
       "qty": 2.0,
       "unit": "cloves",
       "comment": "",
       "other": "",
-      "confidence": 0.999886
+      "confidence": 0.999259
     },
     {
       "input": "1 Tbsp fresh grated ginger ( $0.13)",
@@ -160,34 +160,34 @@
       "unit": "tablespoon",
       "comment": "grated",
       "other": "",
-      "confidence": 0.999937
+      "confidence": 0.999726
     },
     {
       "input": "Pinch of salt and pepper ($0.05)",
-      "name": "salt, pepper -#1$20 dollar",
+      "name": "salt, pepper",
       "qty": 1.0,
       "unit": "Pinch",
       "comment": "",
       "other": "",
-      "confidence": 0.996478
+      "confidence": 0.998295
     },
     {
       "input": "1 Tbsp sesame seeds ($0.08)",
-      "name": "sesame seeds -#2$25 dollar",
+      "name": "sesame seeds",
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999958
+      "confidence": 0.999532
     },
     {
       "input": "1 Tbsp sriracha ($0.05)",
-      "name": "sriracha -#1$20 dollar",
+      "name": "sriracha",
       "qty": 1.0,
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999916
+      "confidence": 0.999052
     }
   ],
   "error": null,
@@ -195,7 +195,7 @@
     {
       "name": "calories",
       "amount": 195.0,
-      "unit": "kilocalorie"
+      "unit": "calorie"
     },
     {
       "name": "carbohydrateContent",

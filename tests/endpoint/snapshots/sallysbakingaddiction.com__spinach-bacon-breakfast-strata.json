@@ -82,7 +82,7 @@
       "unit": "cup",
       "comment": "cubed",
       "other": "",
-      "confidence": 0.999218
+      "confidence": 0.998827
     },
     {
       "input": "8 slices uncooked bacon",
@@ -123,11 +123,11 @@
     {
       "input": "1 and 1/2 cups shredded parmesan cheese",
       "name": "parmesan cheese",
-      "qty": 1.0,
+      "qty": 1.5,
       "unit": "cup",
       "comment": "shredded",
       "other": "",
-      "confidence": 0.999682
+      "confidence": 0.999778
     },
     {
       "input": "9 large eggs",
@@ -145,7 +145,7 @@
       "unit": "cup",
       "comment": "",
       "other": "",
-      "confidence": 0.999954
+      "confidence": 0.999989
     },
     {
       "input": "1 teaspoon salt",

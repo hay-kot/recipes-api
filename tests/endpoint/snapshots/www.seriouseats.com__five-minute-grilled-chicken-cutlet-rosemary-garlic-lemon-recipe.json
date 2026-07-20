@@ -79,16 +79,16 @@
       "unit": "tablespoon",
       "comment": "minced",
       "other": "",
-      "confidence": 0.999931
+      "confidence": 0.999943
     },
     {
       "input": "2 tablespoons fresh juice from 2 lemons",
-      "name": "fresh juice, lemons",
+      "name": "fresh juice from lemons",
       "qty": 2.0,
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999879
+      "confidence": 0.999937
     },
     {
       "input": "6 tablespoons extra-virgin olive oil",
@@ -97,7 +97,7 @@
       "unit": "tablespoon",
       "comment": "",
       "other": "",
-      "confidence": 0.999959
+      "confidence": 0.99998
     },
     {
       "input": "Kosher salt and freshly ground black pepper",
@@ -115,7 +115,7 @@
       "unit": "",
       "comment": "cut into 8 cutlets",
       "other": "",
-      "confidence": 0.999768
+      "confidence": 0.999769
     }
   ],
   "error": null,
@@ -123,7 +123,7 @@
     {
       "name": "calories",
       "amount": 419.0,
-      "unit": "kilocalorie"
+      "unit": "calorie"
     },
     {
       "name": "carbohydrateContent",
