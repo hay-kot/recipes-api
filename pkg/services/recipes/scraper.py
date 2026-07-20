@@ -3,6 +3,8 @@ import logging
 from typing import Any
 
 import httpx
+import recipe_scrapers._abstract as _rs_abstract
+from bs4 import BeautifulSoup
 from pydantic import AnyHttpUrl, BaseModel
 from recipe_scrapers import scrape_html
 from recipe_scrapers._abstract import AbstractScraper
@@ -11,6 +13,25 @@ from pkg.core.config import settings
 from pkg.schema.web import Context
 
 from .recipe import Recipe
+
+
+def _use_lxml_parser() -> None:
+    """Make recipe_scrapers parse the page with lxml instead of its hardcoded
+    pure-Python BeautifulSoup("html.parser").
+
+    AbstractScraper.__init__ does ``BeautifulSoup(page_data, "html.parser")``,
+    the C-free parser that dominates scrape CPU and allocation churn (the top
+    allocator in the memray profile). We wrap the class it references so the
+    requested parser is ignored in favour of lxml.
+    """
+
+    def _lxml_soup(markup="", *args, **kwargs):
+        return BeautifulSoup(markup, "lxml")
+
+    _rs_abstract.BeautifulSoup = _lxml_soup
+
+
+_use_lxml_parser()
 
 __scrape_headers = {
     "User-Agent": settings().user_agent,
