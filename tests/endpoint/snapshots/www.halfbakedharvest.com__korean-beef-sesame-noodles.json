@@ -26,6 +26,32 @@
       "1/4 cup toasted sesame seeds",
       "1/2 cup fresh basil"
     ],
+    "recipeIngredientSections": [
+      {
+        "name": "Sauce",
+        "ingredientIndexes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "name": "Stir Fry",
+        "ingredientIndexes": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ],
     "recipeCuisine": null,
     "recipeCategory": [
       "Main Course"

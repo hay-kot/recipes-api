@@ -57,6 +57,21 @@ def try_get(fn, default=None):
         return default
 
 
+def to_ingredient_groups(scraper: AbstractScraper) -> list[dict[str, Any]] | None:
+    """Capture the scraper's ingredient grouping, if the page actually has one.
+
+    Group headings ("For the Sauce") exist only in the page markup, not in the schema.org
+    data. Recipes without headings still yield a single unnamed group, so a grouping is
+    only worth keeping once at least one group is named.
+    """
+    groups = try_get(scraper.ingredient_groups, [])
+
+    if not groups or not any(group.purpose for group in groups):
+        return None
+
+    return [{"purpose": group.purpose, "ingredients": group.ingredients} for group in groups]
+
+
 def to_schema_data(scraper: AbstractScraper) -> dict[str, Any]:
     if scraper.schema.data and isinstance(scraper.schema.data, dict):
         scraper.schema.data["@content"] = "schema"
@@ -64,6 +79,10 @@ def to_schema_data(scraper: AbstractScraper) -> dict[str, Any]:
         maybeIngredients = try_get(scraper.ingredients, [])
         if len(maybeIngredients) > 0:
             scraper.schema.data["ingredients"] = maybeIngredients
+
+        maybeGroups = to_ingredient_groups(scraper)
+        if maybeGroups:
+            scraper.schema.data["recipeIngredientGroups"] = maybeGroups
 
         maybeInstructions = try_get(scraper.instructions_list, [])
         if len(maybeInstructions) > 0:
@@ -78,6 +97,7 @@ def to_schema_data(scraper: AbstractScraper) -> dict[str, Any]:
         "description": try_get(scraper.description, ""),
         "image": try_get(scraper.image, ""),
         "ingredients": try_get(scraper.ingredients, []),
+        "recipeIngredientGroups": to_ingredient_groups(scraper),
         "instructions": try_get(scraper.instructions_list, []),
         "totalTime": str(try_get(scraper.total_time, "")),
         "prepTime": str(try_get(scraper.prep_time, "")),

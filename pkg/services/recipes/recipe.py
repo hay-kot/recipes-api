@@ -13,6 +13,15 @@ class InstructionSection(BaseModel):
     steps: list[InstructionStep]
 
 
+class IngredientSection(BaseModel):
+    name: str | None = None
+    ingredient_indexes: list[int] = Field(
+        default_factory=list,
+        alias="ingredientIndexes",
+    )
+    """Positions in `Recipe.ingredients` that belong to this section."""
+
+
 class Author(BaseModel):
     model_config = ConfigDict(arbitrary_types_allowed=True)
 
@@ -62,6 +71,10 @@ class Recipe(BaseModel):
     ingredients: list[str] = Field(
         default_factory=list,
         alias="recipeIngredient",
+    )
+    ingredient_sections: list[IngredientSection] | None = Field(
+        default=None,
+        alias="recipeIngredientSections",
     )
 
     recipeCuisine: str | None = None

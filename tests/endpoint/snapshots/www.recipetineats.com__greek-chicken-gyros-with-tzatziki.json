@@ -123,6 +123,55 @@
       "Salt and pepper",
       "4 to 6 pita breads or flat breads"
     ],
+    "recipeIngredientSections": [
+      {
+        "name": null,
+        "ingredientIndexes": [
+          0
+        ]
+      },
+      {
+        "name": "Marinade",
+        "ingredientIndexes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "name": "Tzatziki",
+        "ingredientIndexes": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "name": "Salad",
+        "ingredientIndexes": [
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "name": "To Serve",
+        "ingredientIndexes": [
+          21
+        ]
+      }
+    ],
     "recipeCuisine": "Greek",
     "recipeCategory": [
       "Dinner",

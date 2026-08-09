@@ -32,6 +32,7 @@ def clean(recipe_data: dict, url=None) -> dict:
         dict: cleaned recipe dictionary
     """
     raw_instructions = recipe_data.get("recipeInstructions", [])
+    ingredients = clean_ingredients(recipe_data.get("recipeIngredient", []))
 
     recipe_copy = {
         "name": clean_string(recipe_data.get("name", "")),
@@ -44,7 +45,8 @@ def clean(recipe_data: dict, url=None) -> dict:
         "keywords": clean_category_like(recipe_data.get("keywords", [])),
         "recipeCategory": clean_category_like(recipe_data.get("recipeCategory", None)),
         "recipeYield": clean_yield(recipe_data.get("recipeYield")),
-        "recipeIngredient": clean_ingredients(recipe_data.get("recipeIngredient", [])),
+        "recipeIngredient": ingredients,
+        "recipeIngredientSections": clean_ingredient_sections(recipe_data.get("recipeIngredientGroups"), ingredients),
         "recipeInstructions": clean_instructions(raw_instructions),
         "recipeInstructionSections": clean_instruction_sections(raw_instructions),
         "images": clean_image(recipe_data.get("image")),
@@ -126,6 +128,49 @@ def clean_image(image: str | list | dict | None = None, default: str = "no image
             return [image]
         case _:
             raise TypeError(f"Unexpected type for image: {type(image)}, {image}")
+
+
+def clean_ingredient_sections(groups: list | None, ingredients: list[str]) -> list[dict] | None:
+    """
+    Map scraper ingredient groups onto index ranges over the cleaned ingredient list.
+
+    Membership is positional, never matched on text: group members come from the page
+    markup and `recipeIngredient` from schema.org, so the two disagree on whitespace and
+    bracketing ("((Note 1))" vs "(Note 1)"). Concatenating the groups in order does
+    reproduce the flat list. A count mismatch means that no longer holds, so the grouping
+    is dropped rather than filed under the wrong heading.
+
+    Returns:
+        list[dict] | None: Sections of name plus member indexes into `ingredients`, or
+        None if there is no usable grouping.
+    """
+    if not groups or not isinstance(groups, list):
+        return None
+
+    sections = []
+    offset = 0
+
+    for group in groups:
+        if not isinstance(group, dict):
+            return None
+
+        members = group.get("ingredients") or []
+        if not members:
+            continue
+
+        name = clean_string(group.get("purpose") or "")
+        sections.append(
+            {
+                "name": name or None,
+                "ingredientIndexes": list(range(offset, offset + len(members))),
+            }
+        )
+        offset += len(members)
+
+    if offset != len(ingredients):
+        return None
+
+    return sections if any(section["name"] for section in sections) else None
 
 
 def clean_instruction_sections(steps_object: list | dict | str | None) -> list[dict] | None:

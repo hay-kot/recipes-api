@@ -111,6 +111,8 @@ def test_parse_clean(client: TestClient, url: str, name: str) -> None:
         assert i.text == j.text
 
     assert recipe.ingredients == expect_recipe.ingredients
+    assert recipe.ingredient_sections == expect_recipe.ingredient_sections
+    assert recipe.instruction_sections == expect_recipe.instruction_sections
     assert recipe.category == expect_recipe.category
 
     assert recipe.keywords == expect_recipe.keywords

@@ -123,6 +123,36 @@
       "Coriander/cilantro (, finely chopped)",
       "Shredded cheese ((for cheese naan) \u2013 Monterey Jack, cheddar, tasty, colby, anything that melts (shred yourself) (Note 6))"
     ],
+    "recipeIngredientSections": [
+      {
+        "name": null,
+        "ingredientIndexes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "Finishes:",
+        "ingredientIndexes": [
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "name": "Cheese Naan:",
+        "ingredientIndexes": [
+          12
+        ]
+      }
+    ],
     "recipeCuisine": "Indian",
     "recipeCategory": [
       "Breads",
