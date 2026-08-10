@@ -63,10 +63,22 @@ def to_ingredient_groups(scraper: AbstractScraper) -> list[dict[str, Any]] | Non
     Group headings ("For the Sauce") exist only in the page markup, not in the schema.org
     data. Recipes without headings still yield a single unnamed group, so a grouping is
     only worth keeping once at least one group is named.
+
+    Downstream membership is positional, so a grouping is only usable if concatenating it
+    reproduces the flat ingredient list in order. `group_ingredients` buckets by heading
+    text, so a heading repeated non-adjacently (or one whose text normalizes to empty,
+    which collapses into the leading unnamed bucket) merges into its first occurrence and
+    silently reorders the result while preserving its length. Comparing against
+    `scraper.ingredients()` catches that: group members are literal elements of that list
+    rather than re-extracted text, so equality is exact here in a way it could never be
+    against schema.org's differently-spelled copy.
     """
     groups = try_get(scraper.ingredient_groups, [])
 
     if not groups or not any(group.purpose for group in groups):
+        return None
+
+    if [ingredient for group in groups for ingredient in group.ingredients] != try_get(scraper.ingredients, []):
         return None
 
     return [{"purpose": group.purpose, "ingredients": group.ingredients} for group in groups]

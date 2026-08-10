@@ -136,9 +136,10 @@ def clean_ingredient_sections(groups: list | None, ingredients: list[str]) -> li
 
     Membership is positional, never matched on text: group members come from the page
     markup and `recipeIngredient` from schema.org, so the two disagree on whitespace and
-    bracketing ("((Note 1))" vs "(Note 1)"). Concatenating the groups in order does
-    reproduce the flat list. A count mismatch means that no longer holds, so the grouping
-    is dropped rather than filed under the wrong heading.
+    bracketing ("((Note 1))" vs "(Note 1)"). This assumes the groups partition the flat
+    list in order, which the caller is responsible for establishing — the count check here
+    is a cheap necessary condition only, catching lists of different lengths but not a
+    reordering within an equal-length one.
 
     Returns:
         list[dict] | None: Sections of name plus member indexes into `ingredients`, or
