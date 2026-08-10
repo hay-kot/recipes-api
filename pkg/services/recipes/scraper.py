@@ -109,7 +109,6 @@ def to_schema_data(scraper: AbstractScraper) -> dict[str, Any]:
         "description": try_get(scraper.description, ""),
         "image": try_get(scraper.image, ""),
         "ingredients": try_get(scraper.ingredients, []),
-        "recipeIngredientGroups": to_ingredient_groups(scraper),
         "instructions": try_get(scraper.instructions_list, []),
         "totalTime": str(try_get(scraper.total_time, "")),
         "prepTime": str(try_get(scraper.prep_time, "")),
