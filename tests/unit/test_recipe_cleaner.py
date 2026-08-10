@@ -413,6 +413,18 @@ ingredient_sections_test_cases = (
         expected=None,
     ),
     CleanerCase(
+        test_id="groups that are not a list",
+        input=({"purpose": "Sauce:", "ingredients": ["a"]}, placeholder_ingredients(1)),
+        expected=None,
+    ),
+    CleanerCase(
+        test_id="a non-dict group invalidates the whole grouping",
+        # Unlike an empty group, which legitimately consumes no positions, a group of an
+        # unexpected shape means the payload can no longer be trusted to be positional.
+        input=(["Sauce:", {"purpose": "Filling:", "ingredients": ["a"]}], placeholder_ingredients(1)),
+        expected=None,
+    ),
+    CleanerCase(
         test_id="single named group",
         input=([{"purpose": "Sauce:", "ingredients": ["a", "b"]}], placeholder_ingredients(2)),
         expected=[{"name": "Sauce:", "ingredientIndexes": [0, 1]}],

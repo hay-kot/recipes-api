@@ -18,8 +18,8 @@ class IngredientSection(BaseModel):
     ingredient_indexes: list[int] = Field(
         default_factory=list,
         alias="ingredientIndexes",
+        description="Positions in the recipe's flat ingredient list that belong to this section.",
     )
-    """Positions in `Recipe.ingredients` that belong to this section."""
 
 
 class Author(BaseModel):
