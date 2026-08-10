@@ -35,6 +35,37 @@
       "1 Tbsp sesame seeds ($0.08)",
       "1 Tbsp sriracha ($0.05)"
     ],
+    "recipeIngredientSections": [
+      {
+        "name": "STIR FRY SAUCE",
+        "ingredientIndexes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "name": "STIR FRY",
+        "ingredientIndexes": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "name": "GARNISHES (optional)",
+        "ingredientIndexes": [
+          12,
+          13
+        ]
+      }
+    ],
     "recipeCuisine": null,
     "recipeCategory": [],
     "keywords": [],

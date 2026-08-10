@@ -397,6 +397,114 @@ def test_cleaner_instruction_sections(case: CleanerCase):
     assert result == case.expected
 
 
+def placeholder_ingredients(count: int) -> list[str]:
+    return [f"ingredient {i}" for i in range(count)]
+
+
+ingredient_sections_test_cases = (
+    CleanerCase(
+        test_id="no groups",
+        input=(None, placeholder_ingredients(3)),
+        expected=None,
+    ),
+    CleanerCase(
+        test_id="empty groups",
+        input=([], placeholder_ingredients(3)),
+        expected=None,
+    ),
+    CleanerCase(
+        test_id="groups that are not a list",
+        input=({"purpose": "Sauce:", "ingredients": ["a"]}, placeholder_ingredients(1)),
+        expected=None,
+    ),
+    CleanerCase(
+        test_id="a non-dict group invalidates the whole grouping",
+        # Unlike an empty group, which legitimately consumes no positions, a group of an
+        # unexpected shape means the payload can no longer be trusted to be positional.
+        input=(["Sauce:", {"purpose": "Filling:", "ingredients": ["a"]}], placeholder_ingredients(1)),
+        expected=None,
+    ),
+    CleanerCase(
+        test_id="single named group",
+        input=([{"purpose": "Sauce:", "ingredients": ["a", "b"]}], placeholder_ingredients(2)),
+        expected=[{"name": "Sauce:", "ingredientIndexes": [0, 1]}],
+    ),
+    CleanerCase(
+        test_id="multiple named groups",
+        input=(
+            [
+                {"purpose": "Sauce:", "ingredients": ["a", "b"]},
+                {"purpose": "Filling:", "ingredients": ["c"]},
+                {"purpose": "Topping:", "ingredients": ["d", "e"]},
+            ],
+            placeholder_ingredients(5),
+        ),
+        expected=[
+            {"name": "Sauce:", "ingredientIndexes": [0, 1]},
+            {"name": "Filling:", "ingredientIndexes": [2]},
+            {"name": "Topping:", "ingredientIndexes": [3, 4]},
+        ],
+    ),
+    CleanerCase(
+        test_id="unnamed leading group is preserved",
+        input=(
+            [
+                {"purpose": None, "ingredients": ["a", "b"]},
+                {"purpose": "Syrup:", "ingredients": ["c"]},
+            ],
+            placeholder_ingredients(3),
+        ),
+        expected=[
+            {"name": None, "ingredientIndexes": [0, 1]},
+            {"name": "Syrup:", "ingredientIndexes": [2]},
+        ],
+    ),
+    CleanerCase(
+        test_id="grouping with no names at all is dropped",
+        input=([{"purpose": None, "ingredients": ["a", "b"]}], placeholder_ingredients(2)),
+        expected=None,
+    ),
+    CleanerCase(
+        test_id="count mismatch drops the grouping",
+        input=([{"purpose": "Sauce:", "ingredients": ["a", "b"]}], placeholder_ingredients(5)),
+        expected=None,
+    ),
+    CleanerCase(
+        test_id="members are located by position not by text",
+        # The mismatched brackets and spacing are real: markup and schema.org disagree.
+        input=(
+            [{"purpose": "Dough:", "ingredients": ["1 tsp yeast (Note 1)", "2 cups flour"]}],
+            ["1 tsp yeast ((Note 1))", "2  cups flour"],
+        ),
+        expected=[{"name": "Dough:", "ingredientIndexes": [0, 1]}],
+    ),
+    CleanerCase(
+        test_id="html in the group name is cleaned",
+        input=([{"purpose": "<b>Sauce</b>", "ingredients": ["a"]}], placeholder_ingredients(1)),
+        expected=[{"name": "Sauce", "ingredientIndexes": [0]}],
+    ),
+    CleanerCase(
+        test_id="empty group consumes no indexes",
+        input=(
+            [
+                {"purpose": "Empty:", "ingredients": []},
+                {"purpose": "Sauce:", "ingredients": ["a", "b"]},
+            ],
+            placeholder_ingredients(2),
+        ),
+        expected=[{"name": "Sauce:", "ingredientIndexes": [0, 1]}],
+    ),
+)
+
+
+@pytest.mark.parametrize(
+    "case", ingredient_sections_test_cases, ids=(x.test_id for x in ingredient_sections_test_cases)
+)
+def test_cleaner_ingredient_sections(case: CleanerCase):
+    groups, ingredients = case.input
+    assert cleaner.clean_ingredient_sections(groups, ingredients) == case.expected
+
+
 ingredients_test_cases = (
     CleanerCase(
         input="",

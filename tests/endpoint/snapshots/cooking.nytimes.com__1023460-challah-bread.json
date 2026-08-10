@@ -64,6 +64,28 @@
       "11 grams kosher salt (about 1 tablespoon Diamond Crystal or 1\u00bd teaspoons Morton coarse kosher salt)",
       "Poppy or sesame seeds, for sprinkling (optional)"
     ],
+    "recipeIngredientSections": [
+      {
+        "name": "For the Preferment",
+        "ingredientIndexes": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "For the Dough",
+        "ingredientIndexes": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    ],
     "recipeCuisine": null,
     "recipeCategory": [
       "Breads",

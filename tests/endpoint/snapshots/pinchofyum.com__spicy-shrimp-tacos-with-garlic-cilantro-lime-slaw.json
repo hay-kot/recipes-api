@@ -1,0 +1,330 @@
+{
+  "url": "https://pinchofyum.com/spicy-shrimp-tacos-with-garlic-cilantro-lime-slaw",
+  "data": {
+    "name": "Spicy Shrimp Tacos with Garlic Cilantro Lime Slaw",
+    "url": "https://pinchofyum.com/spicy-shrimp-tacos-with-garlic-cilantro-lime-slaw",
+    "description": "The BEST Shrimp Tacos with Garlic Cilantro Lime Slaw - ready in about 30 minutes and loaded with flavor and texture. SO YUM!",
+    "recipeInstructions": [
+      {
+        "text": "Pulse all the sauce ingredients in a food processor or blender until mostly smooth. Add water if needed to thin."
+      },
+      {
+        "text": "Toss some of the sauce (not all) with the cabbage. We\u2019ll use the leftover sauce to top the tacos."
+      },
+      {
+        "text": "Pat the shrimp dry with paper towels. Toss the shrimp in a small bowl with the spice mix to get it coated. Heat a drizzle of oil a large skillet over medium high heat. Add the shrimp to the hot pan and saut\u00e9 for 5-8 minutes, flipping occasionally, until the shrimp are cooked through."
+      },
+      {
+        "text": "For the prettiest and easiest-to-eat assembly, go in this order: smashed avocado, slaw, and shrimp. Finish with Cotjia cheese, lime wedges, and extra sauce."
+      }
+    ],
+    "recipeInstructionSections": null,
+    "recipeIngredient": [
+      "1/4 cup oil",
+      "1/2 cup chopped green onions",
+      "1/2 cup cilantro leaves",
+      "2 cloves garlic",
+      "1/2 teaspoon salt",
+      "juice of 2 limes",
+      "1/2 cup sour cream or full-fat Greek yogurt",
+      "1/4 cup water (if needed, to thin sauce)",
+      "2 teaspoons each chili powder and cumin",
+      "1/2 teaspoon each onion powder and garlic powder",
+      "1/4 teaspoon cayenne pepper (more or less to taste)",
+      "1 teaspoon coarse sea salt",
+      "1 lb. large shrimp, peeled and deveined, tails removed",
+      "2-3 cups shredded green cabbage",
+      "8 small tortillas (corn or flour)",
+      "2 avocados",
+      "1/4 cup Cotija cheese",
+      "lime wedges for serving"
+    ],
+    "recipeIngredientSections": [
+      {
+        "name": "Garlic Cilantro Lime Sauce:",
+        "ingredientIndexes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "Shrimp Taco Spice Mix:",
+        "ingredientIndexes": [
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "name": "Stuff for the Shrimp Tacos:",
+        "ingredientIndexes": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    ],
+    "recipeCuisine": null,
+    "recipeCategory": [
+      "Dinner"
+    ],
+    "keywords": [
+      "Spicy Shrimp Tacos",
+      "Shrimp Taco Recipe",
+      "Garlic Lime Slaw"
+    ],
+    "images": [
+      "https://pinchofyum.com/tachyon/Shrimp-Tacos-with-Slaw-Square.jpg?fit=225%2C225",
+      "https://pinchofyum.com/tachyon/Shrimp-Tacos-with-Slaw-Square.jpg?fit=195%2C195",
+      "https://pinchofyum.com/tachyon/Shrimp-Tacos-with-Slaw-Square.jpg?fit=180%2C180",
+      "https://pinchofyum.com/tachyon/Shrimp-Tacos-with-Slaw-Square.jpg"
+    ],
+    "recipeYield": "4 (2 small tacos each)",
+    "prepTime": "20 Minutes",
+    "performTime": null,
+    "cookTime": "10 Minutes",
+    "totalTime": "30 Minutes",
+    "dateModified": null,
+    "datePublished": "2022-06-24",
+    "nutrition": {
+      "calories": "426 calories",
+      "sugarContent": "3.4 g",
+      "sodiumContent": "930.4 mg",
+      "fatContent": "21.7 g",
+      "saturatedFatContent": "4.3 g",
+      "transFatContent": "0.3 g",
+      "carbohydrateContent": "34.5 g",
+      "fiberContent": "5.3 g",
+      "proteinContent": "27.9 g",
+      "cholesterolContent": "199.4 mg",
+      "@type": "nutritionInformation"
+    }
+  },
+  "ingredients": [
+    {
+      "input": "1/4 cup oil",
+      "name": "oil",
+      "qty": 0.25,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999886
+    },
+    {
+      "input": "1/2 cup chopped green onions",
+      "name": "green onions",
+      "qty": 0.5,
+      "unit": "cup",
+      "comment": "chopped",
+      "other": "",
+      "confidence": 0.999854
+    },
+    {
+      "input": "1/2 cup cilantro leaves",
+      "name": "cilantro leaves",
+      "qty": 0.5,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999989
+    },
+    {
+      "input": "2 cloves garlic",
+      "name": "garlic",
+      "qty": 2.0,
+      "unit": "cloves",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999259
+    },
+    {
+      "input": "1/2 teaspoon salt",
+      "name": "salt",
+      "qty": 0.5,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999849
+    },
+    {
+      "input": "juice of 2 limes",
+      "name": "limes",
+      "qty": 2.0,
+      "unit": "",
+      "comment": "juice of",
+      "other": "",
+      "confidence": 0.982295
+    },
+    {
+      "input": "1/2 cup sour cream or full-fat Greek yogurt",
+      "name": "sour cream, full-fat Greek yogurt",
+      "qty": 0.5,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999966
+    },
+    {
+      "input": "1/4 cup water (if needed, to thin sauce)",
+      "name": "water",
+      "qty": 0.25,
+      "unit": "cup",
+      "comment": "(if needed, to thin sauce)",
+      "other": "",
+      "confidence": 0.999798
+    },
+    {
+      "input": "2 teaspoons each chili powder and cumin",
+      "name": "chili powder, cumin",
+      "qty": 2.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999781
+    },
+    {
+      "input": "1/2 teaspoon each onion powder and garlic powder",
+      "name": "onion powder, garlic powder",
+      "qty": 0.5,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999849
+    },
+    {
+      "input": "1/4 teaspoon cayenne pepper (more or less to taste)",
+      "name": "cayenne pepper",
+      "qty": 0.25,
+      "unit": "teaspoon",
+      "comment": "(more or less to taste)",
+      "other": "",
+      "confidence": 0.999936
+    },
+    {
+      "input": "1 teaspoon coarse sea salt",
+      "name": "coarse sea salt",
+      "qty": 1.0,
+      "unit": "teaspoon",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999931
+    },
+    {
+      "input": "1 lb. large shrimp, peeled and deveined, tails removed",
+      "name": "shrimp",
+      "qty": 1.0,
+      "unit": "pound",
+      "comment": "peeled and deveined, tails removed",
+      "other": "",
+      "confidence": 0.99988
+    },
+    {
+      "input": "2-3 cups shredded green cabbage",
+      "name": "green cabbage",
+      "qty": 2.0,
+      "unit": "cup",
+      "comment": "shredded",
+      "other": "",
+      "confidence": 0.999703
+    },
+    {
+      "input": "8 small tortillas (corn or flour)",
+      "name": "tortillas",
+      "qty": 8.0,
+      "unit": "",
+      "comment": "(corn or flour)",
+      "other": "",
+      "confidence": 0.998957
+    },
+    {
+      "input": "2 avocados",
+      "name": "avocados",
+      "qty": 2.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999871
+    },
+    {
+      "input": "1/4 cup Cotija cheese",
+      "name": "Cotija cheese",
+      "qty": 0.25,
+      "unit": "cup",
+      "comment": "",
+      "other": "",
+      "confidence": 0.999987
+    },
+    {
+      "input": "lime wedges for serving",
+      "name": "lime wedges",
+      "qty": 1.0,
+      "unit": "",
+      "comment": "",
+      "other": "",
+      "confidence": 0.0
+    }
+  ],
+  "error": null,
+  "nutrition": [
+    {
+      "name": "calories",
+      "amount": 426.0,
+      "unit": "calorie"
+    },
+    {
+      "name": "sugarContent",
+      "amount": 3.4,
+      "unit": "gram"
+    },
+    {
+      "name": "sodiumContent",
+      "amount": 930.4,
+      "unit": "milligram"
+    },
+    {
+      "name": "fatContent",
+      "amount": 21.7,
+      "unit": "gram"
+    },
+    {
+      "name": "saturatedFatContent",
+      "amount": 4.3,
+      "unit": "gram"
+    },
+    {
+      "name": "transFatContent",
+      "amount": 0.3,
+      "unit": "gram"
+    },
+    {
+      "name": "carbohydrateContent",
+      "amount": 34.5,
+      "unit": "gram"
+    },
+    {
+      "name": "fiberContent",
+      "amount": 5.3,
+      "unit": "gram"
+    },
+    {
+      "name": "proteinContent",
+      "amount": 27.9,
+      "unit": "gram"
+    },
+    {
+      "name": "cholesterolContent",
+      "amount": 199.4,
+      "unit": "milligram"
+    }
+  ]
+}
