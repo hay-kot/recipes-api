@@ -9,7 +9,7 @@ dependencies = [
   "fastapi==0.141.1",
   "pydantic==2.13.4",
   "pydantic-settings==2.15.0",
-  "uvicorn==0.52.1",
+  "uvicorn==0.52.4",
   "ingredient-parser-nlp==2.7.0",
   "recipe-scrapers==15.12.0",
   "httpx==0.28.1",
