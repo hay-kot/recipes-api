@@ -7,7 +7,7 @@ requires-python = ">=3.14"
 
 dependencies = [
   "fastapi==0.141.1",
-  "pydantic==2.13.4",
+  "pydantic==2.13.5",
   "pydantic-settings==2.15.0",
   "uvicorn==0.52.1",
   "ingredient-parser-nlp==2.7.0",
