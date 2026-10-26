@@ -74,7 +74,7 @@
     {
       "input": "Kosher salt",
       "name": "Kosher salt",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -110,7 +110,7 @@
     {
       "input": "Small handful picked rosemary leaves, finely chopped",
       "name": "rosemary leaves",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "Small handful",
       "comment": "picked, finely chopped",
       "other": "",
@@ -128,7 +128,7 @@
     {
       "input": "Freshly ground black pepper",
       "name": "black pepper",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "Freshly ground",
       "other": "",
@@ -137,7 +137,7 @@
     {
       "input": "Small handful fresh parsley leaves, minced",
       "name": "fresh parsley leaves",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "Small handful",
       "comment": "minced",
       "other": "",

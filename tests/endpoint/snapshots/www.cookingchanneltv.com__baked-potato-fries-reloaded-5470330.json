@@ -78,7 +78,7 @@
     {
       "input": "Kosher salt",
       "name": "Kosher salt",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -87,7 +87,7 @@
     {
       "input": "Heavy pot or large Dutch oven",
       "name": "Heavy pots, large Dutch oven",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -96,7 +96,7 @@
     {
       "input": "Fry/candy thermometer",
       "name": "Fry, candy thermometer",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -105,7 +105,7 @@
     {
       "input": "Large hand strainer or \"spider\"",
       "name": "hand strainer, \"spider\"",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",

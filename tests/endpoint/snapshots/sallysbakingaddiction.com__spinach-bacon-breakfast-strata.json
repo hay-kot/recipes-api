@@ -178,7 +178,7 @@
     {
       "input": "optional garnish: fresh ground black pepper, flaky sea salt, and/or extra parmesan cheese",
       "name": "black pepper, flaky sea salt, extra parmesan cheese",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "fresh ground",
       "other": "",

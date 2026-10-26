@@ -283,7 +283,7 @@
     {
       "input": "Nigella seeds",
       "name": "Nigella seeds",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -292,7 +292,7 @@
     {
       "input": "Coriander/cilantro (, finely chopped)",
       "name": "Coriander, cilantro",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "(, finely chopped)",
       "other": "",

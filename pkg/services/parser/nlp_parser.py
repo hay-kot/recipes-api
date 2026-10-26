@@ -188,6 +188,20 @@ def dict_to_parsed_nutrition(nutrition: dict[str, str]) -> list[ParsedNutrition]
     return parsed_nutrition
 
 
+# ingredient-parser v2 assumes a quantity of 1 for a singular unit with no
+# number before it ("Pinch of salt" -> 1 pinch) and does not expose that it
+# guessed. A stored 1 is indistinguishable from a real 1 downstream, so a line
+# is only given a quantity when its text states one.
+_STATED_QUANTITY = re.compile(
+    r"\d|\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|half|quarter|dozen)\b",
+    flags=re.IGNORECASE,
+)
+
+
+def states_quantity(text: str) -> bool:
+    return _STATED_QUANTITY.search(text) is not None
+
+
 def list_to_parsed_ingredients(ingredients: list[str], _: Context) -> list[ParsedIngredients]:
     parsed_ingredients: list[ParsedIngredients] = []
 
@@ -223,7 +237,7 @@ def list_to_parsed_ingredients(ingredients: list[str], _: Context) -> list[Parse
             ParsedIngredients(
                 input=original_input,
                 name=name,
-                qty=round(convert_to_float(amount.quantity), 3) if amount else 1.0,
+                qty=round(convert_to_float(amount.quantity), 3) if amount and states_quantity(ingredient) else 0.0,
                 unit=unit_str,
                 confidence=amount.confidence if amount else 0.0,
                 comment=comment,
@@ -236,7 +250,7 @@ def list_to_parsed_ingredients(ingredients: list[str], _: Context) -> list[Parse
 
 def convert_to_float(frac_str: str | float | Fraction):
     if frac_str is None:
-        return 1.0
+        return 0.0
 
     # ingredient-parser v2 returns quantities as Fraction instances
     if isinstance(frac_str, Fraction):
@@ -252,4 +266,4 @@ def convert_to_float(frac_str: str | float | Fraction):
         try:
             return float(sum(Fraction(s) for s in frac_str.split()))
         except ValueError:
-            return 1.0
+            return 0.0

@@ -92,7 +92,7 @@
     {
       "input": "For the Nuggets:",
       "name": "For the",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -155,7 +155,7 @@
     {
       "input": "Neutral oil such as canola or nonstick cooking spray, for greasing",
       "name": "Neutral oil",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "such as canola or nonstick cooking spray",
       "other": "",
@@ -164,7 +164,7 @@
     {
       "input": "For the Sauce:",
       "name": "For the Sauce",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -272,7 +272,7 @@
     {
       "input": "To Coat and Fry:",
       "name": "To Coat and Fry",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",

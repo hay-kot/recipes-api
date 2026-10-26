@@ -129,7 +129,7 @@
     {
       "input": "kosher salt and black pepper",
       "name": "kosher salt, black pepper",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -156,7 +156,7 @@
     {
       "input": "fresh cilantro and limes for serving",
       "name": "fresh cilantro, fresh limes",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",

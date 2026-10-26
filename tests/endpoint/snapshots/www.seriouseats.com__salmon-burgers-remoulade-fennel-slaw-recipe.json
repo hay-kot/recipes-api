@@ -103,7 +103,7 @@
     {
       "input": "For the Salmon Patties:",
       "name": "For the Salmon Patties",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -148,7 +148,7 @@
     {
       "input": "Kosher salt and freshly ground black or white pepper",
       "name": "Kosher salt, black pepper, white pepper",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "freshly ground",
       "other": "",
@@ -157,7 +157,7 @@
     {
       "input": "For the R\u00e9moulade:",
       "name": "",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -229,7 +229,7 @@
     {
       "input": "Kosher salt and freshly ground black pepper",
       "name": "Kosher salt, black pepper",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "freshly ground",
       "other": "",
@@ -238,7 +238,7 @@
     {
       "input": "For the Slaw:",
       "name": "",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -274,7 +274,7 @@
     {
       "input": "Extra-virgin olive oil, for drizzling",
       "name": "Extra-virgin olive oil",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -292,7 +292,7 @@
     {
       "input": "Kosher salt and freshly ground black pepper",
       "name": "Kosher salt, black pepper",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "freshly ground",
       "other": "",
@@ -301,7 +301,7 @@
     {
       "input": "For Cooking and Serving:",
       "name": "",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",

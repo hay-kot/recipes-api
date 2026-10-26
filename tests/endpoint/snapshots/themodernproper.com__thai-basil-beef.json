@@ -163,7 +163,7 @@
     {
       "input": "fresh cilantro (optional)",
       "name": "fresh cilantro",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "(optional)",
       "other": "",

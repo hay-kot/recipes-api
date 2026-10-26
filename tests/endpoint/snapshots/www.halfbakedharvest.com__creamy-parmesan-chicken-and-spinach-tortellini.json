@@ -65,7 +65,7 @@
     {
       "input": "kosher salt and black pepper",
       "name": "kosher salt, black pepper",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -137,7 +137,7 @@
     {
       "input": "red pepper flakes",
       "name": "red pepper flakes",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",

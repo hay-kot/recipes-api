@@ -80,7 +80,7 @@
     {
       "input": "kosher salt and black pepper",
       "name": "kosher salt, black pepper",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -170,7 +170,7 @@
     {
       "input": "fresh parsley, for serving",
       "name": "fresh parsley",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",

@@ -137,7 +137,7 @@
     {
       "input": "flaky sea salt, for sprinkling ((optional))",
       "name": "flaky sea salt",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "((optional))",
       "other": "",

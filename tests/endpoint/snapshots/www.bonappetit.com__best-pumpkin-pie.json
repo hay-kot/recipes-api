@@ -77,7 +77,7 @@
     {
       "input": "All-purpose flour, for surface",
       "name": "All-purpose flour",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -194,7 +194,7 @@
     {
       "input": "Whipped cream (for serving)",
       "name": "Whipped cream",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
