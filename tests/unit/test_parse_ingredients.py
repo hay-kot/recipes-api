@@ -88,3 +88,28 @@ def test_prefers_weight_over_uncertain_count(input: str, qty: float, unit: str):
     model = list_to_parsed_ingredients([input], Context())[0]
     assert model.qty == pytest.approx(qty)
     assert model.unit == unit
+
+
+@mark.parametrize(
+    "input,qty,unit",
+    [
+        ("black pepper", 0.0, ""),
+        ("Salt, pepper", 0.0, ""),
+        ("Black pepper, to taste", 0.0, ""),
+        ("lime wedges for serving", 0.0, ""),
+        ("Many grinds of black pepper", 0.0, "Many grinds"),
+        # the parser assumes 1 for a singular unit with no number
+        ("Pinch of salt and pepper", 0.0, "Pinch"),
+        ("a pinch of salt", 0.0, "pinch"),
+        ("dash of hot sauce", 0.0, "dash"),
+        # stated quantities are kept
+        ("1 pinch salt", 1.0, "pinch"),
+        ("one pinch salt", 1.0, "pinch"),
+        ("½ tsp salt", 0.5, "teaspoon"),
+        ("1 egg", 1.0, ""),
+    ],
+)
+def test_quantity_is_zero_when_no_amount_is_stated(input: str, qty: float, unit: str):
+    model = list_to_parsed_ingredients([input], Context())[0]
+    assert model.qty == pytest.approx(qty)
+    assert model.unit == unit

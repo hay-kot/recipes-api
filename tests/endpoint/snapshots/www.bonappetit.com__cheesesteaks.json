@@ -102,7 +102,7 @@
     {
       "input": "Kosher salt, freshly ground pepper",
       "name": "Kosher salt, pepper",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "freshly ground",
       "other": "",
@@ -138,7 +138,7 @@
     {
       "input": "Vegetable oil (for griddle)",
       "name": "Vegetable oil",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -147,7 +147,7 @@
     {
       "input": "Kosher salt",
       "name": "Kosher salt",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -156,7 +156,7 @@
     {
       "input": "Freshly ground pepper",
       "name": "pepper",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "Freshly ground",
       "other": "",
@@ -183,7 +183,7 @@
     {
       "input": "Ketchup and/or hot sauce (for serving; optional)",
       "name": "Ketchup, hot sauce",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "optional",
       "other": "",

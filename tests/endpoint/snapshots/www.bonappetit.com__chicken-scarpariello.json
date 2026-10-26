@@ -89,7 +89,7 @@
     {
       "input": "Kosher salt, freshly ground pepper",
       "name": "Kosher salt, pepper",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "freshly ground",
       "other": "",
@@ -188,7 +188,7 @@
     {
       "input": "Chopped parsley (for serving)",
       "name": "parsley",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "Chopped",
       "other": "",

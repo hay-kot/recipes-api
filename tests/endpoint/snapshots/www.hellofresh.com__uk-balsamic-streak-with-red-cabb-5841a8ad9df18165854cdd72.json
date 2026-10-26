@@ -167,7 +167,7 @@
     {
       "input": "unit Salt",
       "name": "Salt",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "unit",
       "comment": "",
       "other": "",
@@ -176,7 +176,7 @@
     {
       "input": "unit Pepper",
       "name": "Pepper",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "unit",
       "comment": "",
       "other": "",

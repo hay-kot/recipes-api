@@ -101,7 +101,7 @@
     {
       "input": "Kosher salt",
       "name": "Kosher salt",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -110,7 +110,7 @@
     {
       "input": "Freshly ground black pepper",
       "name": "black pepper",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "Freshly ground",
       "other": "",
@@ -182,7 +182,7 @@
     {
       "input": "Lemon wedges, for serving",
       "name": "Lemon wedges",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",

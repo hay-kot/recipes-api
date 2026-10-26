@@ -168,7 +168,7 @@
     {
       "input": "red pepper flakes",
       "name": "red pepper flakes",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -177,7 +177,7 @@
     {
       "input": "Kosher salt and black pepper",
       "name": "Kosher salt, black pepper",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -195,7 +195,7 @@
     {
       "input": "pickled red onion, lettuce, dill, and parsley for serving",
       "name": "pickled red onion, lettuce, dill, parsley",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -249,7 +249,7 @@
     {
       "input": "kosher salt",
       "name": "kosher salt",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",

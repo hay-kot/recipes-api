@@ -98,7 +98,7 @@
     {
       "input": "For the Dough (see note):",
       "name": "For the Dough",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "(see note)",
       "other": "",
@@ -152,7 +152,7 @@
     {
       "input": "For the Sauce:",
       "name": "For the Sauce",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -215,7 +215,7 @@
     {
       "input": "Kosher salt",
       "name": "Kosher salt",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",
@@ -224,7 +224,7 @@
     {
       "input": "To Assemble and Bake:",
       "name": "To Assemble and Bake",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "",
       "other": "",

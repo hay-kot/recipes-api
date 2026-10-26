@@ -113,7 +113,7 @@
     {
       "input": "salt and pepper to taste ($0.05)",
       "name": "salt, pepper",
-      "qty": 1.0,
+      "qty": 0.0,
       "unit": "",
       "comment": "to taste",
       "other": "",
