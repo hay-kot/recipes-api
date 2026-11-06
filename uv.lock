@@ -1,5 +1,5 @@
 version = 1
-revision = 5
+revision = 3
 requires-python = ">=3.14"
 
 [[package]]
@@ -253,16 +253,16 @@ wheels = [
 
 [[package]]
 name = "ingredient-parser-nlp"
-version = "2.7.0"
+version = "2.9.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "nltk" },
     { name = "numpy" },
     { name = "pint" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a4/4c/a1a7a8d724b2e12da6e32ca56f40142cc367b15bb9c9342743e9c701cfec/ingredient_parser_nlp-2.7.0.tar.gz", hash = "sha256:1ea3b8f95aae7e1b82542aa91c482fb2edff713e06bf4045dac78d3f7513e030", size = 3957689, upload-time = "2026-05-25T15:13:52.725Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/01/c3/faf02212045f0725446f081dfe010b8be0a30ef385c2a6447660df641cea/ingredient_parser_nlp-2.9.2.tar.gz", hash = "sha256:96f4c9bfe119ffdb3ee6ae1d500088ad56c407c0bfbf3d47c869e4e58c0aabc7", size = 4255928, upload-time = "2026-11-06T15:18:05.836Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/8c/3f/1f9bc3da4c266b43c7b50dff0ac1885700fd1556cb136d2cc972be02d0b6/ingredient_parser_nlp-2.7.0-py3-none-any.whl", hash = "sha256:cdb287a1e43ab7429ea96c98638c094fd99fcd8d124dd2d485debf2b328d7b5b", size = 3964058, upload-time = "2026-05-25T15:13:50.225Z" },
+    { url = "https://files.pythonhosted.org/packages/50/1e/02d1d2db860fc880a44f4c029cd5000533620fba1c15e958aa0cbc923098/ingredient_parser_nlp-2.9.2-py3-none-any.whl", hash = "sha256:0ada9331ef1bc6966930d0924048a9b739924b2ab32411dcb8fdca7aa00c6415", size = 4262601, upload-time = "2026-11-06T15:18:02.956Z" },
 ]
 
 [[package]]
@@ -645,7 +645,7 @@ dev = [
 requires-dist = [
     { name = "fastapi", specifier = "==0.162.0" },
     { name = "httpx", specifier = "==0.28.1" },
-    { name = "ingredient-parser-nlp", specifier = "==2.7.0" },
+    { name = "ingredient-parser-nlp", specifier = "==2.9.2" },
     { name = "pydantic", specifier = "==2.13.4" },
     { name = "pydantic-settings", specifier = "==2.15.0" },
     { name = "recipe-scrapers", specifier = "==15.13.0" },
